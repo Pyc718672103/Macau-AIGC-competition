@@ -1,0 +1,725 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<title>《蓝的回信》The Blue Reply — Director's Shotlist</title>
+<style>
+  :root{--bg:#0e0e10;--panel:#17171a;--panel-2:#1d1d21;--border:#2a2a30;
+        --text:#e8e8ea;--dim:#9a9aa2;--accent:#6ea8dc;--done:#4ade80}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,"Microsoft YaHei",system-ui,sans-serif;line-height:1.6;padding:32px 24px 80px}
+  .container{max-width:980px;margin:0 auto} h1{font-size:26px;margin:0 0 4px}
+  .sub{color:var(--dim);font-size:13px;margin-bottom:14px}
+  .howto,details.block,.scene,.act{background:var(--panel);border:1px solid var(--border);
+    border-radius:8px;padding:14px 18px;margin-bottom:16px}
+  details.block summary{cursor:pointer;font-weight:600;color:var(--accent)}
+  .act{background:transparent;border:none;padding:6px 4px;margin-bottom:8px}
+  .act h2{font-size:15px;color:var(--accent);letter-spacing:1px;margin:0;border-bottom:1px dashed var(--border);padding-bottom:6px}
+  pre{white-space:pre-wrap;font-family:"SF Mono",Consolas,Menlo,monospace;font-size:12.5px;margin:0}
+  .scene-header{display:flex;gap:12px;align-items:flex-start;margin-bottom:10px}
+  .scene-num{font-weight:700;color:var(--accent);min-width:44px}
+  .scene.done .scene-desc{text-decoration:line-through;color:var(--dim)}
+  .scene-desc{font-size:13.5px}
+  .risk{color:#e0a95f;font-size:12px;margin-top:4px}
+  .prompt-block{background:var(--panel-2);border:1px solid var(--border);
+    border-radius:6px;margin-top:10px;overflow:hidden}
+  .prompt-label{display:flex;justify-content:space-between;padding:8px 14px;
+    border-bottom:1px solid var(--border);font-size:12px;color:var(--dim)}
+  .copy-btn{background:transparent;color:var(--accent);border:1px solid var(--border);
+    border-radius:4px;padding:4px 10px;font-size:11px;cursor:pointer}
+  .copy-btn.copied{color:var(--done);border-color:var(--done)}
+  pre.prompt{padding:14px 16px}
+  .glos td{padding:4px 10px 4px 0;vertical-align:top;font-size:13px}
+  .glos td:first-child{color:var(--accent);white-space:nowrap;font-family:Consolas,monospace}
+  #bar{position:fixed;bottom:0;left:0;right:0;background:var(--panel);border-top:1px solid var(--border);
+    padding:8px 24px;font-size:12px;color:var(--dim)}
+</style></head><body><div class="container">
+  <h1>《蓝的回信》 The Blue Reply — 导演分镜表</h1>
+  <div class="sub">总时长 230s（3:50）· 5 幕 · 18 个生成单元 · 51 个镜头 · 单元时长 8–15s · Seedance 2.0 on Higgsfield · 画幅 16:9 · 1080p（作业设置，在任务里选，不写进提示词）</div>
+  <div class="howto">✔ 每拍完一条就勾选，进度自动保存在浏览器里。每条提示词已把「全局风格前缀」拼在开头，点 Copy 整段复制进 Seedance 即可独立使用。要改哪条直接让 AI 改（例如「改 3b 的运镜」），改完会重新生成这个文件。提示词正文为英文（模型要求），中文说明在每条上方。</div>
+
+  <details class="block"><summary>① 全局风格前缀 Global Style Prefix（每条提示词开头，改一处全局生效）</summary>
+<pre>Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.</pre></details>
+
+  <details class="block"><summary>② @ 资产术语表（先建资产、后拍分镜）</summary>
+  <p style="font-size:13px;color:var(--dim)">在 Higgsfield 的 Elements 里用同名注册这些资产，提示词粘贴时会自动挂载。每个角色先出「角色设定图」：至少两张（清晰正/侧脸 + 全身），中性灰背景，再用 3×2 六联图（一个 16:9 生成：正面/四分之三/侧面/全身/全身侧面/道具）锁定。同一角色的不同服装状态 = 不同的资产条目。</p>
+  <table class="glos">
+  <tr><td>@acheng</td><td>主角·阿澄 — 瘦高的澳门青年，长脸、平直眉、短黑发自然侧分；灰蓝衬衫+米白内搭+深灰长裤；随身米色画本、蓝色画笔；175 cm。<b>full-preserve</b></td></tr>
+  <tr><td>@alok</td><td>男孩·阿乐 — 圆脸、浓眉、短碎发；低饱和赭黄短袖、藏青短裤、米白帆布鞋；看东西时身体前倾；120 cm。<b>full-preserve</b>（提示词中任何地方都不写年龄）</td></tr>
+  <tr><td>@zan_kitchen</td><td>珍姐·后厨状态 — 眼亮、眼角细纹、黑发低发髻；米色上衣+墨绿围裙+深色长裤；160 cm。<b>full-preserve</b></td></tr>
+  <tr><td>@zan_gallery</td><td>珍姐·展览状态 — 同人同发型同上衣，摘围裙；160 cm。<b>full-preserve</b></td></tr>
+  <tr><td>@shang</td><td>成叔·狮队教练 — 结实挺拔、灰白短发、日晒面容；青灰训练上衣+深色长裤；170 cm。<b>full-preserve</b></td></tr>
+  <tr><td>@aman</td><td>阿敏·狮队学员 — 轻快体态、黑发低马尾、目光专注；暗红训练短袖+黑色运动长裤+白运动鞋；163 cm。<b>full-preserve</b></td></tr>
+  <tr><td>@shun</td><td>顺叔·街口店主 — 方脸宽肩、短发整齐；浅棕短袖衬衫+深色长裤；168 cm。<b>full-preserve</b></td></tr>
+  <tr><td>@sketchbook</td><td>米色画本，封面磨旧，内页蓝色动态速写。<b>partial-preserve</b>（封面+开本）</td></tr>
+  <tr><td>@brushpen</td><td>蓝色笔尖毛笔、浅木笔杆。<b>full-preserve</b>（蓝色必须读得出来）</td></tr>
+  <tr><td>@lunchbox</td><td>两层不锈钢饭盒、细微凹痕、布带打结。<b>partial-preserve</b>（层数+形制）</td></tr>
+  <tr><td>@mural_draft</td><td>瓷砖画 v1「明信片」：蓝白整齐方格，大三巴/庙宇/澳门塔，街道空无一人，门窗全闭。<b>full-preserve</b>（故事的“之前”状态）</td></tr>
+  <tr><td>@mural_new</td><td>瓷砖画 v2「回信」：同一套建筑轮廓，人物织入（扶门店主/后厨母亲/教鼓师傅/学员），动作延展成相连蓝线。<b>full-preserve</b></td></tr>
+  <tr><td>@child_drawing</td><td>阿乐的方形单格画：白瓷砖底上笨拙蓝色笔触，画着一个抱画板的年轻人。<b>attribute-transfer</b>（儿童线条质感 + 同一蓝）</td></tr>
+  <tr><td>@lion / @drum</td><td>醒狮头（红金、架在桩上）/ 大鼓（红鼓身、鼓皮磨旧）。<b>partial-preserve</b></td></tr>
+  <tr><td>@studio</td><td>社区艺术空间工作台：长工作桌、台灯、架上的瓷砖样品、高窗。<b>partial-preserve</b>（桌位+窗）</td></tr>
+  <tr><td>@street</td><td>澳门老巷：石仔斜坡、粉彩立面、转角处中葡双语街牌。<b>partial-preserve</b>（街牌位置+文字）</td></tr>
+  <tr><td>@kitchen</td><td>小餐厅后厨：两个炉灶、传菜窗、蒸汽、挂毛巾。<b>partial-preserve</b></td></tr>
+  <tr><td>@square</td><td>社区广场：空旷铺装、边缘榕荫、一侧放鼓和狮具。<b>partial-preserve</b></td></tr>
+  <tr><td>@gallery</td><td>夜景展览 = @studio 换陈设：瓷砖画上墙发光、白色基座、人群。<b>partial-preserve</b></td></tr>
+  <tr><td>@crowd_plaza / @crowd_gallery</td><td>人群「VARIETY 参考」：多人大合影参考图，声明为 variety 参考，避免单人参考复制出同一张脸。<b>loose-guide</b></td></tr>
+  </table>
+  </details>
+
+  <details class="block"><summary>③ 制作要点（拍摄前读一遍）</summary>
+  <ul style="font-size:13px;line-height:1.8">
+    <li><b>拍摄顺序 = 资产先行</b>：角色六联图 → 瓷砖画三个状态（v1/v2/儿童画）→ 场景底板 → Elements 注册 → 再按下表逐条生成。</li>
+    <li><b>模型路由</b>：全片 Seedance 2.0 足够；4b「动作→纹样」转化段如果 2.0 稳定性不够，可换 Seedance 2.5 的参考/变换模式单独立项。</li>
+    <li><b>高风险镜头</b>（需多留候选）：3a（门口进出几何）、3b（蒸汽+多手+横移）、3d/3e/5a/5b（人群，务必挂 VARIETY 参考）、4b（墨流转化，全片最难，预留最多重试）、5c（儿童线条质感）。</li>
+    <li><b>5d 落款文字</b>：视频内生成文字不可靠 —— 镜头只拍「两股蓝汇合 + 静止」，落款「寫給未來的澳門 / 回信人：生活在這裡的我們」在剪辑软件里用字体后期叠加。</li>
+    <li><b>剪辑</b>：Higgsfield 没有时间线，成片在 DaVinci / Premiere / 剪映里拼；配乐和粤语对白全部后期铺，提示词内对白只当参考轨。</li>
+    <li><b>贯穿全片的剪辑锚点</b>：「手递手」动作出现四次（1c 饭盒 → 3b 递盘 → 3e 递饭 → 5c 递笔），相邻镜头可以用同一个手势做 match cut。</li>
+    <li><b>时长账</b>：35+25+70+55+45 = 230s = 3:50，与剧本大纲逐秒对齐；每个 CUT 标了秒数，改时长记得重新对总账。</li>
+  </ul>
+  </details>
+
+  <div class="act"><h2>第一幕 · 开端：一幅漂亮的澳门（0:00–0:35 · 35s）</h2></div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="1a"><div class="scene-num">1a</div>
+    <div class="scene-desc">清晨工作室；阿澄收到「写给未来的澳门」邀请，目光落到空白瓷砖格上。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 1a · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — slender young Macanese man, long face, level straight brows, short black hair with a natural side part; grey-blue shirt over off-white inner tee, charcoal trousers; 175 cm.
+
+Scene:
+Morning, a community art-space workroom. A tall window throws soft light across a long worktable; a cream invitation card lies beside a tablet canvas showing an empty azulejo tile grid; tile samples line the shelf behind.
+
+CUT 1 — 5s — wide establish, 84°, locked-off from the doorway:
+The workroom in morning stillness; @acheng stands at the table, back half-turned, reading the card in both hands. The card lifts slightly as he turns it. Final frame: the card catching window light in his hands.
+
+CUT 2 — 6s — over-shoulder, 47°, slow push-in on the card:
+Bilingual lettering reads "寫給未來的澳門 · A Letter to the Future of Macau" above a small blue tile border; his thumb runs once along the card's edge. Final frame: the lettering filling the lower third of frame, sharp.
+
+CUT 3 — 4s — close, 29°, eye-level hold:
+His face in window light; eyes travel from the card to the empty grid on the canvas; one settling breath; his hand reaches for the blue brush pen. Final frame: the brush pen entering frame from the right.
+
+POSITIVE LOCKS: Same room, same wardrobe, same card design in every cut. Face consistent with the @acheng reference throughout. Card text stays sharp and identical. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="1b"><div class="scene-num">1b</div>
+    <div class="scene-desc">插入：笔下的大三巴、庙宇、澳门塔逐一落进整齐方格——一张漂亮却无人的城市明信片。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 1b · 12s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — hands and shoulder only in CUT 1; same wardrobe.
+
+Scene:
+The same worktable, minutes later. The canvas now holds neat blue-white tile squares; tile samples pinned on the shelf behind.
+
+CUT 1 — 5s — extreme close-up, 12°, top-down on the canvas:
+Blue brush strokes assemble the Ruins of St. Paul's facade inside a tile grid, lines settling cleanly into place; his left hand steadies the tablet edge. Final frame: the facade's pediment completing.
+
+CUT 2 — 4s — insert, 18°, screen-only frame:
+A temple roofline settles into the grid, then the Macau Tower's slim silhouette; the grid self-aligns with soft ticks. Final frame: three landmarks balanced in one composition.
+
+CUT 3 — 3s — medium, 63°, slow pull-back:
+The pull-back reveals the whole tidy mural: a postcard-perfect city, streets empty, every painted door closed. Final frame: the full mural inside frame, @acheng's shoulder entering lower-left.
+
+POSITIVE LOCKS: Landmark shapes consistent across cuts; grid alignment crisp; mural matches the @mural_draft reference exactly. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="1c"><div class="scene-num">1c</div>
+    <div class="scene-desc">阿乐提着饭盒进门："妈妈叫你趁热吃。"阿澄应了一声没抬头，补完最后一条边框。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 1c · 8s · 2 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, at the table finishing the mural border, same wardrobe.
+@alok — 120 cm, arriving at the door with a lunchbox.
+
+Scene:
+The studio door, frame-right, late-morning light in the lane behind; @acheng at the worktable, the near-finished mural on the canvas; @alok steps in holding a two-tier stainless lunchbox with both hands.
+
+CUT 1 — 4s — medium two-shot, 47°, slight handheld texture:
+The door opens inward; @alok steps in and lifts the lunchbox to chest height, calling out in Cantonese that his mother says to eat while it is hot. Final frame: the lunchbox held steady at chest height, his face bright.
+
+CUT 2 — 4s — close profile, 29°, locked-off:
+@acheng murmurs a thanks without lifting his eyes from the canvas; the brush completes the final border stroke; he sets the pen down. Final frame: the pen resting in the tray, the first hint of a satisfied smile.
+
+POSITIVE LOCKS: Height difference true — the boy stands far below the adult's eye-line. Same wardrobe both cuts. The door opens inward only. The lunchbox stays two-tier steel. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="act"><h2>第二幕 · 疑问：画里面，我们住在哪里（0:35–1:00 · 25s）</h2></div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="2a"><div class="scene-num">2a</div>
+    <div class="scene-desc">阿乐在画里找家、找妈妈的店——"店门口，每天都有好多人。"</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 2a · 13s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, standing at the table, same wardrobe.
+@alok — 120 cm, leaning on the table edge, same wardrobe.
+
+Scene:
+Midday, the studio worktable. The finished first-version mural fills the canvas — neat blue-white tiles, landmarks in a tidy grid. @alok leans in, tracing tiles one by one with a fingertip.
+
+CUT 1 — 5s — intimate two-shot, 63°, from the table's end:
+@alok searches tile by tile, fingertip touching each square on the screen; @acheng points to a cluster and says in Cantonese that this is near their home. Final frame: the boy's finger pausing on that cluster.
+
+CUT 2 — 4s — over-shoulder, 47°, onto the canvas:
+@acheng taps a small, neatly painted door and says this one is your mother's shop. Final frame: the tiny door centered in frame, crisp and quiet.
+
+CUT 3 — 4s — close, 29°, on @alok:
+He shakes his head slowly and says the shop's doorstep has crowds of people every single day; behind his shoulder, on the canvas, that doorstep stands empty. Final frame: his eyes lifting from the canvas to @acheng.
+
+POSITIVE LOCKS: Mural identical to the @mural_draft reference in every cut. Height gap true. The fingertip makes real contact with the screen surface. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="2b"><div class="scene-num">2b</div>
+    <div class="scene-desc">"画里面，我们住在哪里？"——阿澄没有回答；饭盒盖上凝着水珠；画里的门窗全都关着。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 2b · 12s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, standing at the table, speechless, same wardrobe.
+@alok — 120 cm, looking up at him, same wardrobe.
+
+Scene:
+The same spot, a minute later; the room has gone quieter; window light steady on the table; the untouched lunchbox sits at the table's edge.
+
+CUT 1 — 5s — close, 29°, eye-level on @alok with @acheng soft in the near foreground:
+He asks, simply and seriously, where they live inside this painting. A beat of complete stillness. Final frame: the question hanging, his gaze steady on @acheng.
+
+CUT 2 — 4s — extreme close-up, 12°, on the table:
+The lunchbox lid carries fine beads of condensation; @acheng's hand sets the brush pen down beside it; no reply comes. Final frame: one bead catching the window light.
+
+CUT 3 — 3s — slow push, 47°, onto the mural:
+Silent painted streets, tidy and closed; the camera settles toward one shut door. Final frame: a closed painted door centered, the frame quiet.
+
+POSITIVE LOCKS: Condensation only on the lunchbox lid. No new objects on the table. Wardrobe unchanged. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="act"><h2>第三幕 · 发现：一条街正在共同生活（1:00–2:10 · 70s）</h2></div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="3a"><div class="scene-num">3a</div>
+    <div class="scene-desc">第二天清晨，阿澄提着洗净的饭盒走进街巷：卷闸升起、粤语葡语互相招呼、顺叔扶门。</div>
+    <div class="risk">⚠ 高风险：门口进出几何 + 背景人物，多留候选</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 3a · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, carrying the washed lunchbox, same wardrobe.
+@shun — 168 cm, opening his corner shop.
+
+Off-screen:
+@alok — stayed behind at the studio, frame-right of the previous scene; absent here.
+
+Scene:
+Next morning, an old Macau lane: a sloping cobbled street, pastel facades, the bilingual Chinese-Portuguese street plaque at the corner. Shops are opening; @acheng walks down the slope into soft light.
+
+CUT 1 — 4s — wide establish, 84°, locked-off from across the lane:
+Shutters roll up, a shopkeeper sweeps a doorstep, @acheng descends the cobbled slope past them. Final frame: him passing beneath the bilingual street plaque.
+
+CUT 2 — 5s — medium, 63°, lateral track at shopfront level with light handheld texture:
+@shun finishes raising his shutter and greets a passer-by in Cantonese; the passer-by answers in Portuguese; both nod, smiling. Final frame: the two mid-nod with the plaque's edge above them.
+
+CUT 3 — 6s — detail-on-wide, 84°, low angle hard against the shop's stone step:
+An elder carrying two shopping bags approaches; @shun reaches out and holds the door for him; they pick up yesterday's conversation mid-sentence. Final frame: the elder passing inside while the door stays held.
+
+POSITIVE LOCKS: The plaque's text and position identical to the @street reference. The shutter rolls up only. @shun's hand visibly causes the door's motion. Background faces varied, none repeated. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="3b"><div class="scene-num">3b</div>
+    <div class="scene-desc">后厨：还饭盒→被拉进忙乱的递盘链条；他第一次从"里面"看见那扇小门连接的生活。</div>
+    <div class="risk">⚠ 高风险：蒸汽+多手+横移，单一主运镜</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 3b · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, stepping in with the washed lunchbox, same wardrobe.
+@zan_kitchen — 160 cm, coordinating the pass, apron on.
+Two background kitchen hands, faces varied.
+
+Scene:
+A small restaurant kitchen at service hour: two wok stations, steam rolling, a pass-through window to the dining room; @zan_kitchen runs the pass; @acheng arrives at the doorway.
+
+CUT 1 — 5s — threshold shot, 63°, from inside the kitchen:
+@acheng offers the washed lunchbox; @zan_kitchen takes it with a quick nod, then, hands full, tilts her head toward the line — come help; a plate arrives into his hands. Final frame: the plate settled on his palms.
+
+CUT 2 — 6s — kinetic two-shot, 47°, slow lateral track following the pass:
+Hands relay one dish from wok to counter to window; steam drifts through frame; short call-and-answer phrases in Cantonese and Portuguese cross the line; @acheng slots into the chain and passes the dish on. Final frame: the dish sliding onto the pass as a server's hands receive it.
+
+CUT 3 — 4s — reverse, 29°, through the pass window from the dining side:
+Framed by the small doorway, @acheng watches the rush move around him — the busy life his tidy painted door had left out. Final frame: his eyes following a departing dish, understanding rising on his face.
+
+POSITIVE LOCKS: The apron stays on @zan_kitchen throughout. Steam continuous and slow-rising. Every plate moves by hands only. Height order true. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="3c"><div class="scene-num">3c</div>
+    <div class="scene-desc">观察蒙太奇：双语街牌上的两种文字 / 锅边升起的一缕蒸汽 / 边走边画的速写本。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 3c · 10s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — walking, same wardrobe.
+
+Scene:
+The lane between the kitchen and the plaza, midday; street sounds run under everything.
+
+CUT 1 — 4s — extreme close-up, 12°, locked-off on the street plaque:
+Chinese characters and Portuguese script stacked on one tile; sunlight crosses from the left; both scripts hold the same shade of blue. Final frame: the light settling in the gap between the two scripts.
+
+CUT 2 — 3s — extreme close-up, 12°, top-down at the kitchen's edge:
+Steam curls off a wok rim in one slow spiral. Final frame: the spiral completing its single turn.
+
+CUT 3 — 3s — close, 29°, walking profile:
+Mid-stride, @acheng opens the beige sketchbook one-handed; its pages already layer quick blue gesture studies. Final frame: his pen touching a fresh corner of the page.
+
+POSITIVE LOCKS: The plaque identical to the @street reference. The sketchbook shows only blue gesture studies. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="3d"><div class="scene-num">3d</div>
+    <div class="scene-desc">广场醒狮排练：阿敏抢拍掉队 → 成叔扶正她的手腕、拆解示范一遍 → 再来，终于接上。</div>
+    <div class="risk">⚠ 高风险：鼓的击打动作 + 多人，鼓手单独成景别</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 3d · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, arriving at the plaza's edge with stacked food containers.
+@shang — 170 cm, the lion-dance master, slate-grey training top.
+@aman — 163 cm, young student, dark-red training top, low ponytail.
+Three background team members, faces varied; a drummer at the drum.
+
+Scene:
+A neighborhood plaza: open paved ground, thin banyan shade at one edge, the lion head resting on its stand and the drum beside it; the team drills a passage as @acheng walks in.
+
+CUT 1 — 4s — wide establish, 84°:
+The team mid-drill, the drumbeat landing steady; @aman runs half a beat behind, her hands rushing to catch up. Final frame: her timing miss visible — a small stutter in the formation.
+
+CUT 2 — 6s — two-shot, 47°, slow push-in:
+@shang halts the count, steps to @aman, reaches out and corrects her wrist angle, then demonstrates the full motion once, slow and exact, his feet marking the count. Final frame: the demonstrated pose held, her eyes fixed on his hands.
+
+CUT 3 — 5s — medium, 63°, locked-off:
+@aman tries again; this time the move lands inside the rhythm; nearby team members break into applause. Final frame: her small exhale, shoulders dropping loose.
+
+POSITIVE LOCKS: The drum is struck by the drummer's hands only. @shang stands visibly taller than @aman. Training wardrobe identical across cuts. Background faces varied. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="3e"><div class="scene-num">3e</div>
+    <div class="scene-desc">鼓声停下，饭盒在人群中手递手传开；阿澄看着这双手，慢慢打开画本——本幕收在页与广场同框。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 3e · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, seated on the plaza's edge, same wardrobe.
+@shang — 170 cm; @aman — 163 cm; team members around, faces varied.
+
+Scene:
+The same plaza, drill paused; food containers stand open by the drum; the team circles them; late-afternoon light warms the paving.
+
+CUT 1 — 5s — low detail-on-wide, 84°, hard against the containers:
+One pair of hands lifts a boxed meal out and passes it across; another pair receives it; the gesture repeats down the line, hand to hand. Final frame: a meal reaching @shang's hands.
+
+CUT 2 — 5s — close, 29°, on @acheng at the plaza's edge:
+He watches the passing hands; his own hand moves to the beige sketchbook and opens it flat on his knee; the pen begins a quick, sure line. Final frame: the first gesture-stroke landing on the page.
+
+CUT 3 — 5s — rising wide, 84°, slow rise from behind his shoulder:
+The plaza, the food, the laughter, the drum at rest; in the foreground the page carries the same curve as the hands in the distance. Final frame: page and plaza sharing one frame, his head bowed to the page.
+
+POSITIVE LOCKS: Containers opened by hands only. Same containers as the arrival shot. Sketchbook continuity from the street scene. Background faces varied. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="act"><h2>第四幕 · 转变：让生活进入蓝色（2:10–3:05 · 55s）</h2></div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="4a"><div class="scene-num">4a</div>
+    <div class="scene-desc">黄昏工作台：重开初稿，保留建筑轮廓，把白天的人一个个画进空格；最后一格，落笔。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 4a · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Soft natural daylight; key light from sky and windows; gentle shade in doorways and alleys; calm even exposure with a subtle warm shift in interiors and at dusk.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — Cantonese and Portuguese street greetings, kitchen clatter, lion-drum rhythm, gallery murmur; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, alone, same wardrobe.
+
+Scene:
+The studio at dusk; the task lamp is on; the invitation card pinned above the table; the first-version mural fills the canvas; gesture studies spread across the desk around it.
+
+CUT 1 — 4s — medium, 47°, slow push:
+@acheng sits and pulls the draft up; his eyes move from his sketchbook pages to the empty tiles of the mural. Final frame: the brush pen uncapped in his hand.
+
+CUT 2 — 6s — extreme close-up, 12°, on the canvas:
+Into an empty slot beside a painted doorway he paints the shopkeeper mid door-hold; in the next slot, the kitchen mother with a plate at the pass; strokes sure and unhurried. Final frame: the apron line of the painted mother completing.
+
+CUT 3 — 5s — close, 29°, on his face:
+The brush hovers over one last blank tile — a breath — then commits, laying down the first stroke. Final frame: blue touching white, his face faintly reflected in the screen.
+
+POSITIVE LOCKS: The draft architecture unchanged from the @mural_draft reference. New painted figures match their character references. Lamp light steady from frame-left. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="4b"><div class="scene-num">4b</div>
+    <div class="scene-desc">全片高光：递盘的手势延展成相连蓝线；热气卷成纹样、鼓点推起曲线、两种文字互相应和；蓝色穿过街道流入门窗。（本条灯光为局部覆写）</div>
+    <div class="risk">⚠ 全片最难镜头，预留最多重试；2.0 不稳就换 Seedance 2.5 参考/变换模式</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 4b · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting (per-scene override): task-lamp pool only; the room falls away into deep blue dusk; the mural itself becomes the light source, its blue glowing softly.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause. Ink inside the mural flows only along painted lines.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — faint kitchen clatter and a distant drum rhythm woven under the room tone; all dialogue is guide track for post; no subtitles.
+
+Characters:
+None carrying identity — the mural's painted figures only, in the poses painted in the previous scene.
+
+Scene:
+The canvas in close-up, night fully in around the lamp; the blue line-work is alive with the day's remembered gestures, flowing gently inside the painted grid.
+
+CUT 1 — 5s — extreme close-up, 12°, locked-off:
+A painted hand-off gesture extends past its own tile; the stroke lengthens into a connected blue line, running tile to tile like fresh ink finding its path. Final frame: the line bridging two grid squares.
+
+CUT 2 — 5s — slow tilt-down, 29°, across the mural:
+Wok-steam spirals soften into repeating motifs; a drumbeat pushes a row of curves into a rising-and-falling rhythm; Chinese and Portuguese strokes echo across adjacent tiles like two voices answering. Final frame: the two scripts' curves interlocking at frame center.
+
+CUT 3 — 5s — flowing wide, 84°, across the whole mural:
+Blue runs along the painted street, pours through painted windows, linking figure to figure; faint street sounds bloom around the buildings. Final frame: blue reaching the mural's final border and pooling gently.
+
+POSITIVE LOCKS: The figures' poses identical to those painted in the previous scene. Ink flows only along painted lines; the tile grid stays visible beneath. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="4c"><div class="scene-num">4c</div>
+    <div class="scene-desc">新瓷砖画完成：画里有人、有脚步、有饭菜声——阿澄看着，仿佛听见了自己熟悉的那条街。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 4c · 15s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Task lamp and mural glow only; night at the window; calm even exposure.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — faint footsteps, wok clatter and distant drums suggested around the painted buildings; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, alone, same wardrobe.
+
+Scene:
+The workroom at night, lamp and mural-glow the only light; the finished new mural fills the canvas — architecture and lives interwoven.
+
+CUT 1 — 5s — slow lateral track, 63°, across the mural:
+Inside the grid, painted people hold their gestures mid-motion; around the painted buildings the suggestion of footsteps, wok clatter, a distant drum. Final frame: the track settling on the painted kitchen pass, steam mid-curl.
+
+CUT 2 — 5s — reverse, 29°, on @acheng:
+He leans back and listens; one long blink; the corner of his mouth gives. Final frame: his quiet exhale in the lamplight.
+
+CUT 3 — 5s — close-up, 29°, slow push:
+His eyes travel along the mural as if walking the street it holds; he murmurs, to no one, that he can hear it — his own street. Final frame: his eyes still, soft recognition.
+
+POSITIVE LOCKS: The mural matches the @mural_new reference exactly. Lamp constant. Wardrobe unchanged. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="4d"><div class="scene-num">4d</div>
+    <div class="scene-desc">收束：镜头从桌面摇起，看全新 mural 全貌；阿澄指尖轻点保存——回信写好了。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 4d · 10s · 2 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting: Task lamp and screen glow; night; calm even exposure.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — room tone and the soft hum of the screen; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, small in frame, same wardrobe.
+
+Scene:
+The workroom wall now carries the completed new mural on its large screen; the invitation card pinned beside it; sketches and the pen on the table below.
+
+CUT 1 — 5s — slow tilt-up, 63°, from the table edge:
+The sketches, the pen, then the full new mural rising into frame — architecture and lives interwoven, blue pooling at its foot. Final frame: the mural's top border inside frame.
+
+CUT 2 — 5s — hold, 47°, locked-off wide:
+@acheng small at the table, head tipped back, taking in the whole work; he reaches out and, with one fingertip, taps save. Final frame: the screen glow steadying — the reply is written.
+
+POSITIVE LOCKS: The mural identical to the @mural_new reference. The fingertip visibly causes the screen's response. Same room geometry. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="act"><h2>第五幕 · 回信：留给下一位创作者的位置（3:05–3:50 · 45s）</h2></div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="5a"><div class="scene-num">5a</div>
+    <div class="scene-desc">夜晚展览亮起：街坊在画里找熟悉的身影；阿乐拉着妈妈——"你在这里！"（本条灯光为局部覆写）</div>
+    <div class="risk">⚠ 高风险：人群，务必挂 @crowd_gallery VARIETY 参考</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 5a · 11s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting (per-scene override): warm exhibition practicals; a wall-wash lights the mural; neighbors' faces lit softly by the work itself; night outside the windows.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — warm gallery murmur threading with faint street sounds; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@alok — 120 cm, leading by the hand.
+@zan_gallery — 160 cm, same ivory top and low bun, apron removed.
+Neighbors gathered, faces varied.
+
+Scene:
+The art space at night, re-dressed as a gallery: the new mural glowing on the wall, white plinths, neighbors drifting along it.
+
+CUT 1 — 4s — wide establish, 84°:
+The room hums softly with conversation; blue mural-light on faces; @alok leads @zan_gallery by the hand toward the wall. Final frame: the two reaching the kitchen tiles.
+
+CUT 2 — 4s — close, 29°:
+@alok points at the painted mother at the pass and says with delight that she is here; @zan_gallery startles — then a laugh breaks through, one hand at her chest. Final frame: her turning to trade the laugh with a colleague.
+
+CUT 3 — 3s — detail, 18°:
+On the mural, the painted apron's green is exactly hers; the boy's finger hovers an inch from the tile. Final frame: fingertip hovering, not touching.
+
+POSITIVE LOCKS: Crowd faces varied, none repeated. @zan_gallery wears no apron. The mural matches the @mural_new reference. Height gap true. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="5b"><div class="scene-num">5b</div>
+    <div class="scene-desc">成叔在画里认出年轻队员，轻拍阿敏的肩；镜头沿墙漂移——直到阿乐发现那块空白的方形画纸。</div>
+    <div class="risk">⚠ 高风险：人群，挂 VARIETY 参考</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 5b · 12s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting (per-scene override): warm exhibition practicals; wall-wash on the mural; faces lit softly by the work.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — gallery murmur threading with the day's street sounds; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@shang — 170 cm, street clothes over the training bearing.
+@aman — 163 cm, beside him.
+@alok — 120 cm, crouching at the mural's edge.
+Neighbors, faces varied.
+
+Scene:
+Further along the gallery wall; then the mural's lower-right edge, where a square of tile-white paper sits blank in a reserved slot.
+
+CUT 1 — 4s — two-shot, 47°:
+@shang studies the painted student mid-motion; a breath; he lays one hand on @aman's shoulder, a light familiar tap; she straightens, surprised, then grins. Final frame: his hand withdrawing, her grin landing.
+
+CUT 2 — 4s — drifting medium, 63°, along the wall:
+The day's street sounds thread through the gallery murmur as the camera drifts past painted faces and living faces side by side. Final frame: the drift arriving at the mural's edge.
+
+CUT 3 — 4s — insert, 18°:
+The reserved square, clean tile-white and empty; @alok crouches into frame beside it, frowning at the emptiness, saying this part is not finished yet. Final frame: his hand hovering over the blank.
+
+POSITIVE LOCKS: The reserved square truly empty. The slot matches the reserved position. Height order true. Crowd faces varied. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="5c"><div class="scene-num">5c</div>
+    <div class="scene-desc">阿澄把蓝色画笔递给阿乐："这一块，你来画。"阿乐画了个抱画板的年轻人——"画你呀。"阿澄把它放进预留的位置。</div>
+    <div class="risk">⚠ 儿童画质感：线条要笨拙，不能画成成人手笔</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 5c · 12s · 3 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting (per-scene override): warm exhibition practicals; wall-wash on the mural; faces lit softly by the work.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Acting: Understated ensemble performance — micro-pauses before replies, eyes always working on someone or something, breath visible in posture; characters always mid-action.
+Physics: Real weight and contact — dishes have heft, steam rises slowly, fabric folds under gravity; every object moves only by visible cause.
+Composition: Rule of thirds; in mural scenes the azulejo grid quietly echoes the frame.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — gallery murmur soft behind; all dialogue is guide track for post; no subtitles.
+
+Characters:
+@acheng — 175 cm, crouching to the child's level, same wardrobe.
+@alok — 120 cm, same wardrobe.
+
+Scene:
+At the mural's edge, a low ledge; the blue brush pen; neighbors soft-focused behind.
+
+CUT 1 — 4s — close, 29°:
+@acheng crouches down and offers the blue brush pen handle-first, telling the boy this square is his to paint. Final frame: the boy's fingers closing around the pen.
+
+CUT 2 — 5s — over-shoulder, 47°:
+@alok bends over the blank square; bold, wobbly blue strokes build a small figure holding a sketchbook; he looks up, points at @acheng, and says with plain pride that he is drawing him. Final frame: his finger aimed at @acheng, pen still in the other hand.
+
+CUT 3 — 3s — reaction, 29°, on @acheng:
+One beat of astonishment, then a smile that loosens his whole face; he takes the finished square and seats it into the reserved slot. Final frame: the child's drawing clicking into place on the wall.
+
+POSITIVE LOCKS: The child's line quality stays bold and imperfect — child-like strokes, never an adult's precision. The pen stays blue throughout. The slot fills with the child's square exactly. Height gap true. Cuts only at the specified points; the camera does not cut on its own.</pre></div>
+  </div>
+
+  <div class="scene">
+    <div class="scene-header"><input type="checkbox" data-scene="5d"><div class="scene-num">5d</div>
+    <div class="scene-desc">结尾（含 6 秒全片最长的 hero hold）：画中蓝线缓缓延伸，与孩子笔下的蓝接成一股；静止收尾。落款文字在后期叠加。</div></div>
+    <div class="prompt-block"><div class="prompt-label"><span>Prompt 5d · 10s · 2 cuts</span><button class="copy-btn">Copy</button></div>
+<pre class="prompt">Style: Semi-realistic 2D animated short film, hand-painted texture, clean even line weight. A cohesive hand-drawn animated world — no photoreal live-action, no 3D game render look.
+Lighting (per-scene override): exhibition light dimming low; the joined work is the brightest thing in the room.
+Color: 60:30:10 — dominant azulejo blue and tile white; secondary warm ivory streetscape greys; accent restrained warm ochre (steam, food, the boy's shirt).
+Camera: Physical cine lens behavior, 180-degree shutter motion blur; every move single-direction, ending on a named final frame.
+Physics: Real weight and contact; ink flows only along drawn lines.
+Continuity: Characters, props and environment identical across every cut — same faces, same wardrobe, same signage; identity stays locked to the references.
+Technical: 24fps-cadence smooth motion; line weight and paint texture held at every distance; stable image throughout.
+Audio: Diegetic only — gallery murmur settling to a warm hush; no subtitles.
+
+Characters:
+None carrying identity — the mural and the child's square only.
+
+Scene:
+The wall in full frame, exhibition light low; the mural's painted blue and the child's cruder blue about to meet across the gap between them.
+
+CUT 1 — 6s — hero hold, 47°, slow centered push on the seam:
+From the mural's border, painted blue lines reach gently outward across the gap and touch the child's strokes; the two blues flow into one continuous current. Final frame: an unbroken line running from the painted street into the child's sketch.
+
+CUT 2 — 4s — final frame, 47°, locked-off:
+The joined work at rest; the light settles; the room's sound eases to a warm hush. Final frame: still frame, blue steady and continuous.
+
+POSITIVE LOCKS: The line stays continuous across the join. No new characters enter. The child's strokes keep their wobbly quality. The frame ends still. Cuts only at the specified points; the camera does not cut on its own. (The closing lettering is added in post, never generated in-video.)</pre></div>
+  </div>
+
+</div>
+<div id="bar">进度：<span id="cnt">0 / 18</span> 已完成</div>
+<script>
+  var boxes=document.querySelectorAll('.scene input[type=checkbox]');
+  function upd(){var d=0;boxes.forEach(function(cb){if(cb.checked)d++});
+    document.getElementById('cnt').textContent=d+' / 18';
+    boxes.forEach(function(cb){cb.closest('.scene').classList.toggle('done',cb.checked)});}
+  boxes.forEach(function(cb){var k='bl-reply-'+cb.dataset.scene+'-done';
+    if(localStorage.getItem(k)==='1'){cb.checked=true}
+    cb.addEventListener('change',function(){localStorage.setItem(k,cb.checked?'1':'0');upd()})});
+  upd();
+  document.querySelectorAll('.copy-btn').forEach(function(b){b.addEventListener('click',function(){
+    var p=b.closest('.prompt-block').querySelector('pre.prompt'),t=p.textContent;
+    function ok(){b.classList.add('copied');var o=b.textContent;b.textContent='已复制';
+      setTimeout(function(){b.classList.remove('copied');b.textContent=o},1500)}
+    function fb(){var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);
+      ta.select();try{document.execCommand('copy');ok()}catch(e){}document.body.removeChild(ta)}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,fb)}else{fb()}})});
+</script></body></html>

@@ -107,6 +107,19 @@ V3 全息提示词·十维模板（依据参考级范例+higgsfield体系+即梦
 ⑨ MOTION HIERARCHY四层分离+LOCK负锁+FINAL FRAME+SFX逐拍
 ⑩ CN对照（即梦精简版）+风险预案
 
+生成端适配要点（2026-10-25第二轮检索补，来源见下）
+----------------------------------------------------------------
+· 可灵官方公式与本集结构对应：主体+动作+场景+（镜头+光影+氛围）
+  ＝IDENTITY/STATE+PHASE+AMBIENT&COLOR各块；可灵有独立负面提示词
+  输入框（2500字符）——各镜LOCK行中的NO条目可整段挪入负面框使用。
+· 排障三则（可灵实战表）：运镜不执行→把CAMERA行前置到提示词段
+  首；主体崩坏→回填IDENTITY块更多外貌细节；口型不同步→对白缩短。
+· Seedance 2.5 支持秒级时间戳分镜——本集PHASE(n-xs)写法即其原生
+  结构，即梦可直接粘贴EN全息版。
+· 来源：可灵官方教程(zhihu.com/p/714829166)/atlascloud Kling指南/
+  kling-ai-guide(github)/Seedance2.5提示词指南(suno.bi)/即梦
+  seedance2-skill(github dexhunter)/47运镜词表(book.huanzhou.art)
+
 资产编号索引（详见《00_文档/04_资产库_生图提示词.txt》V2.0）
   角色 C-01许澄(阿澄) C-02林乐(阿乐) C-03梁婉珍(珍姐)
        C-04何志成(成叔) C-05陈晓敏(阿敏) C-06顺叔 C-07老街坊

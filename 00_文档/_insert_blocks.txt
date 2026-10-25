@@ -1,0 +1,75 @@
+===VERHEAD===
+================================================================
+《蓝的回信》分镜头剧本 V2.1（全片 3:50 / 47镜 · 含逐镜完整提示词）
+================================================================
+版本历史：V2.0 2026-10-25 分镜正文本体
+          V2.1 2026-10-25 每镜AI要点升级为完整提示词（首帧垫图
+          精确到选用版本+英文视频提示词+中文对照+风险预案），公共
+          块并入头部；本文件即唯一拍摄工作文件，无并行提示词文件。
+依据：组长《蓝的回信》故事大纲（五幕时间轴）+ 人物小传补充
+===OLDBRK===
+资产编号索引（详见《蓝的回信_资产库_生图提示词.txt》）
+===NEWBLK===
+统一前缀块（每条英文视频提示词开头逐字粘贴；中文提示词配中文块）
+----------------------------------------------------------------
+[EN PREFIX]
+Semi-realistic 2D animation, clean uniform-weight linework, soft
+flat cel-shading, muted cobalt-blue and warm-white palette,
+restrained warm accents only on people and everyday objects.
+Single motivated light source, fixed light direction. Characters
+always alive: breathing, blinking, subtle weight shifts. Gravity
+and inertia respected, correct contact shadows, steam and cloth
+move with real physics. 24fps cinematic cadence. Consistent
+characters, wardrobe, props and background across cuts, no
+identity drift. NO TEXT, NO LOGO, NO WATERMARK.
+
+[中文前缀块（即梦）]
+半写实二维动画，均匀线宽干净线稿，柔和扁平赛璐璐上色，低饱和钴蓝
+与暖白主色，暖色只出现在人物与生活物件上。单一动机光源、方向固定。
+人物始终有微动作：呼吸、眨眼、重心微移。重力惯性成立，接触阴影正
+确，蒸汽与布料有真实运动。24帧电影节奏。人物服装道具背景跨镜头一
+致，无外貌漂移。画面无文字、无标志、无水印。
+
+角色速记标签（提示词中用标签指代，身份靠首帧垫图锁定；年龄词禁用）
+----------------------------------------------------------------
+阿澄＝the young designer（灰蓝衬衫）
+阿乐＝the small figure in the ochre-yellow tee（赭黄短袖小身影）
+珍姐＝the cook in the dark-green apron（厨房）/ the woman in the
+      beige top（展览·no apron）
+成叔＝the grey-haired coach（青灰训练服）
+阿敏＝the ponytailed trainee in the dark-red tee
+顺叔＝the shopkeeper in the light-brown shirt
+老街坊＝the elderly neighbor with a cloth grocery bag
+
+跨镜连续性锚点（Off-screen账，生成与剪辑必须遵守）
+----------------------------------------------------------------
+· 阿乐 S07进场至S16在场；S17-S37离场，S38展览夜回归（服装同S07）。
+· 珍姐 S23后离场（系围裙回灶台），S39展览态回归=同脸同上衣no
+  apron（C03_c垫图保证），提示词标签随之切换。
+· 成叔+阿敏 S26后同队收拾，S40展览同框回归（训练服不变）。
+· 匹配剪辑锚：S21递盘手势=S27递饭手势（同机位高度）；S05鼓动机
+  =S47末鼓（首尾闭环）。
+· 节奏账：合计230.0秒；全片唯一长镜S37=9秒，其余≤7秒；无三连镜
+  同景别+同运镜。
+
+资产编号索引（详见《00_文档/04_资产库_生图提示词.txt》V2.0）
+===APPENDIX===
+
+================================================================
+附四：危险镜头与预案总表（V2.1并入）
+================================================================
+手部特写镜（S04悬停/S05三连/S08/S21/S25/S27/S43/S44）：R01手部
+ 垫图未拍前，一律用定妆图/P02/P01局部裁切垫图替代；接触瞬间加
+ 0.3-0.5秒插入特写；镜长≤3秒侧逆光。
+多人物镜（S07/S10/S19/S21/S39/S40/S43）：追踪脸≤2张，第三人
+ 剪影/背影/虚化；群像镜（S26/S38/S41）全剪影层。
+门与入口几何（S20/S22）：门开方向在首帧锁定，运动块只写door
+ swings open，不写反向。
+形变镜（S05/S32/S33/S34/S35/S46）：全部首尾帧模式；形变方向统一
+ 自左向右；失败预案=降低形变幅度（线到线，不到形）。
+文字（S03/S18/S34/S47）：留白后期贴，AI永不生成文字。
+逐镜首帧垫图精确文件名与音频挂点：见各镜"AI要点（V2.1完整提示
+词）"块；音频编号见《00_文档/18_音频资产库_生成提示词.txt》。
+
+（V2.1 完 · 2026-10-25）
+===END===

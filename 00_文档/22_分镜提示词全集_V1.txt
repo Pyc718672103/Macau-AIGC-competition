@@ -1,0 +1,899 @@
+================================================================
+《蓝的回信》分镜提示词全集 V1.0（47镜 · 逐镜完整版）
+================================================================
+版本历史：V1.0 2026-10-25 初版。依据《03_分镜剧本_V2.txt》47镜与
+          全部已入库资产（截至a3a62c0）编制。
+方法来源：Higgsfield shotlist-director（连镜结构/节奏预算/单调审计）
+          + Seedance Prompt-Craft Laws（50-80词区间/三句结构/逐拍
+          编舞/命名运镜/度副词/物理语言）+ I2V只写运动铁律。
+
+一、使用方法（每镜三步）
+----------------------------------------------------------------
+1. 出首帧：按"首帧垫图"行取图（路径精确到版本），在Liblib/即梦
+   图生图合成；"首帧合成"行写合成要求。首帧验收过再进第2步。
+2. 出视频：首帧作为图生视频第一帧，粘贴本镜英文提示词+统一前缀
+   块（可灵/英文模型）或中文提示词+中文前缀块（即梦）。10秒生成，
+   成片截中段（时长见各镜）。
+3. 入库：S##_视频_v1.mp4入05_视频片段，废片入_reject；更新05清单。
+
+二、统一前缀块（每条英文提示词开头逐字粘贴，全片唯一，改一处即全改）
+----------------------------------------------------------------
+[EN PREFIX]
+Semi-realistic 2D animation, clean uniform-weight linework, soft
+flat cel-shading, muted cobalt-blue and warm-white palette,
+restrained warm accents only on people and everyday objects.
+Single motivated light source, fixed light direction. Characters
+always alive: breathing, blinking, subtle weight shifts. Gravity
+and inertia respected, correct contact shadows, steam and cloth
+move with real physics. 24fps cinematic cadence. Consistent
+characters, wardrobe, props and background across cuts, no
+identity drift. NO TEXT, NO LOGO, NO WATERMARK.
+
+[中文前缀块（即梦）]
+半写实二维动画，均匀线宽干净线稿，柔和扁平赛璐璐上色，低饱和钴蓝
+与暖白主色，暖色只出现在人物与生活物件上。单一动机光源、方向固定。
+人物始终有微动作：呼吸、眨眼、重心微移。重力惯性成立，接触阴影正
+确，蒸汽与布料有真实运动。24帧电影节奏。人物服装道具背景跨镜头一
+致，无外貌漂移。画面无文字、无标志、无水印。
+
+三、角色速记标签（视频提示词中用标签指代，身份靠首帧垫图锁定）
+----------------------------------------------------------------
+阿澄＝the young designer（灰蓝衬衫）
+阿乐＝the small figure in the ochre-yellow tee（赭黄短袖小身影）
+珍姐＝the cook in the dark-green apron（厨房）/ the woman in the
+      beige top（展览·no apron）
+成叔＝the grey-haired coach（青灰训练服）
+阿敏＝the ponytailed trainee in the dark-red tee
+顺叔＝the shopkeeper in the light-brown shirt
+老街坊＝the elderly neighbor with a cloth grocery bag
+（年龄词禁用：不写boy/child/kid，用衣着+角色标签。）
+
+四、全片节奏账（对齐03剧本，合计230.0秒，允许±0.5秒）
+----------------------------------------------------------------
+幕一35s(8镜) 幕二25s(8镜) 幕三70s(12镜) 幕四55s(9镜) 幕五45s(10镜)
+全片长镜（hero hold）：S37=9秒（表演收束镜），其余≤7秒。
+单调审计：无三连镜同景别+同运镜（剧本附一已核，本集每镜再标注）。
+
+五、跨镜连续性锚点（Off-screen账，生成时必须遵守）
+----------------------------------------------------------------
+· 阿乐 S07进门后至S16一直在场（同一空间连续）；S17-S37离场
+  （exited frame, 去上学/在家），S38展览夜回归（服装同S07）。
+· 珍姐 S23后离场（围裙态，送餐后回后厨），S39展览态回归=同脸
+  同上衣、no apron（C03_c垫图保证），生成时标签切换。
+· 成叔+阿敏 S26后同队收拾，S40展览同框回归（训练服不变）。
+· 匹配剪辑锚动作：S21递盘手势=S27递饭手势（同机位高度重复，
+  剪辑层完成押韵）；S05鼓动机=S47末鼓（首尾闭环）。
+
+================================================================
+第一幕 开端：一幅漂亮的澳门（S01-S08，0:00-0:35）
+================================================================
+
+----------------------------------------------------------------
+S01｜0:00-0:05｜成片5s｜大远景·缓推 Slow Dolly In
+----------------------------------------------------------------
+首帧垫图：02_场景资产/S07_城市大远景/晨雾态/S07_城市大远景_晨雾态_v1.png
+首帧合成：直接使用，不加人物。
+EN视频提示词（前缀块+以下）：
+The sleeping blue-and-white Macau old town exhales: thin mist
+drifts slowly between rooftops, a loose flock of pigeons crosses
+the sky left to right at mid-height, and the faint pre-sun glow
+warms the horizon edge by one degree. Camera: very slow dolly-in
+toward the town center. Audio: one distant church bell, morning
+city waking far below.
+中文（即梦）：
+蓝白色调的澳门老城在薄雾中苏醒：雾缓缓从屋顶间漂过，一小群白鸽
+自左向右横穿画面中景高度，天边晨光微微变暖。镜头极缓向城中推近。
+声音：远处教堂钟一记，城市苏醒的底噪。
+
+----------------------------------------------------------------
+S02｜0:05-0:10｜成片5s｜全景·固定 Static
+----------------------------------------------------------------
+首帧垫图：S01_艺术空间_昼态_v1.png（场景）
+          + C01_a_立姿持信_v1.png（阿澄，垫图权重约0.6）
+首帧合成：人物置于画面右三分线，高窗晨光在左，手中展开信纸。
+EN视频提示词：
+The young designer finishes reading the last line of an opened
+letter, then slowly lifts his gaze toward the tall window; dust
+motes drift through the light shaft beside him. Camera: locked
+static shot. Audio: paper settling, distant pigeon whistle.
+中文：
+年轻设计师读完信的最后一行，缓缓抬眼看向高窗；身旁光柱里尘埃缓
+缓浮动。固定机位。声音：纸张轻响、远处鸽哨。
+（表演注：先读完再抬头——他与纸的关系先于人。）
+
+----------------------------------------------------------------
+S03｜0:10-0:13｜成片3s｜大特写·缓推 Push In
+----------------------------------------------------------------
+首帧垫图：03_道具资产/P07_邀请函/P07_邀请函_留白版_v1.png
+首帧合成：俯拍平铺，文字区后期贴字（"写给未来的澳门…"）。
+EN视频提示词：
+The cream invitation card rests flat; its paper edge trembles
+very slightly in a breath of air, light slowly sweeping across
+the embossed wax seal. Camera: slow push-in toward the blank
+text area. Audio: soft paper tick.
+中文：
+米色邀请函平放，纸缘随气流极轻微颤动，光线缓缓扫过蓝色火漆印。
+镜头向留白文字区缓推。声音：纸张轻响。
+
+----------------------------------------------------------------
+S04｜0:13-0:19｜成片6s｜近景·手持微晃 Handheld
+----------------------------------------------------------------
+首帧垫图：S01_艺术空间_昼态_v1.png + C01_b_坐姿伏案_v1.png
+          + P02_米色画本与蓝色画笔_多视图_v1.png（桌面道具参考）
+首帧合成：坐姿近景，画本翻开压平于桌面，数位屏在侧。
+EN视频提示词：
+The young designer settles at the worktable: he smooths the open
+sketchbook flat with one palm, rolls his sleeve a turn, then
+hovers the brush above the page without touching it, eyes
+narrowing slightly in focus. Camera: gentle handheld breathing.
+Audio: cotton pages, wooden chair creak.
+中文：
+年轻设计师在工作台前坐定：手掌把翻开的画本压平，卷起一折袖口，
+画笔悬停纸面上方未落，眼神微聚。轻微手持呼吸感。
+声音：纸页、木椅轻响。
+（红线：手部悬停不接触——避开接触瞬间，降低手部崩率；接触留给S05。）
+
+----------------------------------------------------------------
+S05｜0:19-0:25｜成片6s｜特写三连·快切（每段≤3s独立生成）
+----------------------------------------------------------------
+首帧垫图：段①②③分别用 R01-r1/r2手部照[待拍]或P02图局部垫图
+          + P03_d3_蓝线地标线稿_v1.png（形变尾帧）
+首帧合成：手部侧逆光特写；尾帧=d3蓝线建筑线稿满幅。
+EN视频提示词（段①，段②③同结构换地标）：
+A brush tip touches thick paper and draws one continuous cobalt
+line; as the stroke travels, the line itself rises and becomes
+the drawn facade of the Ruins of St. Paul's. Camera: locked
+macro framing. Audio: dry brush whisper, one far muffled drum.
+中文：
+笔尖落在厚纸上拉出一条连贯的钴蓝线；线条行进中立起，化作大三巴
+立面线稿。固定微距构图。声音：干笔沙沙、一记极远的闷鼓。
+（M04动机在此埋入；形变用首尾帧模式：首=笔触，尾=d3线稿。）
+
+----------------------------------------------------------------
+S06｜0:25-0:28｜成片3s｜全景·缓拉 Slow Dolly Out
+----------------------------------------------------------------
+首帧垫图：03_道具资产/P03_初稿地标版画作/P03_初稿地标版_v1.png
+首帧合成：整幅画满幅为第一帧。
+EN视频提示词：
+The finished tile mural holds still for a beat, then a soft
+ceramic sheen travels across its surface from left to right, as
+if light finds the glaze. Camera: slow dolly-out revealing the
+whole artwork. Audio: theme phrase settles, faint porcelain hum.
+中文：
+完成的瓷砖画静了一拍，一层柔亮的釉光从左向右缓缓掠过画面。镜头
+缓慢拉开展示全画。声音：主题乐句收束、极轻瓷鸣。
+（S06与S08之间片名不放此处——片名落S47前，见剧本。）
+
+----------------------------------------------------------------
+S07｜0:28-0:32｜成片4s｜中景·固定（门口侧拍）
+----------------------------------------------------------------
+首帧垫图：S01_艺术空间_昼态_v1.png + C02_a_提饭盒站姿_v1.png
+          + C01_b坐姿定妆（画架前）+ P01_饭盒_多视图_v1.png
+首帧合成：双人构图——阿乐门口前景左，阿澄画架前中景右，肩线一
+高一低；饭盒在桌面角。
+EN视频提示词：
+The small figure in the ochre-yellow tee walks in, sets a steel
+lunchbox on the table corner and says one short line toward the
+easel; the young designer answers without turning, brush still
+moving. Camera: locked medium two-shot from the doorway side.
+Audio: footsteps, lunchbox clink, one Cantonese line.
+中文：
+赭黄短袖的小身影走进来，把不锈钢饭盒放到桌角，朝画架方向说了句
+话；年轻设计师没有回头应了一声，笔未停。门口方向固定双人中景。
+声音：脚步、饭盒轻响、一句粤语。
+（口型弱化：侧机位+台词后期配音VO01。阿乐服装=全片暖色锚。）
+
+----------------------------------------------------------------
+S08｜0:32-0:35｜成片3s｜大特写·固定 Static
+----------------------------------------------------------------
+首帧垫图：R01-r2手部照[待拍]或P03_d4_边框局部_v1.png垫图合成
+首帧合成：手部侧逆光，边框线将合未合。
+EN视频提示词：
+A hand draws the final short stroke closing the ornamental
+border, then lays the brush down gently beside the page; fingers
+rest on the table one beat. Camera: locked close-up. Audio:
+brush set down, then complete silence for one second.
+中文：
+一只手补上最后一段短笔，装饰边框合拢；画笔被轻轻搁在纸旁，手指
+在桌面停一拍。固定特写。声音：笔搁下，随后静一秒。
+（静默是转场：切入第二幕。）
+
+================================================================
+第二幕 疑问：画里面，我们住在哪里（S09-S16，0:35-1:00）
+================================================================
+
+----------------------------------------------------------------
+S09｜0:35-0:39｜成片4s｜中景·过肩 OTS（越阿乐肩看画）
+----------------------------------------------------------------
+首帧垫图：C02_b_前探指画_v1.png + P03_初稿地标版_v1.png
+首帧合成：过肩构图，前景阿乐后脑与肩（虚），画面大部分是初稿。
+EN视频提示词：
+Over the small figure's shoulder: he leans closer to the mural,
+fingertip hopping tile to tile from lower-left upward, head
+tilting to follow his own finger; the painted streets stay
+perfectly still around his moving hand. Camera: static
+over-the-shoulder medium. Audio: fingertip taps on paper.
+中文：
+越过小身影的肩膀：他凑近画面，指尖从左下往上一格一格点过去，头
+随手指微微转动；画中街道在他移动的手周围纹丝不动。固定过肩中景。
+声音：指尖点纸声。
+
+----------------------------------------------------------------
+S10｜0:39-0:42｜成片3s｜双人近景·缓推 Push In
+----------------------------------------------------------------
+首帧垫图：C01_a_立姿持信_v1.png（弯腰姿态变体提示词：bending
+          forward at the waist toward the child）+ C02_b
+首帧合成：双人近景，阿澄弯腰入画指画，阿乐顺手指看。
+EN视频提示词：
+The young designer bends down and points at one tidy building
+square, glancing to the small figure for recognition; the child's
+eyes follow the finger onto the painting. Camera: slow push-in
+on the two faces. Audio: one short Cantonese line.
+中文：
+年轻设计师弯下腰，指向画中一格整洁的建筑，扭头看小身影求确认；
+孩子的目光顺着手指落到画上。双人面部缓推。声音：一句粤语。
+
+----------------------------------------------------------------
+S11｜0:42-0:45｜成片3s｜近景·低角度固定 Low-Angle Static
+----------------------------------------------------------------
+首帧垫图：C02_c_仰头直视_v1.png
+首帧合成：低机位=孩子视线高度，近景直用。
+EN视频提示词：
+From child eye-level, the small figure studies the answer on the
+adult's face for a beat, brows gathering slightly, then asks one
+short question, chin lifting a little. Camera: locked low-angle
+close-up. Audio: one short Cantonese line, room tone dips.
+中文：
+孩子视线高度：小身影在成年人脸上找了一拍答案，眉头微聚，随后问
+出一句短问题，下巴微抬。低角度固定近景。声音：一句粤语，环境声
+下沉。
+
+----------------------------------------------------------------
+S12｜0:45-0:49｜成片4s｜特写快切（两个子镜头）
+----------------------------------------------------------------
+首帧垫图：子镜①P03_d1_小门_v1.png；子镜②C02_c（摇头变体）
+首帧合成：子镜①=画中整齐小门满幅；子镜②=阿乐近景。
+EN视频提示词（子镜①）：
+The tidy painted shop door sits closed inside its ceramic square,
+glaze sheen barely moving. Camera: locked insert close-up.
+中文（子镜①）：
+画中那扇整齐的小店门紧闭在瓷格里，釉光几近静止。固定插入特写。
+EN视频提示词（子镜②）：
+The small figure shakes his head once, eyes still on the mural,
+and answers with one short stubborn line. Camera: locked close-up.
+中文（子镜②）：
+小身影摇了一次头，目光仍在画上，执拗地回了一句短话。固定近景。
+
+----------------------------------------------------------------
+S13｜0:49-0:53｜成片4s｜近景·极缓推 Very Slow Push In（全片题眼）
+----------------------------------------------------------------
+首帧垫图：C02_c_仰头直视_v1.png
+首帧合成：近景直用，构图留出顶部空间。
+EN视频提示词：
+The small figure looks straight up and asks the film's question,
+slowly, syllable by syllable; during the line his eyes do not
+leave the adult, and after it the whole room holds still. Camera:
+very slow push-in, barely two percent of frame per second.
+Audio: the line, then one far drum beat in near-silence.
+中文：
+小身影仰头直视，一字一顿地问出全片的问题；说话时目光始终没有离
+开成年人，说完后整个空间静止。极缓推近（每秒约2%画面）。
+声音：台词，随后近静中一记远鼓。
+（本镜=全片最重要镜头：同提示词批量出3-5版，按"眼神直视度"硬门
+ 择优。配音VO05须先定稿。）
+
+----------------------------------------------------------------
+S14｜0:53-0:56｜成片3s｜近景·固定 Static
+----------------------------------------------------------------
+首帧垫图：C01_b坐姿定妆（困惑变体提示词：thumb rubbing the edge
+          of the sketchbook, gaze dropping to the lunchbox）
+          + P02 + P01
+首帧合成：阿澄近景+桌角饭盒入画。
+EN视频提示词：
+The young designer does not answer: one slow blink, his thumb
+rubs the sketchbook edge twice, and his gaze slides off the child
+down to the lunchbox on the table corner. Camera: locked close-up.
+Audio: fabric rustle, held breath.
+中文：
+年轻设计师没有回答：一次放慢的眨眼，拇指在画本边缘摩挲两下，目
+光从孩子身上滑落，落到桌角的饭盒上。固定近景。声音：衣料轻响、
+屏住的一口气。
+
+----------------------------------------------------------------
+S15｜0:56-0:58｜成片2s｜大特写·固定（插入）
+----------------------------------------------------------------
+首帧垫图：P01_饭盒_多视图_v1.png（盒盖视图裁切放大）
+首帧合成：盒盖满幅，水珠布点。
+EN视频提示词：
+On the steel lunchbox lid, one water droplet slides slowly down
+the curve and gathers at the rim; metal holds a soft window
+reflection. Camera: locked macro. Audio: one tiny drip.
+中文：
+不锈钢饭盒盖上，一颗水珠沿弧面缓缓滑落、在边缘聚住；金属映着柔
+和的窗光。固定微距。声音：一声极轻的水滴。
+
+----------------------------------------------------------------
+S16｜0:58-1:00｜成片2s｜大特写·固定（插入）
+----------------------------------------------------------------
+首帧垫图：P03_d2_门窗紧闭局部_v1.png
+首帧合成：直用。
+EN视频提示词：
+Inside the painting, the little street keeps its stillness: every
+door and window shut, nothing moves except one faint glaze
+shimmer. Camera: locked macro. Audio: silence.
+中文：
+画里的小街保持安静：门窗紧闭，除一层极淡的釉光外纹丝不动。固定
+微距。声音：静。
+（S15与S16并置=题眼的无声回答：一边有水珠，一边无生活。）
+
+================================================================
+第三幕 发现：一条街正在共同生活（S17-S28，1:00-2:10）
+================================================================
+
+----------------------------------------------------------------
+S17｜1:00-1:05｜成片5s｜全景·侧面跟移 Lateral Tracking
+----------------------------------------------------------------
+首帧垫图：S02_瓷砖街巷_晨光态_v1.png + C01_e_提袋行走_v1.png
+          + P01_饭盒（布袋中露出一角）
+首帧合成：街巷板为底，人物右三分之一行进方向朝右。
+EN视频提示词：
+The young designer walks at an unhurried pace down the tiled
+street, cloth bag and lunchbox swaying gently with each step; his
+head turns slowly from storefront to storefront, beginning to
+look instead of pass. Camera: smooth lateral tracking right,
+matching his pace. Audio: shutters rolling up, Cantonese and
+Portuguese greetings trading left and right.
+中文：
+年轻设计师不紧不慢地走在瓷砖街道上，布袋与饭盒随脚步轻摆；他的
+头从一家店铺缓缓转向另一家——开始"看"而不是路过。平滑右侧跟移，
+与人同速。声音：卷帘门次第拉起，粤语葡语招呼左右声场交叠。
+
+----------------------------------------------------------------
+S18｜1:05-1:09｜成片4s｜特写·上摇 Tilt Up
+----------------------------------------------------------------
+首帧垫图：S03_双语街牌_特写态_v2.png（选用v2）+ C06_a（尾帧探头）
+首帧合成：首帧=脚下碎石路+街牌下缘；尾帧=街牌满幅+顺叔探出门。
+EN视频提示词：
+Starting on Portuguese cobblestones, the camera tilts up along a
+blue-bordered bilingual street sign until the plate fills the
+frame; below it a shopkeeper in a light-brown shirt pulls up his
+shutter and leans out for the street's first greeting. Camera:
+one continuous tilt-up. Audio: shutter rattle, one warm Cantonese
+good-morning.
+中文：
+从葡式碎石路起，镜头沿蓝边双语街牌上摇至路牌满幅；牌下浅棕衬衫
+的店主拉起卷帘门，探出头向街上道今天第一声早安。一镜上摇到底。
+声音：卷帘门、一句热络的粤语早安。
+（街牌文字区留白后期贴字——AI不生成文字。）
+
+----------------------------------------------------------------
+S19｜1:09-1:15｜成片6s｜中景·固定 Static
+----------------------------------------------------------------
+首帧垫图：C06_a_扶门交谈_v1.png + C07_老街坊_参考_v1.png
+          + S02街巷板
+首帧合成：双人中景，顺叔扶门在右，老街坊提物走近在左。
+EN视频提示词：
+The elderly neighbor approaches with a cloth grocery bag; the
+shopkeeper holds the door open with one steady hand, mid-sentence
+in yesterday's unfinished chat — the old man waves him off
+laughing, the shopkeeper nods along. Camera: locked medium shot.
+Audio: overlapping easy Cantonese, laughter, bag settling.
+中文：
+提着布袋的老街坊走近；店主一只手稳稳扶住门，嘴里接着昨天没说完
+的半句话——老人笑着摆手，店主点头应和。固定中景。
+声音：松弛交叠的粤语、笑声、布袋落定。
+
+----------------------------------------------------------------
+S20｜1:15-1:20｜成片5s｜中景·手持微晃 Handheld
+----------------------------------------------------------------
+首帧垫图：S04_餐厅后厨_门口外景态_v2.png（选用v2）+ C03_a_门口
+          迎立·厨房态_v1.png + P01
+首帧合成：珍姐门口迎立，阿澄递还洗净饭盒入画左。
+EN视频提示词：
+The cook in the dark-green apron steps out, takes the washed
+lunchbox, reads it with a small smile of recognition, then tilts
+her head to invite him in, straightening the doorstep plant with
+one hand. Camera: gentle handheld. Audio: one brisk Cantonese
+line, kitchen steam and clatter spilling out.
+中文：
+围墨绿围裙的厨娘迎出门，接过洗净的饭盒看了一眼，眼里一点会心的
+笑，侧头让人进来，顺手把门口盆栽扶正半寸。轻微手持。
+声音：一句爽利粤语，后厨的蒸汽与碗碟声涌出。
+
+----------------------------------------------------------------
+S21｜1:20-1:27｜成片7s｜中景-全景·缓移 Slow Truck（拆4s+3s两段）
+----------------------------------------------------------------
+首帧垫图：S04_餐厅后厨_日间态_v2.png（选用v2）+ C03_b_递盘寻
+          眼神_v1.png + C01_b
+首帧合成：后厨纵深，珍姐出餐口中位，阿澄画左被拉入帮忙。
+EN视频提示词：
+In the busy kitchen the cook rules the pass: her eyes find the
+receiver before each plate leaves her hands; the young designer,
+drafted in mid-visit, passes one dish onward — steam rises,
+short Cantonese and Portuguese call-outs trade across the line.
+Camera: slow lateral drift deeper into the kitchen. Audio: wok
+hiss, plate clinks, two-tone call-and-answer rhythm.
+中文：
+忙碌的后厨里，厨娘掌控着出餐口：每只盘子离手前，她的目光先找到
+接盘的人；顺路被拉来帮忙的年轻设计师接过一盘再传出去——蒸汽升
+腾，粤语葡语的短促应答在线上交错。缓慢向厨房纵深横移。
+声音：锅气、瓷盘轻碰、双语应答的节奏。
+（人物≤3：镜头只追踪两张脸，其余人影在蒸汽后虚化；
+ 递盘接触瞬间用0.5秒手部插入兜底。）
+
+----------------------------------------------------------------
+S22｜1:27-1:32｜成片5s｜主观视角POV·固定
+----------------------------------------------------------------
+首帧垫图：S04_餐厅后厨_日间态_v2.png（门位构图）+ P03_d1记忆闪备选
+首帧合成：从后厨内侧看向那扇小门，门外过曝半档。
+EN视频提示词：
+From inside the kitchen, the small painted door swings open and
+daylight floods the frame; silhouettes pass in and out of the
+glow, and the point of view holds on the door one beat too long,
+recognizing it. Camera: locked POV. Audio: door hinge, street
+sound pouring in with the light.
+中文：
+从后厨内侧望去，那扇画中的小门被推开，白光涌进画面；人影在光里
+进出，主视角在门上多停了一拍——认出了它。固定主观镜头。
+声音：门轴轻响，街道声随光涌入。
+（可叠0.5秒P03_d1半透明闪回强化"认出"。）
+
+----------------------------------------------------------------
+S23｜1:32-1:36｜成片4s｜中景·固定 Static
+----------------------------------------------------------------
+首帧垫图：C03_b（递物变体：handing two stacked boxes）+ P01双盒态
+首帧合成：珍姐递双盒，指向画右广场方向。
+EN视频提示词：
+The cook hands over two stacked lunchboxes, pats the lid once,
+and points firmly toward the square; after one short instruction
+she is already half-turned back to her stove. Camera: locked
+medium. Audio: boxes stacking, one brisk Cantonese line.
+中文：
+厨娘递来叠好的两个饭盒，拍一下盒盖，坚定地指向广场方向；一句短
+叮嘱说完人已经半转回灶台。固定中景。声音：饭盒叠放、一句爽利
+粤语。
+（珍姐此后离场：向灶台方向出画、仍系围裙——S39展览态回归时
+ no apron、同脸同上衣，由C03_c垫图保证。）
+
+----------------------------------------------------------------
+S24｜1:36-1:43｜成片7s｜全景→中景·半环绕 Semi-Orbit（拆4s+3s）
+----------------------------------------------------------------
+首帧垫图：S05_广场排练场_午后态_v2.png（选用v2）+ C05_a_失误抿嘴
+          站定_v1.png + P05_狮头与大鼓_多视图_v1.png
+首帧合成：广场全景，狮队排练中，阿敏持狮头位中心偏左。
+EN视频提示词：
+Drums pound a full pattern as the lion head rises and falls —
+then the ponytailed trainee in the dark-red tee jumps half a beat
+early, the lion wobbles, the rhythm stumbles and stops; she
+presses her lips, takes one visible breath and resets her stance.
+Camera: slow half-orbit around the practice circle. Audio: drum
+pattern from tight to broken to silence.
+中文：
+鼓点密集，狮头起落——忽然暗红短袖的低马尾学员抢了半拍，狮头一
+晃，节奏踉跄着停住；她抿住嘴，明显地吸了一口气，重新站定。
+绕练习圈缓慢半环绕。声音：鼓段由整到乱到停。
+
+----------------------------------------------------------------
+S25｜1:43-1:50｜成片7s｜中景→近景·缓推 Push In
+----------------------------------------------------------------
+首帧垫图：C04_b_扶手示范_v1.png + C05_a（学员位）
+首帧合成：双人教学构图，成叔入画左走向阿敏。
+EN视频提示词：
+The grey-haired coach stops one beat and reads her hands; then
+his own hand moves in, gently corrects her grip, and he
+demonstrates the same movement at half speed beside her — she
+follows, slower, and this time it holds. Camera: slow push-in
+from medium to close. Audio: single slow drum beats like a
+metronome, cloth on cloth.
+中文：
+青灰衣的老师傅停一拍，看她的手；随后伸手进去轻轻扶正她的握法，
+在旁边用一半的速度把同一个动作示范了一遍——她跟着做，慢了，但
+这次稳住了。中景缓推至近景。声音：慢速单敲如节拍器、布料摩擦。
+（手部接触瞬间0.5秒插入特写兜底——C04_b局部裁切。）
+
+----------------------------------------------------------------
+S26｜1:50-1:57｜成片7s｜全景·固定（正面舞台式）
+----------------------------------------------------------------
+首帧垫图：S05_广场排练场_午后态_v2.png + P05
+首帧合成：正面全景，狮队完成段落，围观街坊剪影前景。
+EN视频提示词：
+The full drum pattern returns; the lion head rises and falls
+cleanly on every beat, red silk ribboning after it, and the
+small ring of neighbors breaks into applause, a couple raising
+phones. Camera: locked frontal wide. Audio: complete drum-and-
+cymbal pattern, applause, scattered laughter.
+中文：
+完整的鼓段回来了；狮头每一拍都干净地起落，红绸在身后翻飞，围成
+小圈的街坊鼓起掌，有人举起手机。正面固定全景。
+声音：完整鼓钹段、掌声、零星笑声。
+（群像=剪影与中远景层次，不给AI追踪第三张脸；红绸是画面里唯一
+ 的大幅度运动主体。）
+
+----------------------------------------------------------------
+S27｜1:57-2:03｜成片6s｜中景+手部插入（0.5s）
+----------------------------------------------------------------
+首帧垫图：C01_e（提袋变体：holding out one lunchbox）
+首帧合成：队员放下道具接过饭盒，双手递-接构图。
+EN视频提示词：
+The performers set props down and reach for the food: the young
+designer holds one lunchbox out with both hands, and a pair of
+team hands receives it — the small handover hangs a beat, both
+sides nodding thanks. Camera: locked medium, then a half-second
+insert of fingertips meeting. Audio: bowls and thanks in two
+languages.
+中文：
+队员们放下道具伸手接饭：年轻设计师双手递出一个饭盒，一双队里的
+手稳稳接住——这个小小的交接悬了一拍，双方点头道谢。固定中景+
+半秒指尖相接的插入特写。声音：碗筷声、两种语言的道谢。
+（本镜递-接手势=S21递盘的匹配锚：两镜同机位高度，剪辑层押韵。）
+
+----------------------------------------------------------------
+S28｜2:03-2:10｜成片7s｜近景·极缓推 Very Slow Push In
+----------------------------------------------------------------
+首帧垫图：C01_d_暮色凝视侧影_v2.png（选用v2，日间光版本提示词：
+          same pose, morning side-light）+ P02
+首帧合成：近景，目光停在画外递接的手上，画本在臂弯。
+EN视频提示词：
+The young designer's gaze rests two full beats on the handover
+still warm in his memory; then he looks down, thumbs the edge of
+his sketchbook once, and opens it — the first page already holds
+one new blue stroke, begun like an offered hand. Camera: very
+slow push-in. Audio: theme variation enters softly, page turn.
+中文：
+年轻设计师的目光在那次交接上整整停了两拍；随后低头，拇指摩挲一
+下画本边缘，翻开——第一页上已经有一条新的蓝线，起笔像一只递出
+的手。极缓推近。声音：主题变奏轻入、翻页声。
+（表演链四拍按序写：看两拍→低头→摩挲→翻开。转变落点。）
+
+================================================================
+第四幕 转变：让生活进入蓝色（S29-S37，2:10-3:05）
+================================================================
+
+----------------------------------------------------------------
+S29｜2:10-2:15｜成片5s｜中景·固定 Static
+----------------------------------------------------------------
+首帧垫图：S01_艺术空间_暮态_v1.png + C01_b（暮光版提示词：same
+          pose, late amber window light）+ P03 + P02
+首帧合成：暮色光位，初稿重新铺开，画本摊在一边。
+EN视频提示词：
+The young designer unrolls the first-draft mural again in amber
+evening light and smooths it flat with both palms, slow, as if
+greeting it anew; he then sits still, reading his own drawing.
+Camera: locked medium. Audio: paper flattening, distant evening
+street.
+中文：
+年轻设计师在暮色里把初稿重新铺开，双掌慢慢压平——像与它重新认识
+一次；随后坐着不动，读自己画的东西。固定中景。
+声音：纸张压平、远处的傍晚街声。
+
+----------------------------------------------------------------
+S30｜2:15-2:20｜成片5s｜特写·俯拍 Overhead
+----------------------------------------------------------------
+首帧垫图：P04_瓷砖画_生长态_v1.png（局部：左下扶门二人组）
+首帧合成：俯拍手部+画中空位；记忆层复用S19成片段半透明叠加。
+EN视频提示词：
+Overhead, his brush enters the empty street square and draws the
+door-holding shopkeeper into the mural; for half a second the
+real morning gesture floats translucent above the paper, then
+sinks and becomes cobalt pattern. Camera: locked overhead close.
+Audio: brush whisper, a ghost of morning street sound.
+中文：
+俯拍：画笔探进画中空着的街格，把扶门的店主画进画里；半秒之间，
+真实早晨的那个手势以半透明浮在纸面上方，随即沉下去，化作钴蓝纹
+样。固定俯拍特写。声音：笔触沙沙、一丝晨间街声的残响。
+（记忆闪直接复用S19成片叠化——零新增生成、动作天然一致。）
+
+----------------------------------------------------------------
+S31｜2:20-2:25｜成片5s｜特写三连·叠化×3
+----------------------------------------------------------------
+首帧垫图：P04_生长态_v1.png（三处局部）+ 复用S21/S25/S26成片
+首帧合成：三段各自俯拍局部，叠化记忆层。
+EN视频提示词（三段同构，分别画入）：
+Overhead close: the brush adds the mother at the kitchen doorway
+/ the coach correcting hands / the young trainee mid-motion into
+the mural; each real daytime gesture surfaces translucent for
+half a second, then settles into blue line. Camera: locked, one
+dissolve each. Audio: three soft drum beats.
+中文：
+俯拍特写：画笔依次把后厨门口的母亲/扶手的教练/运动中的学员画进
+画里；每个白天真实的动作半透明浮现半秒，随即沉成蓝线。
+固定机位，各一次叠化。声音：三记轻鼓。
+
+----------------------------------------------------------------
+S32｜2:25-2:31｜成片6s｜大特写·形变①（首尾帧模式）
+----------------------------------------------------------------
+首帧垫图：P04_生长态_v1.png（手势局部）
+首帧合成：首帧=画中两只手的图形；尾帧=相连蓝线纹样（同图裁切加工）。
+EN视频提示词：
+Two painted hands reach toward each other; their outlines stretch
+and curve until the fingers become one continuous ribbon of
+cobalt line flowing between tiles, branching like a river.
+Camera: locked macro, morph develops left to right. Audio: theme
+rises, one airy whoosh.
+中文：
+画中两只手彼此伸去；轮廓拉伸、弯曲，指尖化作一条连贯的钴蓝线带
+在瓷格间流动，如河分岔。固定微距，形变自左向右发展。
+声音：主题上扬、一丝气流声。
+
+----------------------------------------------------------------
+S33｜2:31-2:37｜成片6s｜大特写·形变②（声画对位在剪辑层完成）
+----------------------------------------------------------------
+首帧垫图：P04_生长态_v1.png（热气与边框局部）
+首帧合成：首帧=静态纹样；生成素材做呼吸式起伏，鼓点对位靠剪辑。
+EN视频提示词：
+Painted steam curls off a kitchen wick and folds into soft
+scrolling waves along the border; the curves breathe — swelling
+and settling — in a slow steady rhythm. Camera: locked macro.
+Audio: four measured drum beats.
+中文：
+画中的炊烟卷起，折进边框柔和的波纹里；曲线随呼吸起伏——涨起又
+落定——缓慢而匀。固定微距。声音：四记沉稳的鼓。
+（生成"匀速呼吸起伏"即可，与鼓点逐拍对位在剪辑台上完成——比要
+ 求AI"听音乐"可靠百倍。）
+
+----------------------------------------------------------------
+S34｜2:37-2:43｜成片6s｜大特写·形变③
+----------------------------------------------------------------
+首帧垫图：S03_双语街牌_特写态_v2.png（局部）+ P04边框局部
+首帧合成：中文笔画格与葡文花体格左右相对，中间瓷格留白。
+EN视频提示词：
+In one tile square a Chinese stroke grows its final hook; in the
+mirrored square a Portuguese flourish answers with its own curl;
+between them a meander pattern links both grids into one braid.
+Camera: locked macro. Audio: half-phrases of Cantonese and
+Portuguese, faint, as through a wall.
+中文：
+一格瓷格里，一笔中文笔画长出最后的钩；镜像的格里，一道葡文花体
+以自己的卷曲线应答；中间的回纹把两格连成一绺。固定微距。
+声音：粤语葡语各半句，若有若无，像隔着一层墙。
+（文字笔画=后期贴图/手绘素材，AI只负责纹样生长运动。）
+
+----------------------------------------------------------------
+S35｜2:43-2:50｜成片7s｜全景·缓慢横移 Slow Truck
+----------------------------------------------------------------
+首帧垫图：P04_瓷砖画_完成态_v1.png
+首帧合成：完成态为底；脉络层做首尾帧（无→有），分4s+3s两段。
+EN视频提示词：
+Across the finished mural, rivers of cobalt pattern wake and
+flow: they thread street to street, pour through little doorways
+and climb the ornamental border, stitching every painted life
+into one connected blue. Camera: slow lateral truck across the
+artwork. Audio: daytime street sounds flowing in with the blue.
+中文：
+完成的全画之上，钴蓝的纹样之河苏醒流动：穿街过巷，漫进一扇扇小
+门，爬上装饰边框，把画里每个生活缝进同一片蓝。缓慢横移扫过全画。
+声音：白天的街道声随蓝色一同流进画中。
+
+----------------------------------------------------------------
+S36｜2:50-2:56｜成片6s｜特写·固定 Static
+----------------------------------------------------------------
+首帧垫图：P04_瓷砖画_完成态_v1.png（人物密集区局部）
+首帧合成：直用局部。
+EN视频提示词：
+Inside the painting, tiny painted lives begin to move: a wisp of
+steam leans, a flag corner lifts, a figure's chest rises with
+one painted breath — small as insects, alive as neighbors.
+Camera: locked close-up. Audio: street and kitchen sounds now
+indistinguishable from real ones.
+中文：
+画里面，小小的画中生活开始动了：一缕蒸汽倾斜，一角旗子掀起，一
+个小人物的胸口随一次画中的呼吸起伏——小如虫豸，活如街坊。
+固定特写。声音：街道与后厨的声响已与真实的难分彼此。
+
+----------------------------------------------------------------
+S37｜2:56-3:05｜成片9s（全片长镜）｜中景→近景·极缓推
+----------------------------------------------------------------
+首帧垫图：C01_d_暮色凝视侧影_v2.png（选用v2）+ P04完成态挂画侧
+首帧合成：人画同框，人物画右，画占画左背景。
+EN视频提示词：
+The young designer sets his brush down, leans back, and simply
+watches his own painting; his shoulders lower by a degree, he
+closes his eyes for one breath, and when they open, his gaze is
+inside the street of the mural. Camera: very slow push-in over
+the full take. Audio: all street sounds braid together, then
+recede into one held note.
+中文：
+年轻设计师放下笔，靠向椅背，只是看着自己的画；肩膀低了一度，闭
+眼呼吸一次，再睁开时，目光已经走进画中的那条街。整镜极缓推近。
+声音：所有街声交织到最满，然后收进一个延音里。
+（全片表演收束镜：允许同提示词批量3版择优；推近全程不停。）
+
+================================================================
+第五幕 回信：留给下一位创作者的位置（S38-S47，3:05-3:50）
+================================================================
+
+----------------------------------------------------------------
+S38｜3:05-3:10｜成片5s｜全景·缓推 Slow Dolly In
+----------------------------------------------------------------
+首帧垫图：S06_展览现场_夜间态_v1.png + P04_瓷砖画_发光态_v1.png
+首帧合成：发光画替换S06示意画（等比、光晕方向不变），街坊剪影。
+EN视频提示词：
+Night gallery: the glowing mural spills blue-white light onto
+the floor and the shoulders of arriving neighbors; their
+silhouettes drift in ones and twos toward the light. Camera:
+slow dolly-in toward the artwork. Audio: night street, low
+excited murmurs, footsteps on wood.
+中文：
+夜的展厅：发光的瓷砖画把蓝白的光洒在地板和陆续到来的街坊肩上；
+剪影三三两两朝光走去。向画缓推。
+声音：夜街、压低的惊喜低语、木地板脚步。
+（画=P04发光态垫图替换；观众一律剪影/逆光——不给夜间多脸追踪。）
+
+----------------------------------------------------------------
+S39｜3:10-3:15｜成片5s｜中景→近景·跟摇 Follow Pan
+----------------------------------------------------------------
+首帧垫图：C02_a（展览光版本：night blue light）+ C03_c_意外转笑·
+          展览态_v1.png + P04发光态局部
+首帧合成：三人镜——阿乐拉珍姐挤到画前，同事侧影右。
+EN视频提示词：
+The small figure in the ochre-yellow tee pulls a woman in a
+beige top to the mural and points up at the painted kitchen
+doorway, voice bright; she startles still for half a beat, then
+turns and exchanges one look-laugh with the colleague beside
+her. Camera: follow pan onto her face. Audio: one bright child
+line, soft shared laughter.
+中文：
+赭黄短袖的小身影拉着米色上衣的女人挤到画前，指向画中后厨门口，
+声音发亮；她怔了半拍，随即转头与身旁同事交换一个会心的笑。
+跟摇至她的脸。声音：一句清亮童声、轻轻的相视而笑。
+（VO06；珍姐=the woman in the beige top——no apron标签切换。）
+
+----------------------------------------------------------------
+S40｜3:15-3:20｜成片5s｜近景·固定 Static
+----------------------------------------------------------------
+首帧垫图：C04_c_拍肩含笑_v1.png + C05_b_被拍肩侧头转笑_v1.png
+首帧合成：双人近景，画光为唯一光源，两人面向画在画右。
+EN视频提示词：
+The grey-haired coach studies the painted trainee mid-motion,
+smiles to himself, and rests one hand briefly on the ponytailed
+trainee's shoulder — she tips her head toward the hand,
+surprised, then grins. Camera: locked close-up. Audio: applause
+tail, one warm exhale of a laugh.
+中文：
+青灰衣的老师傅端详画中运动里的学员，自己笑了笑，把一只手轻轻搭
+在低马尾学员的肩上停了一拍——她朝那只手偏过头，意外，随即咧嘴
+笑了。固定近景。声音：掌声余韵、一声温和的笑。
+（拍肩=本镜唯一主动作；接触瞬间可0.3秒插入C04_c局部兜底。）
+
+----------------------------------------------------------------
+S41｜3:20-3:24｜成片4s｜全景·固定（声音蒙太奇镜）
+----------------------------------------------------------------
+首帧垫图：S06_展览现场_夜间态_v1.png（含发光画）+ 前景观众剪影
+首帧合成：剪影姿态与画中人物姿态无意重合（扶门对扶门、递盘对递盘）。
+EN视频提示词：
+Gallery wide: silhouetted neighbors stand before the glowing
+mural, and their postures rhyme with the painted figures — one
+leans like the door-holder, another reaches like the
+plate-passer; both worlds sway gently together. Camera: locked
+wide. Audio: daytime street sounds weaving into live conversation.
+中文：
+展厅全景：剪影的街坊站在发光的画前，姿态与画中人押韵——一个像
+扶门者那样倾身，一个像递盘者那样伸手；两个世界轻轻一起晃动。
+固定全景。声音：白天的街道声与现场交谈渐渐织在一起。
+
+----------------------------------------------------------------
+S42｜3:24-3:28｜成片4s｜近景·俯拍 High Angle
+----------------------------------------------------------------
+首帧垫图：C02_c（俯拍版本：high angle, pointing at blank square）
+          + P06_方形画纸_空白态_v1.png + S06局部
+首帧合成：俯角，阿乐指向画旁空白方格纸。
+EN视频提示词：
+From above, the small figure in the ochre-yellow tee discovers
+the one blank square beside the glowing mural; he taps it twice,
+looks up, and states one short line. Camera: locked high-angle
+close. Audio: two fingertip taps, one clear child line.
+中文：
+俯视：赭黄短袖的小身影发现了发光画作旁唯一的空白方格；他点了两
+下，抬头，说了一句短话。固定俯角近景。
+声音：两下指尖轻点、一句清亮童声。
+（VO07；俯拍=成人视线看孩子，与S11低角度对照——视角让渡。）
+
+----------------------------------------------------------------
+S43｜3:28-3:32｜成片4s｜中景·固定 Static
+----------------------------------------------------------------
+首帧垫图：C01_c_蹲姿平视递笔_v1.png + C02（受笔姿态）
+首帧合成：蹲姿平视双人构图，蓝笔在两手之间传递的中点。
+EN视频提示词：
+The young designer crouches to child eye-level and offers the
+blue brush with both hands; he waits — not handing it fully
+over — until the small fingers rise to meet his. Camera: locked
+medium two-shot. Audio: one slow Cantonese line, brush passed.
+中文：
+年轻设计师蹲到孩子的视线高度，双手把蓝色画笔递过去；他等着——
+没有完全撒手——直到小小的手指抬起来接住。固定双人中景。
+声音：一句放慢的粤语、笔的交接。
+（VO08；本镜构图=S10"弯腰俯就"的升级：从俯就到平视。）
+
+----------------------------------------------------------------
+S44｜3:32-3:39｜成片7s｜特写→大特写·垂直俯拍 Overhead（拆4s+3s）
+----------------------------------------------------------------
+首帧垫图：C02_d_趴地画画_v1.png + P06_阿乐的画_无框递画版_v1.png
+首帧合成：俯拍趴画姿势；画纸内容用P06完成态替换进展。
+EN视频提示词：
+Flat on the floor, the small figure draws with total
+concentration: a young man holding a sketchbook drawn far too
+big for his body, wobbly cobalt strokes, confident; he adds one
+last line, then lifts his head and points at the designer,
+one-sided grin. Camera: locked overhead, then tighten. Audio:
+crayon-bright brush strokes, one proud child line.
+中文：
+趴在地上，小身影全神贯注地画：一个抱着画本的年轻人，画本画得远
+比身体大，线条歪而肯定；添完最后一笔，他抬头指向设计师，单侧嘴
+角一翘。固定俯拍，随后收紧。声音：蜡笔质感的笔触、一句小得意的
+童声。
+（VO09；"画本特别大"=人物小传伏笔兑现，P06道具已备。）
+
+----------------------------------------------------------------
+S45｜3:39-3:44｜成片5s｜近景·固定 Static
+----------------------------------------------------------------
+首帧垫图：C01_a（接画版本：taking a small drawing with both
+          hands）+ P06_阿乐的画_完成态_v1.png
+首帧合成：双手接画的近景，画纸朝镜头可见稚拙笔迹。
+EN视频提示词：
+The young designer takes the child's drawing with both hands and
+studies it — the oversized sketchbook, the posture exactly his;
+one blink, then the smile arrives on one side first, both sides
+second, and he nods once. Camera: locked close-up. Audio: paper
+held, breath released.
+中文：
+年轻设计师双手接过孩子的画，端详——画本大得夸张，姿势却准是他；
+一眨眼，笑容先到单侧再到两侧，他点了一下头。固定近景。
+声音：纸的轻响、一口松开的呼吸。
+
+----------------------------------------------------------------
+S46｜3:44-3:47｜成片3s｜大特写·急速拉出 Pull Back（首尾帧模式）
+----------------------------------------------------------------
+首帧垫图：P04完成态与P06完成态并排，接缝区放大
+首帧合成：首帧=两条蓝线隔缝相望；尾帧=两线相接成一笔。
+EN视频提示词：
+At the seam between the two artworks, the mural's blue line and
+the child's blue line reach toward each other across the gap and
+touch — one stroke now, breathing together. Camera: quick pull
+back from the seam. Audio: one clear porcelain chime.
+中文：
+两幅作品的接缝处，画中的蓝线与孩子的蓝线隔着空隙彼此伸过去，碰
+上——从此一笔，一同呼吸。从接缝处急速拉出。
+声音：一声清亮的瓷鸣。
+
+----------------------------------------------------------------
+S47｜3:47-3:50｜成片3s｜全景定格·缓慢升 Crane Up
+----------------------------------------------------------------
+首帧垫图：S06_展览现场_夜间态_v1.png（含发光画+P06挂位）
+首帧合成：画与人群同框全景；落款字幕后期贴（两行居中）。
+EN视频提示词：
+The gallery holds its people and its glowing paintings in one
+frame; camera rises slowly, the blue light softening as it
+recedes, and the room settles into stillness. Camera: slow crane
+up, final frame holds. Audio: theme's last resolving phrase, one
+far drum.
+中文：
+展厅把人群与发光的画装进同一框；镜头缓缓升起，蓝光随退远而柔下
+来，整个空间安静下来。缓慢升镜，末帧定格。
+声音：主题最后一次解决的乐句、一记远鼓。
+（落款字幕后期贴：写给未来的澳门。/回信人：生活在这里的我们。
+ 末鼓与S05埋下的鼓动机首尾闭环。）
+
+================================================================
+附录一：危险镜头与预案总表
+================================================================
+手部特写镜（S04悬停/S05三连/S08/S21/S25/S27/S43/S44）：R01手部
+ 垫图未拍前，一律用定妆图/P02/P01局部裁切垫图替代；接触瞬间加
+ 0.3-0.5秒插入特写；镜长≤3秒侧逆光。
+多人物镜（S07/S10/S19/S21/S39/S40/S43）：追踪脸≤2张，第三人
+ 剪影/背影/虚化；群像镜（S26/S38/S41）全剪影层。
+门与入口几何（S22/S20）：门开方向在首帧里锁定，运动块只写
+ door swings open，不写反向。
+形变镜（S05/S32/S33/S34/S35/S46）：全部首尾帧模式；形变方向
+ 统一自左向右；失败预案=降低形变幅度（线到线，不到形）。
+文字（S03/S18/S34/S47）：留白后期贴，AI永不生成文字。
+
+附录二：本集与前序文档的对应
+================================================================
+镜号/时码/剧情：《00_文档/03_分镜剧本_V2.txt》
+每镜资产出处：本文件"首帧垫图"行（精确文件名，选用版本已标注：
+ C01_d与S03/S04/S05/S04门口用v2）
+音频挂点：《00_文档/18_音频资产库_生成提示词.txt》（M/SFX/VO编号）
+资产状态：《00_文档/05_资产状态清单.txt》
+未决前置：R01手部垫图9式（09_参考素材/04_垫图素材/R01_手部/）
+
+（V1.0 全47镜完 · 2026-10-25 · 编制：ZCode×GPT工作流）

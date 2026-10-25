@@ -1,7 +1,16 @@
 ================================================================
-《蓝的回信》分镜头剧本 V3.0（全片 3:50 / 47镜 · 全息提示词·十维标准）
+《蓝的回信》分镜头剧本 V3.2（全片 3:50 / 47镜 · 三层提示词体系）
 ================================================================
-版本历史：V3.1 2026-10-25 首产诊断修正+全量复审：S03/S04首产
+版本历史：V3.2 2026-10-25 第二版样片诊断（时序一致性）：逐帧量化
+          证实用"全画面重绘"（人物镜0.25秒级MAD 13-33）。六根因：
+          提示词过载/运动源过多/无静止锚/跨镜风格链不统一/道具
+          角色保真未锁/平台封装与压缩。核心改动：三层提示词体系
+          （制作卡/短提示词/负面块）；前缀块压缩至约50词并加
+          [NEGATIVE]；纪律新增运动预算律+提示词长度律（≤80词/
+          ≤150字）；人物镜幅度统一降为medium（25镜）；静物镜改
+          单运动源；S03/S04/S13/S05/S21/S37六镜出短提示词；S37
+          删搁笔改5s+延长；新增附六。
+          V3.1 2026-10-25 首产诊断修正+全量复审：S03/S04首产
           19秒复核否决，五根因确诊（首帧平面化/微动作冻结/风格
           中间态/一致性机制未用/生成档位浪费）。新增附五全局修正
           案+运动密度铁律+命名风格锚+S03/S04提示词重制。复审补：
@@ -45,63 +54,71 @@
    镜头一律用5秒档生成（运动密度高一倍，废片率低）；成片6-9秒的
    镜头用10秒档，但全部拍点必须前置到素材0-6秒内完成，尾段只留
    持稳。成片仍掐头去尾各0.5秒。10秒红线（成片≤9秒）不变。
-2. 运动密度律（V3.1新增，违反任何一条=废片）：每镜必含——
-   ①一个主导动作：10米外肉眼可见级别的位移（转身/递物/推纸/
-   鸽群横穿/开门），微动作（眨眼/呼吸/1mm纸颤）只允许作为辅助
-   层，不允许作为唯一动作；主导动作一律中低速+连续（模型本质是
-   帧间插值——越快越大的动作"猜错"概率越高；需要快动作时拆段
-   生成或降速0.5x，绝不一条提示词硬写急动作）；
-   ②一层持续环境运动：尘埃/蒸汽/光斑/布料/发丝，从第0秒持续到
-   最后1秒不断；
-   ③镜头运动与主体动作至少占其二（固定机头镜必须由①+②补足）；
-   ④平台"运动幅度"参数设中或高（即梦：运动幅度中高；可灵：高），
-   同一提示词最少重roll 3版择优；
-   ⑤生成后逐秒目检：任意连续1秒内，画面必须存在可见变化；冻结
-   超过1.5秒=废片。
-3. 一镜一动作：每镜只写一个主动作+至多两个次动作；复杂交互拆镜。
-4. 双对比切换律：相邻两镜必须同时改变[景别]与[运镜性质]
+2. 运动预算律（V3.2重写，替代V3.1运动密度律；违反=废片）——
+   核心：运动源越少越稳，模型把没被约束的部分全当可重绘区。
+   ①主导动作恰1个：中低速+连续+单向，10米外可见（转身/递物/推纸/
+     鸽群横穿/开门）；微动作只作辅助，不得作唯一动作；急动作拆段
+     或0.5x，绝不一条提示词硬写。
+   ②环境层最多1层：尘埃/蒸汽/光斑选其一，从第0秒持续到最后1秒。
+   ③运动源预算：人物镜≤2（主导动作+1环境层，或主导动作+镜头移动）；
+     静物/道具镜=1（推镜与光斑扫过二选一）；禁止"镜头+主体+环境"
+     三源同动——第二版样片S03四源同动（推镜+扫光+纸颤+尘埃）导致
+     全画面重绘，即此症。
+   ④幅度参数：人物镜=中；空景/道具/形变镜=中高。人物镜拉高
+     幅度=必形变换脸。同提示词重roll≥3择优。
+   ⑤逐秒目检：任意连续1秒内必须有可见变化；冻结>1.5秒=废片；
+     反过来"四象限全在变"（0.25秒级MAD>10）=重绘废片，见附六。
+3. 提示词长度律（V3.2新增）——官方口径：中文30-80字最稳，200字
+   开始顾此失彼；本集V3.0十维块400-500词，严重超载，模型每帧
+   随机挑几条执行=逐帧重绘。铁律：
+   ①贴进生成器的提示词 ≤80英文词 / ≤150中文字（含前缀块）；
+   ②只写八件事：主体·一个动作·一个环境层·光位·镜头一句·
+     风格锚一句·静止锚一句·结束状态；
+   ③十维块是"制作卡"，给人读，不粘贴；
+   ④超长的砍法顺序：材质细节→次要动作→氛围形容→运镜修饰。
+4. 一镜一动作：主导作1个+辅助作至多1个；禁"然后/接着/最后"式
+   多段流程（模型会把多段叠进同一帧）；多动作=拆镜或留后期。
+5. 双对比切换律：相邻两镜必须同时改变[景别]与[运镜性质]
    （固定/跟移/手持/环绕/推拉 属不同性质）。
-5. 同镜人物≤3：群像镜头（S21后厨/S26广场）用中远景+剪影+手部
+6. 同镜人物≤3：群像镜头（S21后厨/S26广场）用中远景+剪影+手部
    特写插入解决，不给AI超过3张需要追踪的脸。
-6. 文字三不：街牌、邀请函、落款文字一律后期贴字，不交给AI生成。
-7. 台词上限：单镜台词≤15字（10秒内两句话的极限）。
-8. 年龄盲区：视频提示词中不写"8岁男孩"，用"穿赭黄色短袖的小身
+7. 文字三不：街牌、邀请函、落款文字一律后期贴字，不交给AI生成。
+8. 台词上限：单镜台词≤15字（10秒内两句话的极限）。
+9. 年龄盲区：视频提示词中不写"8岁男孩"，用"穿赭黄色短袖的小身
    影"按服装+动作+角色描述（防止漂移与内容过滤）。
-9. 表演总则（来自人物小传）：阿澄前期先看作品再看人，后期先看
+10. 表演总则（来自人物小传）：阿澄前期先看作品再看人，后期先看
    人的动作再动笔；思考=拇指摩挲画本边缘；珍姐递盘前先找眼神；
    成叔=停/看/教/等/点头五拍；阿敏受挫抿嘴调呼吸再站回原位。
 
-统一前缀块（每条英文视频提示词开头逐字粘贴；中文提示词配中文块）
-（V3.1：新增②风格锚与③运动指令两段——首帧垫图只锁内容与构图，
- 风格与"活感"必须由前缀块文本压住，两段不可删）
+统一前缀块（每条提示词开头粘贴；V3.2压缩——原长版已超模型
+指令容量，长版降级为"制作卡"，见附六·三）
 ----------------------------------------------------------------
-[EN PREFIX]
-Semi-realistic 2D animation in the style of modern Japanese theatrical
-animation films — Makoto Shinkai-grade lighting and background art,
-Studio Ghibli palette restraint, clean uniform-weight linework, soft
-flat cel-shading, muted cobalt-blue and warm-white palette, restrained
-warm accents only on people and everyday objects.
-Single motivated light source, fixed light direction, visible light
-path (dust motes / soft glow bloom) in every interior shot. Depth in
-three planes: soft-occluded foreground, sharp subject, softly blurred
-background. Characters always alive: breathing, blinking, subtle
-weight shifts. Gravity and inertia respected, correct contact shadows,
-steam and cloth move with real physics. Motion amplitude medium-high:
-every second of footage contains clearly visible movement of subject
-or environment — never a frozen frame. 24fps cinematic cadence.
-Consistent characters, wardrobe, props and background across cuts, no
-identity drift. NO TEXT, NO LOGO, NO WATERMARK.
+[EN PREFIX · 视频用短版，约50词]
+Modern Japanese theatrical 2D animation: Shinkai-grade light,
+Ghibli-restrained palette, clean linework, matte cel shading,
+cobalt-blue and warm-white. One motivated light, fixed direction.
+Everything not named stays still: subject, props, background layout,
+light direction. No flicker, no morphing, no texture crawl.
+NO TEXT, NO LOGO, NO WATERMARK.
 
-[中文前缀块（即梦）]
-半写实二维动画，现代日本剧场动画电影风格——新海诚级光影与背景
-美术，吉卜力式克制的配色，均匀线宽干净线稿，柔和扁平赛璐璐上色，
-低饱和钴蓝与暖白主色，暖色只出现在人物与生活物件上。单一动机
-光源、方向固定，室内镜必须有可见光路（尘埃浮粒/柔光晕）。景深
-三段式：前景虚化遮挡、主体清晰、背景柔虚。人物始终有微动作：
-呼吸、眨眼、重心微移。重力惯性成立，接触阴影正确，蒸汽与布料有
-真实运动。运动幅度中高：每一秒画面都有主体或环境的明显可见运动，
-绝不出现冻结帧。24帧电影节奏。人物服装道具背景跨镜头一致，无外
-貌漂移。画面无文字、无标志、无水印。
+[CN PREFIX · 视频用短版，约70字]
+现代日本剧场二维动画：新海诚级光影、吉卜力式克制配色，干净线稿、
+哑光赛璐璐，钴蓝与暖白。单一动机光源，方向固定。除点名的运动外，
+人物、道具、背景关系与光照全部保持稳定：
+不闪烁、不形变、不纹理蠕动。画面无文字、无标志、无水印。
+
+[NEGATIVE · 视频用负面块（可灵有2500字负向框；即梦/小云雀填在负向或末尾）]
+EN: flickering, shimmering, morphing, warping, texture crawl, global
+drift, identity change, changing background layout, lighting shift,
+extra fingers, deformed hands, floating objects, duplicated props,
+text, logo, watermark, plastic skin, over-sharpened, glossy sheen
+CN: 闪烁、流光抖动、形变、扭曲、纹理蠕动、整体漂移、换脸、背景布局
+变化、光照跳变、多余手指、手部畸形、物体悬空、道具重影、文字、标志、
+水印、塑料皮肤、过度锐化、油亮高光
+
+（V3.2说明：原110词长前缀+十维块合计400-500词，超过官方建议的
+"中文30-80字最稳、200字顾此失彼"，是第二版样片逐帧重绘的主因
+之一。长版保留作人读制作卡，不再粘贴进生成器。）
 
 角色速记标签（提示词中用标签指代，身份靠首帧垫图锁定；年龄词禁用）
 ----------------------------------------------------------------
@@ -248,7 +265,7 @@ S02｜0:05-0:10｜5秒｜全景(WS)｜固定 Static
 AI要点（V3 全息提示词）：
 【垫图】S01_艺术空间_昼态_v1.png（environment only）+ C01_a_立姿持信_v1.png（100% matches the reference）+ P07_邀请函_留白版_v1.png
 【EN·全息版】
-SHOT S02 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V, character ref + location ref · motion amplitude medium-high · subject reference chain
+SHOT S02 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V, character ref + location ref · motion amplitude medium · subject reference chain
 INTENT: a man who still relates to paper before people — the letter finishes him, not the room.
 FRAME: 63° FOV; designer stands on right third, x=62-70%; tall window upper-left pours a light shaft crossing mid-frame; letter held low, head tilted down toward its last line; dust motes occupy the shaft between camera and subject.
 CAMERA: locked static, zero movement, NO handheld shake — stillness reads as reverence. NO push, NO drift.
@@ -279,22 +296,26 @@ AI要点（V3 全息提示词 · V3.1按附五重制）：
  纸面右侧1/3沉入阴影，压印线条带可见浮雕阴影；纸外四角虚化（景深
  三段式）；桌面压暗，纸是唯一亮面；火漆钴蓝为唯一饱和点。留白区
  保持空白（文字后期贴）。过不了附五·三目检不放行。
-【EN·全息版】
+【EN·全息版】（V3.2：此块为制作卡，人读，不粘贴进生成器）
 SHOT S03 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V single prop ref · motion amplitude medium-high
 INTENT: the invitation as an object of ceremony — light itself reads the card before any person does.
-FRAME: top-down macro, card fills 80% frame slightly rotated 3°; window light rakes in from upper-left at ~35°, right third of the card falling into soft shadow; wax seal lower-right quadrant; blank text area center-left; tabletop corners melt into blur — depth in three planes.
-CAMERA: slow push-in toward the blank text area, ~8% width over 3s, constant rate. NO rotation, NO drift, NO parallax swing.
+FRAME: top-down macro, card fills 80% frame slightly rotated 3°; window light rakes in from upper-left at ~35°, right third of the card falling into soft shadow; wax seal lower-right quadrant; blank text area center-left; tabletop corners melt into blur.
+CAMERA: LOCKED, zero movement — NO push, NO drift, NO rotation, NO parallax. A static object must not get a moving camera (V3.2 单运动源).
 IDENTITY/STATE: card cream texture, emboss depth and seal color locked to P07; text area stays BLANK ceramic-clean.
-AMBIENT & COLOR: single motivated window key upper-left; warm dust motes drift continuously through the light path across the whole shot; seal's cobalt is the only saturated point.
-PHASE 1 (0-1s, 1x): a soft light patch sweeps slowly across the card from left to right, visibly traveling ~30% of frame width; emboss shadows stretch and relax as it passes; dust motes stream through the beam nonstop.
-PHASE 2 (1-2s, 1x): the paper's near edge lifts ~3mm in one visible breath and settles flat; the light patch keeps traveling right.
-PHASE 3 (2-3s, 1x): the sweep arrives at the wax seal and becomes a specular highlight that holds; dust keeps drifting; the card is still.
-MOTION HIERARCHY — subject: edge lift 3mm · internal: none · camera: push-in 8% · environment: traveling light patch (the dominant action), continuous dust stream.
-LOCK: NO text appears anywhere; seal does not melt or bloom; card never rotates beyond the initial 3°; light patch never flickers — it travels at constant speed.
-FINAL FRAME: blank text area marginally closer, seal holding its highlight, dust still in the beam.
+AMBIENT & COLOR: single motivated window key upper-left; no dust layer in this shot (light sweep is the only moving element).
+PHASE 1 (0-1.2s, 1x): one soft light patch enters frame-left and travels slowly right across the card, covering ~30% of frame width; embossed shadows stretch and ease as it passes.
+PHASE 2 (1.2-2.2s, 1x): the patch keeps its constant speed, crossing the pressed lines; their shadow depth visibly deepens then relaxes.
+PHASE 3 (2.2-3s, 1x): the patch reaches the wax seal and becomes a held specular highlight; the light stops; card is still.
+MOTION HIERARCHY — one motion source only: the traveling light patch. Camera: none. Subject: none.
+STATIC ANCHORS (must not change): card corners and rotation, seal shape and position, table wood grain, shadow direction.
+LOCK: NO text anywhere; seal does not melt or bloom; no book, no page stack, no ribbon, no spine — it is a single folded CARD; no dust; no flicker.
+FINAL FRAME: seal holding its highlight, card unchanged, everything still.
 SFX: two soft paper ticks; near-silence under.
-【CN·对照】意图：光替人先读这张请柬。俯拍微距，窗光35°左上掠入，右1/3落影，四角虚化。生成5秒档，运动幅度中高。缓推8%宽/3秒。拍点：0-1光斑从左往右扫过约30%画面宽（主导动作，压印阴影随之伸缩）+尘埃全程不断→1-2纸缘可见地掀起3毫米落回→2-3光斑走到火漆定住成高光。锁：任何文字都不出现、光斑匀速不闪烁。声：两声纸轻响。
-【风险预案】AI自加字→局部重绘擦除（文字铁律）；扫光不执行→光斑行前置到CAMERA之后第一句重roll；5秒档仍近冻结→运动幅度拉高+尘埃描述加倍
+【生成用短提示词·粘贴这个（S03）】
+CN（约120字）：俯拍微距：一张对折的米白请柬平放在木桌上，右下角一枚钴蓝火漆印章，左中留白。窗光从左上斜入，一道柔和光斑从左向右缓缓扫过纸面，压印的凹线阴影随之伸缩，最后停在火漆上。机位完全固定。纸角、印章形状与位置、桌面木纹、影子方向始终不变。哑光纸面，画面无文字。
+EN（约65词）：Top-down macro: one folded cream invitation card flat on a wooden table, a cobalt wax seal at lower-right, blank area centre-left. Window light from upper-left; one soft light patch travels slowly left to right across the card, embossed shadows stretching and easing, then settles on the seal. Locked camera. Card corners, seal shape and position, table grain and shadow direction never change. Matte paper, no text.
+负向必加：book, page stack, ribbon, spine, text, rotation, morphing
+【风险预案】AI自加字→局部重绘擦除（文字铁律）；生成成书本→负向book/page stack/ribbon必加+重roll；扫光不执行→扫光句挪到镜头句前；出现推镜→CAMERA的LOCKED句前置
 
 ----------------------------------------------------------------
 S04｜0:13-0:19｜6秒｜中近景(MCU)｜手持微晃 Handheld
@@ -315,22 +336,26 @@ AI要点（V3 全息提示词 · V3.1按附五重制）：
  窗光左上切入打亮面部受光侧（评估确认侧面光可掩盖面部立体度不
  足，保留）；背景瓷砖纹样整体降对比+轻微虚化，工作台前景一角虚
  化入画；手与笔初始状态=笔已握在手中悬于纸上，不画接触帧。
-【EN·全息版】
-SHOT S04 · cut 6s · gen 10s (all beats inside first 6s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V + multi-image subject reference · motion amplitude medium-high
+【EN·全息版】（V3.2：此块为制作卡，人读，不粘贴进生成器）
+SHOT S04 · cut 6s · gen 10s (all beats inside first 6s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V + multi-image subject reference · motion amplitude medium
 INTENT: the ritual before the first stroke — a man arranging the world he can control.
 FRAME: 47° FOV medium close-up; subject seated center-right, body in 3/4 view facing left; open sketchbook occupies lower third, spine horizontal; window light rakes from left edge across his lit cheek and the page; background tile pattern low-contrast, softly blurred; foreground table corner melts into blur bottom-left.
-CAMERA: gentle handheld breathing, sway amplitude under 1% frame width; NO push, NO track. The life in the frame is his, not the camera's.
+CAMERA: LOCKED, zero movement — no handheld sway, no push. V3.2：手持微晃同样算运动源，人物镜预算只留2个，砍掉微晃换稳定。
 IDENTITY/STATE: C01_b locked via subject reference — grey-blue shirt, off-white inner, side-parted black hair, same face as reference in every frame; sleeves half-rolled; brush is the P02 navy pen-brush with cobalt tip, held in his right hand from frame one.
 AMBIENT & COLOR: cool morning key from left; page warm-white is the brightest value; brush tip's cobalt the only saturated note; dust motes drift through the light rake continuously, the whole shot, never stopping.
-PHASE 1 (0-2s, 1x): he settles onto the stool with a visible exhale — shoulders drop, weight shifts, chair creaks; his gaze stays on the page.
-PHASE 2 (2-4s, 1x): his left palm smooths the open page flat in one unhurried pass corner-to-corner (~1.5s, seen from the back of his hand, no finger detail demand); right hand rolls its sleeve one more turn.
-PHASE 3 (4-6s, 1x): brush tip lowers to two centimeters above the paper and hovers — does NOT touch; head leans in three degrees; eyes narrow slightly; dust keeps streaming in the beam.
-MOTION HIERARCHY — subject: settle+exhale, palm pass, sleeve roll, hover+lean (dominant) · internal: breath, eye-narrow · camera: breathing sway · environment: continuous dust stream in the rake light.
-LOCK: brush NEVER touches paper (contact is S05's job); no ink drop; page stays blank; face identical to C01_b in every frame; background tiles never sharpen or crawl.
+PHASE 1 (0-2s, 1x): DOMINANT — he settles onto the stool with a visible exhale: shoulders drop, weight shifts, the chair gives; his gaze stays on the page.
+PHASE 2 (2-4s, 1x): SECONDARY — his left palm smooths the open page once, corner to corner (~1.5s), seen from the back of the hand, no finger detail demanded.
+PHASE 3 (4-6s, 1x): end state only, no new action — his hand comes to rest and the brush settles to hover two centimetres above the paper; head leans in three degrees; dust keeps drifting.
+MOTION HIERARCHY — subject: settle+exhale (dominant), palm pass (secondary), brush settling to hover (end state) · camera: none · environment: single dust layer in the rake light.
+STATIC ANCHORS (must not change): bookshelf right, wall tile pattern, cup and water-glass positions, light direction, book flat on the table.
+LOCK: the book NEVER lifts off the table; no sleeve roll; no standing, no turning; brush NEVER touches paper (contact is S05's job); no ink drop; page stays blank; face identical to C01_b in every frame; background tiles never sharpen or crawl; no new props appear.
 FINAL FRAME: brush suspended, its shadow touching the page where the real tip does not, dust between lens and light.
 SFX: chair creak at 0.5s; cotton page under palm ~2.5s; held breath at 5s.
-【CN·对照】意图：落笔前的仪式。47°中近景，3/4侧身朝左，窗光左上切入，背景瓷砖降对比虚化，前景桌角虚化。手持微颤<1%画面宽。可灵多图参考或即梦主体参考挂C01_b定妆图。运动幅度中高。拍点（全部在素材0-6秒内）：0-2落座呼气肩沉→2-4手掌一遍压平画本（手背视角）+右袖再卷一折→4-6笔悬2厘米不落+头前倾3度+眯眼；尘埃全程不断。锁：笔绝不触纸、纸空白、每帧脸=C01_b、背景瓷砖不游动。声：椅响、纸页、屏息。
-【风险预案】悬停手崩→改拍手指背面侧逆光/垫R01-r1；脸漂→多图参考重挂+硬门比对3版；背景瓷砖闪烁→首帧再降对比重制；6秒后尾段多余动作→剪辑掐尾即可
+【生成用短提示词·粘贴这个（S04）】
+CN（约140字）：中近景，3/4侧身朝左坐着的年轻设计师，灰蓝衬衫、米白内搭、黑色侧分短发，脸与定妆图完全一致。桌上摊开的米色画本始终平放不动。他呼气落座、肩沉，随后右手掌心从画本左上角抹到右下角把纸页压平；笔悬在纸上方两厘米，不接触。窗光从左侧切入，尘埃在光里缓慢飘。机位固定。背景书架、墙上瓷砖纹样、杯子位置不变。
+EN（约72词）：Medium close-up, designer seated in 3/4 facing left: grey-blue shirt, off-white inner, side-parted black hair, face identical to the reference. The open sketchbook stays flat on the table the whole shot. He settles with a visible exhale, shoulders dropping, then his right palm smooths the page once from upper-left to lower-right; a pen hovers two centimetres above the paper, never touching. Window light from left, dust drifting. Locked camera. Bookshelf, wall tiles and cup positions unchanged.
+负向必加：book lifted, book leaving table, sleeve roll, standing up, background re-layout, extra props
+【风险预案】悬停手崩→改拍手指背面侧逆光/垫R01-r1；脸漂→多图参考重挂+硬门比对3版；背景瓷砖闪烁→首帧再降对比重制；出现举本或换动作→负向book lifted必加后重roll；6秒后尾段多余动作→剪辑掐尾即可
 
 ----------------------------------------------------------------
 S05｜0:19-0:25｜6秒｜特写序列(Insert)｜三段快切
@@ -402,7 +427,7 @@ S07｜0:28-0:32｜4秒｜中景(MS)｜固定 Static（门口侧拍）
 AI要点（V3 全息提示词）：
 【垫图】S01昼态v1（environment only）+ C02_a_提饭盒站姿_v1.png（100% matches）+ C01_b（画架前背影参考）+ P01_饭盒_多视图_v1.png
 【EN·全息版】
-SHOT S07 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two char refs + location · motion amplitude medium-high · subject reference chain
+SHOT S07 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two char refs + location · motion amplitude medium · subject reference chain
 INTENT: warm daily life walks into a cold tidy room — the first heat of the film.
 FRAME: 63° FOV two-shot from doorway side; Alo foreground-left walking in, full body, face toward easel; designer mid-right seen from behind-profile, brush moving; lunchbox arc lands table corner lower-left.
 CAMERA: locked static; NO pan following the child — let him cross the fixed frame; handheld OFF (contrast to S04's life).
@@ -462,7 +487,7 @@ S09｜0:35-0:39｜4秒｜中景(MS)｜过肩 OTS（越阿乐肩看画）
 AI要点（V3 全息提示词）：
 【垫图】C02_b_前探指画_v1.png（100% matches）+ P03_初稿地标版_v1.png（过肩位）
 【EN·全息版】
-SHOT S09 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V over-shoulder · motion amplitude medium-high · subject reference chain
+SHOT S09 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V over-shoulder · motion amplitude medium · subject reference chain
 INTENT: a child searches a map of a city he actually lives in — and the map fails him.
 FRAME: 47° OTS; Alo's head and right shoulder soft-foreground lower-left (~30% frame); mural fills the rest, its street band at his eye-line; his index finger hovers above lower-left tile.
 CAMERA: locked; NO reframe; his search moves, not the frame.
@@ -490,7 +515,7 @@ S10｜0:39-0:42｜3秒｜双人近景(Two-Shot CU)｜缓推 Push In
 AI要点（V3 全息提示词）：
 【垫图】C01_a（弯腰变体：bending forward at the waist）+ C02_b + P03
 【EN·全息版】
-SHOT S10 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium-high · subject reference chain
+SHOT S10 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: the adult's best answer — accurate, and beside the point.
 FRAME: 47° two-shot; designer bends from waist entering left, his pointing hand reaching the mural's mid band; child right, smaller, looking up-then-across; shoulder lines one high one low.
 CAMERA: slow push-in, ~4% width over 3s, gathering both faces; NO tilt.
@@ -518,7 +543,7 @@ S11｜0:42-0:45｜3秒｜近景(CU)｜低角度固定 Low-Angle Static
 AI要点（V3 全息提示词）：
 【垫图】C02_c_仰头直视_v1.png（100% matches the reference）
 【EN·全息版】
-SHOT S11 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S11 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: from the child's height, the grown-up's answer is a cliff face.
 FRAME: 29° low-angle close from child eye-height; adult's shoulder blur upper-edge; the child's whole face owns the frame; light from window finds one catch-light in his eyes.
 CAMERA: locked; height IS the statement — NO crane, NO push.
@@ -546,7 +571,7 @@ S12｜0:45-0:49｜4秒｜特写快切(ECU+CU)
 AI要点（V3 全息提示词）：
 【垫图】子镜①P03_d1_小门_v1.png（100% matches）／子镜②C02_c（摇头变体）
 【EN·全息版】
-SHOT S12 · cut 4s = insert① 2s + close② 2s, hard cut · gen each 5s · 16:9 · motion amplitude medium-high · subject reference chain
+SHOT S12 · cut 4s = insert① 2s + close② 2s, hard cut · gen each 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: the tidy little door — technically present, entirely wrong.
 FRAME ①: 18° insert; the painted shop door fills frame, shut, its seam lightless. FRAME ②: 29° close on Alo, head neutral about to shake.
 CAMERA: both locked; NO movement in either — facts, stated plainly.
@@ -572,7 +597,7 @@ S13｜0:49-0:53｜4秒｜近景(CU)｜极缓推 Very Slow Push In
 AI要点（V3 全息提示词）：
 【垫图】C02_c_仰头直视_v1.png（100% matches the reference）——全片题眼，允许同提示词批量3-5版硬门择优
 【EN·全息版】
-SHOT S13 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S13 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the film's question, asked at the exact speed of meaning.
 FRAME: 29° close; head-room generous above him (the question needs sky); his eyes lock above-lens where the adult stands; single catch-light from window left.
 CAMERA: very slow push-in, ~2% frame width PER SECOND, constant, no easing — a held breath closing distance. NO tilt, NO orbit, NO handheld.
@@ -599,7 +624,7 @@ S14｜0:53-0:56｜3秒｜近景(CU)｜固定 Static
 AI要点（V3 全息提示词）：
 【垫图】C01_b（困惑变体：thumb rubbing sketchbook edge, gaze dropping）+ P02 + P01
 【EN·全息版】
-SHOT S14 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S14 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: no answer — the question lands in the hands instead of the mouth.
 FRAME: 29° close; thumb resting at sketchbook edge lower-left of frame; lunchbox blurred at table corner lower-right (the destination of his falling gaze); light unchanged from S02/S04 (continuity of day).
 CAMERA: locked; the camera gives him privacy — NO push into his face.
@@ -684,7 +709,7 @@ S17｜1:00-1:05｜5秒｜全景(WS)｜侧面跟移 Tracking
 AI要点（V3 全息提示词）：
 【垫图】S02_瓷砖街巷_晨光态_v1.png（environment only）+ C01_e_提袋行走_v1.png（100% matches）+ P01（布袋露一角）
 【EN·全息版】
-SHOT S17 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V char + location · motion amplitude medium-high · subject reference chain
+SHOT S17 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V char + location · motion amplitude medium · subject reference chain
 INTENT: the same street he has walked a hundred times — walked for the first time.
 FRAME: 63° lateral; designer at right third x=62-70%, walking toward frame-right; colonnade posts passing foreground as rhythm; street's vanishing point glow far ahead.
 CAMERA: lateral tracking right matching his pace (~1.4 steps/s), FULL 5s, constant; NO push, NO orbit; posts wipe the frame like a metronome.
@@ -712,7 +737,7 @@ S18｜1:05-1:09｜4秒｜特写(CU)｜上摇 Tilt Up
 AI要点（V3 全息提示词）：
 【垫图】S03_双语街牌_特写态_v2.png（environment only）+ C06_a（尾帧探头参考）
 【EN·全息版】
-SHOT S18 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V, single tilt · motion amplitude medium-high · subject reference chain
+SHOT S18 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V, single tilt · motion amplitude medium · subject reference chain
 INTENT: the street's name plate — two languages sharing one ceramic body.
 FRAME: starts 84° on cobblestones filling frame; ends 29° with the bilingual plate dominant, blank text zones clean; shopkeeper's shoulder+head entering lower-right at the end.
 CAMERA: ONE continuous tilt-up, ~40° arc over 4s, constant speed; NO zoom compensation, NO pan — the plate grows by camera geometry alone.
@@ -740,7 +765,7 @@ S19｜1:09-1:15｜6秒｜中景(MS)｜固定 Static
 AI要点（V3 全息提示词）：
 【垫图】C06_a_扶门交谈_v1.png（100% matches）+ C07_老街坊_参考_v1.png + S02街巷
 【EN·全息版】
-SHOT S19 · cut 6s · gen 10s (all beats inside first 6s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V two refs + location · motion amplitude medium-high · subject reference chain
+SHOT S19 · cut 6s · gen 10s (all beats inside first 6s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V two refs + location · motion amplitude medium · subject reference chain
 INTENT: a conversation started yesterday, continuing today — community as muscle memory.
 FRAME: 63° two-shot; shopkeeper right holding door half-open (x=60-75%), elderly neighbor approaching from left stopping at one arm's distance (x=30-40%); their eye-line bridge the frame's center.
 CAMERA: locked; community is a fixed stage — NO reframing; ambient life moves within it.
@@ -768,7 +793,7 @@ S20｜1:15-1:20｜5秒｜中景(MS)｜手持微晃 Handheld
 AI要点（V3 全息提示词）：
 【垫图】S04_餐厅后厨_门口外景态_v2.png（environment only）+ C03_a_门口迎立·厨房态_v1.png（100% matches）+ P01
 【EN·全息版】
-SHOT S20 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S20 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: one washed lunchbox, returned — care completing its circle.
 FRAME: 63° medium; cook in doorway center-right wrapped in interior warm light; designer's hand+forearm entering frame-left offering the washed lunchbox; steam escaping the half-open door above her shoulder.
 CAMERA: gentle handheld (amplitude <1%) — the kitchen's own pulse; NO push, NO pan.
@@ -798,7 +823,7 @@ S21｜1:20-1:27｜7秒｜中景-全景(MS→WS)｜缓移 Slow Truck
 AI要点（V3 全息提示词）：
 【垫图】S04_餐厅后厨_日间态_v2.png（environment only）+ C03_b_递盘寻眼神·厨房态_v1.png（100% matches）+ C01_b（虚化位）+ P01
 【EN·全息版】
-SHOT S21 · cut 7s = segment A 4s + segment B 3s, matched motion handoff · gen each 5s · 16:9 · motion amplitude medium-high · subject reference chain
+SHOT S21 · cut 7s = segment A 4s + segment B 3s, matched motion handoff · gen each 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: a kitchen runs on eyes and hands — trust at the speed of lunch.
 FRAME: 63° into kitchen depth; cook AT the pass center (x=45-60%); steam column left; designer at frame-left third, half-turned, receiving stance; the pass counter's midline = the frame's action spine.
 CAMERA: A: slow lateral drift deeper (~6% width/4s); B: continues same vector at slower rate — matched as one breath; NO reframe cut feel.
@@ -853,7 +878,7 @@ S23｜1:32-1:36｜4秒｜中景(MS)｜固定
 AI要点（V3 全息提示词）：
 【垫图】C03_b_递盘寻眼神·厨房态_v1.png（递物变体：handing two stacked lunchboxes）+ P01双盒叠放视图
 【EN·全息版】
-SHOT S23 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S23 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: an errand disguised as a favor — the street's economy of care.
 FRAME: 63° medium; cook center-left, both hands extending TWO stacked lunchboxes; her right elbow already pointing toward frame-right (the square); stove steam soft behind.
 CAMERA: locked; her body's own turn is the camera move — NO pan needed.
@@ -882,7 +907,7 @@ S24｜1:36-1:43｜7秒｜全景→中景(WS→MS)｜环绕半圈 Semi-Orbit
 AI要点（V3 全息提示词）：
 【垫图】S05_广场排练场_午后态_v2.png（environment only）+ C05_a_失误抿嘴站定_v1.png（100% matches）+ P05_狮头与大鼓_多视图_v1.png
 【EN·全息版】
-SHOT S24 · cut 7s = segment A 4s + segment B 3s · gen each 5s · 16:9 · motion amplitude medium-high · subject reference chain
+SHOT S24 · cut 7s = segment A 4s + segment B 3s · gen each 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: a mis-timed beat — and the courage of resetting to try again.
 FRAME: A 84° wide: practice circle center-left, drum right, lion head shown from BEHIND (back-of-head silhouette only); B 63°: closer on the trainee as she resets.
 CAMERA: A: slow half-orbit ~30° over 4s; B: orbit settles to near-lock — the world stops circling when she owns her mistake.
@@ -911,7 +936,7 @@ S25｜1:43-1:50｜7秒｜中景→近景(MS→CU)｜缓推 Push In
 AI要点（V3 全息提示词）：
 【垫图】C04_b_扶手示范_v1.png（100% matches）+ C05_a（学员位）+ P05（鼓槌）
 【EN·全息版】
-SHOT S25 · cut 7s · gen 10s (all beats inside first 7s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium-high · subject reference chain
+SHOT S25 · cut 7s · gen 10s (all beats inside first 7s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: transmission happens at half speed — the old teach by slowing down.
 FRAME: 63° two-shot; coach entering frame-left stopping ONE BEAT behind her (x=25-35%), trainee center-right (x=55-70%); their two hand-zones meet at frame center — reserve that negative space for the correction.
 CAMERA: slow push-in 63°→29° across full 7s (~5% width/s easing to 2%) — attention narrowing as trust builds; NO orbit (this is intimate, not spectacle).
@@ -968,7 +993,7 @@ S27｜1:57-2:03｜6秒｜中景+手部插入(MS+Insert)
 AI要点（V3 全息提示词）：
 【垫图】C01_e（递物变体：holding out one lunchbox with both hands）+ P01
 【EN·全息版】
-SHOT S27 · cut 6s = medium 5.5s + insert 0.5s · gen 10s (beats in first 5.5s) + 5s · 16:9 · motion amplitude medium-high · subject reference chain
+SHOT S27 · cut 6s = medium 5.5s + insert 0.5s · gen 10s (beats in first 5.5s) + 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: the same hand-over as the kitchen — now between strangers-made-neighbors.
 FRAME: 63° medium; performer's back-view left receiving; designer right, both hands extending one lunchbox; the hand-over zone center-frame at waist height (SAME lens height as S21's pass — the edit's rhyme anchor).
 CAMERA: locked; NO reframe. Insert: 12° macro on fingertips meeting (0.5s).
@@ -997,7 +1022,7 @@ S28｜2:03-2:10｜7秒｜近景(CU)｜极缓推 Very Slow Push In
 AI要点（V3 全息提示词）：
 【垫图】C01_d_暮色凝视侧影_v2.png（选用v2，日间光修饰：same pose, morning side-light）+ P02
 【EN·全息版】
-SHOT S28 · cut 7s · gen 10s (all beats inside first 7s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S28 · cut 7s · gen 10s (all beats inside first 7s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the gaze order inverts — hands first, sketchbook second. Growth, filmed.
 FRAME: 29° close; his gaze aimed frame-left (where the hand-over happened); sketchbook in the crook of his arm; morning side-light (still the plaza timeline).
 CAMERA: very slow push-in ~2% width/s full 7s; NO handheld — decision forming is steady.
@@ -1030,7 +1055,7 @@ S29｜2:10-2:15｜5秒｜中景(MS)｜固定 Static
 AI要点（V3 全息提示词）：
 【垫图】S01_艺术空间_暮态_v1.png（environment only）+ C01_b（暮光修饰：late amber window light）+ P03 + P02
 【EN·全息版】
-SHOT S29 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S29 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the draft unrolled again — same paper, different man.
 FRAME: 63° medium; mural spread full table width; designer seated center-right; amber key from right-low window (mirror of morning's left-high — the day turned over); sketchbook open at near corner.
 CAMERA: locked; NO push — the change is in him, not the distance.
@@ -1258,7 +1283,7 @@ S37｜2:56-3:05｜9秒｜中景→近景(MS→CU)｜极缓推 Very Slow Push In
 AI要点（V3 全息提示词）：
 【垫图】C01_d_暮色凝视侧影_v2.png（100% matches）+ P04完成态挂画位 + S01暮态
 【EN·全息版】
-SHOT S37 · cut 9s (film's longest hold) · gen 10s (all beats inside first 9s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S37 · cut 9s (film's longest hold) · gen 5s, then extend from last stable frame · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: he stops looking AT the painting and starts looking INTO it — the arc completes.
 FRAME: 63°→29° across 9s; designer seated frame-right (x=65-75%); completed mural occupying frame-left background wall; amber key from right-low window.
 CAMERA: very slow push ~1.5% width/s, NEVER stopping, no easing at the end; NO handheld — this is the steadiest shot in the film.
@@ -1273,7 +1298,7 @@ LOCK: NO smile (relief is not joy); eyes open ONCE only; the push never pauses; 
 FINAL FRAME: closest frame of him in the film, eyes open, gaze inside the street.
 SFX: ALL street sounds braiding to full (SFX09+10+11) then receding into ONE held note (M02); the exhale at 3-6s audible above all.
 【CN·对照】意图：他不再看画，而是看进画里——弧光完成。全片最长停留9秒，63°→29°每秒1.5%推近永不停。0-3搁笔、笔杆顺桌沿摆平→3-6靠背、肩沉一度、闭眼完整呼吸一次（呼气可闻）→6-8睁眼：目光已不在画上而在画中街上、头微倾向画→8-9停驻：他听一幅画，画回答他。锁：不笑（释然非喜悦）、只睁眼一次、推进不顿、画光不增（那是声效撒谎）。声：四声场交织到满→收进M02一个延音；3-6的呼气盖过一切。
-【风险预案】全片表演收束镜：允许同提示词3版择优；睁眼时机锁6-8s
+【风险预案】V3.2改动：删掉"搁笔"（由S36末帧承担，本镜从已搁笔开始），动作预算降到2个；9秒不10s一锅炖——先5s稳定生成，再从末帧延长。允许同提示词3版择优；睁眼时机锁6-8s。短提示词见附六·四，粘贴用短版。
 
 ================================================================
 第五幕 回信：留给下一位创作者的位置（3:05 - 3:50）
@@ -1320,7 +1345,7 @@ S39｜3:10-3:15｜5秒｜中景→近景(MS→CU)｜跟摇 Follow Pan
 AI要点（V3 全息提示词）：
 【垫图】C02_a（夜光修饰：night blue light）+ C03_c_意外转笑·展览态_v1.png（100% matches）+ P04发光态厨房门口局部
 【EN·全息版】
-SHOT S39 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium-high · subject reference chain
+SHOT S39 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: "you are here" — the painting says it back.
 FRAME: 47° three-figure; Alo foreground-right pulling his mother in (his back partial foreground); mother center — HER face is the shot's currency; colleague's silhouette left edge; painted kitchen doorway upper-left background.
 CAMERA: follow-pan onto her face 47°→29° across 5s; the camera finds what the child found.
@@ -1348,7 +1373,7 @@ S40｜3:15-3:20｜5秒｜近景(CU)｜固定 Static
 AI要点（V3 全息提示词）：
 【垫图】C04_c_拍肩含笑_v1.png（100% matches）+ C05_b_被拍肩侧头转笑_v1.png（100% matches）+ P04发光态学员局部
 【EN·全息版】
-SHOT S40 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium-high · subject reference chain
+SHOT S40 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: approval, one shoulder-tap wide — the old grade the new with a hand.
 FRAME: 29° close two-shot; both facing the mural (upper-right corner holds the painted trainee); coach frame-left, trainee frame-right; his hand's approach path pre-arced across the frame's lower third.
 CAMERA: locked; intimacy needs no movement; the glow key does everything.
@@ -1405,7 +1430,7 @@ S42｜3:24-3:28｜4秒｜近景(CU)｜俯角俯拍 High Angle
 AI要点（V3 全息提示词）：
 【垫图】C02_c（俯拍变体：high angle, pointing at a blank square）+ P06_方形画纸_空白态_v1.png + S06局部
 【EN·全息版】
-SHOT S42 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S42 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the gap found — art admitting it isn't finished.
 FRAME: 29° high-angle close (the ADULT view looking down — mirror of S11's child view up: the perspective handover); the blank square paper beside the mural glowing white; his finger approaching it.
 CAMERA: locked high angle; NO crane down — the height difference is the subject.
@@ -1434,7 +1459,7 @@ S43｜3:28-3:32｜4秒｜中景(MS)｜固定 Static
 AI要点（V3 全息提示词）：
 【垫图】C01_c_蹲姿平视递笔_v1.png（100% matches）+ C02（受笔位）+ P02蓝色画笔
 【EN·全息版】
-SHOT S43 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium-high · subject reference chain
+SHOT S43 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: eye level at last — authority handed over with a brush.
 FRAME: 47° two-shot at MATCHED heights (his crouch = her stance: the film's whole class-and-age geometry resolved); the blue brush mid-air between two hands at frame center; mural glow background.
 CAMERA: locked; the geometry is the shot — stillness lets it read.
@@ -1465,7 +1490,7 @@ S44｜3:32-3:39｜7秒｜特写→大特写(CU→ECU)｜垂直俯拍 Overhead
 AI要点（V3 全息提示词）：
 【垫图】C02_d_趴地画画_v1.png（100% matches）+ P06_阿乐的画_无框递画版_v1.png（纸面内容源）
 【EN·全息版】
-SHOT S44 · cut 7s = segment A 4s + segment B 3s · gen each 5s · 16:9 · overhead · motion amplitude medium-high · subject reference chain
+SHOT S44 · cut 7s = segment A 4s + segment B 3s · gen each 5s · 16:9 · overhead · motion amplitude medium · subject reference chain
 INTENT: a child draws the man who draws the city — the reply begins.
 FRAME: 47°→29° overhead tighten; child prone full-frame (head left, feet right); the square paper before his hands; the drawing taking shape = P06's content appearing progressively (edit-layer reveal, AI shoots the ARM not the page).
 CAMERA: A locked 47° (whole-body effort visible); B tightens to 29° on head+page; NO rotation.
@@ -1493,7 +1518,7 @@ S45｜3:39-3:44｜5秒｜近景(CU)｜固定 Static
 AI要点（V3 全息提示词）：
 【垫图】C01_a（接画变体：taking a small drawing with both hands）+ P06_阿乐的画_完成态_v1.png
 【EN·全息版】
-SHOT S45 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high · subject reference chain
+SHOT S45 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: seen through a child's eyes — and understood.
 FRAME: 29° close; the drawing held up facing LENS (its naive lines legible); his face behind/above it, glow-lit; both hands framing the paper.
 CAMERA: locked; the drawing IS the mirror — no movement needed.
@@ -1746,4 +1771,212 @@ Seedance2.0提示词攻略(zhihu 2005428746417640272·"手机慢镜头能
 Seedance2.0拼片首末帧接续法(zhihu 2007970818878088815)/
 higgsfield tpl_anime_animation（风格锚块与本附根因3参照）。
 
-（V3.1 完 · 2026-10-25 · 附五为生成前必读）
+================================================================
+附六：第二版样片诊断（时序一致性）与三层提示词体系（V3.2）
+================================================================
+诊断对象：微信来样 7aba642d…_raw.mp4，8.10秒 / 24fps / 1254×720，
+带"AI生成""小云雀AI"水印；0-3.00秒为请柬镜，3.00秒硬切进人物镜。
+方法：ffmpeg 按4fps抽32帧，做逐帧差异、四象限差异、相位相关位移
+估计（脚本在会话工作区 _frames/，非仓库文件）。
+
+----------------------------------------------------------------
+一、量化证据（不看形容词，看数字）
+----------------------------------------------------------------
+· 切点：f013→f014 差异MAD=67.3（3.00s），确认两镜拼接。
+· 人物镜段（3.0-8.1s）：每0.25秒相邻帧MAD 13-33；每1秒间隔MAD
+  30-42，四象限同时21-50 —— **全画面重绘，不是局部运动**。正常
+  固定机头内的人物运动，0.25秒级MAD应在2-6。
+· 相位相关峰仅0.011-0.016（真实推/移镜应>0.3）：人物镜没有一致
+  位移，是布局被反复重画；S03段峰值0.02-0.13，同样无一致位移。
+· 语义漂移：4.0秒人物双手举着画本离桌；6.0秒变为双手按桌握笔；
+  画本、笔、杯子、植物、画架位置全变。你说的"每一帧的人物和场景
+  都长得不一样"——实测成立。
+· 道具保真失守：S03应是一张对折请柬，成片是**一本打开的布面画本**
+  （有书脊、页堆、书签带）——剧情物件被模型替换掉了。
+· 跨镜风格断裂：S03是写实产品渲染质感，S04是二维动画质感，一部片
+  像两条片子拼接——两张首帧不在同一风格锚、同一条生成链上。
+
+----------------------------------------------------------------
+二、六根因（按权重）
+----------------------------------------------------------------
+根因1 提示词过载（最大）。V3.0十维块400-500词，而官方口径是中文
+  30-80字最稳、200字就"顾此失彼"。模型每帧从数百条指令里随机取
+  子集执行，逐帧取到不同子集=逐帧重新解读=逐帧重绘。这是"AI痕迹
+  重、每帧不一样"的第一因，也是与上一版（近冻结）相反症状的同一个
+  病根：指令太多太碎，模型自己决定听哪条。
+根因2 运动源过多。S03四源同动（推镜+扫光+纸颤+尘埃）；S04四动作
+  （落座/压纸/卷袖/悬笔）+手持微晃+尘埃。模型分配不了，改为整体
+  漂移。→ 纪律2运动预算律。
+根因3 无静止锚。提示词只写"什么在动"，没写"什么绝对不动"。模型
+  把背景、材质、光照全当可重绘区 → 木纹/瓷砖/纸纹蠕动，观感就是
+  "噪点很大"（不是编码噪点，是纹理重绘）。→ 每条提示词必须写
+  三项静止锚。
+根因4 跨镜风格与首帧生成链不统一。S03像产品渲染、S04像文生图动画
+  → 剪辑后必然断裂。→ 首帧统一在一条链上出。
+根因5 道具/角色保真未锁。请柬变画本、脸变偶像剧脸——首帧不是从
+  道具图/定妆图垫出来的，或垫了但没写"不许变成别的东西"。
+根因6 平台链不可控+审片链压缩。水印显示"小云雀AI"（剪映系，底层
+  Seedance 2.0/2.5），封装端可能自动改写提示词；样片1254×720非
+  标准尺寸且经微信二次压缩，噪点/锐化被放大，会误导画质判断。
+
+----------------------------------------------------------------
+三、三层提示词体系（V3.2核心改动）
+----------------------------------------------------------------
+第1层 制作卡（本文件各镜十维块）：意图/构图/光影/表演/声音/风险，
+  **给人读，不进生成器**。信息不删，只是不再粘贴。
+第2层 生成用短提示词（≤80英文词/≤150中文字，含前缀块）：只写八
+   件事——主体 / 一个动作 / 一个环境层 / 光位 / 镜头一句 /
+   风格锚一句 / 静止锚一句 / 结束状态。
+第3层 负面块（见统一前缀块下方[NEGATIVE]）：闪烁/形变/纹理蠕动/
+   换脸/背景变化/光照跳变/手畸形/文字水印/塑料皮肤。
+
+压缩五步（每镜约3分钟，从制作卡压到短提示词）：
+  ①只留1个主导动作，其余全删（次要动作留给剪辑或前一镜）；
+  ②只留1个环境层；③光位一句（方向+性质，不写扫光/光影变化）；
+  ④镜头一句（固定，或一个运镜+精确速率）；⑤补3项静止锚+1句结束
+  状态。压完仍超150字 → 这镜该拆，不是该写更长。
+
+写作禁则（V3.2新增）：
+  · 禁止"然后/接着/最后/随即"——多段流程会被叠进同一帧；
+  · 禁止"光斑扫过/光影流动/光线变化"进人物镜（触发整体重打光）；
+  · 禁止在同一镜写"取出→翻开→压平→悬笔"式四连动作；
+  · 禁止材质堆叠（纸纹+压印+釉光+尘埃同时写）；
+  · 禁止用"电影感/大片感/8K/超清"等空词（触发过度锐化与塑料感）。
+
+----------------------------------------------------------------
+四、重点镜生成用短提示词（先做这6镜，验证体系后再批量）
+----------------------------------------------------------------
+【S03 · 静物 · 单运动源 · 3秒 · 5s档 · 幅度中高】
+CN（约120字）：
+俯拍微距：一张对折的米白请柬平放在木桌上，右下角一枚钴蓝火漆印章，
+左中留白。窗光从左上斜入，一道柔和光斑从左向右缓缓扫过纸面，压印的
+凹线阴影随之伸缩，最后停在火漆上。机位完全固定。纸角、印章形状与位
+置、桌面木纹、影子方向始终不变。哑光纸面，画面无文字。
+EN（约65词）：
+Top-down macro: one folded cream invitation card flat on a wooden table,
+a cobalt wax seal at lower-right, blank area centre-left. Window light
+from upper-left; one soft light patch travels slowly left to right across
+the card, embossed shadows stretching and easing, then settles on the
+seal. Locked camera. Card corners, seal shape and position, table grain
+and shadow direction never change. Matte paper, no text.
+负向必加：book, page stack, ribbon, spine, text, rotation, morphing
+
+【S04 · 人物 · 双运动源 · 6秒 · 10s档拍点前置6s · 幅度中】
+CN（约140字）：
+中近景，3/4侧身朝左坐着的年轻设计师，灰蓝衬衫、米白内搭、黑色侧分
+短发，脸与定妆图完全一致。桌上摊开的米色画本始终平放不动。他呼气落
+座、肩沉，随后右手掌心从画本左上角抹到右下角把纸页压平；笔悬在纸上
+方两厘米，不接触。窗光从左侧切入，尘埃在光里缓慢飘。机位固定。背景
+书架、墙上瓷砖纹样、杯子位置不变。
+EN（约72词）：
+Medium close-up, designer seated in 3/4 facing left: grey-blue shirt,
+off-white inner, side-parted black hair, face identical to the reference.
+The open sketchbook stays flat on the table the whole shot. He settles
+with a visible exhale, shoulders dropping, then his right palm smooths
+the page once from upper-left to lower-right; a pen hovers two
+centimetres above the paper, never touching. Window light from left,
+dust drifting. Locked camera. Bookshelf, wall tiles and cup positions
+unchanged.
+负向必加：book lifted, book leaving table, sleeve roll, standing up,
+background re-layout, extra props
+
+【S13 · 题眼 · 推镜+台词 · 4秒 · 5s档 · 幅度中】
+CN（约110字）：
+近景，穿赭黄色短袖的小身影抬头直视镜头方向，脸与定妆图完全一致，上
+方留白。他吸一口气，一字一句慢慢问出一句话；眼睛全程锁定不眨。镜头
+以每秒2%画面宽极缓推近。背景沉入深钴蓝，光照方向不变，衣领与头发
+轮廓不变。说完后只有胸口缓慢呼气，尘埃在侧光里漂。
+EN（约66词）：
+Close-up: the small figure in the ochre-yellow tee lifts his head and
+looks straight toward the lens, face identical to the reference,
+generous head-room. He takes one breath and asks a short line slowly,
+syllable by syllable, eyes locked and unblinking. Camera pushes in at
+2% frame width per second. Background sinks to deep cobalt; light
+direction, collar and hair silhouette unchanged. After the line, only a
+slow exhale and dust in the side light.
+
+【S05 · 手部微距 · 单运动源 · 每段2秒 · 5s档 · 幅度中高】
+CN（约100字）：
+12°微距：一只手握着钴蓝画笔在暖白纸面上从左下到右上画出一条连续蓝
+线，线在末端立起成为建筑轮廓，手随后退出画面右侧。机位固定，不追不
+摇。纸面完全不动，线条不中断，除这一笔外不出现任何新线条或方格。窗
+光从左侧侧逆光，手呈柔和剪影。
+EN（约60词）：
+12° macro: one hand holds a cobalt brush and draws a single continuous
+line lower-left to upper-right on warm-white paper; the line lifts at
+its end into a building contour, then the hand exits frame-right.
+Locked camera, no follow. The page never moves, the stroke never
+breaks, no other lines or tiles appear. Side-backlight from left, hand
+in soft silhouette.
+
+【S21 · 双人交接 · 固定+蒸汽 · 7秒两段 · 各5s档 · 幅度中】
+CN（约120字）：
+63°后厨纵深：穿深绿围裙的厨师站在出菜口中央，蒸汽柱在左侧。她先盯
+住接盘的人半秒，再把盘子递出；画面左侧灰蓝衬衫的设计师双手接住，肘
+部收拢，随后把盘子递出画外。机位固定。可辨认的脸只有两张，其余人影
+始终被蒸汽虚化；盘子每一帧都有手托着；锅具、瓷砖、光位不变。
+EN（约70词）：
+63° kitchen depth: the cook in the dark-green apron stands at the
+pass, steam column left. She holds the receiver's eyes for half a
+second, then sends the plate across; the designer in the grey-blue
+shirt receives it with both hands, elbows close, and passes it out of
+frame-left. Locked camera. Only two faces legible; all other figures
+stay steam-blurred; hands on the plate in every frame; wok, tiles and
+light unchanged.
+
+【S37 · 收束 · 推镜+靠背睁眼 · 9秒 · 先5s档再延长 · 幅度中】
+V3.2改动：删掉"搁笔"（由S36末帧承担），本镜从"已搁笔"开始，动作
+预算降到2个。9秒不用10s一锅炖：先5秒稳定生成，再从末帧延长。
+CN（约130字）：
+63°中景缓缓推到29°近景，每秒1.5%画面宽，不停顿。坐着的设计师（灰
+蓝衬衫，脸与定妆图一致）靠向椅背，肩下沉一度，闭眼一次完整呼吸，再
+睁眼，目光落进画面左侧那幅完成的蓝白瓷砖画里那条街上，头微微前倾。
+笔已平放在桌沿。暮色暖光从左下窗进，光位与画中光晕强度全程不变。推
+进是唯一镜头运动。
+EN（约78词）：
+63° medium shot pushing slowly to 29° close-up at 1.5% frame width per
+second, never stopping. The seated designer (grey-blue shirt, face
+identical to the reference) leans back, shoulders lowering one degree,
+closes his eyes for one full breath, then opens them and lets his gaze
+fall INTO the street inside the finished blue-and-white mural at
+frame-left, head leaning in slightly. His brush already lies parallel
+on the table. Amber dusk from the lower-left window; light direction
+and the mural's glow strength unchanged. The push is the only camera
+move.
+
+----------------------------------------------------------------
+五、平台适配（小云雀 / Seedance 2.x）
+----------------------------------------------------------------
+· 参考图：Seedance 2.0支持最多9图、2.5更多——人物镜一次给齐
+  [首帧 + 角色定妆图 + 场景空板 + 关键道具图]，不要只给首帧。
+· 分辨率/时长：1080P、5秒起手；长镜"先缩短再延长"——5秒稳定后
+  从末帧延长，不用10秒一锅炖。
+· 提示词改写：官方有 sd25-pe 改写skill；若平台自动改写，生成前
+  必须核对改写结果、原文留档。改写若把150字扩成300字，等于白改。
+· 负面：能填负向框就整段填；不能填就贴正向末尾，但用正向句式
+  （"保持…不变""同一张脸贯穿全程"）比负向更可靠。
+· 审片：导出1080P原片看，不用微信压缩样片判断画质与噪点。
+
+----------------------------------------------------------------
+六、生成台账（每镜必记，记在05清单对应镜号下）
+----------------------------------------------------------------
+工具与模型版本 · 时长 · 运动幅度 · 参考图组 · 负面块是否启用 ·
+本版短提示词全文 · 生成日期 · 复检8条结果 · 失败归类（重绘/形变/
+保真/风格/冻结/手崩）。没有台账=无法归因，第二次还会犯同样的错。
+
+----------------------------------------------------------------
+七、后期可救 / 不可救
+----------------------------------------------------------------
+可救（后期）：亮度跳变（deflicker/曝光关键帧）、轻微细节闪烁（仅
+静止镜可用tmix三帧平均）、边缘抖动（deshake）。
+不可救（必须重生成）：五官或布局逐帧变化、道具被替换、动作语义漂
+移 —— 第二版样片属"不可救"，直接按第四节短提示词重做。
+
+----------------------------------------------------------------
+八、排查顺序（单变量，不许同时改）
+----------------------------------------------------------------
+缩到单动作 → 换更清晰的参考图 → 改结构（关键指令前置）→ 缩短片段
+→ 最后才加运镜/延长。同错两次=提示词问题；每次错得不一样=随机性，
+同提示词批量重roll（≥3版）择优。
+
+（V3.2 完 · 2026-10-25 · 附五定标准，附六定写法；生成前两附连读）

@@ -1,0 +1,556 @@
+{
+  "version": "V2.0",
+  "date": "2026-10-25",
+  "status": "25项增补图片已入库；另保留2张迭代旧版；R01待实拍",
+  "tool": "内置imagegen；d3/d4按用户要求确定性抽线/裁切",
+  "reference_weight": "内置工具不暴露数值权重，未声称设置0.55—0.65；通过真实参考图和角色身份/布局/道具分工约束",
+  "records": [
+    {
+      "id": "S07",
+      "prompt": "Create one production-quality 16:9 landscape animation background, edge to edge, no panels. Preserve this primary prompt:\nA wide distant view of Macau old town at early morning seen from high across the water, layered rooftops and church facades dissolving into soft blue-grey mist, the whole city reading as a muted blue-and-white painting, a few pigeons crossing the sky, faint warm edge where the sun will rise. Light: low pre-sunrise glow from the far left, everything else cool blue. Semi-realistic 2D animation background art, clean linework, muted cobalt palette, no people, no text.\nThis is the first frame and overall color key of a restrained hand-drawn 2D film: articulate foreground ink lines, progressively softer distant layers, broad calm negative sky and water, subtle flat cel-shaded color masses, no photographic microtexture or 3D render. Refined architectural drawing and convincing atmospheric depth, no logos or watermark.",
+      "references": [],
+      "path": "02_场景资产/S07_城市大远景/晨雾态/S07_城市大远景_晨雾态_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-52ae4c2f-c5b9-4f54-8951-f07e1b05b2ca.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2211629,
+      "sha256": "337e69eaba422d377865957d8e3e6d0a929a0b87781b137d5e524ba63c5a32a4"
+    },
+    {
+      "id": "S04_ext",
+      "prompt": "Create one polished 16:9 landscape animation background. Image 1 provides the established kitchen's blue-framed glass door and warm interior; image 2 provides the neighborhood's tiles and pavement. Show a new exterior view, not either reference's camera composition.\nExterior three-quarter view of a small neighborhood Macau eatery entrance on the tiled street: half-open glass door with steam escaping, hand-written menu clip (text area blank), blue-and-white azulejo wall tiles around the door, a small potted plant by the doorstep, warm interior light spilling out onto the pavement. Morning light from the left. Semi-realistic 2D animation background art, muted palette, no people, no text.\nReadable uniform hand-drawn outlines, flat cel-shaded planes, simple restrained texture. Door opening unobstructed, a believable threshold, room for two people to exchange a lunchbox in foreground. No lettering even on menu, no logo or watermark.",
+      "references": [
+        "02_场景资产/S04_餐厅后厨/日间态/S04_餐厅后厨_日间态_v2.png",
+        "02_场景资产/S02_瓷砖街巷/晨光态/S02_瓷砖街巷_晨光态_v1.png"
+      ],
+      "path": "02_场景资产/S04_餐厅后厨/门口外景态/S04_餐厅后厨_门口外景态_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-84935ca0-0720-4744-ab9c-02f60df046a6.png",
+      "selected": false,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2711288,
+      "sha256": "0bacc3767fe17b3580af0a7a957ec39655e2b0996d40ca2ede40c817691a4de3"
+    },
+    {
+      "id": "S04_ext_v2",
+      "prompt": "Edit the supplied exterior frame ONLY to match hand-drawn 2D animation background art. Preserve exact composition, door, building geometry, tiled patterns, perspective, lighting direction and every object location. STRONGLY flatten the shading into 3-4 clean cel-shaded value groups per object. Draw crisp uniform dark blue-gray ink outlines around all architecture, door, pots, leaf clusters and paving stones. Replace photographic speckled plaster, marble, metal reflections, paving microtexture and lens blur with smooth matte flat paint. Leaves are simplified drawn clusters, not realistic leaf surfaces. Steel has broad painted highlight bands. No 3D renderer look, no photo textures, no bokeh. Gentle warm morning light from left and warm interior, cool cobalt-blue and white palette. Keep menu completely blank. Slight wisps of steam emerge through half-open glass door. No people, text, logo, watermark. High quality composed hand-painted anime film background, 16:9.",
+      "references": [
+        "02_场景资产/S04_餐厅后厨/门口外景态/S04_餐厅后厨_门口外景态_v1.png"
+      ],
+      "path": "02_场景资产/S04_餐厅后厨/门口外景态/S04_餐厅后厨_门口外景态_v2.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-f626a5c5-2f41-493c-bf15-e4389d82ce59.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2468928,
+      "sha256": "446ed6334ec85ce9f506972ca02cf12d58959695c64eb579403951019edf19a4"
+    },
+    {
+      "id": "C01_a",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers, carrying a beige sketchbook and a blue pen.\nPose:\nstanding by a high window in morning light, holding an opened letter low, reading the last line before looking up\nScene light:\nSoft morning light entering from upper left through the tall blue-framed arched window in the established art studio, cool ambient fill.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the established studio architecture and light reference. Show the man full body in three-quarter view beside the window, opened off-white letter held at waist height, eyes finishing the page, restrained inward attention. Letter has NO visible writing; the beige sketchbook can rest on nearby worktable, blue pen clipped in shirt pocket so his hands can naturally hold the letter. Single character. Match the reference portrait and rolled sleeves. Visible fine 2D ink contours, not photorealism. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png",
+        "02_场景资产/S01_艺术空间/昼态/S01_艺术空间_昼态_v1.png"
+      ],
+      "path": "01_角色资产/C01_阿澄/定妆图/C01_a_立姿持信_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-1482e600-a269-4fcd-83f6-32ee1bb5715d.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2177232,
+      "sha256": "a63d66020e29892e486911f1054da25af34c5c5c6a912640c7772f30e2ea8715"
+    },
+    {
+      "id": "C01_b",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers, carrying a beige sketchbook and a blue pen.\nPose:\nseated at a long worktable, leaning slightly forward over a sketchbook, brush mid-stroke\nScene light:\nMorning light from the high windows at upper left of the established art studio, lamps off.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 supplies the studio and long wooden table; image 3 supplies the exact beige sketchbook and blue-barreled brush pen. Single man seated on a wooden stool, three-quarter view showing his face, both arms, hands, knees and grounded feet. One hand holds blue brush with a natural writing grip, tip touching a simple cobalt line on blank ivory paper, other hand steadies the open beige sketchbook. Keep his slim body, rolled sleeves, serious focused eyes. No lettering on pages. Background rendered as subordinate clean drawn cel-shaded planes. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png",
+        "02_场景资产/S01_艺术空间/昼态/S01_艺术空间_昼态_v1.png",
+        "03_道具资产/P02_画本画笔/P02_米色画本与蓝色画笔_多视图_v1.png"
+      ],
+      "path": "01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-c6bd12e0-3b0e-4e3c-83b7-aae73734cf21.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2138298,
+      "sha256": "937a9258e3720086c1aaffc8dc4e6c20a7ba2d71c4d02d6870ec9abf2bff1039"
+    },
+    {
+      "id": "C01_c",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers, carrying a beige sketchbook and a blue pen.\nPose:\ncrouching down to child eye-level, offering a blue brush with both hands\nScene light:\nNight exhibition in the established art studio. Cool soft blue-white light from a luminous ceramic artwork off-camera right is the sole dominant key; gentle reflected ambient blue, ceiling lamps off.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 provides gallery architecture only; its placeholder mural must stay outside this framing. Image 3 provides exact blue brush pen and beige sketchbook. Show full crouched figure, three-quarter side view facing right, both bent knees and grounded shoes visible. Hold ONE blue brush horizontally with both hands gently extended toward the child just outside frame at his lowered eye level; child stays outside frame. One hand supports each end of pen, fingers separated naturally. Kind attentive eyes looking toward recipient, relaxed shoulders. Beige sketchbook rests beside his foot, never floating. Clean hand-drawn cel-shaded night setting. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png",
+        "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v1.png",
+        "03_道具资产/P02_画本画笔/P02_米色画本与蓝色画笔_多视图_v1.png"
+      ],
+      "path": "01_角色资产/C01_阿澄/定妆图/C01_c_蹲姿平视递笔_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-a2e6b006-f3fe-417f-a075-6c1b4b0cb0db.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2064136,
+      "sha256": "b41ac7c88a13425269e942415dae442fe19f0486ec205908273ae59ec2bc88ec"
+    },
+    {
+      "id": "C01_d",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers, carrying a beige sketchbook and a blue pen.\nPose:\nhalf turned to a window in late amber light, shoulders finally relaxed, gaze far away\nScene light:\nLate amber sunlight slants low from the RIGHT window of the established studio; cool blue shadows in the rest of the room. Desk and ceiling lights are off.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 supplies dusk studio layout and right-window lighting. Single man in a medium-full three-quarter side view, head to below knees, turned toward the RIGHT window with a clear face profile and gaze into distance, shoulders lowered, chin level, barely parted lips, quiet release rather than dramatic sadness. Beige sketchbook held low at his side, blue pen loosely in the other hand. Keep crisp drawn lines and grouped cel shadows, warm light is a narrow rim and cheek plane, not an orange filter across the character. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png",
+        "02_场景资产/S01_艺术空间/暮态/S01_艺术空间_暮态_v1.png"
+      ],
+      "path": "01_角色资产/C01_阿澄/定妆图/C01_d_暮色凝视侧影_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-b32af096-33dd-4463-8c31-017d95bbf0a7.png",
+      "selected": false,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2014953,
+      "sha256": "6799d6dfb32960ecf2c4f620c0a820ea3da80ba0267ff727754350d7e5cac170"
+    },
+    {
+      "id": "C01_d_v2",
+      "prompt": "Edit this exact image with ONE tiny correction only: remove the blue pen from the hand at IMAGE LEFT that is holding the beige sketchbook. That hand should hold ONLY the beige sketchbook. Preserve the single blue pen in the relaxed hand at IMAGE RIGHT. Keep the man's face, hair, pose, clothing, hands' positions, lighting, room, composition and every other pixel as unchanged as possible. One man, one beige sketchbook, exactly ONE blue pen total. No other additions. Same 16:9 frame, same drawn animation style.",
+      "references": [
+        "01_角色资产/C01_阿澄/定妆图/C01_d_暮色凝视侧影_v1.png"
+      ],
+      "path": "01_角色资产/C01_阿澄/定妆图/C01_d_暮色凝视侧影_v2.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-a178e182-77b8-4b05-ba3d-37433210b27a.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1959908,
+      "sha256": "d9f53834010f5aadd1bc365e26112f3425fd5434252fc5f898f3a5b170216a49"
+    },
+    {
+      "id": "C01_e",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers, carrying a beige sketchbook and a blue pen.\nPose:\nmid-stride on a tiled street carrying a washed lunchbox in a cloth bag, eyes beginning to notice surroundings\nScene light:\nLow morning sun from the far left end of the established tiled Macau street, long soft shadows and restrained warm rim, cool cobalt reflected light.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 supplies the street architecture. Image 3 is the exact ROUND two-tier stainless lunchbox; it sits upright inside an unprinted off-white cloth tote, its top and folded handle partly visible. Single man full body mid-stride, hand naturally carrying bag at thigh level with weight pulling the fabric down, other arm holding beige sketchbook against torso, one blue pen clipped to shirt pocket. Gaze turns gently toward blue-and-white walls instead of down at ground. Readable separated legs and natural forward weight, hand-drawn animated film still, not photography. No letters on signs. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png",
+        "02_场景资产/S02_瓷砖街巷/晨光态/S02_瓷砖街巷_晨光态_v1.png",
+        "03_道具资产/P01_饭盒/P01_饭盒_多视图_v1.png"
+      ],
+      "path": "01_角色资产/C01_阿澄/定妆图/C01_e_提袋行走_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-70715bf2-8529-4df6-a647-d135d226bd0a.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2593395,
+      "sha256": "1be1fc64e87284fd6797af9cbeb48d7a31e86d9c25d76a2bcc966d4413423730"
+    },
+    {
+      "id": "C02_a",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow tee, navy blue shorts and off-white canvas sneakers, natural childlike posture.\nPose:\nstanding at a doorway holding a steel lunchbox with both hands, looking up\nScene light:\nMorning light enters from upper left at the threshold of the established Macau community art studio, soft cool blue interior fill.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 provides blue-framed studio doorway/window language, white walls, tile dado and woodfloor; image 3 provides exact round two-tier stainless steel lunchbox with folding handle. Full-body single child at threshold, larger head-to-body proportions exactly as reference, feet together but natural weight. Both hands securely hold the same upright handle/top of ONE closed round two-tier box in front of waist. Gaze lifted toward offscreen adult, slight expectant parted lips. Metal box at realistic child-hand scale, no extra containers. No other person visible, clear hand contours and mild cel-shaded steel highlights. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png",
+        "02_场景资产/S01_艺术空间/昼态/S01_艺术空间_昼态_v1.png",
+        "03_道具资产/P01_饭盒/P01_饭盒_多视图_v1.png"
+      ],
+      "path": "01_角色资产/C02_阿乐/定妆图/C02_a_提饭盒站姿_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-be9c2254-a193-42f6-ba87-bccc55d4a58c.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2376142,
+      "sha256": "f7e76396f42b734e5b19eca953c7e996cd04e1347ea5f1fc7f99d395e1bd9680"
+    },
+    {
+      "id": "C02_b",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow tee, navy blue shorts and off-white canvas sneakers, natural childlike posture.\nPose:\nleaning close to a large painting, index finger touching one ceramic square\nScene light:\nMorning light from upper left in the established studio, cool reflected blue from the painting, no glow from the painting itself.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the EXACT P03 cobalt ceramic landmark painting: same St Paul's/temple/tower composition and closed shopfronts, no people in the painting, preserve its grid and border. Image 3 supplies studio setting. Frame the child in readable three-quarter side view at LEFT and the large painting supported vertically at RIGHT. Child leans forward slightly, one extended index fingertip physically touches a single lower ceramic square showing a closed small shop door; other fingers gently curled, other hand relaxed. Eyes follow the fingertip. Show face, pointing hand and most of body without obstructing contact. No new drawings or open doors in P03. Clean cel-shaded illustration with subdued environment. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png",
+        "03_道具资产/P03_初稿地标版画作/P03_初稿地标版_v1.png",
+        "02_场景资产/S01_艺术空间/昼态/S01_艺术空间_昼态_v1.png"
+      ],
+      "path": "01_角色资产/C02_阿乐/定妆图/C02_b_前探指画_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-d4cf4439-670b-4ca4-a0a4-7f840d426bd9.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2725705,
+      "sha256": "e908965f6e574cf55f5905a66c13c82c5b40405f2b5cf3d5a2d333f22044803a"
+    },
+    {
+      "id": "C02_c",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow tee, navy blue shorts and off-white canvas sneakers, natural childlike posture.\nPose:\nlooking straight up at an adult, brows slightly gathered, completely earnest\nScene light:\nSoft morning key from upper left studio window, natural cool blue reflected fill, small catchlights high in the eyes.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the studio setting. Single child only, the adult is outside frame. Medium close view from an adult's slightly higher eye line, child's full head and torso to hips visible, neck naturally extended and chin lifted, eyes directly looking up just above camera, subtle brow gathering and lips slightly open as if asking an honest question. Retain exact round face, brown eyes, short tousled choppy hair and low saturation ochre tee from the sheet. No exaggerated scowl or grin. Hands rest by sides. Background simple tile dado, wooden floor and a quiet studio table edge, no new furniture or text. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png",
+        "02_场景资产/S01_艺术空间/昼态/S01_艺术空间_昼态_v1.png"
+      ],
+      "path": "01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-11c0df36-87d1-47ac-becd-8ea559adf436.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2131755,
+      "sha256": "3bdd857cc214b1d528c93b57ffd2a38c2b09ed09bab7046bb2b51da1519229f6"
+    },
+    {
+      "id": "C02_d",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow tee, navy blue shorts and off-white canvas sneakers, natural childlike posture.\nPose:\nlying flat on the floor, absorbed in drawing on a square of paper\nScene light:\nNight gallery, cool soft blue-white light comes from the artwork offscreen right, gently illuminating face and paper, ceiling lamps off.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 provides the gallery wooden floor and blue tile dado only. Crop out the large wall artwork itself. Image 3 supplies the dark-blue brush pen. Single child lying on stomach comfortably, torso and thighs supported on the wooden floor, bent elbows braced, calves lifted slightly behind if natural, both legs and shoes readable. His writing hand grips ONE blue brush pen, tip touching a loose unframed square ivory paper on floor, other hand steadies paper at outer edge. In-progress simple cobalt childlike round head and oversized sketchbook outline, no writing. Camera low three-quarter side angle wide enough to show full prone pose, head angled down and focused eyes. No floating body, no extra hands, no frame around the paper. Drawn clean cel-shading. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png",
+        "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v1.png",
+        "03_道具资产/P02_画本画笔/P02_米色画本与蓝色画笔_多视图_v1.png"
+      ],
+      "path": "01_角色资产/C02_阿乐/定妆图/C02_d_趴地画画_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-c0f9dae4-ad60-4b4f-91c8-368bf0eec4d7.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1990509,
+      "sha256": "c2c8866a0690548a670a8908e3e8d7554ac6c05eadcbf1b0f43c236fe95da5c8"
+    },
+    {
+      "id": "C02_e",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow tee, navy blue shorts and off-white canvas sneakers, natural childlike posture.\nPose:\nholding up a finished drawing, chin slightly lifted, one-sided grin\nScene light:\nNight gallery illuminated primarily by soft blue-white artwork light from offscreen right, subtle blue reflected floor light, face readable with restrained natural skin warmth.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the EXACT finished drawing asset: loose SQUARE ivory paper, childlike cobalt drawing of a young man holding an OVERSIZED sketchbook. Preserve its specific drawing, no added lettering, no wooden frame. Image 3 supplies gallery environment only, mural remains offscreen. Child in three-quarter medium-full standing view, body angled away but head turned back toward offscreen young man/camera, one corner of mouth raised, chin slightly up, eyes alive and proud. Both hands hold paper by outer lower corners at chest level with drawing visible toward camera. No pen in hands, no extra props. Character is dominant, background simple dark drawn tile walls and wooden floor. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png",
+        "03_道具资产/P06_空白画纸与阿乐的画/P06_阿乐的画_无框递画版_v1.png",
+        "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v1.png"
+      ],
+      "path": "01_角色资产/C02_阿乐/定妆图/C02_e_举画回头_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-c3cfae1f-3855-4919-a7cf-1ef362b1de45.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1902311,
+      "sha256": "4d1349716867688453a0ddade2a1281eaf81444b70c203f4f8295305058d790a"
+    },
+    {
+      "id": "C03_a",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top, a dark-green apron and dark trousers, steady stance, brisk precise movements.\nPose:\nstanding at the eatery door in apron, reaching to take a lunchbox, eyes smiling first\nScene light:\nMorning light from LEFT outside the established eatery, soft warm interior spill behind her through the half-open glass door.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the exact eatery exterior: preserve its blue door frame, half-open glass door, azulejo surround, blank menu and plant. Image 3 supplies the exact round two-tier stainless lunchbox. Show woman in stable medium-full standing pose just inside threshold. Both forearms reach forward to receive the ONE lunchbox, her eyes first meet the giver just offscreen left and crinkle with warmth. Giver is outside crop; only one pair of grey-blue cuffed forearms at lower left may support the lunchbox underside. Keep the woman's face, low bun, beige rolled-sleeve shirt and dark-green apron exact. Her fingertips touch sides of box, physically plausible exchange with separate hands and clear ownership. Drawn cel shading matching exterior v2. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png",
+        "02_场景资产/S04_餐厅后厨/门口外景态/S04_餐厅后厨_门口外景态_v2.png",
+        "03_道具资产/P01_饭盒/P01_饭盒_多视图_v1.png"
+      ],
+      "path": "01_角色资产/C03_珍姐/定妆图/C03_a_门口迎立·厨房态_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-325bc8d8-9775-4bfd-979d-45ae1422e344.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2379436,
+      "sha256": "4b1abf168cd16702f800e090dc9ee73b8bcc1ab4ba94581f93331b2fa1124de7"
+    },
+    {
+      "id": "C03_b",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top, a dark-green apron and dark trousers, steady stance, brisk precise movements.\nPose:\nat the kitchen pass, holding a plate out, eyes finding the receiver before releasing\nScene light:\nWarm kitchen practical light with cool daylight spilling from the right doorway, as in the existing kitchen state asset.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the EXISTING kitchen-state image, use it as edit/composition reference rather than inventing a new kitchen or plate. Preserve her identity, beige shirt, green apron, low bun, food and plate. Change the action from placing plate down to holding it slightly lifted above the pass and extended toward the receiver outside frame. Both of her hands still securely support plate at its rim. Most importantly raise her eyes from the dish to meet the receiver just offscreen camera-right at adult eye level; warm attentive eye smile before releasing. Medium waist-up framing showing her complete head, arms and the entire level plate. No other visible person or extra arms. Gentle steam behind, clean flat illustrated shadows and fine drawn outlines. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png",
+        "01_角色资产/C03_珍姐/状态变体/C03_珍姐_厨房态_v1.png"
+      ],
+      "path": "01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-b179f115-53e5-4b4f-9705-29782efa4c02.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2198242,
+      "sha256": "21f5964925bcb2fa01a073ca0e21c85d70025bca356a863beec459d7a2c41643"
+    },
+    {
+      "id": "C03_c",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top and dark trousers, no apron, steady stance, brisk precise movements.\nPose:\nin the night gallery without apron, caught mid-surprise turning into a proud smile\nScene light:\nNight gallery, blue-white light from artwork at image RIGHT brushes her face and beige clothing, surroundings in soft cobalt shadow, no overhead lights.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is her existing EXHIBITION-state image: preserve exact beige blouse, dark trousers, black work shoes and NO APRON. Same woman, same low bun and facial age. Use medium portrait head to hips, body still angled toward luminous artwork offscreen right, face beginning to turn left toward a companion outside the frame. Small raised brows and slightly parted smiling lips, eyes a little widened then softened, a restrained proud smile just emerging, not a broad generic laugh. Arms relaxed, one hand lightly gathered at waist without props. Framing crops out detailed mural content and shows established blue tile wall and night window. Hand-drawn cel-shaded expression study, no other people. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png",
+        "01_角色资产/C03_珍姐/状态变体/C03_珍姐_展览态_v1.png"
+      ],
+      "path": "01_角色资产/C03_珍姐/定妆图/C03_c_意外转笑·展览态_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-8b9dabf5-ee39-4b6d-bc55-412635d4e85b.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1882413,
+      "sha256": "acd455a1bcd80897566aef060f161b1fbefbcb281f93ccda4e51516b7f2dbc7b"
+    },
+    {
+      "id": "C04_a",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na solidly built middle-aged man with upright shoulders, short greying hair and sun-weathered skin, wearing a grey-cyan training top, dark trousers and flat sports shoes.\nPose:\nwalking into frame and stopping one beat, hands loose, reading the situation\nScene light:\nLow afternoon sun from the LEFT in the established neighborhood rehearsal plaza, long shadows and cool fill under the banyan canopy.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 provides established rehearsal plaza with drum at left, lion head on right bench and banyan in back. Single coach full body, walking from left into open practice space and settling one forward step, both hands loose alongside body, shoulders upright, alert measured gaze at a trainee offscreen right. Not stern angry, not smiling broadly, a quiet pause assessing stance. Exact greying cropped hair, weathered face, grey-cyan quarterzip training top with shoulder stripe, black trousers and gray sports shoes from sheet. Keep stage clear, no additional people. Clean drawn linework and flat grouped shadows match plaza reference. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C04_成叔/三视图/C04_成叔_三视图_v1.png",
+        "02_场景资产/S05_广场排练场/午后态/S05_广场排练场_午后态_v2.png"
+      ],
+      "path": "01_角色资产/C04_成叔/定妆图/C04_a_走近停拍_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-f7404bda-d927-4339-8f51-62525b64c95b.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2545267,
+      "sha256": "f16ab2b9163a71ef75ad687826916a6a69c306720326e420427b08f7f5481028"
+    },
+    {
+      "id": "C04_b",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na solidly built middle-aged man with upright shoulders, short greying hair and sun-weathered skin, wearing a grey-cyan training top, dark trousers and flat sports shoes.\nPose:\nstanding beside a trainee, both hands gently correcting her grip, motion slowed by half\nScene light:\nLow warm afternoon key from LEFT at the established rehearsal plaza; cool open shade, stable soft shadows.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the trainee's exact identity: a light-footed young woman with black hair in a low ponytail, wearing a dark-red training tee, black sports pants and white sneakers. Image 3 is the plaza environment and lion prop appearance. Medium two-person three-quarter teaching view head to thighs: coach on LEFT, young trainee on RIGHT, their faces and four arms clearly separated. She holds the support grips inside the underside of the lion head at waist height. The lion head occupies lower right, its open underside and inner bamboo/wood handle visible so the teaching contact is readable. Coach's left hand lightly supports one of her wrists, coach's right hand gently aligns her other wrist, no force or embrace. Both look down toward grip. Four hands total with distinct ownership, coach sleeves grey-cyan, trainee forearms bare from dark-red tee. The lion head is supported, not floating. Calm instructional beat, crisp drawn linework and simple cel-shaded masses. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C04_成叔/三视图/C04_成叔_三视图_v1.png",
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png",
+        "02_场景资产/S05_广场排练场/午后态/S05_广场排练场_午后态_v2.png"
+      ],
+      "path": "01_角色资产/C04_成叔/定妆图/C04_b_扶手示范_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-36a3a128-0162-44c7-ac72-33443f8d9262.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2585639,
+      "sha256": "1671d904b33fdb6f7bc279058b3e4f6502d83d642715af81609af07887ce5f51"
+    },
+    {
+      "id": "C04_c",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na solidly built middle-aged man with upright shoulders, short greying hair and sun-weathered skin, wearing a grey-cyan training top, dark trousers and flat sports shoes.\nPose:\nhand resting briefly on a younger teammate's shoulder, restrained warm smile\nScene light:\nNight gallery with soft cool blue-white main light from offscreen RIGHT, dim reflected floor light, lamps off.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is exact teammate identity: a light-footed young woman with black hair in a low ponytail, wearing a dark-red training tee, black sports pants and white sneakers. Image 3 provides gallery architecture only. Medium two-person view from head to hips, coach on LEFT and young woman on RIGHT, slight depth separation. Coach's near hand rests lightly on OUTER top of her near shoulder, fingers naturally following fabric, his other arm hangs loose. He looks toward her with restrained warm smile, crow's-feet subtle and lips mostly closed. She begins turning her head left toward him, eyes just catching his, surprise softening. Keep clothing exactly from both sheets. No embrace, no hand near neck, no extra arms, no crowd. Frame blue tile wall and dark tall window, main artwork outside crop so it gives light without a new painted composition. Drawn cel-shaded forms. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C04_成叔/三视图/C04_成叔_三视图_v1.png",
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png",
+        "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v1.png"
+      ],
+      "path": "01_角色资产/C04_成叔/定妆图/C04_c_拍肩含笑_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-76814c8d-7dbe-4d5c-ac3a-f2a5d2b3f69a.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1934470,
+      "sha256": "ac7db8fe9e7431652f687d9267643128d90c75eeffeb9f7833785dcb7a213474"
+    },
+    {
+      "id": "C05_a",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na light-footed young woman with black hair in a low ponytail, wearing a dark-red training tee, black sports pants and white sneakers.\nPose:\njust stopped mid-motion, lips pressed, one breath in, resetting stance\nScene light:\nLow warm afternoon light from the LEFT in the established rehearsal plaza, long grounded shadows with cool shade.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the established plaza and its red/ivory Cantonese lion head. Single young woman full body in open training space, feet reset shoulder-width apart, knees softly bent, shoulders raised a fraction during an inward breath, lips pressed into a fine line and eyes lowered toward her stance. Both hands support the same lion head low at her hip/waist via its underside handles, face fully visible and not covered by lion, red silk drapes with gravity. No second lion head on bench since she is holding it. Keep exact low black ponytail, muted dark-red tee, black sports pants and white trainers from sheet. A small controlled recovery after an error, not a heroic pose or tears. Clean drawn shapes and soft cel shadows. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png",
+        "02_场景资产/S05_广场排练场/午后态/S05_广场排练场_午后态_v2.png"
+      ],
+      "path": "01_角色资产/C05_阿敏/定妆图/C05_a_失误抿嘴站定_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-09382b4e-4541-466c-bb53-3aab4b6f4140.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2520509,
+      "sha256": "2e6ec4d3b6a4999a0f87d9f1b770a2861ee8aa63693076bce051e7406f57dd9b"
+    },
+    {
+      "id": "C05_b",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na light-footed young woman with black hair in a low ponytail, wearing a dark-red training tee, black sports pants and white sneakers.\nPose:\nhead turning toward a hand on her shoulder, surprise becoming a grin\nScene light:\nSame night-gallery blue-white key from offscreen RIGHT as the supplied shoulder-pat scene, soft cobalt ambient shadow.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the established shoulder-pat scene and must anchor staging, hand ownership and lighting. Image 1 is authoritative for the young woman's face and low ponytail. Create a closer medium shot focused on her head and torso to waist: she remains on RIGHT, coach partly visible on LEFT with grey-cyan sleeve and ONE weathered hand resting gently on the outer top of her left-in-image shoulder, exactly as scene reference. Her head turns LEFT toward coach, brows slightly raised, eyes brighten, mouth now opening into a spontaneous small grin. Preserve her dark-red tee and neck/shoulder anatomy. Coach's face can be cropped at edge but no extra hands. This is the next expression beat of the same interaction, not a new scene. Clean ink outlines and cel-shading. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png",
+        "01_角色资产/C04_成叔/定妆图/C04_c_拍肩含笑_v1.png"
+      ],
+      "path": "01_角色资产/C05_阿敏/定妆图/C05_b_被拍肩侧头转笑_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-3b78d198-c5c0-425f-ae32-9a02e52bd0fa.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2113140,
+      "sha256": "f153036d13ab71fe9a7e51ad1619ffcc8f454c8c6fda2665eeb01e0648454950"
+    },
+    {
+      "id": "C06_a",
+      "prompt": "Create one polished 16:9 landscape single-frame character costume/acting asset, NOT a reference sheet or montage. Image 1 is the authoritative character identity reference: copy the facial features from its head portraits and the exact hairstyle, clothing, proportions, shoes from its body views. Render a complete expressive face. Other references have only the roles specified below.\nIdentity block:\na square-faced middle-aged man with neat short hair and a broadish build, wearing a light-brown short-sleeve shirt and dark trousers.\nPose:\none hand steadying a shop door open for an elderly neighbor, mid-sentence, easy familiar posture\nScene light:\nLow morning daylight from the far LEFT of the tiled Macau street, long soft shadow with cool shade beneath the colonnade.\nLook block:\nSemi-realistic 2D animation style, clean uniform-weight linework,\nsoft flat cel-shading, muted blue-and-white palette in cobalt tones,\nrestrained warm accents only on people and everyday objects. Single\nmotivated light source, fixed light direction. Characters always\nalive: breathing, blinking, subtle weight shifts. Gravity and\ninertia respected, correct contact shadows, steam and cloth move\nwith real physics. 24fps cinematic cadence. Characters, wardrobe,\nprops and background consistent across cuts, no identity drift.\nNO TEXT, NO LOGO, NO WATERMARK.\nProduction constraints:\nImage 2 is the established street. Image 3 is the supporting elderly neighbor's identity reference, used only in small side/back view. Main shopkeeper stands at a blue shop door on RIGHT of frame holding its handle with ONE hand, keeping the opening wide enough for the neighbor; other hand relaxed at waist. His shoulders easy, chin slightly up, mouth mildly open mid-conversation and eyes looking at neighbor. Medium-full side three-quarter scene with his face, hand-to-handle contact, doorway threshold and feet readable. Elderly woman with gray bun, blue vest and loose blue pants walks through opening holding cloth grocery bag; secondary figure smaller and only side/back face. Shop is a modest stationery/general shop with simple stacks of blank notebooks and unlabelled goods inside, no restaurant kitchen. Preserve main man's brown short sleeve shirt and dark trousers from sheet. No signs or labels, crisp illustrated linework. Keep readable anatomy, physically supported weight, five fingers per hand where visible, clean contours and cloth shapes. Single still, no captions, no frame borders, no contact sheet. Keep background subordinate to the character.",
+      "references": [
+        "01_角色资产/C06_顺叔/三视图/C06_顺叔_三视图_v1.png",
+        "02_场景资产/S02_瓷砖街巷/晨光态/S02_瓷砖街巷_晨光态_v1.png",
+        "01_角色资产/C07_老街坊/参考/C07_老街坊_参考_v1.png"
+      ],
+      "path": "01_角色资产/C06_顺叔/定妆图/C06_a_扶门交谈_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-827ec4b7-d30e-4c37-8b7f-5017b31bb63d.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2577889,
+      "sha256": "54d30dbe6b25608dc4a8f9ef2b0d5e3301dc95631a4ff58ecdb48fb8f3aa2694"
+    },
+    {
+      "id": "P03_d1",
+      "prompt": "same drawing, sharpen only, no change\nThis supplied image is a literal crop of the locked P03 ceramic mural, already enlarged 2x. Perform conservative local clarity restoration only: refine fuzzy cobalt line edges on the CLOSED doors and window shutters. Preserve the exact crop boundaries, camera, proportions, building geometry, two door locations, tiles/grout lines, railings, pots, plants, lamp, paving, cobalt-white palette and all content. No new architecture, no new ornaments, no opening doors, no moving plants, no added people, no recentering, no expanding image. Flat frontal image of a DRAWING on ceramic, not a real photographic building. Keep overall softness of the original painted glaze while making contour edges readable. Portrait aspect exactly matching reference, target 460 x 580 if possible. No text, no logo, no watermark.",
+      "references": [
+        "C:/Users/Admin/Documents/Codex/2026-10-25/zhe/work/P03_d1_crop2x.png"
+      ],
+      "path": "03_道具资产/P03_初稿地标版画作/派生/P03_d1_小门_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-3848599d-5798-462d-a614-f28451815d53.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "derivation": {
+        "source": "03_道具资产/P03_初稿地标版画作/P03_初稿地标版_v1.png",
+        "crop_box": [
+          140,
+          610,
+          370,
+          900
+        ],
+        "preprocess": "Pillow Lanczos放大2倍，再以内置imagegen进行same drawing, sharpen only, no change局部清晰化",
+        "output": "保留模型原生尺寸，不拉伸为虚假分辨率"
+      },
+      "width": 1117,
+      "height": 1408,
+      "bytes": 2431405,
+      "sha256": "ec2fcab1478c2380d5419b67eb6d6393f264e1574cf4974149a1067b58bf2b07"
+    },
+    {
+      "id": "P03_d2",
+      "prompt": "same drawing, sharpen only, no change\nThis image is a literal crop of the locked P03 cobalt-blue ceramic mural, already enlarged 2x. Restore contour clarity conservatively without changing anything depicted. Preserve exact crop boundaries, the entire row of CLOSED doors and CLOSED shutters, exact number and placement of doors/windows, balcony railings, pots and bushes, steps and church fragment at top, ceramic grout grid, pavement geometry, cobalt-blue painted glaze. No new buildings, no people, no open doors, no composition change, no reframing, no perspective correction, no new line ornament. Sharpen only existing ink edges, retain tonal masses. It is a flat view of the same DRAWING, not a photographic street. Aspect ratio 890:800 matching input, no borders, no text or watermark.",
+      "references": [
+        "C:/Users/Admin/Documents/Codex/2026-10-25/zhe/work/P03_d2_crop2x.png"
+      ],
+      "path": "03_道具资产/P03_初稿地标版画作/派生/P03_d2_门窗紧闭局部_v1.png",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-91ad1a25-0abc-42cf-a63e-2d5e0c996800.png",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "derivation": {
+        "source": "03_道具资产/P03_初稿地标版画作/P03_初稿地标版_v1.png",
+        "crop_box": [
+          85,
+          500,
+          530,
+          900
+        ],
+        "preprocess": "Pillow Lanczos放大2倍，再以内置imagegen进行same drawing, sharpen only, no change局部清晰化",
+        "output": "保留模型原生尺寸，不拉伸为虚假分辨率"
+      },
+      "width": 1323,
+      "height": 1189,
+      "bytes": 2839245,
+      "sha256": "f47aa8318ac06c86a4242a74141758c9f2b89ff229903b444d8d344da102f6b7"
+    },
+    {
+      "id": "P03_d3",
+      "path": "03_道具资产/P03_初稿地标版画作/派生/P03_d3_蓝线地标线稿_v1.png",
+      "prompt": null,
+      "references": [
+        "03_道具资产/P03_初稿地标版画作/P03_初稿地标版_v1.png"
+      ],
+      "method": "从P03原始1536×1024坐标确定性抽线；灰度/高斯局部暗细节提取，再映射钴蓝，未用模型重绘",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "本次输出已目视检查",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1079572,
+      "sha256": "b3efd13f69e64806162aedca91a580b7ff1ed65fd4ba30a2ced7d50ad7f96f6e"
+    },
+    {
+      "id": "P03_d4",
+      "path": "03_道具资产/P03_初稿地标版画作/派生/P03_d4_边框局部_v1.png",
+      "prompt": null,
+      "references": [
+        "03_道具资产/P03_初稿地标版画作/P03_初稿地标版_v1.png"
+      ],
+      "method": "原图坐标(16,16,320,220)精确裁切；不缩放、不重绘",
+      "selected": true,
+      "archive_status": "已入库",
+      "visual_check": "未单独打开；确定性裁切像素校验",
+      "batch_consistency_acceptance": "未进行",
+      "motion_test": "未进行",
+      "width": 304,
+      "height": 204,
+      "bytes": 102051,
+      "sha256": "c8a9ab025c25d590953be08c9a1e0ff2f271ade60be84cfb8beabb3402c7ef27"
+    }
+  ],
+  "checks": {
+    "selected_count": 25,
+    "png_versions": 27,
+    "decode_and_size": "27/27通过",
+    "duplicate_paths": 0,
+    "files_over_50MB": 0,
+    "d4_pixel_exact": true,
+    "R01": "0/9式，待实拍，每式3张，共27张；未生成替代",
+    "base_asset_filename_audit": "基础28项对应文件全部存在；按用户要求以文件名为准，不重新目视验收旧图"
+  }
+}

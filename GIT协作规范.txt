@@ -59,10 +59,14 @@ GIT协作规范.txt      本文件
 四、常见问题
 ----------------------------------------------------------------
 Q: push/pull 连不上 github？
-A: 稍等重试；仍不通可先用镜像拉取（镜像只读，仅拉取用）：
+A: 先试走本机代理（2026-10-25实测：直连超时8连败，代理一次成功；
+   端口看自己梯子的HTTP代理口，当前机器为12450，查法：
+   设置→网络→代理，或注册表 Internet Settings 的 ProxyServer）：
+     git -c http.proxy=http://127.0.0.1:12450 push origin main
+   代理口失效时改回直连重试；仍不通可先用镜像拉取（只读，仅拉取用）：
      git fetch https://gh-proxy.com/https://github.com/Pyc718672103/Macau-AIGC-competition.git main
      git merge --ff-only FETCH_HEAD
-   推送必须直连成功后再做。
+   推送必须直连或代理成功后再做。
 
 Q: 拉下来发现同事的文件放错目录了？
 A: 不要原地留着，也不要各自开新目录——按规范移到正确目录并在

@@ -1,0 +1,487 @@
+================================================================
+《蓝的回信》资产库 · 生图提示词全集 V1.0
+================================================================
+用法：本文件是"素材工厂的总图"。所有分镜（见《蓝的回信_分镜剧本_
+V2.txt》）引用的资产编号在此逐一给出可直接使用的生图提示词。
+生图由人工在 LiblibAI / 即梦图片 完成；提示词按"复制即用"标准写。
+
+目录：
+  第一部分  提示词方法论（怎么给、给什么、为什么这样效果好）
+  第二部分  全片统一 Look 块（每条视频提示词必粘贴）
+  第三部分  角色资产 C-01 ~ C-07（三视图+身份块+情绪分解）
+  第四部分  场景资产 S-01 ~ S-06（空板+锁光+多态）
+  第五部分  道具资产 P-01 ~ P-07（多视图）
+  第六部分  生成验收与迭代纪律
+
+================================================================
+第一部分  提示词方法论
+================================================================
+
+一、生图提示词五段公式（每张图都按这个顺序给）
+----------------------------------------------------------------
+[主体+身份锁定] → [姿态/动作] → [环境] → [光线+视角] → [风格块]
+顺序有讲究：主体在前=权重最高（模型对前20-30个词服从度最高）。
+反面示例："一张漂亮的澳门街道，高清，大师作品"（全是废词）。
+正面示例："grey-blue shirt young man sketching at easel, community
+art studio, morning light from high window, semi-realistic 2D
+animation style, cobalt-blue and off-white palette"
+
+二、视频提示词铁律（图生视频，即梦/可灵）
+----------------------------------------------------------------
+1. 两块分离：身份块（外貌服装）逐字复制，永远不改一个字；
+   运动块（动作+运镜+氛围）按镜写。混写=脸漂移。
+2. 图生视频只写"会动的东西"：垫图首帧里已有的内容一句都不
+   重复描述，只写变化——"蒸汽上升、光尘浮动、他缓缓抬头"。
+   重复描述静态内容=画面不动或崩坏。
+3. 命名运镜：写"缓慢推近 slow dolly in"不写"镜头慢慢移动"。
+   模型对术语服从度远高于形容词。一镜只给一个运镜，禁止叠加
+   （推+摇+移同镜=糊）。
+4. 一镜一主动作：一个主动作+至多两个次动作。10秒红线内，
+   成片只用中段最稳的6-9秒。
+5. 度副词定强度：slowly / gently / deliberately / slightly——
+   模型无法从画面推断强度，必须用词给。
+6. 物理语言替代情绪词：不写"困惑"，写"眨眼放慢、拇指摩挲画
+   本边缘、目光下移"（每个角色的分解表见第三部分）。
+7. 禁词（视频提示词内）：8岁/男孩/儿童/小孩（年龄盲区——用
+   "the small figure in ochre-yellow tee"按服装+角色描述），
+   beautiful/stunning/epic/高清/4K（废词），负面清单式写法
+   （用正向描述："locked static camera"而不是"不要晃"）。
+
+三、一致性体系（从资产到镜头的五道锁）
+----------------------------------------------------------------
+第一锁：角色三视图（白底角色表）——所有含人镜头的垫图母本。
+第二锁：身份块逐字复制——提示词层的锁。
+第三锁：场景空板——同场景所有镜头共用同一张首帧底图（换人
+        不换景），光位在空板上就锁死（晨光=左上/暮色=右低/
+        夜=画光主光）。
+第四锁：多状态资产现在就建（珍姐围裙态/展览态；场景昼/暮/
+        夜三态）——不要指望后期用文字"改状态"。
+第五锁：10张验收——同提示词批量出10张，≥7张像同一人/同一景
+        才算资产合格；不合格改提示词，不改挑选标准。
+
+四、生图三张底牌（源自 Higgsfield 资产准备法则，已本地化）
+----------------------------------------------------------------
+1. 灰底/白底定律：动画风角色表用纯白底（2D动画例外允许白底，
+   写实风用#8A8A8A灰底）。全项目锁死一种：本片=纯白底。
+   一个项目里所有角色表背景必须同色。
+2. 单脸定律：一张角色表上只留一个清晰正脸（三视图的全身像
+   不露脸或裁掉头部），否则视频模型会把多张脸平均成"大众脸"
+   ——漂移的头号原因。
+3. 3/4角空板定律：场景图一律3/4角度（给运镜留纵深）、默认
+   无人（人物由视频模型放进去）。评判场景图看"调度空间"不
+   看"好不好看"：这条街能不能让人走？这门能不能被推开？
+
+================================================================
+第二部分  全片统一 Look 块（逐字粘贴到每条视频提示词尾部）
+================================================================
+
+中文版（即梦）：
+----------------------------------------------------------------
+半写实二维动画风格，均匀线宽的干净线稿，柔和扁平赛璐璐上色，
+低饱和蓝白主色调（钴蓝系），克制的暖色点缀只出现在人物与生活
+物件上。单一动机光源，光线方向固定。人物始终有微动作：呼吸、
+眨眼、重心微移。重力与惯性成立，接触阴影正确，蒸汽与布料有真
+实运动。镜头有物理感，24帧每秒节奏。人物、服装、道具与背景跨
+镜头一致，无外貌漂移。画面中不出现任何文字、标志、水印。
+
+英文版（可灵/英文模型）：
+----------------------------------------------------------------
+Semi-realistic 2D animation style, clean uniform-weight linework,
+soft flat cel-shading, muted blue-and-white palette in cobalt tones,
+restrained warm accents only on people and everyday objects. Single
+motivated light source, fixed light direction. Characters always
+alive: breathing, blinking, subtle weight shifts. Gravity and
+inertia respected, correct contact shadows, steam and cloth move
+with real physics. 24fps cinematic cadence. Characters, wardrobe,
+props and background consistent across cuts, no identity drift.
+NO TEXT, NO LOGO, NO WATERMARK.
+
+（Look块内禁止出现具体镜号信息；比例分辨率在生成界面设置，
+  不写进提示词正文。）
+
+================================================================
+第三部分  角色资产 C-01 ~ C-07
+================================================================
+通用说明：
+- 每个角色先出【三视图角色表】（提示词A），验收合格后，再按需
+  出【单人定妆图】（提示词B，用于直接做镜头首帧）。
+- 三视图模板已在下方写成通用版+角色差异描述，直接替换方括号。
+
+----------------------------------------------------------------
+C-01 许澄（阿澄）· 25岁 · 主角
+----------------------------------------------------------------
+身份特征（身份块，逐字复制进所有含C-01的视频提示词）：
+中文：瘦削身材、肩背略窄、长脸型、平直眉、短黑发自然侧分的青
+年男子，穿灰蓝色衬衫、米白色内搭、深灰色长裤，随身米色画本与
+蓝色画笔。
+英文：a slim young man with narrow shoulders, longish face,
+straight brows and short black hair with a natural side part,
+wearing a grey-blue shirt over an off-white inner layer and dark
+grey trousers, carrying a beige sketchbook and a blue pen.
+
+A. 三视图角色表提示词（生图，直接复制使用）：
+A high-definition, clean character design turnaround reference
+sheet on a pure white background, professional animation studio
+character board. Left side: full-body three-view turnaround (front,
+left-side, back standing poses) of [a slim young man with narrow
+shoulders, longish face, straight brows, short black hair with a
+natural side part, wearing a grey-blue shirt over an off-white
+inner layer, dark grey trousers and beige sketchbook held at his
+side] — all three figures the exact same character, identical
+features, hairstyle, clothing and proportions, arms hanging
+naturally. Upper right: six head-angle references of the same
+character (front portrait, slight downward angle, back of head,
+left profile, near-side angle, three-quarter profile), only this
+section shows the face clearly. Lower right: six detail close-ups
+in a grid (shirt fabric texture, trousers, hands holding a beige
+sketchbook, eye detail, blue pen, shoes). Semi-realistic 2D
+animation style, clean uniform-weight linework, soft flat
+cel-shading, muted colors, generous white space, no text, no
+watermark, no logo.
+（注意：右侧头部区是全表唯一清晰正脸区——单脸定律。若生成结
+果全身像也带清晰正脸，用局部重绘擦掉全身像的脸。）
+
+B. 表演情绪分解表（替代情绪词，写进运动块）：
+专注（工作态）→ 目光钉在纸面两拍不移动，眨眼频率变慢，笔尖
+悬停，身体前倾约5度。
+困惑（被问后）→ 眨眼放慢，嘴唇微张又合上，拇指摩挲画本边缘，
+目光下移再抬起。
+转变后看人 → 先看对方的动作一拍，再低头打开画本。
+接画（结尾）→ 怔住一拍，目光在画上逐笔移动，嘴角先单侧再双
+侧展开，点一下头。
+
+----------------------------------------------------------------
+C-02 林乐（阿乐）· 8岁 · 提问者
+----------------------------------------------------------------
+身份特征（身份块）：
+中文：个子不高、圆脸、短碎发、眉毛略浓的小男孩，穿低饱和赭黄
+色短袖、藏青色短裤、米白色帆布鞋，体态自然好动。
+（视频提示词用：the small figure in the ochre-yellow tee and
+navy shorts, round face, short choppy hair——回避年龄词。）
+英文：a small figure with a round face, short choppy hair and
+slightly thick brows, wearing a low-saturation ochre-yellow tee,
+navy blue shorts and off-white canvas sneakers, natural childlike
+posture.
+
+A. 三视图角色表提示词：同C-01模板，替换方括号为：
+[a small figure with a round face, short choppy hair and slightly
+thick brows, wearing a low-saturation ochre-yellow short-sleeve
+tee, navy shorts and off-white canvas sneakers]
+加一句：childlike proportions, head slightly larger relative to
+body, natural relaxed stance.
+
+B. 表演情绪分解表：
+寻找（看画）→ 身体前探，手指沿画面逐格点动，头随手指微转。
+认真提问 → 眉头微聚，直视对方，语毕头微歪。
+小得意（"画你呀"）→ 下巴微抬，嘴角单侧翘起，眼睛看向别处
+一瞬再回来。
+
+----------------------------------------------------------------
+C-03 梁婉珍（珍姐）· 42岁 · 阿乐母亲 · 后厨统筹
+----------------------------------------------------------------
+身份特征（身份块·厨房态）：
+中文：面部线条柔和、眼神明亮、笑时眼角有细纹的黑发女性，黑发
+束成整洁低发髻，穿米色上衣、墨绿色围裙、深色长裤，站姿稳、动
+作利落。
+英文：a woman with soft facial lines, bright eyes and smile-line
+crow's feet, black hair in a neat low bun, wearing a beige top, a
+dark-green apron and dark trousers, steady stance, brisk precise
+movements.
+展览态身份块（同一人，只改一句）：同上，但 "no apron" 。
+
+A. 三视图角色表：同模板，替换为厨房态描述。
+B. 状态变体资产（现在就建）：
+B1 厨房态定妆图：prompt加 "standing at a restaurant kitchen
+pass, steam rising behind her, hands placing a plate"
+B2 展览态定妆图：prompt加 "standing in a night gallery, warm
+blue light on her face, arms relaxed"
+C. 表演情绪分解：
+递盘（职业动作链）→ 目光先找到接盘的人，确认对方眼神回应，
+然后才松手。
+被画进作品 → 先一怔（半拍停），随即转头与身旁同事交换笑容。
+
+----------------------------------------------------------------
+C-04 何志成（成叔）· 58岁 · 狮队教练
+----------------------------------------------------------------
+身份特征（身份块）：
+中文：身材结实、肩背挺直、短发夹灰白、面部有日晒痕迹的中年男
+子，穿青灰色训练上衣、深色长裤、平底运动鞋。
+英文：a solidly built middle-aged man with upright shoulders,
+short greying hair and sun-weathered skin, wearing a grey-cyan
+training top, dark trousers and flat sports shoes.
+
+A. 三视图角色表：同模板替换描述。
+B. 表演情绪分解（五拍教学法——他所有的戏都是这五拍的组合）：
+停（一拍不动）→ 看（目光沿对方动作走一遍）→ 教（伸手扶正
+对方的手，速度放慢一半）→ 等（收回手，站定）→ 点头（一下，
+轻）。
+拍肩认可 → 抬手，落点在肩峰外侧，力度轻，停留半拍收回。
+
+----------------------------------------------------------------
+C-05 陈晓敏（阿敏）· 20岁 · 年轻队员
+----------------------------------------------------------------
+身份特征（身份块）：
+中文：体态轻快、黑发扎低马尾的年轻女子，穿暗红色训练短袖、黑
+色运动长裤、白色运动鞋。
+英文：a light-footed young woman with black hair in a low
+ponytail, wearing a dark-red training tee, black sports pants and
+white sneakers.
+
+A. 三视图角色表：同模板替换描述。
+B. 表演情绪分解：
+抢拍失误 → 动作比鼓点快半拍，狮头一晃，随即停住；抿嘴，肩膀
+抬起吸一口气，站回原位。
+重新完成 → 动作收着做，比节拍慢半格求稳；确认与同伴配合上
+后，先看同伴，再露出笑容。
+被拍肩 → 先意外（侧头看），看向成叔，再笑。
+
+----------------------------------------------------------------
+C-06 顺叔 · 51岁 · 街口文具杂货店店主
+----------------------------------------------------------------
+身份特征（身份块）：
+中文：脸型较方、短发整齐、身形略宽的中年男子，穿浅棕色短袖衬
+衫、深色长裤。
+英文：a square-faced middle-aged man with neat short hair and a
+broadish build, wearing a light-brown short-sleeve shirt and dark
+trousers.
+A. 三视图角色表：同模板替换描述。
+B. 表演要点：扶门的手稳而自然，说话时下巴微扬，熟人间的松弛。
+
+----------------------------------------------------------------
+C-07 老街坊（群像级，无需三视图）
+----------------------------------------------------------------
+定位：背景层人物。生成时一句带过：an elderly figure carrying a
+cloth grocery bag, semi-realistic 2D animation style。出现在
+S19一次，中景侧拍，不追踪正脸——按"一个项目里允许存在的松
+散角色"处理。
+
+================================================================
+第四部分  场景资产 S-01 ~ S-06
+================================================================
+通用规则：
+- 全部3/4角度构图（画面有纵深，运镜有处去）。
+- 默认空景（无人）——人由视频阶段放入。
+- 每张场景图必须"锁光"：提示词里写明光源方向与时段，全场景
+  同一时段的光必须一致。
+- 出图比例16:9。
+
+----------------------------------------------------------------
+S-01 社区艺术空间（昼/暮/夜 三态）
+----------------------------------------------------------------
+昼态提示词：
+An empty community art studio interior in Macau, three-quarter
+angle view, high windows on the left pouring soft morning light
+across a long wooden worktable, white walls with a few framed
+blue-and-white azulejo tiles, easel with blank paper, dust motes
+floating in the light shafts, wooden floor. Semi-realistic 2D
+animation background art, clean linework, soft cel-shading, muted
+blue-white palette with warm wood tones, no people, no text.
+暮态提示词：同上，把光线句替换为：late afternoon amber light
+slanting low from the right windows, longer shadows across the
+floor.
+夜态提示词（展览态见S-06，此态供S37前使用）：dusk turning to
+night, cool blue ambient light, one warm desk lamp glowing.
+
+----------------------------------------------------------------
+S-02 蓝白瓷砖街巷（主场景，晨光态）
+----------------------------------------------------------------
+提示词：
+An empty narrow Macau old-town street in early morning,
+three-quarter angle with depth, arched qilou colonnade on the
+left, walls covered in blue-and-white azulejo tiles catching the
+first sunlight, Portuguese cobblestone pavement pattern on the
+ground, shopfronts with closed shutters, a few pigeons on the
+ground, thin morning mist. Light: low warm sun from the far end
+of the street, shadows long. Semi-realistic 2D animation
+background art, clean linework, muted blue-white palette, no
+people, no text.
+（街牌位置留空，后期贴。此图是S17/S19等多镜共用的首帧底图。）
+
+----------------------------------------------------------------
+S-03 中葡双语街牌（道具级特写资产）
+----------------------------------------------------------------
+提示词：
+Close-up of a classic Macau street name plate mounted on a
+blue-and-white tiled wall: white ceramic plate with blue border
+and a small crest on top, two lines of text area left blank,
+weathered ceramic texture, soft morning side light. Semi-realistic
+2D animation style, muted palette, no people.
+（两行文字区故意留白——中葡文街名全部后期贴字，AI不写字。）
+
+----------------------------------------------------------------
+S-04 餐厅后厨
+----------------------------------------------------------------
+提示词：
+An empty small Macau restaurant kitchen seen from the dining side
+door, three-quarter angle: stainless pass counter in the middle,
+wok station at the back with steam-ready setup, stacked plates,
+hanging utensils, a small doorway on the right side glowing with
+street daylight. Light: warm interior tungsten mixed with cool
+daylight spilling from the right doorway. Semi-realistic 2D
+animation background art, muted palette with warm kitchen tones,
+no people, no text.
+（右侧那扇"发光的小门"=S22的主观视角伏笔，光要给足。）
+
+----------------------------------------------------------------
+S-05 广场排练场（午后态）
+----------------------------------------------------------------
+提示词：
+An empty small neighborhood plaza in late afternoon, three-quarter
+angle: open stone-paved square, a large Chinese drum on a stand at
+the center-left, lion dance props (a colorful lion head resting on
+a bench, red silk sashes) at the right, banyan tree shade at the
+back edge, low warm afternoon sun from the left creating long
+shadows. Semi-realistic 2D animation background art, muted palette,
+no people, no text.
+
+----------------------------------------------------------------
+S-06 展览现场（夜态·画为主光源）
+----------------------------------------------------------------
+提示词：
+A community art gallery at night, three-quarter angle: a large
+glowing digital tile painting on the far wall emitting soft
+blue-white light that spills onto the wooden floor and reaches
+visitor position silhouettes, small spotlights off, a blank square
+paper frame mounted beside the main painting, night street glow
+through the entrance. Light: the painting is the ONLY main light
+source, everything else falls into soft blue shadow. Semi-realistic
+2D animation background art, no readable text, no people.
+
+================================================================
+第五部分  道具资产 P-01 ~ P-07
+================================================================
+通用规则：道具=多视图道具表（正/侧/背+需要翻动时加底部视图），
+白底，纯静物，无需运动测试。
+
+----------------------------------------------------------------
+P-01 饭盒
+----------------------------------------------------------------
+提示词：
+Prop reference sheet of a two-tier stainless steel lunch box with
+a folding handle, multiple views (closed front, closed side,
+opened showing rice and dishes inside, lid interior), pure white
+background, studio lighting, semi-realistic 2D animation prop
+design, clean linework, muted metallic blues and warm food tones,
+no text.
+（状态变体：闭合提携态/开盖态/双盒叠放态——一次出全。）
+
+----------------------------------------------------------------
+P-02 米色画本与蓝色画笔（阿澄ID道具）
+----------------------------------------------------------------
+提示词：
+Prop reference sheet of a beige cloth-bound sketchbook and a dark
+blue ink brush pen, multiple views (sketchbook closed front, open
+showing a blank page with one fresh cobalt line, spine, the pen
+from two angles, pen resting on the open page), pure white
+background, semi-realistic 2D animation prop design, no text.
+
+----------------------------------------------------------------
+P-03 初稿《地标版瓷砖画》（关键美术资产）
+----------------------------------------------------------------
+提示词：
+A digital tile painting artwork in blue-and-white azulejo style:
+a neat grid of white ceramic squares, each containing a precise
+cobalt-blue line drawing of a Macau landmark (Ruins of St. Paul's
+facade, a Chinese temple roof with upturned ridge ridges, Macau
+Tower), ornamental border frames around the grid, all doors and
+windows in the drawings closed, streets empty and tidy. Flat
+frontal view of the artwork only. Semi-realistic 2D animation
+artwork style, clean linework, muted cobalt palette, no text.
+（"门窗紧闭、街道空无一人"是剧情设定，必须画出来。）
+
+----------------------------------------------------------------
+P-04 完成版瓷砖画（三态：生长态/完成态/发光态）
+----------------------------------------------------------------
+生长态提示词：
+Same blue-and-white azulejo tile painting, now with small human
+figures added in the formerly empty spots: a shopkeeper holding
+a door for an elderly neighbor, a mother passing a plate in a
+kitchen doorway, a coach gently correcting a student's hand, a
+young performer mid-motion — all drawn in the same cobalt line
+style, with flowing blue pattern lines beginning to connect the
+figures like rivers between the tiles.
+完成态提示词：接上，再加 "the blue connecting patterns complete,
+weaving through every tile, gentle steam swirls and drum-beat
+wave patterns integrated into the borders".
+发光态提示词：接完成态，加 "the artwork glows softly from within,
+blue light spilling off the tile surface".
+（P-03与P-04的构图必须同框架同视角——同一张画的两个阶段，
+  生成时用P-03垫图改。）
+
+----------------------------------------------------------------
+P-05 狮头与大鼓
+----------------------------------------------------------------
+提示词：
+Prop reference sheet of a traditional Cantonese lion dance head
+(fur trim, expressive painted eyes, red and gold accents, muted
+to fit the film palette) and a large Chinese drum on a wooden
+stand with two drumsticks, multiple views of each, pure white
+background, semi-realistic 2D animation prop design, no text.
+
+----------------------------------------------------------------
+P-06 空白方形画纸与阿乐的画
+----------------------------------------------------------------
+提示词1（空白态）：
+A single blank square of thick drawing paper mounted in a simple
+wooden frame, pure white background, soft shadow, semi-realistic
+2D animation prop, no text.
+提示词2（阿乐的画——稚拙风格是关键词）：
+A child-like crayon drawing in cobalt blue on a square of paper:
+a young man holding a sketchbook drawn much too large for his
+body, uneven line weight, wobbly confident strokes, simple round
+head, no coloring outside the blue, endearing and unpolished,
+pure white background, no text.
+（"画本特别大"=人物小传伏笔，提示词里明写。）
+
+----------------------------------------------------------------
+P-07 邀请函
+----------------------------------------------------------------
+提示词：
+A cream paper invitation card half-slid out of a kraft envelope,
+flat lay view from above, textured cotton paper, a small embossed
+blue wax seal in one corner with a subtle geometric回-pattern,
+text area left blank, soft morning light. Semi-realistic 2D
+animation prop style, no text.
+（文字区留白，后期贴"写给未来的澳门"等字样。）
+
+================================================================
+第六部分  生成验收与迭代纪律
+================================================================
+
+一、资产验收标准（硬门，不过不进分镜）
+----------------------------------------------------------------
+1. 角色表：10张同提示词出图，≥7张判为"同一人"才算合格；
+   两张脸互相像≠合格，要像"同一个人"。
+2. 单脸检查：角色表上只允许一个清晰正脸（头部六视图区）。
+3. 场景板：问三个问题——人能不能走进去？门能不能被推开？
+   光从哪来（唯一答案）？答不上=废板。
+4. 道具表：正/侧/背齐全；会被翻动的加底视图。
+5. 全部资产命名入库：
+   C01_阿澄_三视图_v1.png / S01_艺术空间_昼_v1.png /
+   P03_初稿地标版_v2.png ……（角色_内容_状态_版本）
+
+二、镜头生成流程（每个分镜五步）
+----------------------------------------------------------------
+1. 选首帧：用对应场景空板+角色垫图（Liblib图生图，参考图权重
+   0.55-0.7），出首帧定妆图。
+2. 写视频提示词：身份块（逐字）+ 运动块（本镜动作+命名运镜
+   +氛围词）+ Look块（逐字）。
+3. 生成10秒，成片截中段6-9秒。
+4. 验收硬门：脸对不对（与角色表比对）→ 手/肢体无崩 → 动作
+   是否完成 → 运镜是否执行。
+5. 不合格判定：同错两次=提示词问题，按"主体→动作→运镜→风格"
+   顺序逐层检查，一次只改一个变量；错得五花八门=运气问题，
+   同提示词批量再出，挑好的（不改提示词）。
+
+三、红线清单（每镜生成前默念）
+----------------------------------------------------------------
+手部特写四防线：镜长≤3秒 / 侧逆光 / 浅景深 / 真人手照垫图。
+文字三不：街牌/邀请函/落款后期贴字，AI不生成文字。
+年龄盲区：视频提示词不写年龄，用服装+角色描述。
+一镜一运镜，禁止叠加；推与拉永不同镜。
+群像镜≤3张需追踪的脸，其余剪影/中远景/手部插入。
+
+（完）V1.0  编制：ZCode × GPT 工作流  2026-10-25
+参考：Higgsfield AI Prompt Skill（MCSLA公式/资产准备法则/负面
+约束库，github.com/OSideMedia/higgsfield-ai-prompt-skill）、即梦/
+可灵中文提示词实践、澳门非遗与葡式瓷砖画史料。

@@ -1,7 +1,12 @@
 ================================================================
 《蓝的回信》分镜头剧本 V3.0（全片 3:50 / 47镜 · 全息提示词·十维标准）
 ================================================================
-版本历史：V2.0 2026-10-25 分镜正文本体
+版本历史：V3.1 2026-10-25 首产诊断修正：S03/S04首产19秒复核
+          否决，五根因确诊（首帧平面化/微动作冻结/风格中间态/
+          一致性机制未用/生成档位浪费）。新增附五全局修正案+
+          运动密度铁律+命名风格锚+S03/S04提示词重制。此后所有
+          镜头生成一律先读附五。
+          V2.0 2026-10-25 分镜正文本体
           V3.0 2026-10-25 全息提示词：47镜全部按参考级范例十维标准
           重写完成（INTENT戏剧弧/构图坐标/镜头负锁/分拍相位+变速/
           运动四层分离/状态锁/终帧/SFX逐拍/色彩策略；混合生成镜
@@ -32,40 +37,65 @@
 ----------------------------------------------------------------
 硬性纪律（每一镜都已按此设计）
 ----------------------------------------------------------------
-1. 10秒红线：所有镜头成片时长≤9秒。每镜按10秒生成，成片截取中段
-   稳定部分（掐头去尾各0.5-1秒），分镜标注时长=成片时长。
-2. 一镜一动作：每镜只写一个主动作+至多两个次动作；复杂交互拆镜。
-3. 双对比切换律：相邻两镜必须同时改变[景别]与[运镜性质]
+1. 生成档位律（V3.1修正，替代原"每镜按10秒生成"）：成片≤5秒的
+   镜头一律用5秒档生成（运动密度高一倍，废片率低）；成片6-9秒的
+   镜头用10秒档，但全部拍点必须前置到素材0-6秒内完成，尾段只留
+   持稳。成片仍掐头去尾各0.5秒。10秒红线（成片≤9秒）不变。
+2. 运动密度律（V3.1新增，违反任何一条=废片）：每镜必含——
+   ①一个主导动作：10米外肉眼可见级别的位移（转身/递物/推纸/
+   鸽群横穿/开门），微动作（眨眼/呼吸/1mm纸颤）只允许作为辅助
+   层，不允许作为唯一动作；
+   ②一层持续环境运动：尘埃/蒸汽/光斑/布料/发丝，从第0秒持续到
+   最后1秒不断；
+   ③镜头运动与主体动作至少占其二（固定机头镜必须由①+②补足）；
+   ④平台"运动幅度"参数设中或高（即梦：运动幅度中高；可灵：高），
+   同一提示词最少重roll 3版择优；
+   ⑤生成后逐秒目检：任意连续1秒内，画面必须存在可见变化；冻结
+   超过1.5秒=废片。
+3. 一镜一动作：每镜只写一个主动作+至多两个次动作；复杂交互拆镜。
+4. 双对比切换律：相邻两镜必须同时改变[景别]与[运镜性质]
    （固定/跟移/手持/环绕/推拉 属不同性质）。
-4. 同镜人物≤3：群像镜头（S21后厨/S26广场）用中远景+剪影+手部
+5. 同镜人物≤3：群像镜头（S21后厨/S26广场）用中远景+剪影+手部
    特写插入解决，不给AI超过3张需要追踪的脸。
-5. 文字三不：街牌、邀请函、落款文字一律后期贴字，不交给AI生成。
-6. 台词上限：单镜台词≤15字（10秒内两句话的极限）。
-7. 年龄盲区：视频提示词中不写"8岁男孩"，用"穿赭黄色短袖的小身
+6. 文字三不：街牌、邀请函、落款文字一律后期贴字，不交给AI生成。
+7. 台词上限：单镜台词≤15字（10秒内两句话的极限）。
+8. 年龄盲区：视频提示词中不写"8岁男孩"，用"穿赭黄色短袖的小身
    影"按服装+动作+角色描述（防止漂移与内容过滤）。
-8. 表演总则（来自人物小传）：阿澄前期先看作品再看人，后期先看
+9. 表演总则（来自人物小传）：阿澄前期先看作品再看人，后期先看
    人的动作再动笔；思考=拇指摩挲画本边缘；珍姐递盘前先找眼神；
    成叔=停/看/教/等/点头五拍；阿敏受挫抿嘴调呼吸再站回原位。
 
 统一前缀块（每条英文视频提示词开头逐字粘贴；中文提示词配中文块）
+（V3.1：新增②风格锚与③运动指令两段——首帧垫图只锁内容与构图，
+ 风格与"活感"必须由前缀块文本压住，两段不可删）
 ----------------------------------------------------------------
 [EN PREFIX]
-Semi-realistic 2D animation, clean uniform-weight linework, soft
-flat cel-shading, muted cobalt-blue and warm-white palette,
-restrained warm accents only on people and everyday objects.
-Single motivated light source, fixed light direction. Characters
-always alive: breathing, blinking, subtle weight shifts. Gravity
-and inertia respected, correct contact shadows, steam and cloth
-move with real physics. 24fps cinematic cadence. Consistent
-characters, wardrobe, props and background across cuts, no
+Semi-realistic 2D animation in the style of modern Japanese theatrical
+animation films — Makoto Shinkai-grade lighting and background art,
+Studio Ghibli palette restraint, clean uniform-weight linework, soft
+flat cel-shading, muted cobalt-blue and warm-white palette, restrained
+warm accents only on people and everyday objects.
+Single motivated light source, fixed light direction, visible light
+path (dust motes / soft glow bloom) in every interior shot. Depth in
+three planes: soft-occluded foreground, sharp subject, softly blurred
+background. Characters always alive: breathing, blinking, subtle
+weight shifts. Gravity and inertia respected, correct contact shadows,
+steam and cloth move with real physics. Motion amplitude medium-high:
+every second of footage contains clearly visible movement of subject
+or environment — never a frozen frame. 24fps cinematic cadence.
+Consistent characters, wardrobe, props and background across cuts, no
 identity drift. NO TEXT, NO LOGO, NO WATERMARK.
 
 [中文前缀块（即梦）]
-半写实二维动画，均匀线宽干净线稿，柔和扁平赛璐璐上色，低饱和钴蓝
-与暖白主色，暖色只出现在人物与生活物件上。单一动机光源、方向固定。
-人物始终有微动作：呼吸、眨眼、重心微移。重力惯性成立，接触阴影正
-确，蒸汽与布料有真实运动。24帧电影节奏。人物服装道具背景跨镜头一
-致，无外貌漂移。画面无文字、无标志、无水印。
+半写实二维动画，现代日本剧场动画电影风格——新海诚级光影与背景
+美术，吉卜力式克制的配色，均匀线宽干净线稿，柔和扁平赛璐璐上色，
+低饱和钴蓝与暖白主色，暖色只出现在人物与生活物件上。单一动机
+光源、方向固定，室内镜必须有可见光路（尘埃浮粒/柔光晕）。景深
+三段式：前景虚化遮挡、主体清晰、背景柔虚。人物始终有微动作：
+呼吸、眨眼、重心微移。重力惯性成立，接触阴影正确，蒸汽与布料有
+真实运动。运动幅度中高：每一秒画面都有主体或环境的明显可见运动，
+绝不出现冻结帧。24帧电影节奏。人物服装道具背景跨镜头一致，无外
+貌漂移。画面无文字、无标志、无水印。
 
 角色速记标签（提示词中用标签指代，身份靠首帧垫图锁定；年龄词禁用）
 ----------------------------------------------------------------
@@ -106,6 +136,24 @@ V3 全息提示词·十维模板（依据参考级范例+higgsfield体系+即梦
   或材质物理（源自人物小传物理化）；拍点=成片时长
 ⑨ MOTION HIERARCHY四层分离+LOCK负锁+FINAL FRAME+SFX逐拍
 ⑩ CN对照（即梦精简版）+风险预案
+
+生成端适配要点（2026-10-25第三轮检索补——首产诊断结论，来源见附五）
+----------------------------------------------------------------
+· 首帧决定论：图生视频"信任模型对图的理解"，文字只补运镜/节奏/
+  情绪（seedance2.0-prompt-skill核心原则）。首帧平=成片必平。
+  首帧入生成队列前必须过附五·三"首帧电影化五条"目检。
+· 运动幅度参数：即梦/可灵都有独立"运动幅度"设置，默认偏低；微动
+  作类提示词+低幅度=近冻结输出（"像PPT"的主因）。本集一律设中高
+  （即梦）／高（可灵），配合纪律2运动密度律使用。
+· 一致性工具链（替代裸单图I2V）：可灵1.6+多图参考（首帧+角色定妆
+  妆图同传，官方支持同主体多图一致性）；Kling3.0图生视频"Bind
+  Subject"绑定主体；即梦"主体参考"上传角色定妆图。人物镜全部
+  走此链路，道具/空景镜可用单图。
+· 首末帧接续法（Seedance实践）：跨镜连续动作用"上一段截末帧作下
+  一段首帧"衔接，分辨率与成片一致；本集S05三连段/S31/S35形变镜
+  按此执行。
+· 手部是即梦已知最弱项（手指畸形/僵硬不动，社区一致反馈）：接触
+  瞬间一律拆≤3秒插入镜+侧逆光手背视角，或改"手退出画面"收尾。
 
 生成端适配要点（2026-10-25第二轮检索补，来源见下）
 ----------------------------------------------------------------
@@ -198,52 +246,65 @@ S03｜0:10-0:13｜3秒｜大特写(ECU)｜缓推 Push In
 声音：纸的轻响；音乐收薄。
 转场：硬切。
 资产：P-07。
-AI要点（V3 全息提示词）：
+AI要点（V3 全息提示词 · V3.1按附五重制）：
 【垫图】P07_邀请函_留白版_v1.png（100% matches the reference——本镜主体即道具）
+【首帧重制（V3.1，先于生成）】原S03首帧_v1为设计板平光拼贴，已
+ 否决。重制配方：P07垫图+俯拍微距重光——窗光从左上以约35°掠入，
+ 纸面右侧1/3沉入阴影，压印线条带可见浮雕阴影；纸外四角虚化（景深
+ 三段式）；桌面压暗，纸是唯一亮面；火漆钴蓝为唯一饱和点。留白区
+ 保持空白（文字后期贴）。过不了附五·三目检不放行。
 【EN·全息版】
-SHOT S03 · cut 3s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V single prop ref
-INTENT: the invitation as an object of ceremony — paper has weight.
-FRAME: top-down macro, card fills 80% frame slightly rotated 3°; wax seal lower-right quadrant; blank text area occupies center-left; soft shadow edge bottom.
-CAMERA: slow push-in toward the blank text area, ~5% width over 3s, constant; NO rotation, NO drift, NO parallax swing.
+SHOT S03 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V single prop ref · motion amplitude medium-high
+INTENT: the invitation as an object of ceremony — light itself reads the card before any person does.
+FRAME: top-down macro, card fills 80% frame slightly rotated 3°; window light rakes in from upper-left at ~35°, right third of the card falling into soft shadow; wax seal lower-right quadrant; blank text area center-left; tabletop corners melt into blur — depth in three planes.
+CAMERA: slow push-in toward the blank text area, ~8% width over 3s, constant rate. NO rotation, NO drift, NO parallax swing.
 IDENTITY/STATE: card cream texture, emboss depth and seal color locked to P07; text area stays BLANK ceramic-clean.
-AMBIENT & COLOR: soft key upper-left; seal's cobalt is the only saturated point; card reads warm-white against cool shadow edge.
-PHASE 1 (0-1s, 1x): paper edge trembles twice, amplitude ~1mm, like a breath passed under a door.
-PHASE 2 (1-2s, 1x): light sweeps slowly across the embossing, shadow depth in the pressed lines deepening then easing.
-PHASE 3 (2-3s, 1x): a soft specular highlight lands on the wax seal and holds; edge tremble has stopped — the card settles.
-MOTION HIERARCHY — subject: none · internal: none · camera: slow push · environment: edge tremble, light sweep, one highlight.
-LOCK: NO text appears anywhere; seal does not melt or shine bloom; card never rotates beyond the initial 3°.
-FINAL FRAME: text area marginally closer, seal holding its highlight, everything still.
+AMBIENT & COLOR: single motivated window key upper-left; warm dust motes drift continuously through the light path across the whole shot; seal's cobalt is the only saturated point.
+PHASE 1 (0-1s, 1x): a soft light patch sweeps slowly across the card from left to right, visibly traveling ~30% of frame width; emboss shadows stretch and relax as it passes; dust motes stream through the beam nonstop.
+PHASE 2 (1-2s, 1x): the paper's near edge lifts ~3mm in one visible breath and settles flat; the light patch keeps traveling right.
+PHASE 3 (2-3s, 1x): the sweep arrives at the wax seal and becomes a specular highlight that holds; dust keeps drifting; the card is still.
+MOTION HIERARCHY — subject: edge lift 3mm · internal: none · camera: push-in 8% · environment: traveling light patch (the dominant action), continuous dust stream.
+LOCK: NO text appears anywhere; seal does not melt or bloom; card never rotates beyond the initial 3°; light patch never flickers — it travels at constant speed.
+FINAL FRAME: blank text area marginally closer, seal holding its highlight, dust still in the beam.
 SFX: two soft paper ticks; near-silence under.
-【CN·对照】意图：请柬即仪式。俯拍微距满幅，缓推向留白区5%宽/3秒。拍点：0-1纸缘颤两次→1-2光扫压印→2-3火漆高光落定。锁：任何文字都不出现。声：两声纸轻响。
-【风险预案】AI自加字→局部重绘擦除（文字铁律）；颤动过猛→度幅锁1mm
+【CN·对照】意图：光替人先读这张请柬。俯拍微距，窗光35°左上掠入，右1/3落影，四角虚化。生成5秒档，运动幅度中高。缓推8%宽/3秒。拍点：0-1光斑从左往右扫过约30%画面宽（主导动作，压印阴影随之伸缩）+尘埃全程不断→1-2纸缘可见地掀起3毫米落回→2-3光斑走到火漆定住成高光。锁：任何文字都不出现、光斑匀速不闪烁。声：两声纸轻响。
+【风险预案】AI自加字→局部重绘擦除（文字铁律）；扫光不执行→光斑行前置到CAMERA之后第一句重roll；5秒档仍近冻结→运动幅度拉高+尘埃描述加倍
 
 ----------------------------------------------------------------
-S04｜0:13-0:19｜6秒｜近景(CU)｜手持微晃 Handheld
+S04｜0:13-0:19｜6秒｜中近景(MCU)｜手持微晃 Handheld
 ----------------------------------------------------------------
-画面：许澄脸部近景。他眼神专注（表演注：眼神集中在纸上，慢半拍
+画面：许澄中近景。他眼神专注（表演注：眼神集中在纸上，慢半拍
 才抬头的习惯在此建立）。随即转身坐下，从包里取出米色画本[P-02]，
 翻开压平。桌面：数位屏、笔、一杯水。
 声音：椅子转动、纸页翻动、笔杆落桌的轻响。
 转场：硬切。
 资产：C-01 / P-02 / S-01。
-AI要点（V3 全息提示词）：
-【垫图】S01昼态v1（environment only）+ C01_b_坐姿伏案_v1.png（100% matches）+ P02_米色画本与蓝色画笔_多视图_v1.png
+AI要点（V3 全息提示词 · V3.1按附五重制）：
+【垫图】S01昼态v1（environment only）+ C01_b_坐姿伏案_v1.png（100%
+ matches）+ P02_米色画本与蓝色画笔_多视图_v1.png
+【一致性链路（V3.1）】不再裸单图I2V：可灵1.6多图参考上传[首帧+
+ C01_b定妆图]两张，或即梦"主体参考"挂C01_b。脸的比对硬门=C01_b。
+【首帧重制（V3.1，先于生成）】原S04首帧_v1面部偏平、背景瓷砖纹
+ 样高频满屏（帧间闪烁源），已否决。重制配方：3/4侧身坐姿朝左，
+ 窗光左上切入打亮面部受光侧（评估确认侧面光可掩盖面部立体度不
+ 足，保留）；背景瓷砖纹样整体降对比+轻微虚化，工作台前景一角虚
+ 化入画；手与笔初始状态=笔已握在手中悬于纸上，不画接触帧。
 【EN·全息版】
-SHOT S04 · cut 6s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V
+SHOT S04 · cut 6s · gen 10s (all beats inside first 6s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V + multi-image subject reference · motion amplitude medium-high
 INTENT: the ritual before the first stroke — a man arranging the world he can control.
-FRAME: 47° FOV close; subject center-right; sketchbook open occupying lower third, its spine horizontal; brush enters from right hand; window light from left edge rakes the page.
-CAMERA: gentle handheld breathing only — sway amplitude under 1% frame width; NO push, NO track. The life in the frame is his, not the camera's.
-IDENTITY/STATE: C01_b locked; sleeves already half-rolled (state from S02's end); brush is the P02 navy pen-brush with cobalt tip.
-AMBIENT & COLOR: cool morning key; page warm-white is brightest value; brush tip's cobalt the only saturated note.
-PHASE 1 (0-2s, 1x): his palm smooths the open page flat, one pass corner-to-corner, ~1.5s duration, unhurried.
-PHASE 2 (2-4s, 1x): right sleeve rolls one more turn; forearm settles; his breath audibly slows.
-PHASE 3 (4-6s, 1x): brush tip hovers two centimeters above paper — does NOT touch; eyes narrow slightly, focus pulling; micro head-lean of three degrees toward the page.
-MOTION HIERARCHY — subject: palm pass, sleeve roll, hover · internal: breath slow, eye-narrow · camera: breathing sway · environment: dust in the rake light.
-LOCK: brush NEVER touches paper (contact is S05's job); no ink drop; page stays blank; face identical to C01_b.
-FINAL FRAME: brush suspended, shadow of the tip touching the page where the real tip does not.
-SFX: cotton page under palm; wooden chair creak at 1s; held breath at 5s.
-【CN·对照】意图：落笔前的仪式。47°近景手持微颤<1%画面宽。拍点：0-2掌压画本一遍→2-4袖再卷一折→4-6笔悬2厘米不落、眼神聚。锁：笔绝不触纸、纸保持空白。声：纸页、椅响、屏息。
-【风险预案】悬停手崩→只拍手指背面侧逆光/垫R01-r1；手触纸→重roll硬门
+FRAME: 47° FOV medium close-up; subject seated center-right, body in 3/4 view facing left; open sketchbook occupies lower third, spine horizontal; window light rakes from left edge across his lit cheek and the page; background tile pattern low-contrast, softly blurred; foreground table corner melts into blur bottom-left.
+CAMERA: gentle handheld breathing, sway amplitude under 1% frame width; NO push, NO track. The life in the frame is his, not the camera's.
+IDENTITY/STATE: C01_b locked via subject reference — grey-blue shirt, off-white inner, side-parted black hair, same face as reference in every frame; sleeves half-rolled; brush is the P02 navy pen-brush with cobalt tip, held in his right hand from frame one.
+AMBIENT & COLOR: cool morning key from left; page warm-white is the brightest value; brush tip's cobalt the only saturated note; dust motes drift through the light rake continuously, the whole shot, never stopping.
+PHASE 1 (0-2s, 1x): he settles onto the stool with a visible exhale — shoulders drop, weight shifts, chair creaks; his gaze stays on the page.
+PHASE 2 (2-4s, 1x): his left palm smooths the open page flat in one unhurried pass corner-to-corner (~1.5s, seen from the back of his hand, no finger detail demand); right hand rolls its sleeve one more turn.
+PHASE 3 (4-6s, 1x): brush tip lowers to two centimeters above the paper and hovers — does NOT touch; head leans in three degrees; eyes narrow slightly; dust keeps streaming in the beam.
+MOTION HIERARCHY — subject: settle+exhale, palm pass, sleeve roll, hover+lean (dominant) · internal: breath, eye-narrow · camera: breathing sway · environment: continuous dust stream in the rake light.
+LOCK: brush NEVER touches paper (contact is S05's job); no ink drop; page stays blank; face identical to C01_b in every frame; background tiles never sharpen or crawl.
+FINAL FRAME: brush suspended, its shadow touching the page where the real tip does not, dust between lens and light.
+SFX: chair creak at 0.5s; cotton page under palm ~2.5s; held breath at 5s.
+【CN·对照】意图：落笔前的仪式。47°中近景，3/4侧身朝左，窗光左上切入，背景瓷砖降对比虚化，前景桌角虚化。手持微颤<1%画面宽。可灵多图参考或即梦主体参考挂C01_b定妆图。运动幅度中高。拍点（全部在素材0-6秒内）：0-2落座呼气肩沉→2-4手掌一遍压平画本（手背视角）+右袖再卷一折→4-6笔悬2厘米不落+头前倾3度+眯眼；尘埃全程不断。锁：笔绝不触纸、纸空白、每帧脸=C01_b、背景瓷砖不游动。声：椅响、纸页、屏息。
+【风险预案】悬停手崩→改拍手指背面侧逆光/垫R01-r1；脸漂→多图参考重挂+硬门比对3版；背景瓷砖闪烁→首帧再降对比重制；6秒后尾段多余动作→剪辑掐尾即可
 
 ----------------------------------------------------------------
 S05｜0:19-0:25｜6秒｜特写序列(Insert)｜三段快切
@@ -1540,4 +1601,102 @@ S44 阿乐："画你呀。"                    粤语："画你呀。"
 逐镜首帧垫图精确文件名与音频挂点：见各镜"AI要点（V2.1完整提示
 词）"块；音频编号见《00_文档/18_音频资产库_生成提示词.txt》。
 
-（V2.1 完 · 2026-10-25）
+================================================================
+附五：首产19秒诊断报告与全局修正案（V3.1 · 2026-10-25）
+================================================================
+诊断对象：S03_视频_v1.mp4(10s)、S04_视频_v1.mp4(9s)及用户合编
+版；S03_首帧_v1.png、S04_首帧_v1.png两张首帧的独立专业评估；
+结合第三轮全网检索（来源见本附末）。
+用户判语：信息量太少、节奏慢、动作僵硬、质量不高、缺乏一致性。
+诊断结论：五根因叠加，全部可修，修法已全部写入本文件相应位置。
+
+----------------------------------------------------------------
+一、五根因（按影响权重排序）
+----------------------------------------------------------------
+根因1｜首帧不合格（GIGO，最大权重）——"图生视频信任模型对图的
+  理解，文字只补运镜节奏"（seedance2.0-prompt-skill核心原则）。
+  首帧决定成片质量上限：首帧平，视频更平。实测证据：
+  · S03首帧评估：平面化倾向明显、遮挡式层次而非光学景深、近似
+    棚拍柔光箱平光、约70%画面空白、风格落入"说不清的中间态"。
+  · S04首帧评估：75/100尚可，但面部立体度不足（靠侧面角度掩盖）、
+    表情基线呆板、笔尖接触区手部高危、背景瓷砖高频纹样=帧间闪烁源。
+  · 结论：两张首帧都是"资产设计板直接进生成"，未经电影化重制。
+  修正：附五·三"首帧电影化五条"，所有首帧入队前必须过目检。
+
+根因2｜运动策略错误（"像PPT/动作僵硬"直接来源）——原提示词全部
+  是微动作（1毫米纸颤/0.8秒眨眼/呼吸），真人演员能演活，视频模
+  型执行不出来：微动作+平台默认低运动幅度=近冻结输出。且3秒成片
+  用10秒生成，运动密度再被稀释三倍。社区共识：提示词要求短时间
+  大幅运动反而导致动态不足——本集是反例的另一半：长时间+微动作
+  同样死。修正：纪律2"运动密度律"（主导动作+持续环境运动层+
+  幅度中高+逐秒目检）+纪律1"生成档位律"（≤5s镜用5s档）。
+
+根因3｜风格锚缺失（"质量不高"来源）——"半写实二维动画"不是窄分
+  布，模型平均化的结果是S03首帧评估原话"说不清的中间态"。修正：
+  统一前缀块已升级为命名风格锚（新海诚级光影+吉卜力式克制配色+
+  均匀线宽赛璐璐），首帧生图与视频提示词两头同锚。S04首帧评估
+  确认其质感本就接近"新海诚/webtoon"，锚定是收窄不是推翻。
+
+根因4｜一致性机制未用（"缺乏一致性"来源）——裸单图I2V没有任何
+  角色绑定，脸漂是必然不是意外；S04成片脸与C01明显不一致实测
+  佐证。修正：人物镜全部改走参考链路（可灵1.6多图参考：首帧+
+  角色定妆同传；Kling3.0 Bind Subject；即梦主体参考），脸比对
+  硬门=角色定妆图，见"生成端适配要点"。
+
+根因5｜信息密度账没算（"信息量少/节奏慢"的放大器）——3秒成片
+  里只有≤1个有效事件，还摊上冻结段。修正：运动密度律保证每镜
+  事件量；剪辑端另立账——每镜可用素材里至少2个"剪辑点"（动作
+  起动帧/完成帧/视线方向变化帧），没有2个剪辑点的素材不算过。
+
+----------------------------------------------------------------
+二、修正案落点索引（全部已写入本文件，此为索引）
+----------------------------------------------------------------
+· 纪律1 生成档位律、纪律2 运动密度律 → 头部硬性纪律区
+· 命名风格锚+运动指令+景深三段式 → 统一前缀块（EN+CN同步升级）
+· 首帧决定论/运动幅度参数/一致性工具链/首末帧接续法/手部弱项
+  → 生成端适配要点（第三轮检索块）
+· S03/S04两镜全息提示词已按新标准重写（重制示范级），其余45镜
+  在各自首帧制作时按同标准执行，不再逐镜改文字——前缀块升级已
+  全局生效，逐镜差异只在首帧配方与参考链路。
+
+----------------------------------------------------------------
+三、首帧电影化五条（所有首帧入生成队列前的目检门，全过才放行）
+----------------------------------------------------------------
+1. 动机光：单一光源+可见方向（入射角标在生图提示词里）；室内镜
+   必须有可见光路（尘埃/光斑/晕），拒绝棚拍柔光箱式无方向平光。
+2. 景深三段式：前景有虚化遮挡物（桌角/门框/檐），主体实，背景
+   虚；"遮挡式层次"不算景深，要光学虚化。
+3. 高频细节降密：瓷砖纹样/书脊文字/复杂织物一律降对比+虚化——
+   高频细节是帧间闪烁的燃料，细节留给后期贴。
+4. 手部规避：首帧里手不与笔/纸/物接触（悬停态或手背态）；接触
+   瞬间拆≤3秒插入镜侧逆光手背视角（即梦手部是最弱项）。
+5. 风格比对帧：首帧与S04首帧_v1的"新海诚/webtoon质感"目检同
+   档；出现"说不清的中间态"观感即重roll，不将就。
+
+----------------------------------------------------------------
+四、每镜交付复检清单（视频素材验收，一条不过=废片重roll）
+----------------------------------------------------------------
+□ 任意连续1秒内有可见变化（冻结>1.5秒=废）
+□ 主导动作完整执行（起、行、收三拍都在）
+□ 持续环境运动层全程不断
+□ 脸与角色定妆图逐帧同源（人物镜）
+□ 手指无畸形、无接触穿模（手部镜）
+□ 无AI自加文字/水印/标志
+□ 风格与前缀块锚定一致（线宽/上色/光影档）
+□ 素材内≥2个可用剪辑点
+（S03/S04首产v1按此清单判：8条中分别过2条/3条，均已否决，
+ 状态见《05_资产状态清单》。）
+
+----------------------------------------------------------------
+五、来源（第三轮检索，2026-10-25）
+----------------------------------------------------------------
+seedance2.0-prompt-skill(github MapleShaw)/阿里云视频Prompt指南/
+即梦保姆级教程(zhihu 29791231830)/飞书Dreamina教程·运动幅度/
+Seedance2.0提示词攻略(zhihu 2005428746417640272·"手机慢镜头能
+拍出的动作模型才能做好")/飞书AI视频Prompt结构("短时间大幅运动
+反而动态不足")/可灵1.6多图参考官方公告/Kling3.0 Bind Subject
+指南(atlascloud)/即梦主体参考教程(zhihu 1911052817692614663)/
+Seedance2.0拼片首末帧接续法(zhihu 2007970818878088815)/
+higgsfield tpl_anime_animation（风格锚块与本附根因3参照）。
+
+（V3.1 完 · 2026-10-25 · 附五为生成前必读）

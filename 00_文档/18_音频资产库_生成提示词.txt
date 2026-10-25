@@ -1,0 +1,167 @@
+================================================================
+《蓝的回信》音频资产库 · 编号与生成提示词 V1.0
+================================================================
+定位：分镜剧本里每一处音乐/音效/台词，都必须对应本库一个编号资产。
+没有编号的声音不存在——和画面资产同一纪律。
+
+一、编号体系与归档
+----------------------------------------------------------------
+  M01-M06   音乐（06_音频/02_音乐/）
+  SFX01-18  音效与环境声场（06_音频/03_音效/）
+  VO01-10   对白与语音碎片（06_音频/01_对白旁白/）
+命名：[编号]_[名称]_[版本].wav/.mp3
+  示例：M01_主题曲A段_v1.mp3
+       SFX01_瓷鸣叮_v2.wav
+       VO01_S07阿乐趁热食_粤_v1.wav
+生成纪律：每项出2-3版选优；AI生成的保留界面截图入99_工作流截图
+（比赛创作说明要交工作流举证）；采样素材只用CC0来源并记录出处。
+
+================================================================
+二、音乐资产 M（Suno 生成，提示词直接可用）
+================================================================
+工具：Suno（Instrumental 模式，关掉人声）。风格栏+描述栏分开填。
+
+M01 主题曲·A段（用于 0:00-1:00，S01起进）
+  风格栏：Portuguese fado guitar, Chinese guzheng, chamber folk,
+          instrumental, slow 6/8
+  描述栏：A gentle duet of Portuguese fado guitar and Chinese
+  guzheng, slow 6/8 lilt around 66 bpm, A minor, wistful but warm.
+  The two instruments trade a simple melodic phrase like a
+  conversation, sparse and intimate, plenty of silence between
+  notes. No percussion, no vocals. Ends open, unresolved.
+  时长目标：60秒；结构：主题句呈示→对答→轻轻收在延音上。
+
+M02 主题曲·B段变奏（用于 2:03-3:05，S28起进）
+  风格栏：同M01，加 soft strings
+  描述栏：The same fado-guitar-and-guzheng theme returns with a
+  soft warm string pad underneath, slightly fuller but still
+  restrained, slow 6/8. It grows gently bar by bar, never loud,
+  like a street gradually waking. No drums, no vocals.
+  时长目标：60秒。生成时把M01作为参考/继续（同曲变奏）。
+
+M03 主题曲·终句（用于 3:44-3:50，S46-S47）
+  描述栏：Final cadence of this theme, resolving warmly at last,
+  then a single sustained guzheng harmonic with a long natural
+  decay, extremely sparse, nothing else.
+  时长目标：10秒。可与M01/M02同批生成剪辑取尾。
+
+M04 醒狮鼓·远景动机轨（用于 S05/S09/S13 的远处鼓点种子）
+  描述栏：A traditional Chinese lion dance drum heard from far
+  away, muffled and distant, slow steady single beats like a
+  heartbeat through streets, lo-fi distance, loopable, no other
+  instruments.
+  时长目标：30秒循环。
+
+M05 醒狮鼓·完整段（用于 S26 情绪顶点，3:50-3:57）
+  描述栏：Full Cantonese lion dance drum pattern with light
+  cymbals, energetic and celebratory but neighborhood-scale, not
+  stadium. Clear steady pulse a community would clap to.
+  时长目标：15秒。
+  备注：AI生成鼓段节奏可能不稳——优先用CC0实录采样（见SFX13）。
+
+M06 展厅夜氛围底（用于第五幕垫底，可选）
+  描述栏：Very soft night ambience, faint distant city hum,
+  gentle room reverb, occasional far footsteps on wood floor.
+  时长目标：60秒。也可用SFX12实录替代。
+
+================================================================
+三、音效与环境声场 SFX（提示词用于 ElevenLabs SFX /
+Stable Audio；标[实录优先]的建议实录或CC0采样）
+================================================================
+SFX01 瓷鸣"叮"（全片声音标志：S06定格/S46两线相接/S47前）
+  single small ceramic tile struck lightly, clear pure porcelain
+  tone, medium natural decay, close mic, no reverb
+SFX02 笔触沙沙（S05/S08/S30/S31/S44 统一用同一素材变奏）
+  fine brush tip strokes on thick cotton paper, soft dry whisper,
+  close microphone, steady hand
+SFX03 水珠滑落（S15）
+  one small water droplet sliding across a metal lid, tiny
+  squeaking smear then a soft drip
+SFX04 拆信与火漆（S08不是——S03拆信、S02纸声）
+  paper envelope unwrapping, thick card sliding out, a wax seal
+  cracking loose, soft table taps
+SFX05 卷帘门（S04/S18）
+  roll-up shop shutter opening in the morning, rattling metal
+  slats, ends with a clunk
+SFX06 木窗与鸽哨（S01/S04环境）
+  old wooden window opening with a gentle creak, pigeons taking
+  flight with wing flaps and a distant pigeon whistle
+SFX07 门轴轻响（S22）
+  small old door hinge, soft single creak, well-oiled, door
+  opening slowly
+SFX08 碗筷与瓷盘（S21/S23/S27）
+  ceramic plates and bowls passing hands, gentle clinks,
+  chopsticks resting, kitchen pass rhythm
+SFX09 街市环境声场·晨（S01/S17/S19，长版30秒+）[实录/CC0优先]
+  Macau old street morning ambience: shop shutters rolling up,
+  distant tram bell, pigeons, scattered Cantonese and Portuguese
+  greetings. 后期声像：粤语偏左、葡语偏右。
+SFX10 后厨环境声场（S20-S23）
+  small busy restaurant kitchen: wok sizzle, steam hiss, short
+  Cantonese and Portuguese call-outs, plates passing
+SFX11 广场环境+掌声（S26/S27）
+  neighborhood plaza afternoon: rehearsal energy, then friendly
+  applause and light laughter
+SFX12 展厅夜声场（S38-S47）
+  quiet night gallery: murmured visitors, footsteps on wood
+  floor, distant street through the entrance
+SFX13 鼓点节奏组（四变体，S05/S24/S25/S26/S33剪辑对位用）
+  [实录优先] a=远处弱拍(每秒约1拍) b=由整到乱到停 c=慢速单敲
+  (节拍器感,每拍间隔1.5秒) d=完整庆祝段落
+  实录方案：手机录练习鼓/敲书桌纸箱打底，AI降噪；或Freesound
+  筛CC0标"lion dance drum"。
+SFX14 衣料微摩（S14）
+  subtle fabric rustle, a sleeve brushing a tabletop
+SFX15 纸嵌入槽（S45）
+  thick paper sliding into a wooden frame slot, ending in a soft
+  click
+SFX16 小水洼踩踏（可选，备用镜头）
+  small rubber boot splashing a shallow puddle, light childlike
+  step
+SFX17 画本纸页（S04/S28）
+  sketchbook thick cotton pages turning, one slow page flip
+SFX18 笔搁（S08）
+  a pen set down on a wooden table, single soft tap
+
+================================================================
+四、对白与语音碎片 VO（声线设计 + 台词账）
+================================================================
+声线选角表（配音/生成工具：海螺语音、MiniMax语音；童声方案见下）
+  VO线-C01 阿澄：青年男声，温和偏轻，气声多于字声，语速中慢
+  VO线-C02 阿乐：儿童真声，清亮自然，绝不"演娃娃音"
+  VO线-C03 珍姐：中年女声，爽利利落，音量足而不尖
+  VO线-街坊（顺叔/老街坊/后厨）：环境碎片级，不需主角级一致
+童声专项：TTS童声普遍假——优先找团队/亲友小朋友真人录（手机
+安静房即可），后期AI降噪+响度归一；实在不行海螺童声音色出3版
+以上择优。成人声线全部粤语。
+
+台词账（与分镜剧本附二一致，逐条一个VO资产）：
+VO01 S07 阿乐"妈妈叫你趁热食。"（自然送饭口气）
+VO02 S10 阿澄"你睇，呢度係我哋屋企附近。"（俯就、温和）
+VO03 S11 阿乐"咁妈妈间铺呢？"（认真寻找中）
+VO04 S12 阿乐"我哋铺头门口，日日都好多人。"（陈述事实的执拗）
+VO05 S13 阿乐"画入面，我哋住喺边啊？"（全片题眼：直视、放慢）
+VO06 S39 阿乐"你喺呢度！"（发现、兴奋压着说）
+VO07 S42 阿乐"呢度仲未画完。"（指着说、认真）
+VO08 S43 阿澄"呢一旧，你嚟画。"（郑重、放慢、递笔同步）
+VO09 S44 阿乐"画你呀。"（小得意：这么明显你还问）
+VO10 环境对话碎片包（S04/S19/S21/S34声场用）：
+     粤语半句×4（顺叔早安/接着昨天话题/后厨"嚟——"/道谢）
+     葡语招呼×3（Bom dia/Obrigado/后厨短应答）
+     要求：半句起半句落，像从街头随机采到
+
+================================================================
+五、混音进入点速查（与分镜时码对齐）
+----------------------------------------------------------------
+0:00 S01  M01进+鸽哨  |  0:10 S03 拆信声场抽空
+0:19 S05  M04鼓动机极远起+笔触卡拍
+0:49 S13  题眼后全场静一拍, 只留M04单拍
+1:00 S17  SFX09街市声场全开(M01退底)
+1:36 S24  SFX13b鼓乱到停 | 1:43 S25 SFX13c慢单敲
+1:50 S26  SFX13d完整鼓+M01主题再现半句+掌声
+2:03 S28  M02进 |  2:25-2:43 S32-34 形变三连:音乐上行+四记鼓对位
+2:56 S37  声场交织到满后收进延音
+3:05 S38  SFX12夜厅底 | 3:44 S46 瓷鸣SFX01
+3:47 S47  M03终句+最后一记远鼓(呼应0:19闭环)
+================================================================
+（V1.0 · 2026-10-25 · 与《分镜剧本V2》《分镜资产映射表19》联动）

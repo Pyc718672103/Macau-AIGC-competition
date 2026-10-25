@@ -1,5 +1,5 @@
 ================================================================
-《蓝的回信》资产库 · 生图提示词全集 V1.0
+《蓝的回信》资产库 · 生图提示词全集 V2.0
 ================================================================
 用法：本文件是"素材工厂的总图"。所有分镜（见《蓝的回信_分镜剧本_
 V2.txt》）引用的资产编号在此逐一给出可直接使用的生图提示词。
@@ -485,3 +485,111 @@ animation prop style, no text.
 参考：Higgsfield AI Prompt Skill（MCSLA公式/资产准备法则/负面
 约束库，github.com/OSideMedia/higgsfield-ai-prompt-skill）、即梦/
 可灵中文提示词实践、澳门非遗与葡式瓷砖画史料。
+
+
+================================================================
+七、V2.0 增补（2026-10-25，源自47镜资产审计的缺口修复）
+================================================================
+审计结论：A类=场景/垫图/派生缺口4项；B类=21个镜头等待角色定妆
+图；C类=音频缺口已由《18_音频资产库》独立承接。本节补齐A/B。
+
+7.1 场景资产补充（对应缺口A1/A4）
+
+S07 城市大远景·晨（S01首帧，缺口A1）
+  存放：02_场景资产/S07_城市大远景/晨雾态/
+  提示词：
+  A wide distant view of Macau old town at early morning seen
+  from high across the water, layered rooftops and church
+  facades dissolving into soft blue-grey mist, the whole city
+  reading as a muted blue-and-white painting, a few pigeons
+  crossing the sky, faint warm edge where the sun will rise.
+  Light: low pre-sunrise glow from the far left, everything
+  else cool blue. Semi-realistic 2D animation background art,
+  clean linework, muted cobalt palette, no people, no text.
+  （本图同时承担"全片第一帧=全片色彩基调"的定调职能。）
+
+S04 门口外景态（S20首帧，缺口A4）
+  存放：02_场景资产/S04_餐厅后厨/门口外景态/
+  提示词：
+  Exterior three-quarter view of a small neighborhood Macau
+  eatery entrance on the tiled street: half-open glass door with
+  steam escaping, hand-written menu clip (text area blank),
+  blue-and-white azulejo wall tiles around the door, a small
+  potted plant by the doorstep, warm interior light spilling out
+  onto the pavement. Morning light from the left. Semi-realistic
+  2D animation background art, muted palette, no people, no text.
+
+7.2 角色定妆图提示词包（对应缺口B，19张，首帧开工的前置条件）
+
+通用配方（每个定妆图都这样生成）：
+  方式：图生图，垫图=该角色三视图v1（参考图权重0.55-0.65）
+  提示词结构：身份块(逐字复制第三节) + 姿态句(下表) +
+  场景光句 + Look块(第二节逐字)
+  存放：01_角色资产/C0X_名字/定妆图/C0X_a_姿态名_v1.png
+
+姿态句清单（编号与《19_分镜资产映射表》对应）：
+C01 阿澄
+  a 立姿持信(覆盖S02/S10弯腰)：standing by a high window in
+    morning light, holding an opened letter low, reading the
+    last line before looking up
+  b 坐姿伏案(覆盖S04/S05/S08/S29)：seated at a long worktable,
+    leaning slightly forward over a sketchbook, brush mid-stroke
+  c 蹲姿平视递笔(覆盖S43)：crouching down to child eye-level,
+    offering a blue brush with both hands
+  d 暮色凝视侧影(覆盖S29/S37)：half turned to a window in late
+    amber light, shoulders finally relaxed, gaze far away
+  e 提袋行走(覆盖S17)：mid-stride on a tiled street carrying a
+    washed lunchbox in a cloth bag, eyes beginning to notice
+    surroundings
+C02 阿乐
+  a 提饭盒站姿(覆盖S07)：standing at a doorway holding a steel
+    lunchbox with both hands, looking up
+  b 前探指画(覆盖S09/S12)：leaning close to a large painting,
+    index finger touching one ceramic square
+  c 仰头直视(覆盖S11/S13)：looking straight up at an adult,
+    brows slightly gathered, completely earnest
+  d 趴地画画(覆盖S44)：lying flat on the floor, absorbed in
+    drawing on a square of paper
+  e 举画回头(覆盖S45/S39侧)：holding up a finished drawing,
+    chin slightly lifted, one-sided grin
+C03 珍姐
+  a 门口迎立·厨房态(覆盖S20)：standing at the eatery door in
+    apron, reaching to take a lunchbox, eyes smiling first
+  b 递盘寻眼神·厨房态(覆盖S21/S23)：at the kitchen pass,
+    holding a plate out, eyes finding the receiver before
+    releasing
+  c 意外转笑·展览态(覆盖S39)：in the night gallery without
+    apron, caught mid-surprise turning into a proud smile
+C04 成叔
+  a 走近停拍(覆盖S24末/S25)：walking into frame and stopping
+    one beat, hands loose, reading the situation
+  b 扶手示范(覆盖S25)：standing beside a trainee, both hands
+    gently correcting her grip, motion slowed by half
+  c 拍肩含笑(覆盖S40)：hand resting briefly on a younger
+    teammate's shoulder, restrained warm smile
+C05 阿敏
+  a 失误抿嘴站定(覆盖S24)：just stopped mid-motion, lips
+    pressed, one breath in, resetting stance
+  b 被拍肩侧头转笑(覆盖S40)：head turning toward a hand on her
+    shoulder, surprise becoming a grin
+C06 顺叔
+  a 扶门交谈(覆盖S19)：one hand steadying a shop door open for
+    an elderly neighbor, mid-sentence, easy familiar posture
+
+7.3 R01 手部垫图库（对应缺口A2，实拍获得，非生成）
+  存放：09_参考素材/04_垫图素材/R01_手部/
+  拍摄清单（手机窗边侧逆光，纯色桌面，每式3张）：
+    r1 成年手执笔悬停   r2 执笔收线搁笔   r3 双手递瓷盘
+    r4 单手接盘         r5 扶门把         r6 递小物件（笔/纸）
+    r7 接小物件         r8 儿童手握粗笔   r9 拇指摩挲本子边缘
+  用途：S05/S08/S21/S25/S27的手部特写首帧垫图（垫图后叠Look块
+  统一画风）；儿童手（r8）优先实拍——AI生成儿童手崩率最高。
+
+7.4 P03 派生资产（对应缺口A3，裁切+局部重绘，不重新生成）
+  存放：03_道具资产/P03_初稿地标版画作/派生/
+  d1 小门局部（S12）：从P03裁切店铺小门区域，放大2倍后局部
+     重绘保清晰（提示词：same drawing, sharpen only, no change）
+  d2 门窗紧闭局部（S16）：同法裁切街景门窗区
+  d3 蓝线地标线稿（S05形变首尾帧）：把P03降饱和抽线成纯线稿
+  d4 边框局部（S08）：裁切装饰边框角
+  纪律：派生图不改构图，只做裁切/放大/抽线；命名P03_d1_小门_v1

@@ -1,7 +1,9 @@
 ================================================================
-《蓝的回信》分镜头剧本 V2.3（全片 3:50 / 47镜 · 制作级逐镜提示词·拍点时钟校正版）
+《蓝的回信》分镜头剧本 V3.0（全片 3:50 / 47镜 · 全息提示词·十维标准）
 ================================================================
 版本历史：V2.0 2026-10-25 分镜正文本体
+          V3.0 2026-10-25 全息提示词：按参考级范例十维标准重写
+          （第一批S01-S16；S17-S47随后分批升级，未升级镜仍为V2.2结构）
           V2.3 2026-10-25 拍点时钟校正：全部拍点改按【各镜成片时长】
           为时钟（成片5s=0-2/2-4/4-5），10秒仅为生成素材时长
           V2.2 2026-10-25 提示词扩为制作级控制卡（垫图锁定/首帧
@@ -85,6 +87,24 @@ identity drift. NO TEXT, NO LOGO, NO WATERMARK.
 · 节奏账：合计230.0秒；全片唯一长镜S37=9秒，其余≤7秒；无三连镜
   同景别+同运镜。
 
+V3 全息提示词·十维模板（依据参考级范例+higgsfield体系+即梦/可灵实践）
+----------------------------------------------------------------
+每镜提示词按以下十维组织，EN为粘贴主版本（末尾追加统一前缀块）：
+① REF声明：垫图分角色——人物"100% matches the reference"（身份锁）、
+  场景"environment only"（模型可延展）
+② 镜头序言：cut Ns · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V
+③ INTENT：一句话戏剧弧（这镜为什么存在）
+④ FRAME：FOV档位+构图坐标（主体x=%、面向、负空间留给什么）
+⑤ CAMERA：命名运镜+精确速率（每N秒漂移约M%画面宽）+镜头负锁
+  （NO dolly/tilt/orbit/zoom…）+handheld micro-shake是否叠加
+⑥ IDENTITY/STATE：角色锁+跨镜携带状态（围裙/画本/水珠）
+⑦ AMBIENT & COLOR：光位方向+全片色彩策略（唯一暖饱和=活人与生活
+  物件：阿乐赭黄/蒸汽微金；其余钴蓝与暖白域）
+⑧ PHASE 1..N（成片时钟，可含变速0.5x/1x）：每拍=面部解剖级微动作
+  或材质物理（源自人物小传物理化）；拍点=成片时长
+⑨ MOTION HIERARCHY四层分离+LOCK负锁+FINAL FRAME+SFX逐拍
+⑩ CN对照（即梦精简版）+风险预案
+
 资产编号索引（详见《00_文档/04_资产库_生图提示词.txt》V2.0）
   角色 C-01许澄(阿澄) C-02林乐(阿乐) C-03梁婉珍(珍姐)
        C-04何志成(成叔) C-05陈晓敏(阿敏) C-06顺叔 C-07老街坊
@@ -108,14 +128,24 @@ S01｜0:00-0:05｜5秒｜大远景(ELS)｜缓慢推近 Slow Dolly In
 零起混；主题曲A段进入（法朵吉他×古筝，慢6/8拍）。
 转场：硬切。
 资产：S-02（远景版）。
-AI要点（V2.2 制作级提示词）：
-【垫图】场景=02_场景资产/S07_城市大远景/晨雾态/S07_城市大远景_晨雾态_v1.png（STYLE REFERENCE ONLY，模型可延展雾层）
-【首帧配方】地平线放上三分线；晨雾三层（前景屋顶带/中景教堂尖顶带/远景塔影带）；光位=画面左侧低角度预日出暖边，其余全域冷钴蓝；图生图修饰：加深雾的体积分层，右下角一堵老墙局部露出蓝白瓷砖釉光。
-【EN·粘贴版】The blue-and-white Macau old town sleeps under layered morning mist. 0-2s: mist banks drift slowly between rooftop layers, left to right. 2-4s: a loose flock of pigeons crosses mid-frame, wings beating at a relaxed rhythm. 4-5s: the pre-sun glow at frame-left warms one degree; on a low wall at lower-right, azulejo glaze catches first light. Camera: slow dolly-in, 107° FOV, no drift mid-segment. Audio: one distant church bell, city waking far below.
-【CN·对照】蓝白色的澳门老城睡在层叠晨雾下。0-2秒：雾带在屋顶层间缓慢漂移，自左向右。2-4秒：一小群鸽子以松弛的节奏横穿中景。4-5秒：画左预日出暖光升温一度；右下低墙上的瓷砖釉面接住第一缕光。镜头：缓慢推近，107°视野，中途不漂移。声音：远处教堂钟一记，城市苏醒底噪。
-【逐拍时序】0-2s雾动（慢，每秒约5%画面位移）／2-4s鸽群过（8-12只，散队形）／4-5s光变暖+釉面高光出现
-【声音挂点】M01进（0:00起）；SFX06鸽哨弱；一记远钟卡0:02
-【风险预案】雾若糊成一片→A降雾密度重生成；B先出无雾版，雾层后期叠
+AI要点（V3 全息提示词）：
+【垫图】S07_城市大远景_晨雾态_v1.png（environment only，模型可延展雾层）
+【EN·全息版】
+SHOT S01 · cut 5s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V single ref
+INTENT: a city waking before its people do — stillness breathing toward first light.
+FRAME: 107° FOV; horizon on upper third; three mist layers (rooftop band / church-spike band / tower silhouette band); azulejo wall lower-right as the only foreground texture; upper-left negative space reserved for the arriving glow.
+CAMERA: slow dolly-in toward town center, ~4% frame width over the full 5s, constant rate, subtle handheld breathing micro-shake. NO tilt, NO orbit, NO zoom, NO lateral drift.
+IDENTITY/STATE: no characters; the town keeps its layout, tile colors and skyline silhouette throughout — no building added or removed.
+AMBIENT & COLOR: pre-sunrise cool cobalt field; the ONLY warm accent is the one-degree horizon glow in phase 3; mist desaturates mid-depth.
+PHASE 1 (0-2s, 1x): mist banks drift slowly between rooftop layers, left-to-right, ~5% frame width per second; nothing else moves.
+PHASE 2 (2-4s, 1x): a loose flock of 8-12 pigeons crosses mid-frame left-to-right at a relaxed wingbeat; mist continues beneath them.
+PHASE 3 (4-5s, 1x): horizon-left glow warms exactly one degree; on the low wall lower-right, azulejo glaze catches its first specular highlight and holds.
+MOTION HIERARCHY — subject: none · internal: none · camera: dolly-in + micro-shake · environment: mist drift, pigeon flock, one glaze highlight.
+LOCK: no vehicles, no figures, no window lights; mist never fully clears; glow warms ONE degree only — no sunrise burst.
+FINAL FRAME: town center slightly nearer, mist half-lifted, one warm edge at left, glaze lit lower-right.
+SFX: one distant church bell ~1.5s; faint waking-city bed; wing flutter mid phase 2.
+【CN·对照】意图：城比人先醒。107°远景，雾三层，缓推约4%画面宽/5秒+手持微颤，禁倾斜环绕变焦。拍点：0-2雾漂→2-4鸽群8-12只横穿→4-5左缘暖一度+右下釉面高光。锁：无人无车无灯亮、雾不清、光只暖一度。声：1.5s远钟、鸽翅。
+【风险预案】雾糊→降雾密度重出/无雾版后期叠；鸽群散乱→减到6只重roll
 
 ----------------------------------------------------------------
 S02｜0:05-0:10｜5秒｜全景(WS)｜固定 Static
@@ -126,14 +156,24 @@ S02｜0:05-0:10｜5秒｜全景(WS)｜固定 Static
 声音：纸张展开声、空间混响里的脚步、窗外鸽哨。音乐延续。
 转场：硬切。
 资产：C-01 / S-01（昼态）/ P-07邀请函。
-AI要点（V2.2 制作级提示词）：
-【垫图】场景=02_场景资产/S01_艺术空间/昼态/S01_艺术空间_昼态_v1.png（STYLE REFERENCE ONLY）；人物=01_角色资产/C01_阿澄/定妆图/C01_a_立姿持信_v1.png（100% matches the reference）；道具=03_道具资产/P07_邀请函/P07_邀请函_留白版_v1.png
-【首帧配方】人物立右三分线，高窗在左，晨光斜切桌面形成光柱；信纸展开在双手低位，头微低视线落纸尾行；图生图修饰：光柱里加可见浮尘。
-【EN·粘贴版】Inside a community art studio, morning light shafts from a high window at frame-left. The young designer stands at the right third, holding an opened letter low. 0-2s: his eyes finish the last line, one slow blink. 2-4s: he lifts his gaze to the window, chin rising a degree. 4-5s: dust motes drift through the light shaft between camera and subject. Camera: locked static, 63° FOV. Audio: paper settling, one distant pigeon whistle.
-【CN·对照】社区艺术空间内，晨光从画左高窗斜入。年轻设计师立于右三分线，手里低位展开一封信。0-2秒：视线读完最后一行，一次放慢的眨眼。2-4秒：目光移向高窗，下巴抬一度。4-5秒：光柱里尘埃在人与镜头之间缓漂。固定机位，63°视野。声音：纸张落定、一声远处鸽哨。
-【逐拍时序】0-2s读毕+眨眼／2-4s抬眼看窗／4-5s浮尘漂移（表演注：先读完再抬头——与纸的关系先于人）
-【声音挂点】SFX04纸声弱化版；M01托底
-【风险预案】脸部漂移→A同提示词批量3版硬门筛"脸与C01_a一致"；B首帧加大人物占比
+AI要点（V3 全息提示词）：
+【垫图】S01_艺术空间_昼态_v1.png（environment only）+ C01_a_立姿持信_v1.png（100% matches the reference）+ P07_邀请函_留白版_v1.png
+【EN·全息版】
+SHOT S02 · cut 5s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V, character ref + location ref
+INTENT: a man who still relates to paper before people — the letter finishes him, not the room.
+FRAME: 63° FOV; designer stands on right third, x=62-70%; tall window upper-left pours a light shaft crossing mid-frame; letter held low, head tilted down toward its last line; dust motes occupy the shaft between camera and subject.
+CAMERA: locked static, zero movement, NO handheld shake — stillness reads as reverence. NO push, NO drift.
+IDENTITY/STATE: C01 locked (grey-blue shirt, off-white inner, side-parted black hair); state carried: letter already open, reading the final line; no watch, no bag.
+AMBIENT & COLOR: morning key from window upper-left, cool white; letter's cream is the only warm note in frame; background bookshelves fall into soft shadow.
+PHASE 1 (0-2s, 1x): his eyes finish the last line; one slow deliberate blink — eyelids close and open over ~0.8s.
+PHASE 2 (2-4s, 1x): chin lifts one degree; gaze travels from letter to window light; shoulders stay exactly where they were.
+PHASE 3 (4-5s, 1x): dust motes drift downward-through the shaft at varied speeds; he is now looking at light, not paper.
+MOTION HIERARCHY — subject: blink, chin lift · internal: eye-line travel letter→window · camera: none · environment: dust motes in shaft.
+LOCK: he does NOT fold the letter, does NOT step, does NOT smile; shirt/hair/face identical to C01_a throughout; letter text stays unreadable cream.
+FINAL FRAME: profile toward window, letter resting low, shaft of dust between lens and man.
+SFX: paper settling at 0.5s; distant pigeon whistle ~3s; room tone.
+【CN·对照】意图：先与纸后与人。63°，人物右三分线，光柱左上入。固定机头零晃。拍点：0-2读完+0.8秒完整眨眼→2-4下巴抬一度、视线纸→窗→4-5尘埃漂。锁：不折信不走动不笑；外貌=C01_a。声：纸响、3s鸽哨。
+【风险预案】脸漂→批量3版硬门比对C01_a；尘不明显→后期叠尘素材
 
 ----------------------------------------------------------------
 S03｜0:10-0:13｜3秒｜大特写(ECU)｜缓推 Push In
@@ -143,14 +183,24 @@ S03｜0:10-0:13｜3秒｜大特写(ECU)｜缓推 Push In
 声音：纸的轻响；音乐收薄。
 转场：硬切。
 资产：P-07。
-AI要点（V2.2 制作级提示词）：
-【垫图】道具=03_道具资产/P07_邀请函/P07_邀请函_留白版_v1.png（100% matches the reference）
-【首帧配方】俯拍平铺满幅，信纸纹理与火漆印清晰；文字区保持留白（后期贴"写给未来的澳门…"+展览信息）；光位=左上柔光，纸面微暖白。
-【EN·粘贴版】Top-down macro of a cream invitation card, an embossed blue wax seal in one corner, text area blank. 0-1s: the paper edge trembles very slightly in a breath of air. 1-2s: light slowly sweeps across the embossing, deepening its shadow. 2-3s: the wax seal catches a soft highlight and holds it. Camera: slow push-in toward the blank text area, 29° FOV. Audio: soft paper tick, near-silence.
-【CN·对照】米色邀请函俯拍微距，一角有蓝色火漆压印，文字区留白。0-1秒：纸缘随气流极轻颤动。1-2秒：光线缓缓扫过压印，阴影加深。2-3秒：火漆接住一处柔高光并保持。镜头向留白文字区缓推，29°视野。声音：纸轻响，近静。
-【逐拍时序】0-1s纸缘颤／1-2s光影扫压印／2-3s高光落在火漆并定住
-【声音挂点】SFX04；音乐收薄（环境声抽空=仪式感开始）
-【风险预案】文字乱码→文字区必须留白，AI永不生成文字；若AI自作主张加字→局部重绘擦除
+AI要点（V3 全息提示词）：
+【垫图】P07_邀请函_留白版_v1.png（100% matches the reference——本镜主体即道具）
+【EN·全息版】
+SHOT S03 · cut 3s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V single prop ref
+INTENT: the invitation as an object of ceremony — paper has weight.
+FRAME: top-down macro, card fills 80% frame slightly rotated 3°; wax seal lower-right quadrant; blank text area occupies center-left; soft shadow edge bottom.
+CAMERA: slow push-in toward the blank text area, ~5% width over 3s, constant; NO rotation, NO drift, NO parallax swing.
+IDENTITY/STATE: card cream texture, emboss depth and seal color locked to P07; text area stays BLANK ceramic-clean.
+AMBIENT & COLOR: soft key upper-left; seal's cobalt is the only saturated point; card reads warm-white against cool shadow edge.
+PHASE 1 (0-1s, 1x): paper edge trembles twice, amplitude ~1mm, like a breath passed under a door.
+PHASE 2 (1-2s, 1x): light sweeps slowly across the embossing, shadow depth in the pressed lines deepening then easing.
+PHASE 3 (2-3s, 1x): a soft specular highlight lands on the wax seal and holds; edge tremble has stopped — the card settles.
+MOTION HIERARCHY — subject: none · internal: none · camera: slow push · environment: edge tremble, light sweep, one highlight.
+LOCK: NO text appears anywhere; seal does not melt or shine bloom; card never rotates beyond the initial 3°.
+FINAL FRAME: text area marginally closer, seal holding its highlight, everything still.
+SFX: two soft paper ticks; near-silence under.
+【CN·对照】意图：请柬即仪式。俯拍微距满幅，缓推向留白区5%宽/3秒。拍点：0-1纸缘颤两次→1-2光扫压印→2-3火漆高光落定。锁：任何文字都不出现。声：两声纸轻响。
+【风险预案】AI自加字→局部重绘擦除（文字铁律）；颤动过猛→度幅锁1mm
 
 ----------------------------------------------------------------
 S04｜0:13-0:19｜6秒｜近景(CU)｜手持微晃 Handheld
@@ -161,14 +211,24 @@ S04｜0:13-0:19｜6秒｜近景(CU)｜手持微晃 Handheld
 声音：椅子转动、纸页翻动、笔杆落桌的轻响。
 转场：硬切。
 资产：C-01 / P-02 / S-01。
-AI要点（V2.2 制作级提示词）：
-【垫图】场景=S01昼态v1（STYLE REFERENCE ONLY）；人物=01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png（100% matches the reference）；道具=03_道具资产/P02_画本画笔/P02_米色画本与蓝色画笔_多视图_v1.png
-【首帧配方】坐姿近景，画本翻开压平占画面下三分之一，数位屏在右侧虚化；笔悬停于纸面上方2厘米未落；光位=左高窗侧光。
-【EN·粘贴版】At the long worktable, the young designer settles in. 0-2s: his palm smooths the open sketchbook flat, one pass, corner to corner. 2-4s: he rolls his right sleeve a single turn, unhurried. 4-6s: the brush hovers two centimeters above the page, not touching; his eyes narrow slightly, breath steady. Camera: gentle handheld breathing, 47° FOV. Audio: cotton pages, wooden chair creak, room tone.
-【CN·对照】长工作台前，年轻设计师坐定。0-2秒：手掌把翻开的画本压平，从角到角一遍。2-4秒：右袖口不紧不慢卷一折。4-6秒：画笔悬停纸面上方两厘米不落；眼神微聚，呼吸平稳。轻微手持呼吸感，47°视野。声音：棉纸页、木椅轻响、空间底噪。
-【逐拍时序】0-2s压平画本（一次，慢）／2-4s卷袖一折／4-6s笔悬停+眼神聚（红线：手不触纸——接触留给S05，降手崩率）
-【声音挂点】SFX17纸页；SFX18笔搁预备
-【风险预案】手指多指/畸形→A只拍手指背面侧逆光；B真人手照垫首帧（R01-r1，未拍前用P02图局部垫）
+AI要点（V3 全息提示词）：
+【垫图】S01昼态v1（environment only）+ C01_b_坐姿伏案_v1.png（100% matches）+ P02_画本画笔_多视图_v1.png
+【EN·全息版】
+SHOT S04 · cut 6s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V
+INTENT: the ritual before the first stroke — a man arranging the world he can control.
+FRAME: 47° FOV close; subject center-right; sketchbook open occupying lower third, its spine horizontal; brush enters from right hand; window light from left edge rakes the page.
+CAMERA: gentle handheld breathing only — sway amplitude under 1% frame width; NO push, NO track. The life in the frame is his, not the camera's.
+IDENTITY/STATE: C01_b locked; sleeves already half-rolled (state from S02's end); brush is the P02 navy pen-brush with cobalt tip.
+AMBIENT & COLOR: cool morning key; page warm-white is brightest value; brush tip's cobalt the only saturated note.
+PHASE 1 (0-2s, 1x): his palm smooths the open page flat, one pass corner-to-corner, ~1.5s duration, unhurried.
+PHASE 2 (2-4s, 1x): right sleeve rolls one more turn; forearm settles; his breath audibly slows.
+PHASE 3 (4-6s, 1x): brush tip hovers two centimeters above paper — does NOT touch; eyes narrow slightly, focus pulling; micro head-lean of three degrees toward the page.
+MOTION HIERARCHY — subject: palm pass, sleeve roll, hover · internal: breath slow, eye-narrow · camera: breathing sway · environment: dust in the rake light.
+LOCK: brush NEVER touches paper (contact is S05's job); no ink drop; page stays blank; face identical to C01_b.
+FINAL FRAME: brush suspended, shadow of the tip touching the page where the real tip does not.
+SFX: cotton page under palm; wooden chair creak at 1s; held breath at 5s.
+【CN·对照】意图：落笔前的仪式。47°近景手持微颤<1%画面宽。拍点：0-2掌压画本一遍→2-4袖再卷一折→4-6笔悬2厘米不落、眼神聚。锁：笔绝不触纸、纸保持空白。声：纸页、椅响、屏息。
+【风险预案】悬停手崩→只拍手指背面侧逆光/垫R01-r1；手触纸→重roll硬门
 
 ----------------------------------------------------------------
 S05｜0:19-0:25｜6秒｜特写序列(Insert)｜三段快切
@@ -182,14 +242,22 @@ S05｜0:19-0:25｜6秒｜特写序列(Insert)｜三段快切
 （听觉伏笔，全片节奏动机的种子）。
 转场：叠化×2。
 资产：P-03（初稿过程态）/ P-02。
-AI要点（V2.2 制作级提示词）：
-【垫图】段①手=R01-r1执笔照[待拍]或P02图局部；段①尾帧=03_道具资产/P03_初稿地标版画作/派生/P03_d3_蓝线地标线稿_v1.png（大三巴段）；段②③尾帧=d3庙宇/澳门塔段（局部裁切）
-【首帧配方】三段各自：手部侧逆光特写+纯纸面背景；尾帧=对应地标蓝线稿满幅；形变方向统一左下→右上。
-【EN·粘贴版】(each segment, ~8s gen / ≤3s used) Macro: a brush tip touches thick cotton paper and draws one continuous cobalt stroke; mid-stroke the line lifts, thickens, and becomes the drawn facade of the Ruins of St. Paul's [temple roofline / tower silhouette]. The hand exits frame-right as the drawing completes itself. Camera: locked macro, 12° FOV, no drift. Audio: dry brush whisper, one far muffled drum beat on the final stroke.
-【CN·对照】（每段，生成8秒用≤3秒）微距：笔尖落在厚棉纸上拉出一条连贯钴蓝笔触；行笔中线条立起、变粗，化作大三巴立面[庙宇脊线/塔影]的线稿；收笔时手向画右退出，画自行完成。固定微距，12°视野。声音：干笔沙沙，收笔时一记极远闷鼓。
-【逐拍时序】三段=三个地标，各≤3秒快切成镜（0-2s笔触行进／2-3s线条立起成建筑+手退出）
-【声音挂点】SFX02笔触卡节拍；M04鼓动机在段③收笔首次埋入——全片节奏种子
-【风险预案】形变不成立→A降级为"线到线"（笔触线直接淡出、建筑线淡入）；B形变段与手部段分开生成，叠化衔接
+AI要点（V3 全息提示词）：
+【垫图】三段各自：R01-r1/r2手部照[待拍]或P02局部垫 + P03_d3_蓝线地标线稿_v1.png对应段（尾帧）
+【EN·全息版】
+SHOT S05 · cut 6s total = three segments ×2s, hard-cut montage · gen each 10s · 16:9 · I2V per segment
+INTENT: the city arrives as one stroke each — three landmarks born from three brush lines.
+FRAME (each segment): 12° FOV macro; hand side-backlit from window left; page fills frame; stroke travels lower-left → upper-right.
+CAMERA (each): locked macro, zero movement; NO pan following the stroke — the stroke moves, camera does not.
+IDENTITY/STATE: same hand, same brush, same page across all three segments; only the landmark differs (Ruins facade / temple roofline / tower silhouette).
+AMBIENT & COLOR: cool cobalt line on warm-white page; hand in soft silhouette, no skin detail demand; each segment's final line-weight identical.
+PHASE (per segment, 0-2s on segment clock): 0-1.2s brush tip draws one continuous stroke, wrist moving steady; 1.2-2.0s the stroke thickens and lifts mid-air, becoming the landmark's clean contour; hand exits frame-right as the drawing completes itself.
+MOTION HIERARCHY — subject: hand draw, hand exit · internal: none · camera: none · environment: the line's own morph.
+LOCK: no face in frame; page never moves; stroke never breaks; morph direction always lower-left→upper-right; NO extra tiles or frames appear.
+FINAL FRAME (each): landmark line-drawing complete, brush gone, page alone.
+SFX: dry brush whisper synced to stroke; ONE far muffled drum lands exactly on segment three's final contour (the seed).
+【CN·对照】意图：三笔三地标。每段2秒×3硬切：0-1.2行笔→1.2-2线条立起成建筑、手退出。12°微距固定，线动人不动，形变永远左下→右上。锁：无脸、纸不动、线不断。声：笔触卡拍；第三段收笔落全片第一记远鼓。
+【风险预案】形变崩→降级线到线淡入淡出；手崩→段与手分开生成叠化
 
 ----------------------------------------------------------------
 S06｜0:25-0:28｜3秒｜全景(WS)｜缓慢拉远 Slow Dolly Out
@@ -200,14 +268,24 @@ S06｜0:25-0:28｜3秒｜全景(WS)｜缓慢拉远 Slow Dolly Out
 声音：音乐小落句；鼓点远去。
 转场：硬切。
 资产：P-03（完成态一）。
-AI要点（V2.2 制作级提示词）：
-【垫图】道具=03_道具资产/P03_初稿地标版画作/P03_初稿地标版_v1.png（100% matches the reference——本镜主体就是这张画）
-【首帧配方】整幅画满幅为第一帧，四边留窄白裱边；构图锁定=左大三巴/中庙宇/右澳门塔，下带门窗紧闭的安静街面（第二幕伏笔在此必须可见）。
-【EN·粘贴版】The finished landmark mural holds the frame. 0-1s: total stillness — every door and window shut, streets empty. 1-2s: a soft ceramic sheen travels across the tiles from left to right, as if light finds the glaze. 2-3s: the sheen settles on the border; the painting waits. Camera: slow dolly-out from macro on one tile to the full artwork, 47° to 63° FOV. Audio: theme phrase settles, faint porcelain hum.
-【CN·对照】完成的地标画作占据画面。0-1秒：完全静止——门窗紧闭，街道空无一人。1-2秒：一层柔亮釉光从左向右掠过瓷面，像光找到了釉。2-3秒：光停在边框上；画在等待。镜头从单块瓷格微距缓拉至全画，47°至63°视野。声音：主题乐句收束、极轻瓷鸣。
-【逐拍时序】0-1s静（可测：无任何位移）／1-2s釉光扫（每秒约30%画面宽）／2-3s光定+缓拉展开
-【声音挂点】M01落句；SFX01瓷鸣极弱版（正式版留S46）
-【风险预案】AI擅加人物→正向锁：absolutely no people, no birds, no silhouettes；仍犯→垫图权重提高重生成
+AI要点（V3 全息提示词）：
+【垫图】P03_初稿地标版_v1.png（100% matches the reference——本镜主体即画作）
+【EN·全息版】
+SHOT S06 · cut 3s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V artwork ref
+INTENT: the finished postcard — beautiful, tidy, and quietly wrong (nobody lives here).
+FRAME: 63° FOV; artwork fills frame with narrow mat border; left third Ruins, center temple, right tower; lower band streets with every door and window SHUT.
+CAMERA: slow dolly-out from 29° macro on one tile to full artwork at 63°, ~8% width recession over 3s; NO tilt, NO orbit.
+IDENTITY/STATE: artwork locked to P03 — composition, tile count, border ornaments identical; absolutely no figures added.
+AMBIENT & COLOR: even ceramic light; one traveling glaze sheen is the only temporal event; cobalt discipline total.
+PHASE 1 (0-1s, 1x): total stillness — a held breath of an image; every door shut, streets empty.
+PHASE 2 (1-2s, 1x): a soft ceramic sheen crosses left-to-right, ~30% width per second, as if light finding glaze.
+PHASE 3 (2-3s, 1x): sheen settles onto the ornamental border and stops; the painting waits.
+MOTION HIERARCHY — subject: none · internal: none · camera: slow pull-back · environment: one glaze pass.
+LOCK: NO people, birds, smoke or footprints ever; doors stay shut (their opening is Act Four's revolution); sheen passes ONCE.
+FINAL FRAME: full artwork centered, sheen resting on border.
+SFX: theme phrase settles; porcelain hum at -20dB; silence after.
+【CN·对照】意图：漂亮但无人。63°缓拉从单格微距到全画。拍点：0-1死静→1-2釉光扫过→2-3光停边框。锁：绝不加人、门窗全关、光只过一次。声：主题落句+极弱瓷鸣。
+【风险预案】AI加人→正向锁no figures重roll；画作变形→P03直做首帧
 
 ----------------------------------------------------------------
 S07｜0:28-0:32｜4秒｜中景(MS)｜固定 Static（门口侧拍）
@@ -219,14 +297,24 @@ S07｜0:28-0:32｜4秒｜中景(MS)｜固定 Static（门口侧拍）
 声音：脚步、饭盒落桌的金属轻响、台词。环境乐轻轻托底。
 转场：硬切。
 资产：C-02 / P-01 / S-01。
-AI要点（V2.2 制作级提示词）：
-【垫图】场景=S01昼态v1；人物A=01_角色资产/C02_阿乐/定妆图/C02_a_提饭盒站姿_v1.png（100% matches the reference）；人物B=C01_b坐姿定妆（画架前，参考）；道具=03_道具资产/P01_饭盒/P01_饭盒_多视图_v1.png（闭合提携视图）
-【首帧配方】门口侧拍双人构图：阿乐前景左（全身，脸朝画架），阿澄中景右（背影侧脸，未回头）；饭盒将落桌角；光位=门侧晨光逆着阿乐。
-【EN·粘贴版】The small figure in the ochre-yellow tee walks in from frame-left, sets a steel lunchbox on the table corner with both hands, and says one short line toward the easel; the young designer answers without turning, brush still moving, only his profile visible. Camera: locked medium two-shot from the doorway side, 63° FOV. Audio: footsteps, lunchbox clink, one bright Cantonese line, brush strokes continuing.
-【CN·对照】赭黄短袖的小身影从画左走进，双手把不锈钢饭盒放到桌角，朝画架方向说了一句短话；年轻设计师没有回头地应了一声，笔没停，只露侧脸。门口侧拍固定双人中景，63°视野。声音：脚步、饭盒轻响、一句清亮粤语、持续的笔触声。
-【逐拍时序】0-1s走入两步+放盒（双手）／1-3s台词（口型弱化：侧脸）／3-4s阿澄应声不回头+笔继续
-【声音挂点】VO01（粤语"妈妈叫你趁热食"）；SFX饭盒落桌
-【风险预案】双人互动脸漂→只追踪两张脸；阿澄全程背影侧脸=天然降险；口型不对→侧机位+配音后期
+AI要点（V3 全息提示词）：
+【垫图】S01昼态v1（environment only）+ C02_a_提饭盒站姿_v1.png（100% matches）+ C01_b（画架前背影参考）+ P01_饭盒_多视图_v1.png
+【EN·全息版】
+SHOT S07 · cut 4s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V two char refs + location
+INTENT: warm daily life walks into a cold tidy room — the first heat of the film.
+FRAME: 63° FOV two-shot from doorway side; Alo foreground-left walking in, full body, face toward easel; designer mid-right seen from behind-profile, brush moving; lunchbox arc lands table corner lower-left.
+CAMERA: locked static; NO pan following the child — let him cross the fixed frame; handheld OFF (contrast to S04's life).
+IDENTITY/STATE: C02_a locked (ochre tee, navy shorts, canvas shoes) — his tee is the frame's ONLY warm saturation; designer in C01_b back-view; lunchbox closed with folded handle.
+AMBIENT & COLOR: doorway daylight wraps the child; studio interior cooler; ochre tee against cobalt world = the film's color thesis in one frame.
+PHASE 1 (0-1s, 1x): Alo enters frame-left, two unhurried steps, lunchbox held two-handed against his chest.
+PHASE 2 (1-3s, 1x): he sets the lunchbox on the table corner with both hands — a small careful double-contact, then one short Cantonese line toward the easel.
+PHASE 3 (3-4s, 1x): the designer answers "mm" WITHOUT turning — only his brush hand pauses half a beat then resumes; the child watches the painting, not the man.
+MOTION HIERARCHY — subject: walk-in, set-down, brush pause · internal: child's gaze on painting · camera: none · environment: doorway light flicker minimal.
+LOCK: designer does NOT turn his face (profile only); child does NOT touch the mural; lunchbox stays closed; tee stays ochre-warm.
+FINAL FRAME: child's backlit silhouette before the bright mural, man's back at right, lunchbox at corner.
+SFX: two footsteps; lunchbox double-tap on wood; VO01 bright; brush strokes continuing.
+【CN·对照】意图：暖走进冷。门口侧拍双人固定：0-1阿乐入画两步→1-3双手放饭盒+一句台词→3-4阿澄应声不回头、笔顿半拍续写。锁：阿澄不转身、阿乐不碰画。声：脚步、盒落、VO01、笔不停。
+【风险预案】口型穿帮→侧机位弱化+配音后期；双人漂→只追两张脸
 
 ----------------------------------------------------------------
 S08｜0:32-0:35｜3秒｜大特写(ECU)｜固定 Static
@@ -236,14 +324,24 @@ S08｜0:32-0:35｜3秒｜大特写(ECU)｜固定 Static
 声音：笔搁下的轻响；一拍全静（音乐留白）。
 转场：一拍静后硬切入第二幕（静默本身是转场）。
 资产：P-03 / P-02。
-AI要点（V2.2 制作级提示词）：
-【垫图】手=R01-r2搁笔照[待拍]或P02局部；道具=03_道具资产/P03_初稿地标版画作/派生/P03_d4_边框局部_v1.png
-【首帧配方】侧逆光下手部特写，边框线缺口将合未合（缺口在画面右上角收尾处）；纸面占下二分之一。
-【EN·粘贴版】Macro: a hand draws the final short stroke, closing the ornamental border's last gap at upper-right; then lays the brush down gently parallel to the page edge. 0-1s: stroke closes the gap. 1-2s: brush set down without a sound louder than a tap. 2-3s: fingers rest flat, one beat, done. Camera: locked close-up, 18° FOV. Audio: brush set down, then complete silence held one full second.
-【CN·对照】微距：一只手补上最后一段短笔，右上角装饰边框最后的缺口合拢；随后画笔顺着纸边轻轻放下。0-1秒：笔到缺口合。1-2秒：笔搁下，声音不重于一次轻点。2-3秒：手指平放停一拍，完成。固定特写，18°视野。声音：笔搁下，随后完整静一秒。
-【逐拍时序】0-1s收线合口／1-2s搁笔／2-3s静止（静默本身是切入第二幕的转场）
-【声音挂点】SFX18笔搁；之后全静一拍（混音指令写死）
-【风险预案】手崩→A≤3秒侧逆光浅景深；B垫真人手照；C只拍笔滚落静止+后期配音效
+AI要点（V3 全息提示词）：
+【垫图】R01-r2搁笔照[待拍]或P02局部 + P03_d4_边框局部_v1.png
+【EN·全息版】
+SHOT S08 · cut 3s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V hand/prop ref
+INTENT: completion as a small quiet full-stop.
+FRAME: 18° FOV; hand side-backlit enters upper-right; border's last gap sits at upper-right corner; page fills lower half.
+CAMERA: locked close-up; NO movement of any kind; stillness = confidence.
+IDENTITY/STATE: same hand and brush as S05; page is P03's border zone; gap closure must not redraw the border pattern.
+AMBIENT & COLOR: window side-light; the closing stroke's wet cobalt fractionally darker than dry lines — fresh ink has weight.
+PHASE 1 (0-1s, 1x): the hand draws the final short stroke, closing the border's last gap; line-weight matches neighbors.
+PHASE 2 (1-2s, 1x): brush lifts, lays down parallel to page edge — one soft tap of contact.
+PHASE 3 (2-3s, 1x): fingers flatten to rest; total stillness for the last second — the silence IS the cut to Act Two.
+MOTION HIERARCHY — subject: one stroke, one set-down · internal: none · camera: none · environment: none.
+LOCK: no extra strokes; no face; border pattern unchanged; brush rolls nowhere.
+FINAL FRAME: closed border, resting hand, parallel brush.
+SFX: one brush whisper; one soft tap; then engineered FULL silence 1.0s (mix instruction).
+【CN·对照】意图：句号。18°特写全静机。0-1收线合口→1-2搁笔一声轻点→2-3手平放全静（静默即转场）。锁：不加笔触、无脸。声：笔触、轻点、混音强制静一秒。
+【风险预案】手崩→垫R01-r2/只拍笔滚落+后期声
 
 ================================================================
 第二幕 疑问：画里面，我们住在哪里（0:35 - 1:00）
@@ -259,14 +357,24 @@ S09｜0:35-0:39｜4秒｜中景(MS)｜过肩 OTS（越阿乐肩看画）
 声音：指尖点纸的轻响；环境声压低（声音为疑问让路）。
 转场：硬切。
 资产：C-02 / P-03。
-AI要点（V2.2 制作级提示词）：
-【垫图】人物=01_角色资产/C02_阿乐/定妆图/C02_b_前探指画_v1.png（100% matches the reference）；画=P03_初稿地标版_v1.png（过肩位局部）
-【首帧配方】过肩构图：前景阿乐后脑与右肩（虚焦），画面主体是初稿的街面区；他的食指悬在左下第一格上方将点未点。
-【EN·粘贴版】Over the small figure's shoulder: he leans in, body tilting forward a few degrees. 0-1s: his fingertip taps one ceramic square, lower-left, and stays. 1-3s: the finger hops tile to tile upward-right, head following it. 3-4s: he stops on an empty street square, finger resting there. Camera: locked over-the-shoulder medium, 47° FOV, foreground shoulder soft. Audio: fingertip taps, room tone low.
-【CN·对照】越过小身影的肩膀：他身体前倾几度凑近。0-1秒：食指点在左下一格瓷面上，停住。1-3秒：手指逐格向右上跳，头随手指。3-4秒：停在画中一块空街格上，指尖留驻。固定过肩中景，47°视野，前景肩虚。声音：指尖点纸、低环境声。
-【逐拍时序】0-1s首点+停／1-3s逐格跳（4-5格，每格约0.6秒）／3-4s停在空格（伏笔：他找的是"人"的位置）
-【声音挂点】SFX指尖点纸（与S06瓷鸣同一音色家族）
-【风险预案】手指漂浮不贴纸→垫图首帧手指必须已触纸；AI手伸长→正向锁 fingers touch the paper surface, natural arm length
+AI要点（V3 全息提示词）：
+【垫图】C02_b_前探指画_v1.png（100% matches）+ P03_初稿地标版_v1.png（过肩位）
+【EN·全息版】
+SHOT S09 · cut 4s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V over-shoulder
+INTENT: a child searches a map of a city he actually lives in — and the map fails him.
+FRAME: 47° OTS; Alo's head and right shoulder soft-foreground lower-left (~30% frame); mural fills the rest, its street band at his eye-line; his index finger hovers above lower-left tile.
+CAMERA: locked; NO reframe; his search moves, not the frame.
+IDENTITY/STATE: C02_b locked, body tilted forward a few degrees (his signature lean); finger never leaves the painting's plane of reach.
+AMBIENT & COLOR: studio daylight even; the child's warm tee glow against the cool mural; no sheen this time — the painting is dry, done.
+PHASE 1 (0-1s, 1x): fingertip taps the first tile, lower-left, and rests there a half-beat.
+PHASE 2 (1-3s, 1x): the finger hops tile to tile upward-right — four hops, ~0.5s each; his head follows each hop with a tiny delay.
+PHASE 3 (3-4s, 1x): the finger stops on an empty street square and rests there — he has found where people should be, and aren't.
+MOTION HIERARCHY — subject: tap, four hops, rest · internal: gaze tracks finger with lag · camera: none · environment: none.
+LOCK: finger stays ON the painting surface (no floating); arm length natural; he does NOT speak; mural unchanged.
+FINAL FRAME: finger resting on an empty painted street, child's profile puzzled-still.
+SFX: fingertip taps, felt not loud; room tone low.
+【CN·对照】意图：在地图上找家。47°过肩固定。0-1首点停半拍→1-3四跳逐格右上（头随指有延迟）→3-4停在空街格。锁：指不离纸面、不说话。声：指尖点纸。
+【风险预案】手指浮空→首帧指尖必须已触纸；手臂伸长→正向锁natural arm length
 
 ----------------------------------------------------------------
 S10｜0:39-0:42｜3秒｜双人近景(Two-Shot CU)｜缓推 Push In
@@ -277,14 +385,24 @@ S10｜0:39-0:42｜3秒｜双人近景(Two-Shot CU)｜缓推 Push In
 声音：台词；静。
 转场：硬切。
 资产：C-01 / C-02 / P-03。
-AI要点（V2.2 制作级提示词）：
-【垫图】人物A=C01_a立姿定妆（弯腰变体修饰：bending forward at the waist）；人物B=C02_b前探定妆；画=P03
-【首帧配方】双人近景：阿澄自右弯腰入画、手指落向画中一格建筑；阿乐顺手指看画；肩线一高一低（成人俯就构图）。
-【EN·粘贴版】Two-shot: the young designer bends from the waist, pointing at one tidy building square. 0-1s: his finger lands on the tile, he glances to the small figure for recognition. 1-2s: the child's eyes follow the finger onto the painting. 2-3s: a small nod from the adult, inviting agreement. Camera: slow push-in on the two faces, 47° to 29° FOV. Audio: one short warm Cantonese line, fingertip touch.
-【CN·对照】双人镜：年轻设计师从腰部弯下，指向画中一格整洁的建筑。0-1秒：手指落在瓷格上，扭头看小身影求确认。1-2秒：孩子的目光顺着手指落到画上。2-3秒：成人轻轻点一下头，示意认同。双人面部缓推，47°至29°视野。声音：一句温和粤语、指尖触纸。
-【逐拍时序】0-1s指落格+回看／1-2s孩子目光跟随／2-3s点头（VO02挂此拍）
-【声音挂点】VO02"你睇，呢度係我哋屋企附近。"
-【风险预案】双脸同框漂移→首帧双垫图（C01_a+C02_b）；生成时两人间隔保持一臂（limb merging防线）
+AI要点（V3 全息提示词）：
+【垫图】C01_a（弯腰变体：bending forward at the waist）+ C02_b + P03
+【EN·全息版】
+SHOT S10 · cut 3s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs
+INTENT: the adult's best answer — accurate, and beside the point.
+FRAME: 47° two-shot; designer bends from waist entering left, his pointing hand reaching the mural's mid band; child right, smaller, looking up-then-across; shoulder lines one high one low.
+CAMERA: slow push-in, ~4% width over 3s, gathering both faces; NO tilt.
+IDENTITY/STATE: C01/C02 locked; designer's bend reads in the knees too (real bend, not bow).
+AMBIENT & COLOR: even studio light; both warm tees/shirt notes in the cool room; the pointed tile gets a touch more light.
+PHASE 1 (0-1s, 1x): his finger lands on one tidy building square — accurate placement, and he glances at the child, checking: is this right?
+PHASE 2 (1-2s, 1x): the child's eyes travel from finger to tile, holding there.
+PHASE 3 (2-3s, 1x): the adult gives one small inviting nod — the last confident gesture he will have for a while.
+MOTION HIERARCHY — subject: point, glance, nod · internal: child's eye travel · camera: slow push · environment: none.
+LOCK: nobody smiles; the finger never taps twice; child does not answer here.
+FINAL FRAME: two faces over one tile, the nod still hanging.
+SFX: one fingertip touch; VO02 warm short line lands in phase 1.
+【CN·对照】意图：准确的答非所问。47°双人缓推4%宽。0-1指落格+回看孩子→1-2孩子目光跟到瓷格→2-3成人一次邀请式点头。锁：无人笑、不敲第二下。声：触纸+VO02。
+【风险预案】双脸漂→首帧双垫图；两人间距<一臂→distinct separation锁
 
 ----------------------------------------------------------------
 S11｜0:42-0:45｜3秒｜近景(CU)｜低角度固定 Low-Angle Static
@@ -295,14 +413,24 @@ S11｜0:42-0:45｜3秒｜近景(CU)｜低角度固定 Low-Angle Static
 声音：台词；一瞬静。
 转场：硬切。
 资产：C-02。
-AI要点（V2.2 制作级提示词）：
-【垫图】人物=01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png（100% matches the reference）
-【首帧配方】低机位=孩子视线高度近景；背景虚化的画架与成人衣角在上缘；他眉头将聚未聚，视线越过镜头上方一点（对着成人脸部方向）。
-【EN·粘贴版】From child eye-level: the small figure studies the adult's answer. 0-1s: his eyes track something above the lens, brow gathering slightly. 1-2s: he asks one short question, chin lifting a little. 2-3s: he holds the look, waiting, completely still. Camera: locked low-angle close-up, 29° FOV. Audio: one short Cantonese line, room tone dipping under it.
-【CN·对照】孩子视线高度：小身影在成年人的脸上找答案。0-1秒：眼睛追着镜头上方某处，眉头微聚。1-2秒：问出一句短话，下巴微抬。2-3秒：他保持着那个眼神，等，完全静止。低角度固定近景，29°视野。声音：一句粤语，环境声在句下压低。
-【逐拍时序】0-1s眼神追踪+眉聚／1-2s台词VO03／2-3s静止等待（等待就是表演）
-【声音挂点】VO03"咁妈妈间铺呢？"
-【风险预案】视线方向错→首帧眼神方向锁定；生成运动只写眨眼与呼吸，不写头部大转
+AI要点（V3 全息提示词）：
+【垫图】C02_c_仰头直视_v1.png（100% matches the reference）
+【EN·全息版】
+SHOT S11 · cut 3s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V
+INTENT: from the child's height, the grown-up's answer is a cliff face.
+FRAME: 29° low-angle close from child eye-height; adult's shoulder blur upper-edge; the child's whole face owns the frame; light from window finds one catch-light in his eyes.
+CAMERA: locked; height IS the statement — NO crane, NO push.
+IDENTITY/STATE: C02_c locked; his signature lean now upward.
+AMBIENT & COLOR: soft side window light; background melts to shadow; his tee's ochre reads warm against it.
+PHASE 1 (0-1s, 1x): his eyes track the adult's face above lens, brow gathering slightly — two visible creases at the brow's inner edge.
+PHASE 2 (1-2s, 1x): he asks one short question; chin lifts a little; the question is polite and devastating.
+PHASE 3 (2-3s, 1x): he holds the look — completely still, waiting; the waiting is the performance.
+MOTION HIERARCHY — subject: brow, chin, question · internal: eye tracking + hold · camera: none · environment: none.
+LOCK: no head wobble; no repeated blinking; does not look away.
+FINAL FRAME: upturned face, question delivered, silence owned.
+SFX: VO03; room tone dips under the line.
+【CN·对照】意图：孩子的高度即立场。29°低角近景全锁。0-1眼神追+眉聚两纹→1-2一句短问、下巴微抬→2-3完全静止地等。锁：不晃头不走神。声：VO03+环境声下沉。
+【风险预案】视线方向错→首帧锁定眼神朝镜头上方；只写眨眼呼吸运动
 
 ----------------------------------------------------------------
 S12｜0:45-0:49｜4秒｜特写快切(ECU+CU)
@@ -313,14 +441,23 @@ S12｜0:45-0:49｜4秒｜特写快切(ECU+CU)
 声音：台词；指尖触纸声。
 转场：硬切。
 资产：C-02 / P-03。
-AI要点（V2.2 制作级提示词）：
-【垫图】子镜①=03_道具资产/P03_初稿地标版画作/派生/P03_d1_小门_v1.png（100% matches the reference）；子镜②=C02_c（摇头变体修饰：shaking head once）
-【首帧配方】子镜①=d1小门满幅，门紧闭、门缝无光；子镜②=阿乐近景，头正要摇。
-【EN·粘贴版】Insert①: the tidy painted shop door, closed inside its ceramic square, glaze nearly still. 0-2s: nothing moves but one faint sheen. Insert②: close on the small figure — 0-2s: he shakes his head once, eyes never leaving the mural. 2-4s: he answers with one short stubborn line, matter-of-fact. Camera: both locked, 18° and 29° FOV. Audio: paper-quiet room, one firm child line.
-【CN·对照】插入①：画中整洁的小店门紧闭在瓷格里，近乎静止。0-2秒：只有一层极淡釉光在动。插入②：小身影近景——0-2秒：摇一次头，目光不离画。2-4秒：用一句执拗的短话回答，陈述事实的口气。两镜均固定，18°与29°视野。声音：安静的房间、一句坚定的童声。
-【逐拍时序】①0-2s静门／②0-2s摇头／②2-4s台词VO04
-【声音挂点】VO04"我哋铺头门口，日日都好多人。"
-【风险预案】摇头过头成否定舞→度副词锁：shakes his head once, small amplitude
+AI要点（V3 全息提示词）：
+【垫图】子镜①P03_d1_小门_v1.png（100% matches）／子镜②C02_c（摇头变体）
+【EN·全息版】
+SHOT S12 · cut 4s = insert① 2s + close② 2s, hard cut · gen each 10s · 16:9
+INTENT: the tidy little door — technically present, entirely wrong.
+FRAME ①: 18° insert; the painted shop door fills frame, shut, its seam lightless. FRAME ②: 29° close on Alo, head neutral about to shake.
+CAMERA: both locked; NO movement in either — facts, stated plainly.
+IDENTITY/STATE: ① door locked to P03_d1; ② C02_c locked, eyes still on mural.
+AMBIENT & COLOR: ① pure ceramic cool, the door's blue a shade darker than wall tiles; ② child's warmth returns.
+PHASE ①(0-2s, 1x): the door holds utterly shut; one faint glaze shimmer passes — the painting's pulse, nothing more.
+PHASE ②(0-2s own clock, 1x): he shakes his head ONCE, small amplitude; then answers with one short matter-of-fact line — stubbornness without anger.
+MOTION HIERARCHY — subject ②: one head shake · internal: gaze pinned to mural · camera: none · environment ①: one shimmer.
+LOCK: ① door never opens, no light seam; ② shake exactly once; eyes never leave the painting.
+FINAL FRAME ②: his face turned a fraction back to the door that should be full of people.
+SFX: ① silence; ② VO04 firm child line.
+【CN·对照】意图：门是对的，人是缺的。两个2秒固定镜：①小门死关+一次釉光→②摇头一次+执拗陈述。锁：门不开、只摇一次头、眼不离画。声：①静②VO04。
+【风险预案】摇头成舞蹈→small amplitude锁；门缝漏光→seam lightless锁
 
 ----------------------------------------------------------------
 S13｜0:49-0:53｜4秒｜近景(CU)｜极缓推 Very Slow Push In
@@ -330,14 +467,24 @@ S13｜0:49-0:53｜4秒｜近景(CU)｜极缓推 Very Slow Push In
 声音：台词落下后，全场静一拍——只剩极远处的鼓点，一下，一下。
 转场：台词后硬切（静默中的切）。
 资产：C-02。
-AI要点（V2.2 制作级提示词）：
-【垫图】人物=C02_c_仰头直视_v1.png（100% matches the reference）——全片题眼，允许同提示词批量3-5版
-【首帧配方】近景直用；构图上方留白（提问的"空间"）；眼神直视镜头上方成人方向；光位=侧窗柔光，一只眼有明确眼神光点。
-【EN·粘贴版】The film's question. 0-1s: the small figure looks straight up; his eyes lock and do not leave the adult. 1-3s: he asks the question slowly, syllable by syllable, chin steady. 3-4s: after the last word, the whole room holds — no movement anywhere, one far drumbeat arrives through the walls. Camera: very slow push-in, barely two percent of frame per second, 29° FOV, no drift mid-segment. Audio: the line, then near-silence with one distant drum.
-【CN·对照】全片的问题。0-1秒：小身影仰起头直视；目光锁定，不离开成年人。1-3秒：一字一顿地问，下巴稳定。3-4秒：最后一个字落下后，整个空间屏住——哪里都没有动静，一声远鼓穿墙而来。极缓推近，每秒约2%画面，29°视野，中途不漂移。声音：台词，随后近静中一记远鼓。
-【逐拍时序】0-1s锁定注视／1-3s逐字提问（VO05先定稿配音，画面贴语速）／3-4s全域静止+一记远鼓
-【声音挂点】VO05"画入面，我哋住喺边啊？"；M04单拍；混音：台词后所有轨道哑1.5秒
-【风险预案】本镜是全片表演锚：硬门=眼神直视度+脸与C02_c一致；不过门→换配音节奏重出（语速放慢版）
+AI要点（V3 全息提示词）：
+【垫图】C02_c_仰头直视_v1.png（100% matches the reference）——全片题眼，允许同提示词批量3-5版硬门择优
+【EN·全息版】
+SHOT S13 · cut 4s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V
+INTENT: the film's question, asked at the exact speed of meaning.
+FRAME: 29° close; head-room generous above him (the question needs sky); his eyes lock above-lens where the adult stands; single catch-light from window left.
+CAMERA: very slow push-in, ~2% frame width PER SECOND, constant, no easing — a held breath closing distance. NO tilt, NO orbit, NO handheld.
+IDENTITY/STATE: C02_c locked through every frame — face, hair, tee — the film cannot afford drift in its thesis shot.
+AMBIENT & COLOR: side window key; background falls to near-black cobalt; his ochre tee is the only warmth in the world of this shot.
+PHASE 1 (0-1s, 1x): eyes lock on the adult and DO NOT leave — pupils steady; a preparatory breath in, chest rises once.
+PHASE 2 (1-3s, 1x): he asks the question slowly, syllable by syllable; jaw relaxed, lips precise; between words his eyes stay fixed — no blinking mid-line.
+PHASE 3 (3-4s, 1x): after the last word the whole room holds; nothing anywhere moves; then ONE far drumbeat arrives through the walls, felt more than heard.
+MOTION HIERARCHY — subject: breath, the line · internal: fixed gaze, blink withheld until line ends · camera: 2%/s push · environment: none until the single drum.
+LOCK: he does not repeat, does not look away, does not fidget; NO cutaway; the drum is distant — never on-screen.
+FINAL FRAME: his face a fraction closer, question hanging in the head-room above.
+SFX: VO05 (record FIRST, picture follows its tempo); then engineered room-mute 1.5s; one far drum (M04) into the mute.
+【CN·对照】意图：全片的问题，按意义的速度问。29°近景，上方留白，每秒2%匀速推。0-1锁眼+一次吸气→1-3逐字提问（句中不眨眼）→3-4全域静，一记远鼓穿墙。锁：不重复不回避不小动作、无切走。声：VO05先录→混音哑1.5秒→远鼓。
+【风险预案】硬门=眼神直视度+脸=C02_c；不过门→换VO05慢语速版重出
 
 ----------------------------------------------------------------
 S14｜0:53-0:56｜3秒｜近景(CU)｜固定 Static
@@ -347,14 +494,24 @@ S14｜0:53-0:56｜3秒｜近景(CU)｜固定 Static
 声音：静；衣料摩擦的极轻声。
 转场：目光落点做匹配剪辑（视线→切饭盒）。
 资产：C-01 / P-02 / P-01。
-AI要点（V2.2 制作级提示词）：
-【垫图】人物=C01_b坐姿定妆（困惑变体修饰：thumb rubbing sketchbook edge, gaze dropping）；道具=P02+P01
-【首帧配方】近景：拇指停在画本边缘将摩挲；桌角饭盒入画右下虚化；光位同S02（连续性）。
-【EN·粘贴版】No answer. 0-1s: one slow blink; his thumb starts rubbing the sketchbook edge, twice, small circles. 1-2s: his gaze slides off the child, down through the air, and lands on the lunchbox at the table corner. 2-3s: he stays there, looking. Camera: locked close-up, 29° FOV. Audio: fabric rustle, one held breath, distant room tone.
-【CN·对照】没有回答。0-1秒：一次放慢的眨眼；拇指开始在画本边缘摩挲，两圈，很小的圈。1-2秒：目光从孩子身上滑开，向下穿过空气，落在桌角的饭盒上。2-3秒：他就停在那里，看着。固定近景，29°视野。声音：衣料轻响、一口屏住的呼吸、远处底噪。
-【逐拍时序】0-1s眨眼+拇指摩挲（人物小传锁定动作）／1-2s目光滑落（视线方向=剪辑匹配点，下一镜接饭盒）
-【声音挂点】SFX14衣料；静场延续S13的哑部
-【风险预案】"困惑"禁入提示词（禁情绪词）——只写眨眼/摩挲/视线三件事，全物理
+AI要点（V3 全息提示词）：
+【垫图】C01_b（困惑变体：thumb rubbing sketchbook edge, gaze dropping）+ P02 + P01
+【EN·全息版】
+SHOT S14 · cut 3s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V
+INTENT: no answer — the question lands in the hands instead of the mouth.
+FRAME: 29° close; thumb resting at sketchbook edge lower-left of frame; lunchbox blurred at table corner lower-right (the destination of his falling gaze); light unchanged from S02/S04 (continuity of day).
+CAMERA: locked; the camera gives him privacy — NO push into his face.
+IDENTITY/STATE: C01 locked; state: brush already set down (from S08's world), sketchbook closed under his forearm.
+AMBIENT & COLOR: same cool studio; the lunchbox's steel holds a tiny window reflection — the only new light note.
+PHASE 1 (0-1s, 1x): one slow blink — eyelids close ~0.5s, open ~0.5s; nothing else.
+PHASE 2 (1-2s, 1x): thumb rubs the sketchbook edge twice, small circles, ~1cm amplitude — the habit that thinks for him.
+PHASE 3 (2-3s, 1x): his gaze slides off-frame-down toward the lunchbox corner; lashes lower halfway; hold.
+MOTION HIERARCHY — subject: blink, thumb circles, gaze drop · internal: no words forming · camera: none · environment: none.
+LOCK: NO sigh voiced; shoulders do NOT drop theatrically; emotion stays in thumb and lashes ONLY (physics of restraint).
+FINAL FRAME: eyes half-lowered, thumb mid-circle, lunchbox glinting at corner.
+SFX: fabric rustle; one held breath; room tone.
+【CN·对照】意图：问题落在手上。29°固定给足私密。0-1一次完整慢眨眼→1-2拇指摩挲两圈小圆→2-3目光滑落饭盒、睫毛半降。锁：不出叹气、肩膀不夸张下沉——情绪只许在拇指和睫毛。声：衣料、屏息。
+【风险预案】禁写"困惑"入提示词——只许眨眼/摩挲/视线三件事
 
 ----------------------------------------------------------------
 S15｜0:56-0:58｜2秒｜大特写(ECU)｜固定（插入镜头 Insert）
@@ -364,14 +521,23 @@ S15｜0:56-0:58｜2秒｜大特写(ECU)｜固定（插入镜头 Insert）
 声音：一声极轻的水珠滑落感（音效点缀）。
 转场：硬切。
 资产：P-01。
-AI要点（V2.2 制作级提示词）：
-【垫图】道具=03_道具资产/P01_饭盒/P01_饭盒_多视图_v1.png（盒盖视图裁切放大2倍）
-【首帧配方】盒盖满幅微距；水珠3-5颗布点（一大带三小）；盒盖弧面映出高窗的柔白倒影；光位=左上。
-【EN·粘贴版】Macro on the steel lunchbox lid. 0-1s: three small droplets sit still. 1-2s: the large droplet creeps down the curve, stretching as it goes, gathers at the rim, trembling, refusing to fall. Camera: locked macro, 12° FOV. Audio: one tiny drip-squeak, silence.
-【CN·对照】不锈钢饭盒盖微距。0-1秒：三颗小水珠静止。1-2秒：大水珠沿弧面缓慢下爬，边走边拉长，在边缘聚住，颤着，不落。固定微距，12°视野。声音：一声极细的水声，静。
-【逐拍时序】0-1s静珠／1-2s下滑至边缘悬停（"不落"=他还没答案的物理隐喻）
-【声音挂点】SFX03水珠；此镜环境声全部抽空只留这一声
-【风险预案】水珠乱物理→生成慢动作版后期提速（Fast Motion Trick反用：慢生稳）
+AI要点（V3 全息提示词）：
+【垫图】P01_饭盒_多视图_v1.png盒盖视图裁切放大2倍
+【EN·全息版】
+SHOT S15 · cut 2s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V prop ref
+INTENT: morning's warmth still condensed on steel — care made visible.
+FRAME: 12° macro; lid fills frame; its curve catching the window as a soft white reflection band; one large droplet with three smaller satellites, upper-left cluster.
+CAMERA: locked; NO rack focus; the droplet is the only actor.
+IDENTITY/STATE: lid locked to P01's cover view; reflection band stays put (the window does not move).
+AMBIENT & COLOR: cool steel field; the droplet reads as pure highlight — a lens of the room's warmth.
+PHASE 1 (0-1s, 1x): three satellite droplets sit perfectly still; the large one begins to slide — a creep, not a run.
+PHASE 2 (1-2s, 1x): the large droplet travels the curve, stretching as it goes, gathers at the rim — and HOLDS there, trembling, refusing to fall.
+MOTION HIERARCHY — subject: none · internal: none · camera: none · environment: one droplet's whole journey.
+LOCK: droplet NEVER falls (the answer hasn't); no condensation re-forms; reflection band static.
+FINAL FRAME: droplet parked at the rim, trembling at the edge of falling.
+SFX: one tiny drip-squeak; engineered dead silence around it (all ambience ducked −18dB).
+【CN·对照】意图：关照凝结在钢上。12°微距全锁。0-1大珠开始爬→1-2拉伸至边缘聚住、颤而不落。锁：绝不落下（答案未落）；反光带不动。声：一声极细水音，其余全部压掉。
+【风险预案】水珠物理乱→慢动作生成后期提速；提前掉落→重roll硬门
 
 ----------------------------------------------------------------
 S16｜0:58-1:00｜2秒｜大特写(ECU)｜固定（插入镜头 Insert）
@@ -381,14 +547,23 @@ S16｜0:58-1:00｜2秒｜大特写(ECU)｜固定（插入镜头 Insert）
 声音：静。
 转场：硬切入第三幕（次日晨光）。
 资产：P-03（局部）。
-AI要点（V2.2 制作级提示词）：
-【垫图】道具=03_道具资产/P03_初稿地标版画作/派生/P03_d2_门窗紧闭局部_v1.png（100% matches the reference）
-【首帧配方】d2门窗局部满幅；选景含一扇门一扇窗各一；与S15并置=一边有水珠一边无生活。
-【EN·粘贴版】Inside the painting, the little street keeps its perfect stillness: every door shut, every window latched. 0-1s: nothing moves at all. 1-2s: one faint glaze shimmer passes — the only sign the painting is alive. Camera: locked macro, 12° FOV. Audio: total silence.
-【CN·对照】画里面，小街完美安静：门都关着，窗都闩着。0-1秒：什么都不动。1-2秒：一层极淡釉光掠过——画活着的唯一证据。固定微距，12°视野。声音：完全安静。
-【逐拍时序】0-1s死静／1-2s釉光一过（与S15水珠同秒数——剪辑对仗）
-【声音挂点】无（两镜连续的无声=第二幕收束方式）
-【风险预案】AI加人物/开窗→正向锁 all doors shut, all windows latched, no figures；垫图为锁
+AI要点（V3 全息提示词）：
+【垫图】P03_d2_门窗紧闭局部_v1.png（100% matches the reference）
+【EN·全息版】
+SHOT S16 · cut 2s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V artwork ref
+INTENT: the same silence, inside the painting — no droplet here.
+FRAME: 12° macro; one door and one window, both latched, centered; tile seams framing them like a case file.
+CAMERA: locked; ZERO events allowed except one.
+IDENTITY/STATE: locked to P03_d2; shutters, seams, shadows unchanged.
+AMBIENT & COLOR: ceramic cool only; NO warm note anywhere — this is the painting's poverty.
+PHASE 1 (0-1s, 1x): nothing moves at all — a still life of absence.
+PHASE 2 (1-2s, 1x): one faint glaze shimmer passes, same family as S12① — the painting's pulse; then still again.
+MOTION HIERARCHY — subject: none · internal: none · camera: none · environment: one shimmer.
+LOCK: no lights behind windows, no figures, no openings; shimmer passes ONCE and thin.
+FINAL FRAME: door and window shut, shimmer gone — matched seconds with S15 for the edit's rhyme.
+SFX: total silence (mix: full mute both shots).
+【CN·对照】意图：画里连水珠都没有。12°微距全锁。0-1全然不动→1-2一次极淡釉光过、复归死静。锁：无灯无人无开启、光只过一次。声：完全静（与S15同秒成对仗）。
+【风险预案】AI开窗/亮灯→正向锁shut/latched/no lights；垫图即锁
 
 ================================================================
 第三幕 发现：一条街正在共同生活（1:00 - 2:10）

@@ -212,7 +212,7 @@ S04｜0:13-0:19｜6秒｜近景(CU)｜手持微晃 Handheld
 转场：硬切。
 资产：C-01 / P-02 / S-01。
 AI要点（V3 全息提示词）：
-【垫图】S01昼态v1（environment only）+ C01_b_坐姿伏案_v1.png（100% matches）+ P02_画本画笔_多视图_v1.png
+【垫图】S01昼态v1（environment only）+ C01_b_坐姿伏案_v1.png（100% matches）+ P02_米色画本与蓝色画笔_多视图_v1.png
 【EN·全息版】
 SHOT S04 · cut 6s · gen 10s · 16:9 · ONE CONTINUOUS SHOT · I2V
 INTENT: the ritual before the first stroke — a man arranging the world he can control.
@@ -654,7 +654,7 @@ S21｜1:20-1:27｜7秒｜中景-全景(MS→WS)｜缓移 Slow Truck
 转场：硬切。
 资产：C-03 / C-01 / S-04 / P-01。
 AI要点（V2.2 制作级提示词）：
-【垫图】场景=02_场景资产/S04_餐厅后厨/日间态/S04_餐厅后厨_日间态_v2.png（选用v2，STYLE REFERENCE ONLY）；人物=01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神_v1.png（100% matches the reference）；人物B=C01_b（虚化位）；道具=P01
+【垫图】场景=02_场景资产/S04_餐厅后厨/日间态/S04_餐厅后厨_日间态_v2.png（选用v2，STYLE REFERENCE ONLY）；人物=01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png（100% matches the reference）；人物B=C01_b（虚化位）；道具=P01
 【首帧配方】后厨纵深中景：珍姐在出餐口（中位），蒸汽柱在左，阿澄画左三分之一处半侧身接应；构图留出"手递手"的中间地带。
 【EN·粘贴版】Busy kitchen, steam columns left. 0-2s: the cook rules the pass — her eyes find the receiver before the plate leaves her hands. 2-4s: the plate crosses; the young designer receives it with both hands and passes it on, out of frame. 4-7s: another call-and-answer crosses the line in two languages; steam folds around the moving arms. Camera: slow lateral drift deeper into the kitchen, 63° FOV. Audio: wok hiss, plate clinks, two-tone call-and-answer in rhythm.
 【CN·对照】忙碌后厨，蒸汽柱在左。0-2秒：厨娘掌控出餐口——盘子离手前，目光先找到接盘的人。2-4秒：盘子过手；年轻设计师双手接过再传出去，出画。4-7秒：又一句应答用两种语言跨线传来；蒸汽在运动的手臂周围折叠。缓慢向纵深横移，63°视野。声音：锅气、瓷盘轻碰、双语应答自带节奏。
@@ -689,7 +689,7 @@ S23｜1:32-1:36｜4秒｜中景(MS)｜固定
 转场：硬切。
 资产：C-03 / P-01（双盒态）。
 AI要点（V2.2 制作级提示词）：
-【垫图】人物=01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神_v1.png（递物变体修饰：handing two stacked lunchboxes）；道具=P01双盒叠放视图
+【垫图】人物=01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png（递物变体修饰：handing two stacked lunchboxes）；道具=P01双盒叠放视图
 【首帧配方】中景：珍姐双手递双盒（盒叠盒），右臂已指向画外广场方向；身后灶台蒸汽弱化（送客时刻）。
 【EN·粘贴版】Leaving shot. 0-1s: the cook hands over two stacked lunchboxes, pats the top lid once — check. 1-3s: she points firmly toward the square, one short instruction, eyebrows raised: understood? 3-4s: half-turned back to her stove before he even answers. Camera: locked medium, 63° FOV. Audio: boxes stacking, one brisk Cantonese line, kitchen resuming behind her.
 【CN·对照】告辞镜。0-1秒：厨娘递来叠好的两个饭盒，拍一下盒盖——核对。1-3秒：坚定指向广场方向，一句短叮嘱，眉毛一抬：明白了吗。3-4秒：他还没答，人已经半转回灶台。固定中景，63°视野。声音：饭盒叠放、一句爽利粤语、身后后厨声复起。
@@ -897,7 +897,7 @@ S34｜2:37-2:43｜6秒｜大特写(ECU)｜形变③ Morph
 转场：硬切。
 资产：S-03素材复用 / P-04。
 AI要点（V2.2 制作级提示词）：
-【垫图】场景=02_场景资产/S03_双语街牌/特写态_v2.png（局部：文字区与瓷格）；主体=P04生长态边框局部
+【垫图】场景=02_场景资产/S03_双语街牌/特写态/S03_双语街牌_特写态_v2.png（局部：文字区与瓷格）；主体=P04生长态边框局部
 【首帧配方】拼板构图：左格=中文笔画（留白后期贴），右格=葡文花体（留白后期贴），中间回纹带连接；AI只负责纹样生长。
 【EN·粘贴版】Pattern pass. 0-2s: a meander pattern wakes at the left square and begins to travel right. 2-4s: it threads the gap between the two blank text squares, linking them. 4-6s: the braid completes; both squares hold still, each keeping its own silence. Camera: locked macro, 12° FOV, travel left to right. Audio: half-phrases of Cantonese and Portuguese, faint, as through a wall.
 【CN·对照】纹样段。0-2秒：回纹在左格苏醒，开始向右行走。2-4秒：它穿过两块留白文字格之间的空隙，把它们连起来。4-6秒：编带完成；两格静止，各自守着各自的安静。固定微距，12°视野，行进自左向右。声音：粤语葡语各半句，若有若无，像隔着一层墙。

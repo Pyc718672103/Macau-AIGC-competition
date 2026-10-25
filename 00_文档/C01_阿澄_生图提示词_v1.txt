@@ -1,0 +1,16 @@
+生成方式：内置 image_gen
+用途：C01 许澄（阿澄）角色资产初版。
+本次生成一张角色表，尚未进行原文件所述的十张批量一致性验收。
+
+Use case: stylized-concept.
+Create the C-01 character asset turnaround reference sheet for the animated film "蓝的回信". This is a professional animation production character board, on a pure white background, with generous whitespace and no visible text of any kind.
+
+Character identity: Xu Cheng (A-Cheng), a 25-year-old Chinese young man from Macau, a slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers, carrying a beige sketchbook and a blue pen. Quiet natural neutral expression, believable adult proportions. The sketchbook is beige cloth-bound, the pen is a dark blue ink brush pen. All views must depict the exact same individual, identical clothing construction, colors, hair part, face structure and proportions.
+
+Layout: a spacious landscape character sheet. Left side occupies a little more than half the sheet: three equally sized standing body turnarounds side-by-side, front view, true left-side profile, and back view. Feet fully visible, standing at the same ground level, arms hanging naturally, beige sketchbook held at his side in a consistent hand. Important production constraint: these three body figures have hair and head silhouettes but facial features are deliberately omitted/simplified, so there is NO clearly readable face on the body turnarounds. The head reference area is the only place that shows clearly drawn faces.
+
+Upper right: precisely six separate head angle references of the same character in a tidy 3-column, 2-row arrangement: one front portrait (the ONLY directly forward-facing portrait on the whole sheet), slight downward angle seen obliquely, back of head, left profile, near-side oblique angle, three-quarter profile. The face has a longish oval shape and straight brows, consistent short naturally side-parted black hair. Each head is distinct in viewing angle, with consistent identity.
+
+Lower right: exactly six detail close-ups in a tidy 3-column, 2-row arrangement: grey-blue shirt fabric and seam detail; dark grey trousers detail; anatomically natural hands holding the beige cloth-bound sketchbook; one eye and straight eyebrow detail; dark blue brush pen; simple neutral everyday shoes matching those on the body figures. No borders or captions needed; separate details with whitespace.
+
+Style: semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted blue-and-white palette in cobalt tones, restrained warm skin and beige accents. Soft consistent studio illumination, clean readable shapes. No painterly rendering, no photorealism, no 3D, no dramatic scene or decorative backdrop. No text, no letters, no numbers, no labels, no logo, no watermark.

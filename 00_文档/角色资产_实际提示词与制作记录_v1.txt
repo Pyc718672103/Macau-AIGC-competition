@@ -1,0 +1,51 @@
+《蓝的回信》角色资产提示词记录
+
+生成工具：内置 image_gen。
+范围：C02—C06 三视图、C03 厨房态及展览态定妆、C07 侧面人物。C01 沿用上一轮已生成版本。
+模板沿用说明：三视图保留 A 模板的主体结构、角度、分区和风格语句；替换方括号中的角色身份；右下六格将阿澄专属画本、蓝笔替换为各角色服装、手部、发型细节。补入原文件的年龄设定、单脸要求；C02 加入原文儿童比例句。
+C03 两种状态以 C03 厨房态三视图为图像参考。C07 按原文不做三视图。
+验收状态：已逐图目视检查布局、角色特征、服装与明显肢体问题；未执行每角色十张的批量一致性测试，不能视为通过该硬门。
+
+========== C02_阿乐_三视图_v1 ==========
+A high-definition, clean character design turnaround reference sheet on a pure white background, professional animation studio character board. Left side: full-body three-view turnaround (front, left-side, back standing poses) of [a small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow short-sleeve tee, navy shorts and off-white canvas sneakers] — all three figures the exact same character, identical features, hairstyle, clothing and proportions, arms hanging naturally. Upper right: six head-angle references of the same character (front portrait, slight downward angle, back of head, left profile, near-side angle, three-quarter profile), only this section shows the face clearly. Lower right: six detail close-ups in a grid (tee fabric texture, navy shorts, relaxed hands, eye detail, short choppy hair, off-white canvas sneakers). Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, generous white space, no text, no watermark, no logo.
+childlike proportions, head slightly larger relative to body, natural relaxed stance. 林乐（阿乐），8岁的小男孩。
+文件通用要求：右侧头部区是全表唯一清晰正脸区。左侧三视图全身像保留头部与发型轮廓，但不画清晰五官；右上六个角度仅一个为正脸。所有视图保持同一人物与服装，完整展示鞋子。
+
+========== C03_珍姐_厨房态三视图_v1 ==========
+A high-definition, clean character design turnaround reference sheet on a pure white background, professional animation studio character board. Left side: full-body three-view turnaround (front, left-side, back standing poses) of [a woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top, a dark-green apron and dark trousers, steady stance, brisk precise movements] — all three figures the exact same character, identical features, hairstyle, clothing and proportions, arms hanging naturally. Upper right: six head-angle references of the same character (front portrait, slight downward angle, back of head, left profile, near-side angle, three-quarter profile), only this section shows the face clearly. Lower right: six detail close-ups in a grid (beige top fabric texture, dark trousers, relaxed hands, eye and smile-line detail, dark-green apron and waist ties, shoes). Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, generous white space, no text, no watermark, no logo.
+梁婉珍（珍姐），42岁，阿乐母亲、后厨统筹。
+文件通用要求：右侧头部区是全表唯一清晰正脸区。左侧三视图全身像保留头部与发型轮廓，但不画清晰五官；右上六个角度仅一个为正脸。所有视图保持同一人物与服装，完整展示鞋子。
+
+========== C04_成叔_三视图_v1 ==========
+A high-definition, clean character design turnaround reference sheet on a pure white background, professional animation studio character board. Left side: full-body three-view turnaround (front, left-side, back standing poses) of [a solidly built middle-aged man with upright shoulders, short greying hair and sun-weathered skin, wearing a grey-cyan training top, dark trousers and flat sports shoes] — all three figures the exact same character, identical features, hairstyle, clothing and proportions, arms hanging naturally. Upper right: six head-angle references of the same character (front portrait, slight downward angle, back of head, left profile, near-side angle, three-quarter profile), only this section shows the face clearly. Lower right: six detail close-ups in a grid (grey-cyan training top fabric texture, dark trousers, hands, eye and sun-weathered skin detail, short greying hair, flat sports shoes). Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, generous white space, no text, no watermark, no logo.
+何志成（成叔），58岁，狮队教练。
+文件通用要求：右侧头部区是全表唯一清晰正脸区。左侧三视图全身像保留头部与发型轮廓，但不画清晰五官；右上六个角度仅一个为正脸。所有视图保持同一人物与服装，完整展示鞋子。
+
+========== C05_阿敏_三视图_v1 ==========
+A high-definition, clean character design turnaround reference sheet on a pure white background, professional animation studio character board. Left side: full-body three-view turnaround (front, left-side, back standing poses) of [a light-footed young woman with black hair in a low ponytail, wearing a dark-red training tee, black sports pants and white sneakers] — all three figures the exact same character, identical features, hairstyle, clothing and proportions, arms hanging naturally. Upper right: six head-angle references of the same character (front portrait, slight downward angle, back of head, left profile, near-side angle, three-quarter profile), only this section shows the face clearly. Lower right: six detail close-ups in a grid (dark-red training tee fabric texture, black sports pants, relaxed hands, eye detail, low ponytail, white sneakers). Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, generous white space, no text, no watermark, no logo.
+陈晓敏（阿敏），20岁，年轻队员。
+文件通用要求：右侧头部区是全表唯一清晰正脸区。左侧三视图全身像保留头部与发型轮廓，但不画清晰五官；右上六个角度仅一个为正脸。所有视图保持同一人物与服装，完整展示鞋子。
+
+========== C06_顺叔_三视图_v1 ==========
+A high-definition, clean character design turnaround reference sheet on a pure white background, professional animation studio character board. Left side: full-body three-view turnaround (front, left-side, back standing poses) of [a square-faced middle-aged man with neat short hair and a broadish build, wearing a light-brown short-sleeve shirt and dark trousers] — all three figures the exact same character, identical features, hairstyle, clothing and proportions, arms hanging naturally. Upper right: six head-angle references of the same character (front portrait, slight downward angle, back of head, left profile, near-side angle, three-quarter profile), only this section shows the face clearly. Lower right: six detail close-ups in a grid (light-brown shirt fabric texture, dark trousers, hands, eye detail, neat short hair, shoes). Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, generous white space, no text, no watermark, no logo.
+顺叔，51岁，街口文具杂货店店主。
+文件通用要求：右侧头部区是全表唯一清晰正脸区。左侧三视图全身像保留头部与发型轮廓，但不画清晰五官；右上六个角度仅一个为正脸。所有视图保持同一人物与服装，完整展示鞋子。
+
+========== C03_珍姐_厨房态定妆_v1 ==========
+Create C03 梁婉珍（珍姐）厨房态单人定妆图 for 蓝的回信. Use the attached character sheet as the identity and wardrobe reference. Show just ONE woman in one continuous scene, not a reference sheet. Preserve exactly her face, apparent age 42, soft facial lines, bright eyes and smile-line crow's feet, neat low black bun, beige top, dark-green apron and dark trousers from the reference.
+Identity block: a woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top, a dark-green apron and dark trousers, steady stance, brisk precise movements.
+Required state prompt: standing at a restaurant kitchen pass, steam rising behind her, hands placing a plate.
+Context from the provided S04 setting: small Macau restaurant kitchen, stainless pass counter, wok station at the back, stacked plates and hanging utensils, small doorway on the right glowing with street daylight, warm interior tungsten mixed with cool daylight from the right doorway. Character is the clear focus; keep both hands and their contact with the plate readable, natural anatomy, a practical steady working posture.
+Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted blue-and-white palette in cobalt tones, restrained warm accents only on people and everyday objects. Match the reference drawing style. No text, no logo, no watermark.
+
+========== C03_珍姐_展览态定妆_v1 ==========
+Create C03 梁婉珍（珍姐）展览态单人定妆图 for 蓝的回信, using the attached character sheet as the exact identity reference. One woman in a single continuous scene. Preserve exactly the same face, apparent age 42, soft facial lines, bright eyes and smile-line crow's feet, neat low black bun, beige top and dark trousers, identical shirt construction and black shoes. The ONLY wardrobe change is no apron.
+Identity block: a woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top and dark trousers, no apron, steady stance.
+Required state prompt: standing in a night gallery, warm blue light on her face, arms relaxed.
+Use the provided S06 light logic: a community art gallery at night, glowing blue-and-white tile artwork is the ONLY main light source, its gentle blue-white light reaches her face and spills on the wooden floor, other areas in soft blue shadow, small spotlights off. Keep the artwork secondary and unobtrusive so this image is primarily a character costume and identity asset. Show her full standing figure including relaxed hands, trousers and shoes, face clearly recognizable, slight natural three-quarter angle.
+Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted blue-and-white palette in cobalt tones, restrained warm skin tones, matching the reference. No text, no logo, no watermark.
+
+========== C07_老街坊_侧面人物_v1 ==========
+C-07 老街坊，背景层人物资产，供《蓝的回信》S19中景侧拍使用，不追踪正脸，无需三视图。
+an elderly figure carrying a cloth grocery bag, semi-realistic 2D animation style.
+Create one single isolated elderly neighborhood figure carrying a cloth grocery bag, seen from the side, natural everyday posture. Use a pure white background for this reusable character asset; show the complete figure and cloth bag without cropping. Keep the side face understated, no front portrait and no extra face-angle panels. Clean uniform-weight linework, soft flat cel-shading, muted blue-and-white palette in cobalt tones with restrained warm everyday clothing accents. Consistent with the semi-realistic 2D Macau neighborhood film character style. No text, no logo, no watermark.

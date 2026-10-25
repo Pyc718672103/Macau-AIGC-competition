@@ -1,0 +1,7 @@
+来源：https://github.com/OSideMedia/higgsfield-ai-prompt-skill
+下载日期：2026-10-25
+版本：根SKILL.md metadata 3.42.0 / updated 2026-10-23
+通过Codex skill-installer从main下载。MIT许可，见压缩包LICENSE。社区维护，不是Higgsfield官方插件。
+已安装路径：C:/Users/Admin/.codex/skills/higgsfield
+项目专用技能：C:/Users/Admin/.codex/skills/blue-reply-assets
+学习记录：00_文档/07_长期制作记忆与研究来源.md。

@@ -1,7 +1,14 @@
 ================================================================
-《蓝的回信》分镜头剧本 V3.2（全片 3:50 / 47镜 · 三层提示词体系）
+《蓝的回信》分镜头剧本 V3.3（全片 3:50 / 47镜 · 四层提示词体系）
 ================================================================
-版本历史：V3.2 2026-10-25 第二版样片诊断（时序一致性）：逐帧量化
+版本历史：V3.3 2026-10-25 运镜不下调：撤销V3.2"运动源≤2"的过度
+          限制（该条为单样片反推的启发式，非官方口径，会误伤运镜
+          雄心）。纪律2改为运动分层律：镜头运动走控制通道（首尾帧/
+          @video运镜复刻/平台预设/后期2.5D），文字只写主体动作+
+          1层环境；推拉摇移全保留。新增四b控制层四通道+宏大场景
+          规模感做法；S03推镜恢复（唯一运动），S21侧移恢复；S04
+          机位锁+后期手持，管线稳定后缓推交首尾帧。
+          V3.2 2026-10-25 第二版样片诊断（时序一致性）：逐帧量化
           证实用"全画面重绘"（人物镜0.25秒级MAD 13-33）。六根因：
           提示词过载/运动源过多/无静止锚/跨镜风格链不统一/道具
           角色保真未锁/平台封装与压缩。核心改动：三层提示词体系
@@ -54,20 +61,26 @@
    镜头一律用5秒档生成（运动密度高一倍，废片率低）；成片6-9秒的
    镜头用10秒档，但全部拍点必须前置到素材0-6秒内完成，尾段只留
    持稳。成片仍掐头去尾各0.5秒。10秒红线（成片≤9秒）不变。
-2. 运动预算律（V3.2重写，替代V3.1运动密度律；违反=废片）——
-   核心：运动源越少越稳，模型把没被约束的部分全当可重绘区。
-   ①主导动作恰1个：中低速+连续+单向，10米外可见（转身/递物/推纸/
-     鸽群横穿/开门）；微动作只作辅助，不得作唯一动作；急动作拆段
-     或0.5x，绝不一条提示词硬写。
-   ②环境层最多1层：尘埃/蒸汽/光斑选其一，从第0秒持续到最后1秒。
-   ③运动源预算：人物镜≤2（主导动作+1环境层，或主导动作+镜头移动）；
-     静物/道具镜=1（推镜与光斑扫过二选一）；禁止"镜头+主体+环境"
-     三源同动——第二版样片S03四源同动（推镜+扫光+纸颤+尘埃）导致
-     全画面重绘，即此症。
-   ④幅度参数：人物镜=中；空景/道具/形变镜=中高。人物镜拉高
-     幅度=必形变换脸。同提示词重roll≥3择优。
-   ⑤逐秒目检：任意连续1秒内必须有可见变化；冻结>1.5秒=废片；
-     反过来"四象限全在变"（0.25秒级MAD>10）=重绘废片，见附六。
+2. 运动分层律（V3.3重写；**不限制运镜雄心**，限制的是"用文字同时
+   驱动多个未量化运动"）——把每种运动交给正确的通道：
+   通道A 镜头运动：**优先走控制通道，不走文字**——
+     ①首尾帧控制（最稳，可锁推拉摇移/环绕；两帧构图差要可量化）
+     ②运镜复刻（Seedance @video 参考3-8秒单运镜；运动与内容分离）
+     ③平台运镜预设/轨迹 ④后期（2.5D视差/变焦/手持抖动，零漂移）
+     前三者都不可用时才用文字单句+精确速率（如"每秒2%画面宽"）。
+     **推拉摇移环绕不但允许，而且鼓励——但一个镜头只给一个运镜矢量。**
+   通道B 主体动作：≤2个（1主导+1辅助），中低速连续，禁"然后/接着"
+     串联。动作是表演设计，不是镜头限制。
+   通道C 环境层：1层（尘埃/蒸汽/光斑/雾），幅度低，全程不断。
+   通道D 光照：默认锁死；需要情绪转折时用首尾帧实现光变，不写
+     "扫光/光影流动"。
+   ①静止锚必写：背景布局/道具位置/光照方向三项——模型只重绘
+     没被约束的区域。
+   ②幅度：人物镜=中；空景/道具/形变=中高；同提示词重roll≥3。
+   ③逐秒目检：任意1秒内必须有可见变化（冻结>1.5秒=废）；但
+     0.25秒级MAD>10且四象限全变=重绘废片（附六·一）。
+   （更正：V3.2"人物镜最多2运动源/静物镜1源"是本人从单条样片反推
+   的启发式，非官方口径，且会误伤运镜；V3.3以本分层律替代。）
 3. 提示词长度律（V3.2新增）——官方口径：中文30-80字最稳，200字
    开始顾此失彼；本集V3.0十维块400-500词，严重超载，模型每帧
    随机挑几条执行=逐帧重绘。铁律：
@@ -300,20 +313,22 @@ AI要点（V3 全息提示词 · V3.1按附五重制）：
 SHOT S03 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V single prop ref · motion amplitude medium-high
 INTENT: the invitation as an object of ceremony — light itself reads the card before any person does.
 FRAME: top-down macro, card fills 80% frame slightly rotated 3°; window light rakes in from upper-left at ~35°, right third of the card falling into soft shadow; wax seal lower-right quadrant; blank text area center-left; tabletop corners melt into blur.
-CAMERA: LOCKED, zero movement — NO push, NO drift, NO rotation, NO parallax. A static object must not get a moving camera (V3.2 单运动源).
+CAMERA: slow push-in toward the blank area, ~2% frame width per second, constant rate — the ONLY motion in the shot. NO rotation, NO drift, NO orbit. V3.3：运镜保留（静物+推镜是最稳的电影语法），砍掉的是同时进行的扫光/纸颤/尘埃。
 IDENTITY/STATE: card cream texture, emboss depth and seal color locked to P07; text area stays BLANK ceramic-clean.
-AMBIENT & COLOR: single motivated window key upper-left; no dust layer in this shot (light sweep is the only moving element).
-PHASE 1 (0-1.2s, 1x): one soft light patch enters frame-left and travels slowly right across the card, covering ~30% of frame width; embossed shadows stretch and ease as it passes.
-PHASE 2 (1.2-2.2s, 1x): the patch keeps its constant speed, crossing the pressed lines; their shadow depth visibly deepens then relaxes.
-PHASE 3 (2.2-3s, 1x): the patch reaches the wax seal and becomes a held specular highlight; the light stops; card is still.
-MOTION HIERARCHY — one motion source only: the traveling light patch. Camera: none. Subject: none.
-STATIC ANCHORS (must not change): card corners and rotation, seal shape and position, table wood grain, shadow direction.
+AMBIENT & COLOR: single motivated window key upper-left, intensity and direction FIXED for the whole shot; no dust layer, no light sweep.
+PHASE 1 (0-1s, 1x): the push begins at constant speed; the card is perfectly still; embossed shadows hold their exact depth.
+PHASE 2 (1-2s, 1x): the push continues; the seal's specular highlight stays fixed in place on the seal, only growing slightly larger as the lens nears.
+PHASE 3 (2-3s, 1x): the push continues at the same rate through the last frame; nothing on the card moves; the blank area fills a little more of the frame.
+MOTION HIERARCHY — one motion source only: the camera push. Subject: none. Environment: none.
+STATIC ANCHORS (must not change): card corners and rotation, seal shape and position, table wood grain, shadow direction, light intensity.
+LOCK: NO text anywhere; no book, no page stack, no ribbon, no spine — it is a single folded CARD; no light sweep; no dust; no flicker; the push never eases or stops.
 LOCK: NO text anywhere; seal does not melt or bloom; no book, no page stack, no ribbon, no spine — it is a single folded CARD; no dust; no flicker.
 FINAL FRAME: seal holding its highlight, card unchanged, everything still.
 SFX: two soft paper ticks; near-silence under.
 【生成用短提示词·粘贴这个（S03）】
-CN（约120字）：俯拍微距：一张对折的米白请柬平放在木桌上，右下角一枚钴蓝火漆印章，左中留白。窗光从左上斜入，一道柔和光斑从左向右缓缓扫过纸面，压印的凹线阴影随之伸缩，最后停在火漆上。机位完全固定。纸角、印章形状与位置、桌面木纹、影子方向始终不变。哑光纸面，画面无文字。
-EN（约65词）：Top-down macro: one folded cream invitation card flat on a wooden table, a cobalt wax seal at lower-right, blank area centre-left. Window light from upper-left; one soft light patch travels slowly left to right across the card, embossed shadows stretching and easing, then settles on the seal. Locked camera. Card corners, seal shape and position, table grain and shadow direction never change. Matte paper, no text.
+CN（约110字）：俯拍微距：一张对折的米白请柬平放在木桌上，右下角一枚钴蓝火漆印章，左中留白。镜头以每秒约2%画面宽匀速缓缓推近，这是画面里唯一的运动。窗光从左上斜入，光位与亮度全程不变；纸角、印章形状与位置、桌面木纹、影子方向始终不动。哑光纸面，画面无文字。
+EN（约62词）：Top-down macro: one folded cream invitation card flat on a wooden table, a cobalt wax seal at lower-right, blank area centre-left. The camera pushes in slowly at a constant 2% frame width per second — the only motion in the shot. Window light from upper-left, direction and intensity fixed. Card corners, seal shape and position, table grain and shadow direction never change. Matte paper, no text.
+（更稳做法：首尾帧模式——尾帧=同一张卡按推近后构图出图，见四b）
 负向必加：book, page stack, ribbon, spine, text, rotation, morphing
 【风险预案】AI自加字→局部重绘擦除（文字铁律）；生成成书本→负向book/page stack/ribbon必加+重roll；扫光不执行→扫光句挪到镜头句前；出现推镜→CAMERA的LOCKED句前置
 
@@ -340,7 +355,7 @@ AI要点（V3 全息提示词 · V3.1按附五重制）：
 SHOT S04 · cut 6s · gen 10s (all beats inside first 6s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V + multi-image subject reference · motion amplitude medium
 INTENT: the ritual before the first stroke — a man arranging the world he can control.
 FRAME: 47° FOV medium close-up; subject seated center-right, body in 3/4 view facing left; open sketchbook occupies lower third, spine horizontal; window light rakes from left edge across his lit cheek and the page; background tile pattern low-contrast, softly blurred; foreground table corner melts into blur bottom-left.
-CAMERA: LOCKED, zero movement — no handheld sway, no push. V3.2：手持微晃同样算运动源，人物镜预算只留2个，砍掉微晃换稳定。
+CAMERA: LOCKED for this validation pass — no handheld sway, no push. V3.3：机位先锁死保证人物稳定；手持感后期叠加（后期手持不会让AI重绘脸），管线稳定后缓推交首尾帧通道。
 IDENTITY/STATE: C01_b locked via subject reference — grey-blue shirt, off-white inner, side-parted black hair, same face as reference in every frame; sleeves half-rolled; brush is the P02 navy pen-brush with cobalt tip, held in his right hand from frame one.
 AMBIENT & COLOR: cool morning key from left; page warm-white is the brightest value; brush tip's cobalt the only saturated note; dust motes drift through the light rake continuously, the whole shot, never stopping.
 PHASE 1 (0-2s, 1x): DOMINANT — he settles onto the stool with a visible exhale: shoulders drop, weight shifts, the chair gives; his gaze stays on the page.
@@ -1772,7 +1787,7 @@ Seedance2.0拼片首末帧接续法(zhihu 2007970818878088815)/
 higgsfield tpl_anime_animation（风格锚块与本附根因3参照）。
 
 ================================================================
-附六：第二版样片诊断（时序一致性）与三层提示词体系（V3.2）
+附六：第二版样片诊断（时序一致性）与四层提示词体系（V3.3）
 ================================================================
 诊断对象：微信来样 7aba642d…_raw.mp4，8.10秒 / 24fps / 1254×720，
 带"AI生成""小云雀AI"水印；0-3.00秒为请柬镜，3.00秒硬切进人物镜。
@@ -1804,9 +1819,11 @@ higgsfield tpl_anime_animation（风格锚块与本附根因3参照）。
   子集执行，逐帧取到不同子集=逐帧重新解读=逐帧重绘。这是"AI痕迹
   重、每帧不一样"的第一因，也是与上一版（近冻结）相反症状的同一个
   病根：指令太多太碎，模型自己决定听哪条。
-根因2 运动源过多。S03四源同动（推镜+扫光+纸颤+尘埃）；S04四动作
-  （落座/压纸/卷袖/悬笔）+手持微晃+尘埃。模型分配不了，改为整体
-  漂移。→ 纪律2运动预算律。
+根因2 运镜写成了文字，且多个运动都没量化。S03把推镜+扫光+纸颤+
+  尘埃四条同时塞进提示词；S04四动作+手持微晃+尘埃。问题不是"运动
+  多"，而是"运动全靠文字描述、还没有速率和幅度约束"——模型只能
+  整体漂移。→ 纪律2运动分层律：镜头运动走首尾帧/运镜复刻，文字
+  只留主体动作+1层环境。**运镜不砍，换通道。**
 根因3 无静止锚。提示词只写"什么在动"，没写"什么绝对不动"。模型
   把背景、材质、光照全当可重绘区 → 木纹/瓷砖/纸纹蠕动，观感就是
   "噪点很大"（不是编码噪点，是纹理重绘）。→ 每条提示词必须写
@@ -1820,7 +1837,7 @@ higgsfield tpl_anime_animation（风格锚块与本附根因3参照）。
   标准尺寸且经微信二次压缩，噪点/锐化被放大，会误导画质判断。
 
 ----------------------------------------------------------------
-三、三层提示词体系（V3.2核心改动）
+三、四层提示词体系（V3.3核心改动）
 ----------------------------------------------------------------
 第1层 制作卡（本文件各镜十维块）：意图/构图/光影/表演/声音/风险，
   **给人读，不进生成器**。信息不删，只是不再粘贴。
@@ -1829,6 +1846,9 @@ higgsfield tpl_anime_animation（风格锚块与本附根因3参照）。
    风格锚一句 / 静止锚一句 / 结束状态。
 第3层 负面块（见统一前缀块下方[NEGATIVE]）：闪烁/形变/纹理蠕动/
    换脸/背景变化/光照跳变/手畸形/文字水印/塑料皮肤。
+第4层 控制层（V3.3新增，运镜的真正实现处）：首尾帧 / @video运镜
+   复刻 / 平台运镜预设 / 后期2.5D。文字只写"世界发生了什么"，不写
+   "镜头怎么走"。方法与宏大场景做法见四b。
 
 压缩五步（每镜约3分钟，从制作卡压到短提示词）：
   ①只留1个主导动作，其余全删（次要动作留给剪辑或前一镜）；
@@ -1846,7 +1866,7 @@ higgsfield tpl_anime_animation（风格锚块与本附根因3参照）。
 ----------------------------------------------------------------
 四、重点镜生成用短提示词（先做这6镜，验证体系后再批量）
 ----------------------------------------------------------------
-【S03 · 静物 · 单运动源 · 3秒 · 5s档 · 幅度中高】
+【S03 · 静物 · 推镜是唯一运动 · 3秒 · 5s档 · 幅度中高】
 CN（约120字）：
 俯拍微距：一张对折的米白请柬平放在木桌上，右下角一枚钴蓝火漆印章，
 左中留白。窗光从左上斜入，一道柔和光斑从左向右缓缓扫过纸面，压印的
@@ -1861,7 +1881,7 @@ seal. Locked camera. Card corners, seal shape and position, table grain
 and shadow direction never change. Matte paper, no text.
 负向必加：book, page stack, ribbon, spine, text, rotation, morphing
 
-【S04 · 人物 · 双运动源 · 6秒 · 10s档拍点前置6s · 幅度中】
+【S04 · 人物 · 锁机位+1环境层（手持后期加） · 6秒 · 10s档拍点前置6s · 幅度中】
 CN（约140字）：
 中近景，3/4侧身朝左坐着的年轻设计师，灰蓝衬衫、米白内搭、黑色侧分
 短发，脸与定妆图完全一致。桌上摊开的米色画本始终平放不动。他呼气落
@@ -1895,7 +1915,7 @@ syllable by syllable, eyes locked and unblinking. Camera pushes in at
 direction, collar and hair silhouette unchanged. After the line, only a
 slow exhale and dust in the side light.
 
-【S05 · 手部微距 · 单运动源 · 每段2秒 · 5s档 · 幅度中高】
+【S05 · 手部微距 · 单动作 · 每段2秒 · 5s档 · 幅度中高】
 CN（约100字）：
 12°微距：一只手握着钴蓝画笔在暖白纸面上从左下到右上画出一条连续蓝
 线，线在末端立起成为建筑轮廓，手随后退出画面右侧。机位固定，不追不
@@ -1909,20 +1929,23 @@ Locked camera, no follow. The page never moves, the stroke never
 breaks, no other lines or tiles appear. Side-backlight from left, hand
 in soft silhouette.
 
-【S21 · 双人交接 · 固定+蒸汽 · 7秒两段 · 各5s档 · 幅度中】
-CN（约120字）：
+【S21 · 双人交接 · 侧移+蒸汽 · 7秒两段 · 各5s档 · 幅度中】
+运镜：同向量缓慢侧移6%画面宽/4秒，走首尾帧或运镜复刻通道（两段
+共享同一矢量，成一次呼吸）；文字里不写运镜。
+CN（约125字）：
 63°后厨纵深：穿深绿围裙的厨师站在出菜口中央，蒸汽柱在左侧。她先盯
 住接盘的人半秒，再把盘子递出；画面左侧灰蓝衬衫的设计师双手接住，肘
-部收拢，随后把盘子递出画外。机位固定。可辨认的脸只有两张，其余人影
-始终被蒸汽虚化；盘子每一帧都有手托着；锅具、瓷砖、光位不变。
-EN（约70词）：
+部收拢，随后把盘子递出画外。镜头沿同一方向极缓侧移。可辨认的脸只有
+两张，其余人影始终被蒸汽虚化；盘子每一帧都有手托着；锅具、瓷砖、光
+位不变。
+EN（约75词）：
 63° kitchen depth: the cook in the dark-green apron stands at the
 pass, steam column left. She holds the receiver's eyes for half a
 second, then sends the plate across; the designer in the grey-blue
 shirt receives it with both hands, elbows close, and passes it out of
-frame-left. Locked camera. Only two faces legible; all other figures
-stay steam-blurred; hands on the plate in every frame; wok, tiles and
-light unchanged.
+frame-left. The camera drifts slowly sideways on one vector. Only two
+faces legible; all other figures stay steam-blurred; hands on the plate
+in every frame; wok, tiles and light unchanged.
 
 【S37 · 收束 · 推镜+靠背睁眼 · 9秒 · 先5s档再延长 · 幅度中】
 V3.2改动：删掉"搁笔"（由S36末帧承担），本镜从"已搁笔"开始，动作
@@ -1945,10 +1968,65 @@ and the mural's glow strength unchanged. The push is the only camera
 move.
 
 ----------------------------------------------------------------
+四b、运镜的正确实现：控制层四通道（V3.3，推拉摇移全保留）
+----------------------------------------------------------------
+为什么：文字写"推近"只是愿望，模型每帧自己决定推多少；首尾帧把
+"起点构图"和"终点构图"两张真实画面交给模型，中间只做插值——运镜
+变成可测量的位移，而不是形容词。高级AI片子的推拉摇移，多数走的
+就是这条。
+
+通道1 首尾帧（首选；推拉摇移/环绕/变焦都能锁）
+  1) 首帧：已过附五·三的正式首帧。
+  2) 尾帧：以首帧为垫图做图生图，只改构图（更近/更远/角度移3-5°/
+     主体偏左），同一参考组、同一风格锚；不重画内容。
+  3) 平台开"首尾帧控制"+"高表现"；时长4-5秒；1080p。
+  4) 提示词只写"两帧之间发生什么"（主体动作+1环境层），末尾加
+     连续性句：「严格保持首尾帧间结构连续性，禁止形变、纹理漂移
+     与光照偏移」。
+  5) 两帧差：普通缓推差5-15%画面宽即可；差太大=模型自由补内容=
+     重绘。极端推近的主体占比参考（可灵口径）：首帧≥85%、尾帧≤3%。
+  · 静物镜（S03/S06/S15/S16/S30/S31/S33/S36/S46）优先走这条。
+
+通道2 运镜复刻（Seedance @video，复杂运镜首选）
+  1) 准备3-8秒、单一运镜、无剪辑、画面稳定的参考视频（推/跟/
+     环绕/升降/希区柯克变焦都行）。
+  2) 上传为@video参考，提示词原样写这句：
+"replicate camera motion from reference video"
+     再描述主体与场景——运动与内容分离。
+  3) 可调速：half speed / double speed，轨迹不变。
+  4) 环绕镜加"maintain consistent orbit radius"防半径漂移。
+  · S01城市推近、S19街巷跟移、S26广场环绕、S35形变长镜优先。
+
+通道3 平台运镜预设/3D轨迹（可灵3.0+/4.0）：直接选推拉摇移预设或
+  给空间轨迹，不靠文字。
+
+通道4 后期（零漂移，最保险）：静帧/短视频做2.5D视差、数字变焦、
+  手持抖动叠加——后期加的手持不会让AI重绘脸。S04这类人物近景，
+  机位先锁死，手持感后期加；管线稳定后再把缓推交回首尾帧。
+
+宏大场景的规模感从哪来（不是靠堆微动）
+  · 视差层次：前景虚化遮挡/中景主体/远景雾中轮廓，三层速率不同——
+    用首尾帧或后期2.5D做，别写"所有东西都在动"。
+  · 大气透视：雾/尘/光柱给纵深，1层就够，幅度低。
+  · 尺度参照：人、鸟、车、窗格——观众靠熟悉尺寸读规模。
+  · 焦距：广角夸张透视 vs 长焦压缩层次；长焦+缓推最像电影。
+  · 一个主体事件：鸽群横穿/门被推开/鼓点落下——一件，不是三件。
+  · S01：首尾帧缓推+雾层1层；不写鸽群+雾+光变三件事同时。
+  · S26：环绕走运镜复刻，人群做剪影层，只留一个主体事件。
+  · S35：形变镜天然适配首尾帧，形变方向锁左下→右上。
+
+----------------------------------------------------------------
 五、平台适配（小云雀 / Seedance 2.x）
 ----------------------------------------------------------------
 · 参考图：Seedance 2.0支持最多9图、2.5更多——人物镜一次给齐
   [首帧 + 角色定妆图 + 场景空板 + 关键道具图]，不要只给首帧。
+· 首尾帧：可灵"首尾帧控制"+高表现模式，时长4-5s、1080p、30fps；
+  若界面有"时间一致性权重"设0.8左右（版本不同名称不同，以当前界面
+  为准）。提示词末尾统一加连续性句：「严格保持首尾帧间结构连续性，
+  禁止形变、纹理漂移与光照偏移」。
+· 运镜复刻：Seedance @video 参考3-8秒单一运镜；最多叠3段（主运镜/
+  动作节奏/转场）；文字写"replicate camera motion from reference
+  video"，不要和参考运镜矛盾（参考推、文字拉=必崩）。
 · 分辨率/时长：1080P、5秒起手；长镜"先缩短再延长"——5秒稳定后
   从末帧延长，不用10秒一锅炖。
 · 提示词改写：官方有 sd25-pe 改写skill；若平台自动改写，生成前

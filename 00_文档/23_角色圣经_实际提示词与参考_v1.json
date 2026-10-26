@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-26",
+  "source": "用户附件八、角色圣经资产·生图提示词V1.0",
+  "mode": "内置image_gen",
+  "note": "参考权重为源文件建议；内置工具无显式权重和分辨率参数，仅提示词请求4K。实际输出尺寸另记；未伪造参数。",
+  "assets": [
+    {
+      "code": "C01",
+      "kind": "表情表",
+      "dest": "01_角色资产/C01_阿澄/角色圣经/C01_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png",
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png"
+      ],
+      "prompt": "A high-definition character expression reference sheet on a pure white background, professional animation studio board, 2x3 grid of six large facial close-ups of a slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers. ALL SIX the exact same face, identical features, hairstyle and proportions. Each panel shows one emotion rendered only through physical facial facts, no props, no hands, head and shoulders visible: 1 neutral calm face; 2 眉毛微挑起、目光上抬定住、嘴唇微张; 3 目光钉住不动、眨眼收紧、下颌微收; 4 嘴角单侧先起再双侧、眼睑放松、呼气后的松肩; 5 眨眼放慢、嘴唇微张又合、眉心两道浅纹; 6 怔住一拍、眼睛睁大半档、呼吸停半秒. Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, single soft top-front light on all six panels, no text, no watermark, no logo.\nReference 1 is the character's approved costume/identity portrait, reference 2 supports exact face structure and wardrobe. Render ONLY 阿澄, no other people. Lock hair part, hairline, brows, eye spacing, nose, jaw, age and clothing to these references. Use two columns and three rows, order left to right then top to bottom; spacious white gutters, complete uncropped hair, consistent head scale, 2160x3840 requested 4K portrait. Do not print panel numbers or captions. Chinese clauses specify physical facts; freeze one representative instant per panel, never a motion trail. Actions outside the face provide context only: absolutely no hands, props or scene. For unspecified '少用' expressions use neutral calm filler. "
+    },
+    {
+      "code": "C01",
+      "kind": "手部表",
+      "dest": "01_角色资产/C01_阿澄/角色圣经/C01_手部表4式_v1.png",
+      "refs": [
+        "01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png",
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png"
+      ],
+      "prompt": "A hand reference sheet on a pure white background, professional animation studio board, 2x2 grid of four large hand-and-forearm close-ups of the same character the slim young man's light warm skin and grey-blue shirt sleeves rolled to the forearms, precisely matching the reference: 1 open palm relaxed, fingers naturally spread; 2 index finger pointing forward, others curled; 3 pen grip, thumb and index forming a relaxed writing hold, NO paper, NO contact; 4 passing gesture, both hands cupped offering forward, empty. Semi-realistic 2D animation style, clean linework, soft cel-shading, all four panels identical skin tone and sleeve, single soft top light, no text, no watermark.\nReferences establish skin tone, cuff shape and age. Show ONLY hands and forearms, no faces or full bodies. Two rows by two columns; panel order row-major. Anatomically correct five digits on every hand, clearly separated natural joints. Panel 3 is an EMPTY pen-grip pose, no actual pen or any object; no contact with a table. Panel 4 has exactly two separate hands offered forward, others one hand each. Crisp professional reference linework and generous white gutters. Request 3840x3840 highest available resolution. "
+    },
+    {
+      "code": "C01",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C01_阿澄/角色圣经/C01_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png",
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png"
+      ],
+      "prompt": "Character reference supplement on pure white background, three panels left to right: full-body BACK view standing, arms relaxed; large front facial close-up (eyes, brows, hairline clearly detailed); large three-quarter facial close-up. All panels the exact same character a slim young man with narrow shoulders, longish face, straight brows and short black hair with a natural side part, wearing a grey-blue shirt over an off-white inner layer and dark grey trousers, carrying a beige sketchbook and a blue pen. identical clothing from behind (collar, shirt seam, trousers, shoes). Semi-realistic 2D animation style, clean linework, soft cel-shading, single soft light, no text, no watermark.\nReference 1 locks approved face and costume, reference 2 locks rear garment construction and proportions. Render ONLY 阿澄, exclude all other people and environments from the references. Exact same hairline, hair part, brows, jaw, age, nose and eye spacing in both portraits. Complete head-to-shoes back figure in left panel, pure straight back with face not visible; front face in center and three-quarter face at right. Distinct generous white gutters; no borders or labels. Portraits large enough for eye and hairline detail, shoulders included. Request 3840x2160 landscape 4K. "
+    },
+    {
+      "code": "C02",
+      "kind": "表情表",
+      "dest": "01_角色资产/C02_阿乐/角色圣经/C02_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png",
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png"
+      ],
+      "prompt": "A high-definition character expression reference sheet on a pure white background, professional animation studio board, 2x3 grid of six large facial close-ups of a small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow tee, navy blue shorts and off-white canvas sneakers, natural childlike posture. ALL SIX the exact same face, identical features, hairstyle and proportions. Each panel shows one emotion rendered only through physical facial facts, no props, no hands, head and shoulders visible: 1 neutral calm face; 2 抬头直视、眉毛上挑、一句问话的嘴形; 3 趴画时眯眼、舌尖微抵上唇; 4 举画时咧嘴笑、眼睛弯起; 5 摇头一次后嘴抿紧、眉头拧起; 6 回头睁大眼、单侧咧嘴. Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, single soft top-front light on all six panels, no text, no watermark, no logo.\nReference 1 is the character's approved costume/identity portrait, reference 2 supports exact face structure and wardrobe. Render ONLY 阿乐, no other people. Lock hair part, hairline, brows, eye spacing, nose, jaw, age and clothing to these references. Use two columns and three rows, order left to right then top to bottom; spacious white gutters, complete uncropped hair, consistent head scale, 2160x3840 requested 4K portrait. Do not print panel numbers or captions. Chinese clauses specify physical facts; freeze one representative instant per panel, never a motion trail. Actions outside the face provide context only: absolutely no hands, props or scene. For unspecified '少用' expressions use neutral calm filler. "
+    },
+    {
+      "code": "C02",
+      "kind": "手部表",
+      "dest": "01_角色资产/C02_阿乐/角色圣经/C02_手部表4式_v1.png",
+      "refs": [
+        "01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png",
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png"
+      ],
+      "prompt": "A hand reference sheet on a pure white background, professional animation studio board, 2x2 grid of four large hand-and-forearm close-ups of the same character the small child's light warm skin, small softly rounded hands with childlike finger proportions, ochre-yellow short-sleeve tee, bare forearms, precisely matching the reference: 1 open palm relaxed, fingers naturally spread; 2 index finger pointing forward, others curled; 3 pen grip, thumb and index forming a relaxed writing hold, NO paper, NO contact; 4 passing gesture, both hands cupped offering forward, empty. Semi-realistic 2D animation style, clean linework, soft cel-shading, all four panels identical skin tone and sleeve, single soft top light, no text, no watermark.\nReferences establish skin tone, cuff shape and age. Show ONLY hands and forearms, no faces or full bodies. Two rows by two columns; panel order row-major. Anatomically correct five digits on every hand, clearly separated natural joints. Panel 3 is an EMPTY pen-grip pose, no actual pen or any object; no contact with a table. Panel 4 has exactly two separate hands offered forward, others one hand each. Crisp professional reference linework and generous white gutters. Request 3840x3840 highest available resolution. "
+    },
+    {
+      "code": "C02",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C02_阿乐/角色圣经/C02_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png",
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png"
+      ],
+      "prompt": "Character reference supplement on pure white background, three panels left to right: full-body BACK view standing, arms relaxed; large front facial close-up (eyes, brows, hairline clearly detailed); large three-quarter facial close-up. All panels the exact same character a small figure with a round face, short choppy hair and slightly thick brows, wearing a low-saturation ochre-yellow tee, navy blue shorts and off-white canvas sneakers, natural childlike posture. identical clothing from behind (collar, shirt seam, trousers, shoes). Semi-realistic 2D animation style, clean linework, soft cel-shading, single soft light, no text, no watermark.\nReference 1 locks approved face and costume, reference 2 locks rear garment construction and proportions. Render ONLY 阿乐, exclude all other people and environments from the references. Exact same hairline, hair part, brows, jaw, age, nose and eye spacing in both portraits. Complete head-to-shoes back figure in left panel, pure straight back with face not visible; front face in center and three-quarter face at right. Distinct generous white gutters; no borders or labels. Portraits large enough for eye and hairline detail, shoulders included. Request 3840x2160 landscape 4K. "
+    },
+    {
+      "code": "C03",
+      "kind": "表情表",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "prompt": "A high-definition character expression reference sheet on a pure white background, professional animation studio board, 2x3 grid of six large facial close-ups of a woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top, a dark-green apron and dark trousers, steady stance, brisk precise movements. ALL SIX the exact same face, identical features, hairstyle and proportions. Each panel shows one emotion rendered only through physical facial facts, no props, no hands, head and shoulders visible: 1 neutral calm face; 2 手上动作停住、目光寻人; 3 递盘前锁眼半秒的定睛; 4 看画时眼角展开、颧骨抬起; 5 （少用）围裙手擦两次; 6 意外转笑：先怔半拍、再笑开、肩一颤. Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, single soft top-front light on all six panels, no text, no watermark, no logo.\nReference 1 is the character's approved costume/identity portrait, reference 2 supports exact face structure and wardrobe. Render ONLY 珍姐, no other people. Lock hair part, hairline, brows, eye spacing, nose, jaw, age and clothing to these references. Use two columns and three rows, order left to right then top to bottom; spacious white gutters, complete uncropped hair, consistent head scale, 2160x3840 requested 4K portrait. Do not print panel numbers or captions. Chinese clauses specify physical facts; freeze one representative instant per panel, never a motion trail. Actions outside the face provide context only: absolutely no hands, props or scene. For unspecified '少用' expressions use neutral calm filler. Panel 5's apron-wiping action remains entirely off-frame: use a restrained neutral facial pause; maintain beige top and dark-green apron on visible shoulders in all panels."
+    },
+    {
+      "code": "C03",
+      "kind": "手部表厨房态",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_厨房态_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "prompt": "A hand reference sheet on a pure white background, professional animation studio board, 2x2 grid of four large hand-and-forearm close-ups of the same character the woman's light warm skin, mature practical hands and beige sleeves rolled to the forearms, matching the reference: 1 open palm relaxed, fingers naturally spread; 2 index finger pointing forward, others curled; 3 pen grip, thumb and index forming a relaxed writing hold, NO paper, NO contact; 4 passing gesture, both hands cupped offering forward, empty. Semi-realistic 2D animation style, clean linework, soft cel-shading, all four panels identical skin tone and sleeve, single soft top light, no text, no watermark.\nReferences establish skin tone, cuff shape and age. Show ONLY hands and forearms, no faces or full bodies. Two rows by two columns; panel order row-major. Anatomically correct five digits on every hand, clearly separated natural joints. Panel 3 is an EMPTY pen-grip pose, no actual pen or any object; no contact with a table. Panel 4 has exactly two separate hands offered forward, others one hand each. Crisp professional reference linework and generous white gutters. Request 3840x3840 highest available resolution. Kitchen wardrobe: beige rolled shirt sleeves stay beige; include only a narrow dark-green apron edge behind the forearm crops for wardrobe context. The apron is not a green shirt."
+    },
+    {
+      "code": "C03",
+      "kind": "手部表展览态",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_展览态_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_厨房态_v1.png",
+        "01_角色资产/C03_珍姐/定妆图/C03_c_意外转笑·展览态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "prompt": "EDIT TARGET: image 1 is the approved kitchen hand sheet. Make the exhibition version by removing ONLY the dark-green apron cloth, replacing those areas with pure white background. Preserve the exact four hand silhouettes, finger positions, skin tone, beige rolled sleeves, lighting, panel grid and all other pixels as closely as possible. Image 2 is the approved exhibition costume reference; image 3 supports identity. No apron remains. The desired sheet specification follows:\nA hand reference sheet on a pure white background, professional animation studio board, 2x2 grid of four large hand-and-forearm close-ups of the same character the woman's light warm skin, mature practical hands and beige sleeves rolled to the forearms, matching the reference: 1 open palm relaxed, fingers naturally spread; 2 index finger pointing forward, others curled; 3 pen grip, thumb and index forming a relaxed writing hold, NO paper, NO contact; 4 passing gesture, both hands cupped offering forward, empty. Semi-realistic 2D animation style, clean linework, soft cel-shading, all four panels identical skin tone and sleeve, single soft top light, no text, no watermark.\nReferences establish skin tone, cuff shape and age. Show ONLY hands and forearms, no faces or full bodies. Two rows by two columns; panel order row-major. Anatomically correct five digits on every hand, clearly separated natural joints. Panel 3 is an EMPTY pen-grip pose, no actual pen or any object; no contact with a table. Panel 4 has exactly two separate hands offered forward, others one hand each. Crisp professional reference linework and generous white gutters. Request 3840x3840 highest available resolution. Exhibition wardrobe: beige rolled shirt sleeves, NO apron or green cloth, identical person and skin tone to kitchen state."
+    },
+    {
+      "code": "C03",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "prompt": "Character reference supplement on pure white background, three panels left to right: full-body BACK view standing, arms relaxed; large front facial close-up (eyes, brows, hairline clearly detailed); large three-quarter facial close-up. All panels the exact same character a woman with soft facial lines, bright eyes and smile-line crow's feet, black hair in a neat low bun, wearing a beige top, a dark-green apron and dark trousers, steady stance, brisk precise movements. identical clothing from behind (collar, shirt seam, trousers, shoes). Semi-realistic 2D animation style, clean linework, soft cel-shading, single soft light, no text, no watermark.\nReference 1 locks approved face and costume, reference 2 locks rear garment construction and proportions. Render ONLY 珍姐, exclude all other people and environments from the references. Exact same hairline, hair part, brows, jaw, age, nose and eye spacing in both portraits. Complete head-to-shoes back figure in left panel, pure straight back with face not visible; front face in center and three-quarter face at right. Distinct generous white gutters; no borders or labels. Portraits large enough for eye and hairline detail, shoulders included. Request 3840x2160 landscape 4K. Keep dark-green apron with accurate rear ties over beige shirt; neat low bun, dark trousers, black work shoes."
+    },
+    {
+      "code": "C04",
+      "kind": "表情表",
+      "dest": "01_角色资产/C04_成叔/角色圣经/C04_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C04_成叔/定妆图/C04_a_走近停拍_v1.png",
+        "01_角色资产/C04_成叔/三视图/C04_成叔_三视图_v1.png"
+      ],
+      "prompt": "A high-definition character expression reference sheet on a pure white background, professional animation studio board, 2x3 grid of six large facial close-ups of a solidly built middle-aged man with upright shoulders, short greying hair and sun-weathered skin, wearing a grey-cyan training top, dark trousers and flat sports shoes. ALL SIX the exact same face, identical features, hairstyle and proportions. Each panel shows one emotion rendered only through physical facial facts, no props, no hands, head and shoulders visible: 1 neutral calm face; 2 （少用）眉一抬; 3 扶手示范时的沉静注视; 4 拍肩后含笑、眼尾纹聚起、点一下头; 5 （少用）; 6 （少用）. Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, single soft top-front light on all six panels, no text, no watermark, no logo.\nReference 1 is the character's approved costume/identity portrait, reference 2 supports exact face structure and wardrobe. Render ONLY 成叔, no other people. Lock hair part, hairline, brows, eye spacing, nose, jaw, age and clothing to these references. Use two columns and three rows, order left to right then top to bottom; spacious white gutters, complete uncropped hair, consistent head scale, 2160x3840 requested 4K portrait. Do not print panel numbers or captions. Chinese clauses specify physical facts; freeze one representative instant per panel, never a motion trail. Actions outside the face provide context only: absolutely no hands, props or scene. For unspecified '少用' expressions use neutral calm filler. "
+    },
+    {
+      "code": "C04",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C04_成叔/角色圣经/C04_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C04_成叔/定妆图/C04_a_走近停拍_v1.png",
+        "01_角色资产/C04_成叔/三视图/C04_成叔_三视图_v1.png"
+      ],
+      "prompt": "Character reference supplement on pure white background, three panels left to right: full-body BACK view standing, arms relaxed; large front facial close-up (eyes, brows, hairline clearly detailed); large three-quarter facial close-up. All panels the exact same character a solidly built middle-aged man with upright shoulders, short greying hair and sun-weathered skin, wearing a grey-cyan training top, dark trousers and flat sports shoes. identical clothing from behind (collar, shirt seam, trousers, shoes). Semi-realistic 2D animation style, clean linework, soft cel-shading, single soft light, no text, no watermark.\nReference 1 locks approved face and costume, reference 2 locks rear garment construction and proportions. Render ONLY 成叔, exclude all other people and environments from the references. Exact same hairline, hair part, brows, jaw, age, nose and eye spacing in both portraits. Complete head-to-shoes back figure in left panel, pure straight back with face not visible; front face in center and three-quarter face at right. Distinct generous white gutters; no borders or labels. Portraits large enough for eye and hairline detail, shoulders included. Request 3840x2160 landscape 4K. "
+    },
+    {
+      "code": "C05",
+      "kind": "表情表",
+      "dest": "01_角色资产/C05_阿敏/角色圣经/C05_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C05_阿敏/定妆图/C05_b_被拍肩侧头转笑_v1.png",
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png"
+      ],
+      "prompt": "A high-definition character expression reference sheet on a pure white background, professional animation studio board, 2x3 grid of six large facial close-ups of a light-footed young woman with black hair in a low ponytail, wearing a dark-red training tee, black sports pants and white sneakers. ALL SIX the exact same face, identical features, hairstyle and proportions. Each panel shows one emotion rendered only through physical facial facts, no props, no hands, head and shoulders visible: 1 neutral calm face; 2 侧头; 3 调整呼吸时的抿嘴定神; 4 被拍肩后转笑、肩放松; 5 失误瞬间嘴抿成线、眉心收紧、下巴微抬再落; 6 同4（转笑）. Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, single soft top-front light on all six panels, no text, no watermark, no logo.\nReference 1 is the character's approved costume/identity portrait, reference 2 supports exact face structure and wardrobe. Render ONLY 阿敏, no other people. Lock hair part, hairline, brows, eye spacing, nose, jaw, age and clothing to these references. Use two columns and three rows, order left to right then top to bottom; spacious white gutters, complete uncropped hair, consistent head scale, 2160x3840 requested 4K portrait. Do not print panel numbers or captions. Chinese clauses specify physical facts; freeze one representative instant per panel, never a motion trail. Actions outside the face provide context only: absolutely no hands, props or scene. For unspecified '少用' expressions use neutral calm filler. "
+    },
+    {
+      "code": "C05",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C05_阿敏/角色圣经/C05_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C05_阿敏/定妆图/C05_b_被拍肩侧头转笑_v1.png",
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png"
+      ],
+      "prompt": "Character reference supplement on pure white background, three panels left to right: full-body BACK view standing, arms relaxed; large front facial close-up (eyes, brows, hairline clearly detailed); large three-quarter facial close-up. All panels the exact same character a light-footed young woman with black hair in a low ponytail, wearing a dark-red training tee, black sports pants and white sneakers. identical clothing from behind (collar, shirt seam, trousers, shoes). Semi-realistic 2D animation style, clean linework, soft cel-shading, single soft light, no text, no watermark.\nReference 1 locks approved face and costume, reference 2 locks rear garment construction and proportions. Render ONLY 阿敏, exclude all other people and environments from the references. Exact same hairline, hair part, brows, jaw, age, nose and eye spacing in both portraits. Complete head-to-shoes back figure in left panel, pure straight back with face not visible; front face in center and three-quarter face at right. Distinct generous white gutters; no borders or labels. Portraits large enough for eye and hairline detail, shoulders included. Request 3840x2160 landscape 4K. "
+    },
+    {
+      "code": "C06",
+      "kind": "表情表",
+      "dest": "01_角色资产/C06_顺叔/角色圣经/C06_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C06_顺叔/定妆图/C06_a_扶门交谈_v1.png",
+        "01_角色资产/C06_顺叔/三视图/C06_顺叔_三视图_v1.png"
+      ],
+      "prompt": "A high-definition character expression reference sheet on a pure white background, professional animation studio board, 2x3 grid of six large facial close-ups of a square-faced middle-aged man with neat short hair and a broadish build, wearing a light-brown short-sleeve shirt and dark trousers. ALL SIX the exact same face, identical features, hairstyle and proportions. Each panel shows one emotion rendered only through physical facial facts, no props, no hands, head and shoulders visible: 1 neutral calm face; 2 （少用）; 3 听人说话时的静视; 4 扶门含笑、眼角展开点头; 5 （少用，保持3/4两种即可，缺格用中性补位）; 6 （少用，保持3/4两种即可，缺格用中性补位）. Semi-realistic 2D animation style, clean uniform-weight linework, soft flat cel-shading, muted colors, single soft top-front light on all six panels, no text, no watermark, no logo.\nReference 1 is the character's approved costume/identity portrait, reference 2 supports exact face structure and wardrobe. Render ONLY 顺叔, no other people. Lock hair part, hairline, brows, eye spacing, nose, jaw, age and clothing to these references. Use two columns and three rows, order left to right then top to bottom; spacious white gutters, complete uncropped hair, consistent head scale, 2160x3840 requested 4K portrait. Do not print panel numbers or captions. Chinese clauses specify physical facts; freeze one representative instant per panel, never a motion trail. Actions outside the face provide context only: absolutely no hands, props or scene. For unspecified '少用' expressions use neutral calm filler. "
+    },
+    {
+      "code": "C06",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C06_顺叔/角色圣经/C06_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C06_顺叔/定妆图/C06_a_扶门交谈_v1.png",
+        "01_角色资产/C06_顺叔/三视图/C06_顺叔_三视图_v1.png"
+      ],
+      "prompt": "Character reference supplement on pure white background, three panels left to right: full-body BACK view standing, arms relaxed; large front facial close-up (eyes, brows, hairline clearly detailed); large three-quarter facial close-up. All panels the exact same character a square-faced middle-aged man with neat short hair and a broadish build, wearing a light-brown short-sleeve shirt and dark trousers. identical clothing from behind (collar, shirt seam, trousers, shoes). Semi-realistic 2D animation style, clean linework, soft cel-shading, single soft light, no text, no watermark.\nReference 1 locks approved face and costume, reference 2 locks rear garment construction and proportions. Render ONLY 顺叔, exclude all other people and environments from the references. Exact same hairline, hair part, brows, jaw, age, nose and eye spacing in both portraits. Complete head-to-shoes back figure in left panel, pure straight back with face not visible; front face in center and three-quarter face at right. Distinct generous white gutters; no borders or labels. Portraits large enough for eye and hairline detail, shoulders included. Request 3840x2160 landscape 4K. "
+    },
+    {
+      "code": "S06",
+      "kind": "夜间态",
+      "dest": "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v2.png",
+      "refs": [
+        "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v1.png",
+        "03_道具资产/P04_完成版画作/P04_瓷砖画_发光态_v1.png"
+      ],
+      "prompt": "Night gallery interior, the finished azulejo mural as the ONLY light source: a large blue-and-white ceramic-tile mural on the left wall glowing softly cobalt, its light falling across the dark wooden floor and onto two blurred visitor silhouettes at right; other walls fall to near-black; dust motes drift in the mural's glow. Modern Japanese theatrical animation style, Shinkai-grade lighting, Ghibli-restraint palette, clean linework, matte cel shading. 16:9, no text, no watermark. The mural content = reference image locked 100%.\nImage 1 is the existing gallery composition/architecture base. Image 2 is the EXACT finished mural insert, preserving its full rectangular 3:2 composition, ornate border, St Paul's left, temple center, Macau Tower right, and the people and blue flowing connections in lower foreground; no redrawing or adding/deleting motifs. Present it on the left wall in perspective, not a square crop. The mural is the only luminous source: all windows and ceiling lights dark; cobalt bounce falls from left to right. Exactly TWO anonymous soft blurred visitor silhouettes on the right, no identifiable faces. Subtle near-camera blurred doorframe edge, crisp mural plane, soft dark distant wall; suppress tile-grid contrast, keep artwork recognizable, restrained bloom with no blown-out artwork. Request 3840x2160."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-26",
+  "status": "17张已入库，目视检查完成；非原生4K，未进行批量一致性验收及运动测试",
+  "records": [
+    {
+      "code": "C01",
+      "kind": "表情表",
+      "dest": "01_角色资产/C01_阿澄/角色圣经/C01_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png",
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-94a12adf-faef-46d3-9ee2-e72663e147fa.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C01_阿澄/角色圣经/C01_表情表6格_v1.png",
+      "Width": 941,
+      "Height": 1672,
+      "Bytes": 1950553,
+      "SHA256": "9D68E323F8F84228508D1CAFE1760197EE513A2801F93C28011EF4659A64E599"
+    },
+    {
+      "code": "C01",
+      "kind": "手部表",
+      "dest": "01_角色资产/C01_阿澄/角色圣经/C01_手部表4式_v1.png",
+      "refs": [
+        "01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png",
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-7fadd392-04d5-4b09-b1e3-fc354228d416.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C01_阿澄/角色圣经/C01_手部表4式_v1.png",
+      "Width": 1254,
+      "Height": 1254,
+      "Bytes": 1499131,
+      "SHA256": "65E79648B0F7D329935523003766AC3943BF0663A0489FE4895633F1BD7CE349"
+    },
+    {
+      "code": "C01",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C01_阿澄/角色圣经/C01_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C01_阿澄/定妆图/C01_b_坐姿伏案_v1.png",
+        "01_角色资产/C01_阿澄/三视图/C01_阿澄_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-f608c5a6-6f9f-4c5f-8467-db90e3461f1a.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C01_阿澄/角色圣经/C01_背面与特写_v1.png",
+      "Width": 1672,
+      "Height": 941,
+      "Bytes": 1929274,
+      "SHA256": "728D0A56BD60001AFEC620FF83A0670CD4375090C673E2BCF1F7B0061443FBAA"
+    },
+    {
+      "code": "C02",
+      "kind": "表情表",
+      "dest": "01_角色资产/C02_阿乐/角色圣经/C02_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png",
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-f96a8d6a-4f42-4611-9a17-a1cf43854422.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C02_阿乐/角色圣经/C02_表情表6格_v1.png",
+      "Width": 941,
+      "Height": 1672,
+      "Bytes": 2236206,
+      "SHA256": "59066C17C79DA7B969C46BF604E4FF587EA2045C6090EAE2D814B81C9942CA97"
+    },
+    {
+      "code": "C02",
+      "kind": "手部表",
+      "dest": "01_角色资产/C02_阿乐/角色圣经/C02_手部表4式_v1.png",
+      "refs": [
+        "01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png",
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-fb0b0540-ba76-49d0-874d-28419a25cba1.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C02_阿乐/角色圣经/C02_手部表4式_v1.png",
+      "Width": 1254,
+      "Height": 1254,
+      "Bytes": 1424625,
+      "SHA256": "5D2A46E9CE43FC4C2CD5120563819B33B7C1C9F7591B8547D70D399FCF9927D0"
+    },
+    {
+      "code": "C02",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C02_阿乐/角色圣经/C02_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C02_阿乐/定妆图/C02_c_仰头直视_v1.png",
+        "01_角色资产/C02_阿乐/三视图/C02_阿乐_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-cd250ef9-91c2-4b16-a5bd-73cc3be64950.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C02_阿乐/角色圣经/C02_背面与特写_v1.png",
+      "Width": 1672,
+      "Height": 941,
+      "Bytes": 2079386,
+      "SHA256": "E7C970729354C3937340AD4EC03EE590C0A16B8F6124219C5AB4AE62CA52C293"
+    },
+    {
+      "code": "C03",
+      "kind": "表情表",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-4e872a21-238f-4e36-92ee-7e510178ff91.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C03_珍姐/角色圣经/C03_表情表6格_v1.png",
+      "Width": 941,
+      "Height": 1672,
+      "Bytes": 2181952,
+      "SHA256": "E0026403C4C833ECD8A4E744742C02143E4B9FF12CB9A303007AD6DCD6DF80CE"
+    },
+    {
+      "code": "C03",
+      "kind": "手部表厨房态",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_厨房态_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-25790cf8-f223-4b73-8a14-3c4c938d7540.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_厨房态_v1.png",
+      "Width": 1254,
+      "Height": 1254,
+      "Bytes": 1707056,
+      "SHA256": "C57633317511973F260263EFF30887C6FA77E51D6351070A839631E12D6AD53F"
+    },
+    {
+      "code": "C03",
+      "kind": "手部表展览态",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_展览态_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_厨房态_v1.png",
+        "01_角色资产/C03_珍姐/定妆图/C03_c_意外转笑·展览态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-ebee72d0-6927-4c25-b09e-0f40c1b56ce3.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C03_珍姐/角色圣经/C03_手部表4式_展览态_v1.png",
+      "Width": 1254,
+      "Height": 1254,
+      "Bytes": 1770407,
+      "SHA256": "66C3C2C4980EDA6828EC3BB583EECF1F30DB18465BD6F446FFF434647B762E7E"
+    },
+    {
+      "code": "C03",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C03_珍姐/角色圣经/C03_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C03_珍姐/定妆图/C03_b_递盘寻眼神·厨房态_v1.png",
+        "01_角色资产/C03_珍姐/三视图/C03_珍姐_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-fa225f37-32fc-4295-b923-11facbe05623.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C03_珍姐/角色圣经/C03_背面与特写_v1.png",
+      "Width": 1672,
+      "Height": 941,
+      "Bytes": 2000749,
+      "SHA256": "CA8284BEA8132C926015F2DEFA097E1E0D12DCE1063548914F91FF019BE19B78"
+    },
+    {
+      "code": "C04",
+      "kind": "表情表",
+      "dest": "01_角色资产/C04_成叔/角色圣经/C04_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C04_成叔/定妆图/C04_a_走近停拍_v1.png",
+        "01_角色资产/C04_成叔/三视图/C04_成叔_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-2adbaedc-7656-410f-8112-c35fdd3b52dd.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C04_成叔/角色圣经/C04_表情表6格_v1.png",
+      "Width": 941,
+      "Height": 1672,
+      "Bytes": 2321933,
+      "SHA256": "77C6E7950E0F718B48EFB8B6F9F75CDDCB34DB97472989AB996BBD93F8DBF0D7"
+    },
+    {
+      "code": "C04",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C04_成叔/角色圣经/C04_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C04_成叔/定妆图/C04_a_走近停拍_v1.png",
+        "01_角色资产/C04_成叔/三视图/C04_成叔_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-ee10caa1-245d-4219-848a-bc772c530587.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C04_成叔/角色圣经/C04_背面与特写_v1.png",
+      "Width": 1672,
+      "Height": 941,
+      "Bytes": 2130040,
+      "SHA256": "6B9C0F93ED6FEB9E8FA420CDAA89CA3FAE087D26E4FBB9779D58C7988FB3B596"
+    },
+    {
+      "code": "C05",
+      "kind": "表情表",
+      "dest": "01_角色资产/C05_阿敏/角色圣经/C05_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C05_阿敏/定妆图/C05_b_被拍肩侧头转笑_v1.png",
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-7aecce81-251d-49f8-994e-5bbbd1207786.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C05_阿敏/角色圣经/C05_表情表6格_v1.png",
+      "Width": 941,
+      "Height": 1672,
+      "Bytes": 2239132,
+      "SHA256": "4AE4DFBC5D14482CE53377AAAE189E30204731DA858C29DAE738C0C0FF49EE93"
+    },
+    {
+      "code": "C05",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C05_阿敏/角色圣经/C05_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C05_阿敏/定妆图/C05_b_被拍肩侧头转笑_v1.png",
+        "01_角色资产/C05_阿敏/三视图/C05_阿敏_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-aec048cb-94c4-4ccf-85e2-833e2a136da8.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C05_阿敏/角色圣经/C05_背面与特写_v1.png",
+      "Width": 1672,
+      "Height": 941,
+      "Bytes": 1961809,
+      "SHA256": "EA7A6477A9D4A90C8A9C841DC7410816122A17F09CBBE0BBB8F52688BE3E657C"
+    },
+    {
+      "code": "C06",
+      "kind": "表情表",
+      "dest": "01_角色资产/C06_顺叔/角色圣经/C06_表情表6格_v1.png",
+      "refs": [
+        "01_角色资产/C06_顺叔/定妆图/C06_a_扶门交谈_v1.png",
+        "01_角色资产/C06_顺叔/三视图/C06_顺叔_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-74220224-bd21-4012-a231-40a0873104f5.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C06_顺叔/角色圣经/C06_表情表6格_v1.png",
+      "Width": 940,
+      "Height": 1672,
+      "Bytes": 2220229,
+      "SHA256": "09F96953C3A26EE8FD295352BD68B9EAA8EA2ADCB9D2266E4B682EBC25E6C586"
+    },
+    {
+      "code": "C06",
+      "kind": "背面与特写",
+      "dest": "01_角色资产/C06_顺叔/角色圣经/C06_背面与特写_v1.png",
+      "refs": [
+        "01_角色资产/C06_顺叔/定妆图/C06_a_扶门交谈_v1.png",
+        "01_角色资产/C06_顺叔/三视图/C06_顺叔_三视图_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-2de5b024-1d2a-43ae-b88d-ae9771d443f7.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/01_角色资产/C06_顺叔/角色圣经/C06_背面与特写_v1.png",
+      "Width": 1672,
+      "Height": 941,
+      "Bytes": 1975789,
+      "SHA256": "64C01C92D4577EDAA66CC8B51817546E2B954B8B35DAE651A77948022EB33523"
+    },
+    {
+      "code": "S06",
+      "kind": "夜间态",
+      "dest": "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v2.png",
+      "refs": [
+        "02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v1.png",
+        "03_道具资产/P04_完成版画作/P04_瓷砖画_发光态_v1.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a170e8-76ea-7291-87dc-e34227486d8a\\exec-4f33df18-0364-4127-80b1-dc565f8f401e.png",
+      "Path": "C:/Users/Admin/Desktop/Competition/02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v2.png",
+      "Width": 1672,
+      "Height": 941,
+      "Bytes": 2002904,
+      "SHA256": "0B3937F020552854DD7FE34CD9480EC58C470D9068241C0AD3B8640952927234"
+    }
+  ]
+}

@@ -1370,13 +1370,13 @@ S38｜3:05-3:10｜5秒｜全景(WS)｜缓慢推近 Slow Dolly In
 转场：硬切。
 资产：S-06 / P-04（发光态）。
 AI要点（V3 全息提示词）：
-【垫图】S06_展览现场_夜间态_v1.png（environment only）+ P04_发光态_v1.png等比替换示意画
+【垫图】S06_展览现场_夜间态_v2.png（已参考P04发光态重制，含两位虚化观众）+ P04_瓷砖画_发光态_v1.png用于核对画内内容
 【EN·全息版】
 SHOT S38 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium-high
 INTENT: night, and the painting outshines the streetlights — art returned to its people.
 FRAME: 84° gallery wide; the glowing mural on far wall as ONLY light source; its blue-white spill raking the floor toward camera; neighbor silhouettes arriving from frame-left in ones and twos.
 CAMERA: slow dolly-in toward the artwork ~5% width/5s; NO orbit; the light draws the camera.
-IDENTITY/STATE: mural = P04 luminous state (edit: replace S06's placeholder in the plate); all figures silhouette/rim-lit — no face tracking in night crowd (iron law).
+IDENTITY/STATE: mural = P04 luminous state (use S06 v2 plate, cross-check against the P04 source); all figures silhouette/rim-lit — no face tracking in night crowd (iron law).
 AMBIENT & COLOR: blue-white key from the painting; everything else falls into soft cobalt shadow; NO other light source competes.
 PHASE 1 (0-2s, 1x): the light field establishes; floor spill visible; first two silhouettes enter.
 PHASE 2 (2-4s, 1x): more neighbors drift in; heads tilt up toward the mural — a congregation forming.
@@ -1459,7 +1459,7 @@ S41｜3:20-3:24｜4秒｜全景(WS)｜固定（声音蒙太奇镜）
 转场：硬切。
 资产：S-06 / P-04 / 群像。
 AI要点（V3 全息提示词）：
-【垫图】S06_展览现场_夜间态_v1.png含发光画 + 前景观众剪影姿态参考
+【垫图】S06_展览现场_夜间态_v2.png含P04发光画及两位虚化观众 + 前景观众剪影姿态参考
 【EN·全息版】
 SHOT S41 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V wide · motion amplitude medium-high
 INTENT: the audience unknowingly poses as the painting — two worlds rhyming.
@@ -1637,7 +1637,7 @@ S47｜3:47-3:50｜3秒｜全景定格(WS Freeze)｜缓慢升 Crane Up
 转场：黑场。
 资产：S-06 / P-04 / P-06。
 AI要点（V3 全息提示词）：
-【垫图】S06_展览现场_夜间态_v1.png（含发光画+P06挂位）+ 剪影人群层
+【垫图】S06_展览现场_夜间态_v2.png（含P04发光画；P06挂位需在本镜首帧中另行落实）+ 剪影人群层
 【EN·全息版】
 SHOT S47 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · final · motion amplitude medium-high
 INTENT: the reply is signed — not by one artist, by a street.

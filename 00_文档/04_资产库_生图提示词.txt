@@ -637,5 +637,156 @@ C06 顺叔
   纪律：派生图不改构图，只做裁切/放大/抽线；命名P03_d1_小门_v1
 
 ================================================================
-（全文件完 · V2.0 · 2026-10-25 · 编制：ZCode × GPT 工作流）
+八、角色圣经资产·生图提示词 V1.0（2026-10-25，V3.4b体系配套）
+================================================================
+用途：模型只渲染它"见过"的脸和手。本节产出三张表（表情表/手部表/
+背面与特写）+S06场景重制，全部走"定妆图垫图"生成，锁定后不再改。
+依据：03附七·三；漂移时改表，不重roll镜头。
+
+----------------------------------------------------------------
+8.0 路径与命名铁律（不许乱）
+----------------------------------------------------------------
+表情表  01_角色资产/C0x_角色名/角色圣经/C0x_表情表6格_v1.png
+手部表  01_角色资产/C0x_角色名/角色圣经/C0x_手部表4式_v1.png
+背面特写 01_角色资产/C0x_角色名/角色圣经/C0x_背面与特写_v1.png
+S06重制 02_场景资产/S06_展览现场/夜间态/S06_展览现场_夜间态_v2.png
+· 每角色新建子目录"角色圣经"（与三视图/定妆图/状态变体平级）。
+· 版本号规则不变：改版升v2，旧版保留；文件内不写镜号。
+· 优先级：C01→C02→C03（第一批）；C04-C06（第二批）；C07不做
+ （背景级不追踪）。
+
+----------------------------------------------------------------
+8.1 表情表6格·通用模板（每角色一条，[身份块]从本库第三部分逐字
+    复制；[情绪物理]用8.2对应行逐字替换）
+----------------------------------------------------------------
+[EN]
+A high-definition character expression reference sheet on a pure white
+background, professional animation studio board, 2x3 grid of six large
+facial close-ups of [身份块EN, 去掉carrying句], ALL SIX the exact same
+face, identical features, hairstyle and proportions. Each panel shows
+one emotion rendered only through physical facial facts, no props, no
+hands, head and shoulders visible: 1 neutral calm face; 2 [情绪物理E2];
+3 [情绪物理E3]; 4 [情绪物理E4]; 5 [情绪物理E5]; 6 [情绪物理E6].
+Semi-realistic 2D animation style, clean uniform-weight linework, soft
+flat cel-shading, muted colors, single soft top-front light on all six
+panels, no text, no watermark, no logo.
+[CN对照]
+纯白背景角色表情参考表，2x3六格大面部特写，六格同一张脸（同特征
+同发型同比例，[身份块CN]），每格只做一种情绪、全部用面部物理事实
+呈现、无道具无手、露头肩：1中性；2[情绪2]；3[情绪3]；4[情绪4]；
+5[情绪5]；6[情绪6]。半写实二维动画，均匀线稿，柔扁赛璐璐，六格
+同一柔顶光，无文字无水印。
+（垫图：该角色定妆图，参考权重0.6-0.7，4K。）
+
+----------------------------------------------------------------
+8.2 六角色情绪物理格（生成时逐字替换进模板；均为物理事实非情绪词）
+----------------------------------------------------------------
+C01 阿澄（灰蓝衬衫青年）：
+ 2疑问=眉毛微挑起、目光上抬定住、嘴唇微张；3专注=目光钉住不动、
+ 眨眼收紧、下颌微收；4欣慰=嘴角单侧先起再双侧、眼睑放松、呼气后
+ 的松肩；5受挫=眨眼放慢、嘴唇微张又合、眉心两道浅纹；6惊喜=怔住
+ 一拍、眼睛睁大半档、呼吸停半秒。
+C02 阿乐（赭黄短袖小身影）：
+ 2疑问=抬头直视、眉毛上挑、一句问话的嘴形；3专注=趴画时眯眼、
+ 舌尖微抵上唇；4欣慰=举画时咧嘴笑、眼睛弯起；5受挫=摇头一次后
+ 嘴抿紧、眉头拧起；6惊喜=回头睁大眼、单侧咧嘴。
+C03 珍姐（厨房=深绿围裙/展览=米色上衣）：
+ 2疑问=手上动作停住、目光寻人；3专注=递盘前锁眼半秒的定睛；
+ 4欣慰=看画时眼角展开、颧骨抬起；5受挫=（少用）围裙手擦两次；
+ 6惊喜=意外转笑：先怔半拍、再笑开、肩一颤。
+C04 成叔（灰发教练）：
+ 2疑问=（少用）眉一抬；3专注=扶手示范时的沉静注视；4欣慰=拍肩
+ 后含笑、眼尾纹聚起、点一下头；5受挫=（少用）；6惊喜=（少用）。
+C05 阿敏（深红短袖马尾队员）：
+ 2疑问=侧头；3专注=调整呼吸时的抿嘴定神；4欣慰=被拍肩后转笑、
+ 肩放松；5受挫=失误瞬间嘴抿成线、眉心收紧、下巴微抬再落；
+ 6惊喜=同4（转笑）。
+C06 顺叔（浅棕衬衫店主）：
+ 2疑问=（少用）；3专注=听人说话时的静视；4欣慰=扶门含笑、眼角
+ 展开点头；5/6=（少用，保持3/4两种即可，缺格用中性补位）。
+
+----------------------------------------------------------------
+8.3 手部表4式·通用模板（手是模型最弱项；只做C01/C02/C03）
+----------------------------------------------------------------
+[EN]
+A hand reference sheet on a pure white background, professional
+animation studio board, 2x2 grid of four large hand-and-forearm
+close-ups of the same character [身份块EN的袖口/肤色句]: 1 open palm
+relaxed, fingers naturally spread; 2 index finger pointing forward,
+others curled; 3 pen grip, thumb and index forming a relaxed writing
+hold, NO paper, NO contact; 4 passing gesture, both hands cupped
+offering forward, empty. Semi-realistic 2D animation style, clean
+linework, soft cel-shading, all four panels identical skin tone and
+sleeve, single soft top light, no text, no watermark.
+[CN对照]
+纯白背景手部参考表，2x2四格手与前臂大特写，同一角色（袖口/肤色
+同身份块）：1张开自然；2食指前指余指收；3执笔式（拇指食指放松
+持笔，无纸无接触）；4递物式（双手捧空前递）。半写实二维动画，
+四格同肤色同袖口，柔顶光，无文字。
+（垫图：定妆图局部裁手或R01对应实拍照；C03出两版：厨房围裙袖/
+展览米色袖。）
+
+----------------------------------------------------------------
+8.4 背面与特写补充·通用模板（六角色全做；补三视图缺的背面全身
+    +大特写两格）
+----------------------------------------------------------------
+[EN]
+Character reference supplement on pure white background, three panels
+left to right: full-body BACK view standing, arms relaxed; large front
+facial close-up (eyes, brows, hairline clearly detailed); large
+three-quarter facial close-up. All panels the exact same character
+[身份块EN], identical clothing from behind (collar, shirt seam,
+trousers, shoes). Semi-realistic 2D animation style, clean linework,
+soft cel-shading, single soft light, no text, no watermark.
+[CN对照]
+纯白背景角色补充表，三联：背面全身站姿（领口/衬衫线/裤/鞋清晰）；
+正面大特写（眼眉发际线细节）；3/4侧大特写。同一角色同服装。半写
+实二维动画，无文字。
+
+----------------------------------------------------------------
+8.5 S06 展览现场·夜间态 v2（P04正式替换，解锁S38/S41/S47）
+----------------------------------------------------------------
+[EN]
+Night gallery interior, the finished azulejo mural as the ONLY light
+source: a large blue-and-white ceramic-tile mural on the left wall
+glowing softly cobalt, its light falling across the dark wooden floor
+and onto two blurred visitor silhouettes at right; other walls fall to
+near-black; dust motes drift in the mural's glow. Modern Japanese
+theatrical animation style, Shinkai-grade lighting, Ghibli-restraint
+palette, clean linework, matte cel shading. 16:9, no text, no
+watermark. The mural content = reference image locked 100%.
+[CN对照]
+夜间展厅内景，完成的蓝白瓷砖画=唯一光源：左墙大幅瓷砖画泛钴蓝柔
+光，光落在深色木地板与右侧两个虚化观众剪影上，其余墙面近黑，光
+中浮尘缓漂。现代日本剧场动画风格。画作内容与垫图100%一致。
+（垫图：S06_v1作构图底 + P04_完成版_发光态_v1.png作画内内容，
+ 参考权重0.7；过03附五·三目检后入库，S38/S41/S47垫图换用v2。）
+
+----------------------------------------------------------------
+8.6 情绪格速查表（27人物镜；生成时把对应格挂进参考图组）
+----------------------------------------------------------------
+S02 C01专注｜S04 C01专注｜S07 C01中性+C02中性｜S09 C02疑问｜
+S10 C01专注+C02中性｜S11 C02疑问｜S12 C02受挫｜S13 C02疑问（直视）｜
+S14 C01受挫｜S17 C01专注+C02中性｜S18 C01专注｜S19 C01专注+C02中性｜
+S20 C06欣慰｜S21 C03专注+C01中性｜S23 C03惊喜｜S24 C05受挫｜
+S25 C05受挫→中性+C04专注｜S27 C04欣慰+C05专注｜S28 C01欣慰｜
+S29 C01专注（凝视）｜S37 C01欣慰（释然）｜S39 C03欣慰+C01欣慰｜
+S40 C04欣慰+C05惊喜｜S42 C02专注（笃定）｜S43 C02惊喜+C01欣慰｜
+S44 C02专注｜S45 C01专注
+手部镜加挂：S04/S05/S08=C01手部表执笔式+R01-r1/r2；S21=C03手部
+表递物式+R01-r3/r4；S27=R01-r5/r6；S43=R01-r5/r6；S44=C02手部
+表执笔式+R01-r8；S25=C05手部表张开式（或R01-r7）。
+
+----------------------------------------------------------------
+8.7 验收（过不了不入库）
+----------------------------------------------------------------
+· 表情表：六格同脸目检（发际线/眉形/耳形三点比对定妆图），
+  ≥5/6格同脸才收；不同脸的格子单格重出，不整表重roll。
+· 手部表：五指数量/长度/关节朝向逐格查；执笔式无纸无接触。
+· 背面特写：背面衣纹与三视图正面款型一致。
+· S06v2：画内=P04发光态、光只从画面出、右二剪影无清晰脸。
+· 全部入库后更新05清单一b，并按04库既有sha256规则登记。
+
+================================================================
+（全文件完 · V2.1 · 2026-10-25 · 编制：ZCode × GPT 工作流）
 ================================================================

@@ -157,6 +157,12 @@ CN: 闪烁、流光抖动、形变、扭曲、纹理蠕动、整体漂移、换�
 顺叔＝the shopkeeper in the light-brown shirt
 老街坊＝the elderly neighbor with a cloth grocery bag
 
+人物镜参考图组标准（V3.4b起，随"生成前三问"执行）：
+首帧 + 角色定妆图 + 本镜情绪对应的表情表格 +（手部镜）手部表/R01。
+表情/手部表的生成提示词、存图路径、逐镜情绪格速查表＝
+《00_文档/04_资产库_生图提示词.txt》第八部分；各镜垫图区已插入
+【圣经参考】行标明本镜用哪几格。表未入库前，人物镜不开生成。
+
 跨镜连续性锚点（Off-screen账，生成与剪辑必须遵守）
 ----------------------------------------------------------------
 · 阿乐 S07进场至S16在场；S17-S37离场，S38展览夜回归（服装同S07）。
@@ -290,6 +296,7 @@ S02｜0:05-0:10｜5秒｜全景(WS)｜固定 Static
 资产：C-01 / S-01（昼态）/ P-07邀请函。
 AI要点（V3 全息提示词）：
 【垫图】S01_艺术空间_昼态_v1.png（environment only）+ C01_a_立姿持信_v1.png（100% matches the reference）+ P07_邀请函_留白版_v1.png
+【圣经参考（V3.4b）】C01_表情表·专注格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S02 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V, character ref + location ref · motion amplitude medium · subject reference chain
 INTENT: a man who still relates to paper before people — the letter finishes him, not the room.
@@ -357,6 +364,7 @@ S04｜0:13-0:19｜6秒｜中近景(MCU)｜手持微晃 Handheld
 AI要点（V3 全息提示词 · V3.1按附五重制）：
 【垫图】S01昼态v1（environment only）+ C01_b_坐姿伏案_v1.png（100%
  matches）+ P02_米色画本与蓝色画笔_多视图_v1.png
+【圣经参考（V3.4b）】C01_表情表·专注格 + C01_手部表·执笔式（悬停手）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【一致性链路（V3.1）】不再裸单图I2V：可灵1.6多图参考上传[首帧+
  C01_b定妆图]两张，或即梦"主体参考"挂C01_b。脸的比对硬门=C01_b。
 【首帧重制（V3.1，先于生成）】原S04首帧_v1面部偏平、背景瓷砖纹
@@ -399,6 +407,7 @@ S05｜0:19-0:25｜6秒｜特写序列(Insert)｜三段快切
 资产：P-03（初稿过程态）/ P-02。
 AI要点（V3 全息提示词）：
 【垫图】三段各自：R01-r1/r2手部照[待拍]或P02局部垫 + P03_d3_蓝线地标线稿_v1.png对应段（尾帧）
+【圣经参考（V3.4b）】C01_手部表·执笔式 + R01-r1/r2（手部三连）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S05 · cut 6s total = three segments ×2s, hard-cut montage · gen each 5s · 16:9 · I2V per segment · motion amplitude medium-high
 INTENT: the city arrives as one stroke each — three landmarks born from three brush lines.
@@ -454,6 +463,7 @@ S07｜0:28-0:32｜4秒｜中景(MS)｜固定 Static（门口侧拍）
 资产：C-02 / P-01 / S-01。
 AI要点（V3 全息提示词）：
 【垫图】S01昼态v1（environment only）+ C02_a_提饭盒站姿_v1.png（100% matches）+ C01_b（画架前背影参考）+ P01_饭盒_多视图_v1.png
+【圣经参考（V3.4b）】C01_表情表·中性格 + C02_表情表·中性格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S07 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two char refs + location · motion amplitude medium · subject reference chain
 INTENT: warm daily life walks into a cold tidy room — the first heat of the film.
@@ -481,6 +491,7 @@ S08｜0:32-0:35｜3秒｜大特写(ECU)｜固定 Static
 资产：P-03 / P-02。
 AI要点（V3 全息提示词）：
 【垫图】R01-r2搁笔照[待拍]或P02局部 + P03_d4_边框局部_v1.png
+【圣经参考（V3.4b）】C01_手部表·执笔式（搁笔）+ R01-r2——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S08 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V hand/prop ref · motion amplitude medium-high
 INTENT: completion as a small quiet full-stop.
@@ -514,6 +525,7 @@ S09｜0:35-0:39｜4秒｜中景(MS)｜过肩 OTS（越阿乐肩看画）
 资产：C-02 / P-03。
 AI要点（V3 全息提示词）：
 【垫图】C02_b_前探指画_v1.png（100% matches）+ P03_初稿地标版_v1.png（过肩位）
+【圣经参考（V3.4b）】C02_表情表·疑问格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S09 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V over-shoulder · motion amplitude medium · subject reference chain
 INTENT: a child searches a map of a city he actually lives in — and the map fails him.
@@ -542,6 +554,7 @@ S10｜0:39-0:42｜3秒｜双人近景(Two-Shot CU)｜缓推 Push In
 资产：C-01 / C-02 / P-03。
 AI要点（V3 全息提示词）：
 【垫图】C01_a（弯腰变体：bending forward at the waist）+ C02_b + P03
+【圣经参考（V3.4b）】C01_表情表·专注格 + C02_表情表·中性格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S10 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: the adult's best answer — accurate, and beside the point.
@@ -570,6 +583,7 @@ S11｜0:42-0:45｜3秒｜近景(CU)｜低角度固定 Low-Angle Static
 资产：C-02。
 AI要点（V3 全息提示词）：
 【垫图】C02_c_仰头直视_v1.png（100% matches the reference）
+【圣经参考（V3.4b）】C02_表情表·疑问格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S11 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: from the child's height, the grown-up's answer is a cliff face.
@@ -598,6 +612,7 @@ S12｜0:45-0:49｜4秒｜特写快切(ECU+CU)
 资产：C-02 / P-03。
 AI要点（V3 全息提示词）：
 【垫图】子镜①P03_d1_小门_v1.png（100% matches）／子镜②C02_c（摇头变体）
+【圣经参考（V3.4b）】C02_表情表·受挫格（摇头执拗）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S12 · cut 4s = insert① 2s + close② 2s, hard cut · gen each 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: the tidy little door — technically present, entirely wrong.
@@ -624,6 +639,7 @@ S13｜0:49-0:53｜4秒｜近景(CU)｜极缓推 Very Slow Push In
 资产：C-02。
 AI要点（V3 全息提示词）：
 【垫图】C02_c_仰头直视_v1.png（100% matches the reference）——全片题眼，允许同提示词批量3-5版硬门择优
+【圣经参考（V3.4b）】C02_表情表·疑问格（直视发问，题眼硬门）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S13 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the film's question, asked at the exact speed of meaning.
@@ -651,6 +667,7 @@ S14｜0:53-0:56｜3秒｜近景(CU)｜固定 Static
 资产：C-01 / P-02 / P-01。
 AI要点（V3 全息提示词）：
 【垫图】C01_b（困惑变体：thumb rubbing sketchbook edge, gaze dropping）+ P02 + P01
+【圣经参考（V3.4b）】C01_表情表·受挫格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S14 · cut 3s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: no answer — the question lands in the hands instead of the mouth.
@@ -736,6 +753,7 @@ S17｜1:00-1:05｜5秒｜全景(WS)｜侧面跟移 Tracking
 资产：C-01 / P-01 / S-02。
 AI要点（V3 全息提示词）：
 【垫图】S02_瓷砖街巷_晨光态_v1.png（environment only）+ C01_e_提袋行走_v1.png（100% matches）+ P01（布袋露一角）
+【圣经参考（V3.4b）】C01_表情表·专注格 + C02_表情表·中性格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S17 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V char + location · motion amplitude medium · subject reference chain
 INTENT: the same street he has walked a hundred times — walked for the first time.
@@ -764,6 +782,7 @@ S18｜1:05-1:09｜4秒｜特写(CU)｜上摇 Tilt Up
 资产：S-03 / C-06。
 AI要点（V3 全息提示词）：
 【垫图】S03_双语街牌_特写态_v2.png（environment only）+ C06_a（尾帧探头参考）
+【圣经参考（V3.4b）】C01_表情表·专注格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S18 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V, single tilt · motion amplitude medium · subject reference chain
 INTENT: the street's name plate — two languages sharing one ceramic body.
@@ -792,6 +811,7 @@ S19｜1:09-1:15｜6秒｜中景(MS)｜固定 Static
 资产：C-06 / C-07 / S-02。
 AI要点（V3 全息提示词）：
 【垫图】C06_a_扶门交谈_v1.png（100% matches）+ C07_老街坊_参考_v1.png + S02街巷
+【圣经参考（V3.4b）】C01_表情表·专注格 + C02_表情表·中性格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S19 · cut 6s · gen 10s (all beats inside first 6s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V two refs + location · motion amplitude medium · subject reference chain
 INTENT: a conversation started yesterday, continuing today — community as muscle memory.
@@ -820,6 +840,7 @@ S20｜1:15-1:20｜5秒｜中景(MS)｜手持微晃 Handheld
 资产：C-03（厨房态）/ P-01 / S-04（门口位）。
 AI要点（V3 全息提示词）：
 【垫图】S04_餐厅后厨_门口外景态_v2.png（environment only）+ C03_a_门口迎立·厨房态_v1.png（100% matches）+ P01
+【圣经参考（V3.4b）】C06_表情表·欣慰格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S20 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: one washed lunchbox, returned — care completing its circle.
@@ -850,6 +871,7 @@ S21｜1:20-1:27｜7秒｜中景-全景(MS→WS)｜缓移 Slow Truck
 资产：C-03 / C-01 / S-04 / P-01。
 AI要点（V3 全息提示词）：
 【垫图】S04_餐厅后厨_日间态_v2.png（environment only）+ C03_b_递盘寻眼神·厨房态_v1.png（100% matches）+ C01_b（虚化位）+ P01
+【圣经参考（V3.4b）】C03_表情表·专注格 + C01_表情表·中性格 + C03_手部表·递物式 + R01-r3/r4——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S21 · cut 7s = segment A 4s + segment B 3s, matched motion handoff · gen each 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: a kitchen runs on eyes and hands — trust at the speed of lunch.
@@ -905,6 +927,7 @@ S23｜1:32-1:36｜4秒｜中景(MS)｜固定
 资产：C-03 / P-01（双盒态）。
 AI要点（V3 全息提示词）：
 【垫图】C03_b_递盘寻眼神·厨房态_v1.png（递物变体：handing two stacked lunchboxes）+ P01双盒叠放视图
+【圣经参考（V3.4b）】C03_表情表·惊喜格（意外转笑）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S23 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: an errand disguised as a favor — the street's economy of care.
@@ -934,6 +957,7 @@ S24｜1:36-1:43｜7秒｜全景→中景(WS→MS)｜环绕半圈 Semi-Orbit
 资产：C-05 / S-05 / P-05。
 AI要点（V3 全息提示词）：
 【垫图】S05_广场排练场_午后态_v2.png（environment only）+ C05_a_失误抿嘴站定_v1.png（100% matches）+ P05_狮头与大鼓_多视图_v1.png
+【圣经参考（V3.4b）】C05_表情表·受挫格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S24 · cut 7s = segment A 4s + segment B 3s · gen each 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: a mis-timed beat — and the courage of resetting to try again.
@@ -963,6 +987,7 @@ S25｜1:43-1:50｜7秒｜中景→近景(MS→CU)｜缓推 Push In
 资产：C-04 / C-05 / P-05。
 AI要点（V3 全息提示词）：
 【垫图】C04_b_扶手示范_v1.png（100% matches）+ C05_a（学员位）+ P05（鼓槌）
+【圣经参考（V3.4b）】C05_表情表·受挫→中性格 + C04_表情表·专注格 + C05_手部表·张开式——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S25 · cut 7s · gen 10s (all beats inside first 7s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: transmission happens at half speed — the old teach by slowing down.
@@ -1020,6 +1045,7 @@ S27｜1:57-2:03｜6秒｜中景+手部插入(MS+Insert)
 资产：C-01 / 群像 / P-01。
 AI要点（V3 全息提示词）：
 【垫图】C01_e（递物变体：holding out one lunchbox with both hands）+ P01
+【圣经参考（V3.4b）】C04_表情表·欣慰格 + C05_表情表·专注格 + R01-r5/r6——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S27 · cut 6s = medium 5.5s + insert 0.5s · gen 10s (beats in first 5.5s) + 5s · 16:9 · motion amplitude medium · subject reference chain
 INTENT: the same hand-over as the kitchen — now between strangers-made-neighbors.
@@ -1049,6 +1075,7 @@ S28｜2:03-2:10｜7秒｜近景(CU)｜极缓推 Very Slow Push In
 资产：C-01 / P-02。
 AI要点（V3 全息提示词）：
 【垫图】C01_d_暮色凝视侧影_v2.png（选用v2，日间光修饰：same pose, morning side-light）+ P02
+【圣经参考（V3.4b）】C01_表情表·欣慰格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S28 · cut 7s · gen 10s (all beats inside first 7s of material) · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the gaze order inverts — hands first, sketchbook second. Growth, filmed.
@@ -1082,6 +1109,7 @@ S29｜2:10-2:15｜5秒｜中景(MS)｜固定 Static
 资产：C-01 / S-01（暮态）/ P-03 / P-02。
 AI要点（V3 全息提示词）：
 【垫图】S01_艺术空间_暮态_v1.png（environment only）+ C01_b（暮光修饰：late amber window light）+ P03 + P02
+【圣经参考（V3.4b）】C01_表情表·专注格（暮色凝视）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S29 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the draft unrolled again — same paper, different man.
@@ -1310,6 +1338,7 @@ S37｜2:56-3:05｜9秒｜中景→近景(MS→CU)｜极缓推 Very Slow Push In
 资产：C-01 / P-04 / S-01。
 AI要点（V3 全息提示词）：
 【垫图】C01_d_暮色凝视侧影_v2.png（100% matches）+ P04完成态挂画位 + S01暮态
+【圣经参考（V3.4b）】C01_表情表·欣慰格（释然，hero镜）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S37 · cut 9s (film's longest hold) · gen 5s, then extend from last stable frame · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: he stops looking AT the painting and starts looking INTO it — the arc completes.
@@ -1372,6 +1401,7 @@ S39｜3:10-3:15｜5秒｜中景→近景(MS→CU)｜跟摇 Follow Pan
 资产：C-02 / C-03（展览态）/ P-04。
 AI要点（V3 全息提示词）：
 【垫图】C02_a（夜光修饰：night blue light）+ C03_c_意外转笑·展览态_v1.png（100% matches）+ P04发光态厨房门口局部
+【圣经参考（V3.4b）】C03_表情表·欣慰格（展览态no apron）+ C01_表情表·欣慰格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S39 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: "you are here" — the painting says it back.
@@ -1400,6 +1430,7 @@ S40｜3:15-3:20｜5秒｜近景(CU)｜固定 Static
 资产：C-04 / C-05 / P-04。
 AI要点（V3 全息提示词）：
 【垫图】C04_c_拍肩含笑_v1.png（100% matches）+ C05_b_被拍肩侧头转笑_v1.png（100% matches）+ P04发光态学员局部
+【圣经参考（V3.4b）】C04_表情表·欣慰格 + C05_表情表·惊喜格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S40 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: approval, one shoulder-tap wide — the old grade the new with a hand.
@@ -1457,6 +1488,7 @@ S42｜3:24-3:28｜4秒｜近景(CU)｜俯角俯拍 High Angle
 资产：C-02 / P-06 / S-06。
 AI要点（V3 全息提示词）：
 【垫图】C02_c（俯拍变体：high angle, pointing at a blank square）+ P06_方形画纸_空白态_v1.png + S06局部
+【圣经参考（V3.4b）】C02_表情表·专注格（笃定）——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S42 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: the gap found — art admitting it isn't finished.
@@ -1486,6 +1518,7 @@ S43｜3:28-3:32｜4秒｜中景(MS)｜固定 Static
 资产：C-01 / C-02 / P-02。
 AI要点（V3 全息提示词）：
 【垫图】C01_c_蹲姿平视递笔_v1.png（100% matches）+ C02（受笔位）+ P02蓝色画笔
+【圣经参考（V3.4b）】C02_表情表·惊喜格 + C01_表情表·欣慰格 + R01-r5/r6——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S43 · cut 4s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V two refs · motion amplitude medium · subject reference chain
 INTENT: eye level at last — authority handed over with a brush.
@@ -1517,6 +1550,7 @@ S44｜3:32-3:39｜7秒｜特写→大特写(CU→ECU)｜垂直俯拍 Overhead
 资产：C-02 / P-06（阿乐的画=独立道具资产，稚拙蓝色手绘）。
 AI要点（V3 全息提示词）：
 【垫图】C02_d_趴地画画_v1.png（100% matches）+ P06_阿乐的画_无框递画版_v1.png（纸面内容源）
+【圣经参考（V3.4b）】C02_表情表·专注格 + C02_手部表·执笔式（儿童整臂）+ R01-r8——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S44 · cut 7s = segment A 4s + segment B 3s · gen each 5s · 16:9 · overhead · motion amplitude medium · subject reference chain
 INTENT: a child draws the man who draws the city — the reply begins.
@@ -1545,6 +1579,7 @@ S45｜3:39-3:44｜5秒｜近景(CU)｜固定 Static
 资产：C-01 / P-06 / P-04。
 AI要点（V3 全息提示词）：
 【垫图】C01_a（接画变体：taking a small drawing with both hands）+ P06_阿乐的画_完成态_v1.png
+【圣经参考（V3.4b）】C01_表情表·专注格——表情/手部表图挂入本镜参考图组（生成提示词与路径=《04_资产库》八；情绪格速查=04库8.6）
 【EN·全息版】
 SHOT S45 · cut 5s · gen 5s · 16:9 · ONE CONTINUOUS SHOT · I2V · motion amplitude medium · subject reference chain
 INTENT: seen through a child's eyes — and understood.
@@ -2113,7 +2148,7 @@ animatic的三个产出，正好喂给第6步：节奏验证、每镜首尾帧�
 · 先审第一幕35秒：如果35秒就拖，后面230秒一定拖，先改分镜再生成。
 
 ----------------------------------------------------------------
-三、角色圣经（补三张表，锁定后不再改）
+三、角色圣经（补三张表，锁定后不再改；生成提示词与路径=04库八）
 ----------------------------------------------------------------
 · 表情表6格：中性/疑问/专注/欣慰/受挫/惊喜——同一张脸（用定妆图
   垫），4K，面部特写。
